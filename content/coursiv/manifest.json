@@ -1,0 +1,350 @@
+{
+  "courses": [
+    {
+      "duration": "3 hours",
+      "file": "courses/canva-ai.json",
+      "id": "canva-ai",
+      "kind": "tool",
+      "lessonCount": 8,
+      "sourceId": "3256efef-4575-8077-a141-eb2a99416ee1",
+      "title": "Canva AI"
+    },
+    {
+      "duration": "4 hours",
+      "file": "courses/chatgpt-deep.json",
+      "id": "chatgpt-deep",
+      "kind": "tool",
+      "lessonCount": 12,
+      "sourceId": "3996efef-4575-80f8-ae7c-fd0d8d70a54e",
+      "title": "ChatGPT: Deep Dive"
+    },
+    {
+      "duration": "6 hours",
+      "file": "courses/chatgpt.json",
+      "id": "chatgpt",
+      "kind": "tool",
+      "lessonCount": 13,
+      "sourceId": "3656efef-4575-80f8-9aa6-c311c6bee5b7",
+      "title": "ChatGPT"
+    },
+    {
+      "duration": "2 hours",
+      "file": "courses/claude-code.json",
+      "id": "claude-code",
+      "kind": "tool",
+      "lessonCount": 7,
+      "sourceId": "3726efef-4575-80ab-9f38-db4ebd519314",
+      "title": "Claude Code"
+    },
+    {
+      "duration": "5 hours",
+      "file": "courses/claude-deep.json",
+      "id": "claude-deep",
+      "kind": "tool",
+      "lessonCount": 13,
+      "sourceId": "3486efef-4575-8088-83e0-d6867cd013e4",
+      "title": "Claude: Deep Dive"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/claude-excel.json",
+      "id": "claude-excel",
+      "kind": "tool",
+      "lessonCount": 7,
+      "sourceId": "f45de477-b8fc-4d82-bf3f-77a8fabffcb8",
+      "title": "Claude for Excel"
+    },
+    {
+      "duration": "5 hours",
+      "file": "courses/claude.json",
+      "id": "claude",
+      "kind": "tool",
+      "lessonCount": 10,
+      "sourceId": "2d36efef-4575-80e0-97cd-f9c7cae2da9b",
+      "title": "Claude"
+    },
+    {
+      "duration": "2 hours",
+      "file": "courses/communicating-ai.json",
+      "id": "communicating-ai",
+      "kind": "tool",
+      "lessonCount": 5,
+      "sourceId": "3646efef-4575-805c-b88b-fed9718b0a01",
+      "title": "Communicating With AI"
+    },
+    {
+      "duration": "5 hours",
+      "file": "courses/deepseek.json",
+      "id": "deepseek",
+      "kind": "tool",
+      "lessonCount": 10,
+      "sourceId": "38c6efef-4575-8024-b86d-ed83599ab67d",
+      "title": "DeepSeek"
+    },
+    {
+      "duration": "4 hours",
+      "file": "courses/gemini.json",
+      "id": "gemini",
+      "kind": "tool",
+      "lessonCount": 10,
+      "sourceId": "d2e6efef-4575-82f5-a747-81f44db7dbd0",
+      "title": "Gemini"
+    },
+    {
+      "duration": "5 hours",
+      "file": "courses/jasper.json",
+      "id": "jasper",
+      "kind": "tool",
+      "lessonCount": 10,
+      "sourceId": "2e86efef-4575-8054-ae4a-e2d79ca50a36",
+      "title": "Jasper AI"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/kling.json",
+      "id": "kling",
+      "kind": "tool",
+      "lessonCount": 11,
+      "sourceId": "31e6efef-4575-809e-8be2-c9edd523ff2c",
+      "title": "Kling"
+    },
+    {
+      "duration": "4 hours",
+      "file": "courses/lovable.json",
+      "id": "lovable",
+      "kind": "tool",
+      "lessonCount": 8,
+      "sourceId": "2926efef-4575-80e6-b013-fc0c6cfcd38a",
+      "title": "Lovable"
+    },
+    {
+      "duration": "6 hours",
+      "file": "courses/midjourney.json",
+      "id": "midjourney",
+      "kind": "tool",
+      "lessonCount": 13,
+      "sourceId": "38f6efef-4575-80dd-9e3f-dc7f184ce1c0",
+      "title": "Midjourney"
+    },
+    {
+      "duration": "4 hours",
+      "file": "courses/omni.json",
+      "id": "omni",
+      "kind": "tool",
+      "lessonCount": 10,
+      "sourceId": "2f86efef-4575-80cf-95e2-c9a5b2f5e773",
+      "title": "Omni"
+    },
+    {
+      "duration": "5 hours",
+      "file": "courses/perplexity.json",
+      "id": "perplexity",
+      "kind": "tool",
+      "lessonCount": 11,
+      "sourceId": "3616efef-4575-80a4-a433-f6ed5ec2bb43",
+      "title": "Perplexity"
+    },
+    {
+      "duration": "4 hours",
+      "file": "courses/stable-diffusion.json",
+      "id": "stable-diffusion",
+      "kind": "tool",
+      "lessonCount": 10,
+      "sourceId": "2ef6efef-4575-8012-8c7d-e3c9607334ca",
+      "title": "Stable Diffusion"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/use-case-1.json",
+      "id": "use-case-1",
+      "kind": "use-case",
+      "lessonCount": 9,
+      "sourceId": "2f76efef-4575-8060-a13c-e62cc8be7c8e",
+      "title": "Managing Personal Finances With AI"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/use-case-10.json",
+      "id": "use-case-10",
+      "kind": "use-case",
+      "lessonCount": 8,
+      "sourceId": "2b86efef-4575-807b-9e11-e66643c11297",
+      "title": "AI for Business Operations"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/use-case-11.json",
+      "id": "use-case-11",
+      "kind": "use-case",
+      "lessonCount": 8,
+      "sourceId": "29a6efef-4575-8001-9dc5-c9e525678a33",
+      "title": "Boost Your Sales with AI"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/use-case-12.json",
+      "id": "use-case-12",
+      "kind": "use-case",
+      "lessonCount": 8,
+      "sourceId": "2aa6efef-4575-8050-ba0c-ead7f30b32ca",
+      "title": "Marketing Your Business with AI"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/use-case-13.json",
+      "id": "use-case-13",
+      "kind": "use-case",
+      "lessonCount": 8,
+      "sourceId": "2a46efef-4575-8049-8191-f42e7d2cfd39",
+      "title": "AI Essentials for Project Managers"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/use-case-14.json",
+      "id": "use-case-14",
+      "kind": "use-case",
+      "lessonCount": 8,
+      "sourceId": "2f06efef-4575-80cf-9941-c816ff61dd9c",
+      "title": "AI for Product Development"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/use-case-15.json",
+      "id": "use-case-15",
+      "kind": "use-case",
+      "lessonCount": 8,
+      "sourceId": "2ae6efef-4575-804d-bf28-eae6f1dcbf6c",
+      "title": "Build a Strong Portfolio with AI"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/use-case-16.json",
+      "id": "use-case-16",
+      "kind": "use-case",
+      "lessonCount": 9,
+      "sourceId": "29a6efef-4575-80fd-9f35-cf149376835d",
+      "title": "Turbocharge Your Productivity with AI"
+    },
+    {
+      "duration": "4 hours",
+      "file": "courses/use-case-17.json",
+      "id": "use-case-17",
+      "kind": "use-case",
+      "lessonCount": 10,
+      "sourceId": "2f06efef-4575-803e-830d-ff7f2a897ed6",
+      "title": "AI in SMM"
+    },
+    {
+      "duration": "4 hours",
+      "file": "courses/use-case-18.json",
+      "id": "use-case-18",
+      "kind": "use-case",
+      "lessonCount": 10,
+      "sourceId": "2f16efef-4575-80c2-9752-d2beb1dca0f7",
+      "title": "AI Social Influence & Blogging"
+    },
+    {
+      "duration": "5 hours",
+      "file": "courses/use-case-19.json",
+      "id": "use-case-19",
+      "kind": "use-case",
+      "lessonCount": 12,
+      "sourceId": "2f56efef-4575-80a8-99e5-c02df30e0760",
+      "title": "AI Performance Marketing"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/use-case-2.json",
+      "id": "use-case-2",
+      "kind": "use-case",
+      "lessonCount": 8,
+      "sourceId": "3106efef-4575-803e-8ef5-f2e0d975105c",
+      "title": "AI for Accountants"
+    },
+    {
+      "duration": "4 hours",
+      "file": "courses/use-case-20.json",
+      "id": "use-case-20",
+      "kind": "use-case",
+      "lessonCount": 10,
+      "sourceId": "2f76efef-4575-802b-99af-d8e6ed72b4c0",
+      "title": "AI for SEO"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/use-case-3.json",
+      "id": "use-case-3",
+      "kind": "use-case",
+      "lessonCount": 8,
+      "sourceId": "3106efef-4575-80da-b746-e53a25b1a414",
+      "title": "AI-Powered Real Estate"
+    },
+    {
+      "duration": "4 hours",
+      "file": "courses/use-case-4.json",
+      "id": "use-case-4",
+      "kind": "use-case",
+      "lessonCount": 12,
+      "sourceId": "2f16efef-4575-802c-b3bd-c18941e0d791",
+      "title": "AI Copywriting"
+    },
+    {
+      "duration": "2 hours",
+      "file": "courses/use-case-5.json",
+      "id": "use-case-5",
+      "kind": "use-case",
+      "lessonCount": 8,
+      "sourceId": "3256efef-4575-8047-958d-c7f5879f1986",
+      "title": "AI Side Hustle"
+    },
+    {
+      "duration": "2 hours",
+      "file": "courses/use-case-6.json",
+      "id": "use-case-6",
+      "kind": "use-case",
+      "lessonCount": 8,
+      "sourceId": "2f76efef-4575-80ce-9bae-d0e72820a186",
+      "title": "AI-Powered Creative Income"
+    },
+    {
+      "duration": "2 hours",
+      "file": "courses/use-case-7.json",
+      "id": "use-case-7",
+      "kind": "use-case",
+      "lessonCount": 7,
+      "sourceId": "3276efef-4575-80bf-861f-d61f03277616",
+      "title": "No-Code Websites and Apps"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/use-case-8.json",
+      "id": "use-case-8",
+      "kind": "use-case",
+      "lessonCount": 9,
+      "sourceId": "32c6efef-4575-8057-bef6-f91b9067fbdf",
+      "title": "AI in Design"
+    },
+    {
+      "duration": "2 hours",
+      "file": "courses/use-case-9.json",
+      "id": "use-case-9",
+      "kind": "use-case",
+      "lessonCount": 7,
+      "sourceId": "32c6efef-4575-80f2-a889-f522333d9774",
+      "title": "Land Jobs With AI"
+    }
+  ],
+  "expectedBaseline": {
+    "courses": 37,
+    "lessons": 343
+  },
+  "schemaVersion": 3,
+  "scrapedAt": "2026-07-22T08:32:51.868Z",
+  "totals": {
+    "courses": 37,
+    "failedLessons": 0,
+    "lessons": 343,
+    "screens": 8925,
+    "unknownBlocks": 0
+  }
+}

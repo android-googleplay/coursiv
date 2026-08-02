@@ -1,0 +1,593 @@
+{
+  "content": {
+    "animationSources": [],
+    "blockType": "before-after-page-personalized",
+    "button": {
+      "actions": [
+        {
+          "blockType": "next_page",
+          "payload": {
+            "searchParams": {}
+          }
+        }
+      ],
+      "text": "CONTINUE",
+      "value": "continue"
+    },
+    "currentStep": 2,
+    "goalImage": "cert_ba-3.webp",
+    "goalTitle": "by",
+    "leftImage": [
+      {
+        "blockType": "staticImage",
+        "image": "Characters.webp"
+      }
+    ],
+    "leftItems": [
+      {
+        "conditionGroups": [],
+        "item": "You without<br/><b>Coursiv</b>"
+      },
+      {
+        "conditionGroups": [
+          {
+            "conditions": [
+              {
+                "operator": "equals",
+                "source": "whats_the_1_thing_holding_you_back_from_using_ai_effectively",
+                "value": [
+                  "no_clear_system_or_roadmap"
+                ]
+              }
+            ]
+          }
+        ],
+        "item": "<b>Struggles:</b><br/>Unclear where to start"
+      },
+      {
+        "conditionGroups": [
+          {
+            "conditions": [
+              {
+                "operator": "equals",
+                "source": "whats_the_1_thing_holding_you_back_from_using_ai_effectively",
+                "value": [
+                  "not_enough_time"
+                ]
+              }
+            ]
+          }
+        ],
+        "item": "<b>Struggles:</b><br/>No time to get started"
+      },
+      {
+        "conditionGroups": [
+          {
+            "conditions": [
+              {
+                "operator": "equals",
+                "source": "whats_the_1_thing_holding_you_back_from_using_ai_effectively",
+                "value": [
+                  "too_complicated_for_me"
+                ]
+              }
+            ]
+          }
+        ],
+        "item": "<b>Struggles:</b><br/>AI feels too complex"
+      },
+      {
+        "conditionGroups": [
+          {
+            "conditions": [
+              {
+                "operator": "equals",
+                "source": "whats_the_1_thing_holding_you_back_from_using_ai_effectively",
+                "value": [
+                  "dont_know_where_to_start"
+                ]
+              }
+            ]
+          }
+        ],
+        "item": "<b>Struggles:</b><br/>No idea where to begin"
+      },
+      {
+        "conditionGroups": [],
+        "item": "No recognized credential"
+      },
+      {
+        "conditionGroups": [
+          {
+            "conditions": [
+              {
+                "operator": "equals",
+                "source": "how_comfortable_are_you_using_ai_tools_right_now",
+                "value": [
+                  "i_dont_know_anything"
+                ]
+              }
+            ]
+          }
+        ],
+        "item": "Don't know how to use AI"
+      },
+      {
+        "conditionGroups": [
+          {
+            "conditions": [
+              {
+                "operator": "equals",
+                "source": "how_comfortable_are_you_using_ai_tools_right_now",
+                "value": [
+                  "i_struggle_a_lot"
+                ]
+              }
+            ]
+          }
+        ],
+        "item": "AI feels hard to use"
+      },
+      {
+        "conditionGroups": [
+          {
+            "conditions": [
+              {
+                "operator": "equals",
+                "source": "how_comfortable_are_you_using_ai_tools_right_now",
+                "value": [
+                  "i_struggle_sometimes"
+                ]
+              }
+            ]
+          }
+        ],
+        "item": "Hit-or-miss results"
+      },
+      {
+        "conditionGroups": [
+          {
+            "conditions": [
+              {
+                "operator": "equals",
+                "source": "how_comfortable_are_you_using_ai_tools_right_now",
+                "value": [
+                  "im_comfortable"
+                ]
+              }
+            ]
+          }
+        ],
+        "item": "Not getting AI's full value"
+      },
+      {
+        "conditionGroups": [],
+        "item": "Invisible to employers"
+      }
+    ],
+    "pageViewActions": [
+      {
+        "blockType": "track_sentinel_event",
+        "payload": {
+          "eventName": "pr_funnel_before_after_page_view"
+        }
+      }
+    ],
+    "right": {
+      "image": [
+        {
+          "blockType": "staticImage",
+          "image": "Characters-1.webp"
+        }
+      ],
+      "items": [
+        {
+          "item": "You with<br/><b>Coursiv:</b>"
+        },
+        {
+          "item": "<b>Solutions:</b><br/>Clear, step-by-step path"
+        },
+        {
+          "item": "Shareable AI credential"
+        },
+        {
+          "item": "Reliable results from AI"
+        },
+        {
+          "item": "Stand out from other workers"
+        }
+      ]
+    },
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "subtitle": "Your plan turns repetitive work into clear, reusable workflows.",
+    "title": "From Reactive to In Control",
+    "totalSteps": 4,
+    "description": ""
+  },
+  "id": "26-before-after-page-personalized",
+  "index": 25,
+  "interaction": "continue",
+  "media": [
+    {
+      "bytes": 14918,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/a292f3e6a9271c0f299c1e70c0a36494c57dadee496d20aa50416f46f8dd5121.webp",
+      "reference": "Characters-1.webp",
+      "sha256": "a292f3e6a9271c0f299c1e70c0a36494c57dadee496d20aa50416f46f8dd5121",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Characters-1.webp"
+    },
+    {
+      "bytes": 11434,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/7335e5c151075632eb0a1a45055ec175f91bf3dbae42f652f8003fefa9298ef9.webp",
+      "reference": "Characters.webp",
+      "sha256": "7335e5c151075632eb0a1a45055ec175f91bf3dbae42f652f8003fefa9298ef9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Characters.webp"
+    },
+    {
+      "bytes": 90876,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/034de82cb3375fc42cc8c080464791754012084e1e28c1c6752e20ff345e5139.webp",
+      "reference": "cert_ba-3.webp",
+      "sha256": "034de82cb3375fc42cc8c080464791754012084e1e28c1c6752e20ff345e5139",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/cert_ba-3.webp"
+    },
+    {
+      "bytes": 532,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/ce703e6f7290dd2682e7be669bbe7a07a1d9cf7dc3a224eb1c5a16e4c5812a43.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_5.webp",
+      "sha256": "ce703e6f7290dd2682e7be669bbe7a07a1d9cf7dc3a224eb1c5a16e4c5812a43",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_5.webp"
+    },
+    {
+      "bytes": 720,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/33bd3851ca23f25d5d1f159fa268b2c06fded4ae6a6890e235b5041edce61693.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new01.webp",
+      "sha256": "33bd3851ca23f25d5d1f159fa268b2c06fded4ae6a6890e235b5041edce61693",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new01.webp"
+    },
+    {
+      "bytes": 324,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e35246c724c01b33b0056a7b02b8adc6b09299f9b7caa2eb4fad0ec60f573296.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new02.webp",
+      "sha256": "e35246c724c01b33b0056a7b02b8adc6b09299f9b7caa2eb4fad0ec60f573296",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new02.webp"
+    },
+    {
+      "bytes": 574,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/65dc86c1cb0f73dd361e3156a842504ba065648e6af80a38dd04c2d433ae520e.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new03.webp",
+      "sha256": "65dc86c1cb0f73dd361e3156a842504ba065648e6af80a38dd04c2d433ae520e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new03.webp"
+    },
+    {
+      "bytes": 584,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/cd944eb0b8d1358057fd161dce4267af623fd85d5171d07afb14f3a0ab0040d3.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new04.webp",
+      "sha256": "cd944eb0b8d1358057fd161dce4267af623fd85d5171d07afb14f3a0ab0040d3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new04.webp"
+    },
+    {
+      "bytes": 47872,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/83acdcd8358d4151b9745c73b15757e9f8ab7ccc91836e3a770177719b208209.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/img-9.webp",
+      "sha256": "83acdcd8358d4151b9745c73b15757e9f8ab7ccc91836e3a770177719b208209",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/img-9.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "Characters-1.webp",
+    "Characters.webp",
+    "cert_ba-3.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/icons_sp_5.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new01.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new02.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new03.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new04.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/img-9.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/solution-pitch-page",
+    "previous": "/dynamic/personalized-summary-page",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [],
+  "path": "/dynamic/before-after-page-personalized",
+  "progress": {
+    "current": null,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/solution-pitch-page",
+    "pageContent": {
+      "animationSources": [],
+      "blockType": "before-after-page-personalized",
+      "button": {
+        "actions": [
+          {
+            "blockType": "next_page",
+            "payload": {
+              "searchParams": {}
+            }
+          }
+        ],
+        "text": "CONTINUE",
+        "value": "continue"
+      },
+      "currentStep": 2,
+      "goalImage": "cert_ba-3.webp",
+      "goalTitle": "by",
+      "leftImage": [
+        {
+          "blockType": "staticImage",
+          "image": "Characters.webp"
+        }
+      ],
+      "leftItems": [
+        {
+          "conditionGroups": [],
+          "item": "You without<br/><b>Coursiv</b>"
+        },
+        {
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "operator": "equals",
+                  "source": "whats_the_1_thing_holding_you_back_from_using_ai_effectively",
+                  "value": [
+                    "no_clear_system_or_roadmap"
+                  ]
+                }
+              ]
+            }
+          ],
+          "item": "<b>Struggles:</b><br/>Unclear where to start"
+        },
+        {
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "operator": "equals",
+                  "source": "whats_the_1_thing_holding_you_back_from_using_ai_effectively",
+                  "value": [
+                    "not_enough_time"
+                  ]
+                }
+              ]
+            }
+          ],
+          "item": "<b>Struggles:</b><br/>No time to get started"
+        },
+        {
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "operator": "equals",
+                  "source": "whats_the_1_thing_holding_you_back_from_using_ai_effectively",
+                  "value": [
+                    "too_complicated_for_me"
+                  ]
+                }
+              ]
+            }
+          ],
+          "item": "<b>Struggles:</b><br/>AI feels too complex"
+        },
+        {
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "operator": "equals",
+                  "source": "whats_the_1_thing_holding_you_back_from_using_ai_effectively",
+                  "value": [
+                    "dont_know_where_to_start"
+                  ]
+                }
+              ]
+            }
+          ],
+          "item": "<b>Struggles:</b><br/>No idea where to begin"
+        },
+        {
+          "conditionGroups": [],
+          "item": "No recognized credential"
+        },
+        {
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "operator": "equals",
+                  "source": "how_comfortable_are_you_using_ai_tools_right_now",
+                  "value": [
+                    "i_dont_know_anything"
+                  ]
+                }
+              ]
+            }
+          ],
+          "item": "Don't know how to use AI"
+        },
+        {
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "operator": "equals",
+                  "source": "how_comfortable_are_you_using_ai_tools_right_now",
+                  "value": [
+                    "i_struggle_a_lot"
+                  ]
+                }
+              ]
+            }
+          ],
+          "item": "AI feels hard to use"
+        },
+        {
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "operator": "equals",
+                  "source": "how_comfortable_are_you_using_ai_tools_right_now",
+                  "value": [
+                    "i_struggle_sometimes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "item": "Hit-or-miss results"
+        },
+        {
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "operator": "equals",
+                  "source": "how_comfortable_are_you_using_ai_tools_right_now",
+                  "value": [
+                    "im_comfortable"
+                  ]
+                }
+              ]
+            }
+          ],
+          "item": "Not getting AI's full value"
+        },
+        {
+          "conditionGroups": [],
+          "item": "Invisible to employers"
+        }
+      ],
+      "pageViewActions": [
+        {
+          "blockType": "track_sentinel_event",
+          "payload": {
+            "eventName": "pr_funnel_before_after_page_view"
+          }
+        }
+      ],
+      "right": {
+        "image": [
+          {
+            "blockType": "staticImage",
+            "image": "Characters-1.webp"
+          }
+        ],
+        "items": [
+          {
+            "item": "You with<br/><b>Coursiv:</b>"
+          },
+          {
+            "item": "<b>Solutions:</b><br/>Clear, step-by-step path"
+          },
+          {
+            "item": "Shareable AI credential"
+          },
+          {
+            "item": "Reliable results from AI"
+          },
+          {
+            "item": "Stand out from other workers"
+          }
+        ]
+      },
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "subtitle": "We expect you to earn your AI Certificate",
+      "title": "Your Personalized  AI Certificate Program",
+      "totalSteps": 4
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": null,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/img-9.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new01.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new02.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new03.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new04.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/icons_sp_5.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/personalized-summary-page"
+  },
+  "schemaVersion": 1,
+  "slug": null,
+  "sourceUrl": "https://coursiv.io/dynamic/before-after-page-personalized?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=before-after-page-personalized",
+  "title": "From Reactive to In Control",
+  "type": "before-after-page-personalized",
+  "migrationId": "ai-workday-v1"
+}

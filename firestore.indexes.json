@@ -1,0 +1,17 @@
+{
+  "indexes": [
+    { "collectionGroup": "events", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "name", "order": "ASCENDING" }, { "fieldPath": "occurredAt", "order": "DESCENDING" }] },
+    { "collectionGroup": "lessons", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "courseId", "order": "ASCENDING" }, { "fieldPath": "order", "order": "ASCENDING" }] },
+    { "collectionGroup": "events", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "userId", "order": "ASCENDING" }, { "fieldPath": "occurredAt", "order": "DESCENDING" }] },
+    { "collectionGroup": "supportTickets", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "status", "order": "ASCENDING" }, { "fieldPath": "lastMessageAt", "order": "DESCENDING" }] },
+    { "collectionGroup": "supportTickets", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "priority", "order": "ASCENDING" }, { "fieldPath": "lastMessageAt", "order": "DESCENDING" }] },
+    { "collectionGroup": "supportTickets", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "assigneeId", "order": "ASCENDING" }, { "fieldPath": "lastMessageAt", "order": "DESCENDING" }] },
+    { "collectionGroup": "supportTickets", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "searchPrefixes", "arrayConfig": "CONTAINS" }, { "fieldPath": "lastMessageAt", "order": "DESCENDING" }] },
+    { "collectionGroup": "adminUserSummaries", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "registeredAt", "order": "DESCENDING" }] },
+    { "collectionGroup": "adminUserSummaries", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "searchPrefixes", "arrayConfig": "CONTAINS" }, { "fieldPath": "registeredAt", "order": "DESCENDING" }] },
+    { "collectionGroup": "adminUserSummaries", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "tagsLower", "arrayConfig": "CONTAINS" }, { "fieldPath": "registeredAt", "order": "DESCENDING" }] },
+    { "collectionGroup": "adminUserSummaries", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "subscriptionStatus", "order": "ASCENDING" }, { "fieldPath": "registeredAt", "order": "DESCENDING" }] },
+    { "collectionGroup": "adminUserSummaries", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "accountStatus", "order": "ASCENDING" }, { "fieldPath": "registeredAt", "order": "DESCENDING" }] }
+  ],
+  "fieldOverrides": []
+}

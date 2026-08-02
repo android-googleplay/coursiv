@@ -1,0 +1,4 @@
+self.addEventListener("install",()=>self.skipWaiting());
+self.addEventListener("activate",(event)=>event.waitUntil(self.clients.claim()));
+self.addEventListener("push",(event)=>{const data=event.data?.json?.()??{};const notification=data.notification??{};event.waitUntil(self.registration.showNotification(notification.title??"Lumora",{body:notification.body??"Your next learning activity is ready.",icon:"/favicon.ico",badge:"/favicon.ico",tag:data.data?.tag??"lumora-learning",data:data.data??{url:"/dashboard"}}));});
+self.addEventListener("notificationclick",(event)=>{event.notification.close();const target=new URL(event.notification.data?.url??"/dashboard",self.location.origin).href;event.waitUntil((async()=>{const windows=await self.clients.matchAll({type:"window",includeUncontrolled:true});const existing=windows.find((client)=>client.url===target);if(existing){await existing.focus();return;}await self.clients.openWindow(target)})());});

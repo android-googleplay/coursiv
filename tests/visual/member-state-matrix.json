@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "referenceVersion": "reference-v1",
+  "viewports": ["mobile", "desktop"],
+  "tabletSmoke": true,
+  "surfaces": [
+    { "name": "auth", "states": ["login-empty", "login-validation", "login-loading", "login-error", "signup-empty", "signup-validation", "forgot-password"] },
+    { "name": "onboarding", "states": ["welcome", "program-intro", "certificate", "how-it-works", "daily-goal", "program-choice", "complete"] },
+    { "name": "dashboard", "states": ["empty", "in-progress", "completed", "loading", "error"] },
+    { "name": "courses", "states": ["catalog", "course-map-fresh", "course-map-locked", "course-map-in-progress", "course-map-completed", "lesson-modal"] },
+    { "name": "lesson", "states": ["read", "listen", "image", "video", "long-content", "question-unselected", "question-selected", "question-wrong", "question-retry", "question-correct", "practice-workspace", "practice-success", "practice-skipped", "finish"] },
+    { "name": "ai-tools", "states": ["empty", "available", "loading", "error"] },
+    { "name": "games", "states": ["empty", "available", "loading", "error"] },
+    { "name": "profile", "states": ["overview", "settings", "help", "logout"] },
+    { "name": "certificates", "states": ["empty", "list", "detail", "share"] }
+  ],
+  "requiredArtifacts": ["reference.png", "actual.png", "diff.png", "metrics.json", "dom-state.json", "trace.zip", "video.webm"]
+}

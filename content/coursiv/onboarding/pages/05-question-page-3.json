@@ -1,0 +1,423 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "email-and-communication",
+        "title": "Email and communication"
+      },
+      {
+        "actions": [],
+        "slug": "meetings-and-coordination",
+        "title": "Meetings and coordination"
+      },
+      {
+        "actions": [],
+        "slug": "documents-and-reports",
+        "title": "Documents and reports"
+      },
+      {
+        "actions": [],
+        "slug": "research-and-analysis",
+        "title": "Research and analysis"
+      },
+      {
+        "actions": [],
+        "slug": "spreadsheets-and-data",
+        "title": "Spreadsheets and data"
+      },
+      {
+        "actions": [],
+        "slug": "sales-and-customer-work",
+        "title": "Sales and customer work"
+      },
+      {
+        "actions": [],
+        "slug": "planning-and-management",
+        "title": "Planning and management"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "what_industry_do_you_work_in",
+    "stats": {},
+    "title": "Which type of work do you do most often?",
+    "tryAskingLabel": "Try asking",
+    "subtitle": "Your answer helps us recommend relevant workflows.",
+    "description": ""
+  },
+  "id": "05-question-page-3",
+  "index": 4,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 6870,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2c36bf17575d3b4f17f60cd061a6e0397be505691725f13117a2b060bb8c35b9.webp",
+      "reference": "bank.webp",
+      "sha256": "2c36bf17575d3b4f17f60cd061a6e0397be505691725f13117a2b060bb8c35b9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/bank.webp"
+    },
+    {
+      "bytes": 7380,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/becaa9810bb1f7f566b5bd88e4431e1300617d98044bcae7b6630e5eaa177225.webp",
+      "reference": "books.webp",
+      "sha256": "becaa9810bb1f7f566b5bd88e4431e1300617d98044bcae7b6630e5eaa177225",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/books.webp"
+    },
+    {
+      "bytes": 4222,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/1900fa5961c7466f8abbeb83b3187b3543c9c4a7cb2f7bb97814349170fc7504.webp",
+      "reference": "clipboard.webp",
+      "sha256": "1900fa5961c7466f8abbeb83b3187b3543c9c4a7cb2f7bb97814349170fc7504",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/clipboard.webp"
+    },
+    {
+      "bytes": 5988,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/6680c10585e1c17d2a6b11ace12501362a72583b0e2caad19ac127e409ced6ce.webp",
+      "reference": "handshake.webp",
+      "sha256": "6680c10585e1c17d2a6b11ace12501362a72583b0e2caad19ac127e409ced6ce",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/handshake.webp"
+    },
+    {
+      "bytes": 8498,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/45e498a9dba9b34860cac9d453d6b5bcf7501ca7c87d78e5b5e9572b58d5fe1d.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/anxious_face_with_sweat.webp",
+      "sha256": "45e498a9dba9b34860cac9d453d6b5bcf7501ca7c87d78e5b5e9572b58d5fe1d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/anxious_face_with_sweat.webp"
+    },
+    {
+      "bytes": 8306,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/728d44528164f8dd948b0340785777994490124f7b9727eeab05f4c5313ad890.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/relieved_face.webp",
+      "sha256": "728d44528164f8dd948b0340785777994490124f7b9727eeab05f4c5313ad890",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/relieved_face.webp"
+    },
+    {
+      "bytes": 8246,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/6444889de824fec2458424eb16958c839bfae766314d6d51ffdbe6e7fe12dc0a.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/thinking_face.webp",
+      "sha256": "6444889de824fec2458424eb16958c839bfae766314d6d51ffdbe6e7fe12dc0a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/thinking_face.webp"
+    },
+    {
+      "bytes": 8554,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/3d9ef1fb1626380fc462d8121620bff36b7429d15fbb28bc9bbefb18f386b57d.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/worried_face.webp",
+      "sha256": "3d9ef1fb1626380fc462d8121620bff36b7429d15fbb28bc9bbefb18f386b57d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/worried_face.webp"
+    },
+    {
+      "bytes": 5432,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/fccd2ab7f4b5d8e4c4808f219ac12d2372f4b647773e66c4d9c3506105c6693a.webp",
+      "reference": "laptop.webp",
+      "sha256": "fccd2ab7f4b5d8e4c4808f219ac12d2372f4b647773e66c4d9c3506105c6693a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/laptop.webp"
+    },
+    {
+      "bytes": 3898,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/80a1ba7db40b5a68fe10ce992c6dcad4ae732a31d16c4dd190a44cd5e9486516.webp",
+      "reference": "large_blue_diamond.webp",
+      "sha256": "80a1ba7db40b5a68fe10ce992c6dcad4ae732a31d16c4dd190a44cd5e9486516",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/large_blue_diamond.webp"
+    },
+    {
+      "bytes": 7372,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/9bd70997701eefc16724c9fd14f023009422dd73117754c74933b313a9469352.webp",
+      "reference": "megaphone.webp",
+      "sha256": "9bd70997701eefc16724c9fd14f023009422dd73117754c74933b313a9469352",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/megaphone.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 11010,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e5da6e940a009ca0359e5022f3311f29a9a922fba56e0d2ca3d7515c6e4c76d4.webp",
+      "reference": "stethoscope.webp",
+      "sha256": "e5da6e940a009ca0359e5022f3311f29a9a922fba56e0d2ca3d7515c6e4c76d4",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/stethoscope.webp"
+    }
+  ],
+  "mediaReferences": [
+    "bank.webp",
+    "books.webp",
+    "clipboard.webp",
+    "handshake.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/anxious_face_with_sweat.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/relieved_face.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/thinking_face.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/worried_face.webp",
+    "laptop.webp",
+    "large_blue_diamond.webp",
+    "megaphone.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "stethoscope.webp"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-4",
+    "previous": "/dynamic/question-page-2",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "05-question-page-3--email-and-communication",
+      "label": "Email and communication",
+      "value": "email-and-communication",
+      "source": {
+        "actions": [],
+        "slug": "email-and-communication",
+        "title": "Email and communication"
+      }
+    },
+    {
+      "id": "05-question-page-3--meetings-and-coordination",
+      "label": "Meetings and coordination",
+      "value": "meetings-and-coordination",
+      "source": {
+        "actions": [],
+        "slug": "meetings-and-coordination",
+        "title": "Meetings and coordination"
+      }
+    },
+    {
+      "id": "05-question-page-3--documents-and-reports",
+      "label": "Documents and reports",
+      "value": "documents-and-reports",
+      "source": {
+        "actions": [],
+        "slug": "documents-and-reports",
+        "title": "Documents and reports"
+      }
+    },
+    {
+      "id": "05-question-page-3--research-and-analysis",
+      "label": "Research and analysis",
+      "value": "research-and-analysis",
+      "source": {
+        "actions": [],
+        "slug": "research-and-analysis",
+        "title": "Research and analysis"
+      }
+    },
+    {
+      "id": "05-question-page-3--spreadsheets-and-data",
+      "label": "Spreadsheets and data",
+      "value": "spreadsheets-and-data",
+      "source": {
+        "actions": [],
+        "slug": "spreadsheets-and-data",
+        "title": "Spreadsheets and data"
+      }
+    },
+    {
+      "id": "05-question-page-3--sales-and-customer-work",
+      "label": "Sales and customer work",
+      "value": "sales-and-customer-work",
+      "source": {
+        "actions": [],
+        "slug": "sales-and-customer-work",
+        "title": "Sales and customer work"
+      }
+    },
+    {
+      "id": "05-question-page-3--planning-and-management",
+      "label": "Planning and management",
+      "value": "planning-and-management",
+      "source": {
+        "actions": [],
+        "slug": "planning-and-management",
+        "title": "Planning and management"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-3",
+  "progress": {
+    "current": 3,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-4",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "laptop.webp",
+          "slug": "tech__it",
+          "title": "Tech / IT"
+        },
+        {
+          "actions": [],
+          "icon": "bank.webp",
+          "slug": "finance__accounting",
+          "title": "Finance / Accounting"
+        },
+        {
+          "actions": [],
+          "icon": "megaphone.webp",
+          "slug": "marketing__media",
+          "title": "Marketing / Media"
+        },
+        {
+          "actions": [],
+          "icon": "stethoscope.webp",
+          "slug": "healthcare",
+          "title": "Healthcare"
+        },
+        {
+          "actions": [],
+          "icon": "books.webp",
+          "slug": "education",
+          "title": "Education"
+        },
+        {
+          "actions": [],
+          "icon": "handshake.webp",
+          "slug": "sales__business_dev",
+          "title": "Sales / Business Dev"
+        },
+        {
+          "actions": [],
+          "icon": "clipboard.webp",
+          "slug": "operations__management",
+          "title": "Operations / Management"
+        },
+        {
+          "actions": [],
+          "icon": "large_blue_diamond.webp",
+          "slug": "other",
+          "title": "Other"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "what_industry_do_you_work_in",
+      "stats": {},
+      "title": "What industry do you work in?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 3,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/anxious_face_with_sweat.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/worried_face.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/thinking_face.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/relieved_face.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-2"
+  },
+  "schemaVersion": 1,
+  "slug": "what_industry_do_you_work_in",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-3?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-3",
+  "title": "Which type of work do you do most often?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

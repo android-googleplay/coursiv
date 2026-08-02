@@ -1,0 +1,320 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "falling-behind-colleagues",
+        "title": "Falling behind colleagues"
+      },
+      {
+        "actions": [],
+        "slug": "producing-inaccurate-work",
+        "title": "Producing inaccurate work"
+      },
+      {
+        "actions": [],
+        "slug": "exposing-confidential-information",
+        "title": "Exposing confidential information"
+      },
+      {
+        "actions": [],
+        "slug": "my-role-changing-too-quickly",
+        "title": "My role changing too quickly"
+      },
+      {
+        "actions": [],
+        "slug": "becoming-dependent-on-ai",
+        "title": "Becoming dependent on AI"
+      },
+      {
+        "actions": [],
+        "slug": "i-see-ai-mainly-as-an-opportunity",
+        "title": "I see AI mainly as an opportunity"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "when_you_think_about_ai_and_your_career_what_concerns_you_most",
+    "stats": {},
+    "title": "What concerns you most about AI at work?",
+    "tryAskingLabel": "Try asking",
+    "subtitle": "Your plan will address this concern directly.",
+    "description": ""
+  },
+  "id": "14-question-page-11",
+  "index": 13,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 7794,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f62a3967cf9f35e9a6ca16217a7cbc95666ecc196956ccda95825a965a777333.webp",
+      "reference": "bullseye.webp",
+      "sha256": "f62a3967cf9f35e9a6ca16217a7cbc95666ecc196956ccda95825a965a777333",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/bullseye.webp"
+    },
+    {
+      "bytes": 7738,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d19c18abc49d2fdeacd0fe9292372384e3f782f3108f5d804a67d5b7949bf704.webp",
+      "reference": "electric_plug.webp",
+      "sha256": "d19c18abc49d2fdeacd0fe9292372384e3f782f3108f5d804a67d5b7949bf704",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/electric_plug.webp"
+    },
+    {
+      "bytes": 35940,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/0d36e458f9db323bd8b96d965f3530096de08f8ef7aeb1ed76c979d699c9364c.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_3-13.webp",
+      "sha256": "0d36e458f9db323bd8b96d965f3530096de08f8ef7aeb1ed76c979d699c9364c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_3-13.webp"
+    },
+    {
+      "bytes": 4466,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/37c00823cc64d5ac181bf97a8ee4563088090cd3650802bc859f4d954b5d0ab7.webp",
+      "reference": "light_bulb.webp",
+      "sha256": "37c00823cc64d5ac181bf97a8ee4563088090cd3650802bc859f4d954b5d0ab7",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/light_bulb.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 7914,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/db582df8c16d2b2e93f337993e36642ea08644f799b9f05d48320bd678dfffc8.webp",
+      "reference": "person_running.webp",
+      "sha256": "db582df8c16d2b2e93f337993e36642ea08644f799b9f05d48320bd678dfffc8",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/person_running.webp"
+    }
+  ],
+  "mediaReferences": [
+    "bullseye.webp",
+    "electric_plug.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_3-13.webp",
+    "light_bulb.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "person_running.webp"
+  ],
+  "navigation": {
+    "next": "/dynamic/wild-page-2",
+    "previous": "/dynamic/question-page-10",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "14-question-page-11--falling-behind-colleagues",
+      "label": "Falling behind colleagues",
+      "value": "falling-behind-colleagues",
+      "source": {
+        "actions": [],
+        "slug": "falling-behind-colleagues",
+        "title": "Falling behind colleagues"
+      }
+    },
+    {
+      "id": "14-question-page-11--producing-inaccurate-work",
+      "label": "Producing inaccurate work",
+      "value": "producing-inaccurate-work",
+      "source": {
+        "actions": [],
+        "slug": "producing-inaccurate-work",
+        "title": "Producing inaccurate work"
+      }
+    },
+    {
+      "id": "14-question-page-11--exposing-confidential-information",
+      "label": "Exposing confidential information",
+      "value": "exposing-confidential-information",
+      "source": {
+        "actions": [],
+        "slug": "exposing-confidential-information",
+        "title": "Exposing confidential information"
+      }
+    },
+    {
+      "id": "14-question-page-11--my-role-changing-too-quickly",
+      "label": "My role changing too quickly",
+      "value": "my-role-changing-too-quickly",
+      "source": {
+        "actions": [],
+        "slug": "my-role-changing-too-quickly",
+        "title": "My role changing too quickly"
+      }
+    },
+    {
+      "id": "14-question-page-11--becoming-dependent-on-ai",
+      "label": "Becoming dependent on AI",
+      "value": "becoming-dependent-on-ai",
+      "source": {
+        "actions": [],
+        "slug": "becoming-dependent-on-ai",
+        "title": "Becoming dependent on AI"
+      }
+    },
+    {
+      "id": "14-question-page-11--i-see-ai-mainly-as-an-opportunity",
+      "label": "I see AI mainly as an opportunity",
+      "value": "i-see-ai-mainly-as-an-opportunity",
+      "source": {
+        "actions": [],
+        "slug": "i-see-ai-mainly-as-an-opportunity",
+        "title": "I see AI mainly as an opportunity"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-11",
+  "progress": {
+    "current": 11,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/wild-page-2",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "person_running.webp",
+          "slug": "falling_behind_colleagues",
+          "title": "Falling behind colleagues who use AI"
+        },
+        {
+          "actions": [],
+          "icon": "electric_plug.webp",
+          "slug": "job_becoming_automated",
+          "title": "My job becoming automated"
+        },
+        {
+          "actions": [],
+          "icon": "bullseye.webp",
+          "slug": "not_having_right_skills",
+          "title": "Not having the right skills for my jobs"
+        },
+        {
+          "actions": [],
+          "icon": "light_bulb.webp",
+          "slug": "nothing_ai_opportunity",
+          "title": "Nothing — I see AI as an opportunity"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "when_you_think_about_ai_and_your_career_what_concerns_you_most",
+      "stats": {},
+      "title": "When you think about AI and your career, what concerns you most?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 11,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_3-13.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_3-13.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_3-13.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-10"
+  },
+  "schemaVersion": 1,
+  "slug": "when_you_think_about_ai_and_your_career_what_concerns_you_most",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-11?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-11",
+  "title": "What concerns you most about AI at work?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

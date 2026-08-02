@@ -1,0 +1,363 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "email",
+        "title": "Email"
+      },
+      {
+        "actions": [],
+        "slug": "meetings",
+        "title": "Meetings"
+      },
+      {
+        "actions": [],
+        "slug": "searching-for-information",
+        "title": "Searching for information"
+      },
+      {
+        "actions": [],
+        "slug": "writing-documents",
+        "title": "Writing documents"
+      },
+      {
+        "actions": [],
+        "slug": "manual-data-entry",
+        "title": "Manual data entry"
+      },
+      {
+        "actions": [],
+        "slug": "switching-between-tasks",
+        "title": "Switching between tasks"
+      },
+      {
+        "actions": [],
+        "slug": "deciding-what-to-do-next",
+        "title": "Deciding what to do next"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "are_you_afraid_to_fall_behind_the_ai_trend",
+    "stats": {},
+    "title": "What consumes the most unnecessary time?",
+    "tryAskingLabel": "Try asking",
+    "subtitle": "We’ll target your biggest workday leak first.",
+    "description": ""
+  },
+  "id": "09-question-page-6",
+  "index": 8,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 8172,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/5c4993d093a0854ff1a57f422d282f4dc3b60dc8f6978e22326c7266a6e6486d.webp",
+      "reference": "anguished_face.webp",
+      "sha256": "5c4993d093a0854ff1a57f422d282f4dc3b60dc8f6978e22326c7266a6e6486d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/anguished_face.webp"
+    },
+    {
+      "bytes": 6768,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/22e882e6098477dad685338e1c87693db21c1d8dfc71aa841a27e8cc2fa6ad50.webp",
+      "reference": "face_with_diagonal_mouth.webp",
+      "sha256": "22e882e6098477dad685338e1c87693db21c1d8dfc71aa841a27e8cc2fa6ad50",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/face_with_diagonal_mouth.webp"
+    },
+    {
+      "bytes": 8052,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/196871669d1a94cc49710561f96738ba650f684cc8cbcd95ef2259c166a2c277.webp",
+      "reference": "fearful_face.webp",
+      "sha256": "196871669d1a94cc49710561f96738ba650f684cc8cbcd95ef2259c166a2c277",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/fearful_face.webp"
+    },
+    {
+      "bytes": 6482,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/04f8180dcf2ebfd0794239e89ee19913b333c5f11da2fdd719d87d6651f0e29a.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/brain.webp",
+      "sha256": "04f8180dcf2ebfd0794239e89ee19913b333c5f11da2fdd719d87d6651f0e29a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/brain.webp"
+    },
+    {
+      "bytes": 5432,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/fccd2ab7f4b5d8e4c4808f219ac12d2372f4b647773e66c4d9c3506105c6693a.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/laptop.webp",
+      "sha256": "fccd2ab7f4b5d8e4c4808f219ac12d2372f4b647773e66c4d9c3506105c6693a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/laptop.webp"
+    },
+    {
+      "bytes": 6176,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/ea3cbb2406e70beab579e5703edb49a5e8424db21b745cf41a33b033909d1d2f.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/seedling.webp",
+      "sha256": "ea3cbb2406e70beab579e5703edb49a5e8424db21b745cf41a33b033909d1d2f",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/seedling.webp"
+    },
+    {
+      "bytes": 10608,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/07fa51fdb633096b611ec4a39c2db399d08710a06abc5d93ed4133683b43d77d.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/test_tube.webp",
+      "sha256": "07fa51fdb633096b611ec4a39c2db399d08710a06abc5d93ed4133683b43d77d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/test_tube.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 8862,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/ca915e9881ce277313a7f135d86afa46b2fd08da302e472c2fc295d283fbb6e8.webp",
+      "reference": "smiling_face_with_sunglasses.webp",
+      "sha256": "ca915e9881ce277313a7f135d86afa46b2fd08da302e472c2fc295d283fbb6e8",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/smiling_face_with_sunglasses.webp"
+    }
+  ],
+  "mediaReferences": [
+    "anguished_face.webp",
+    "face_with_diagonal_mouth.webp",
+    "fearful_face.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/brain.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/laptop.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/seedling.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/test_tube.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "smiling_face_with_sunglasses.webp"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-7",
+    "previous": "/dynamic/wild-page",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "09-question-page-6--email",
+      "label": "Email",
+      "value": "email",
+      "source": {
+        "actions": [],
+        "slug": "email",
+        "title": "Email"
+      }
+    },
+    {
+      "id": "09-question-page-6--meetings",
+      "label": "Meetings",
+      "value": "meetings",
+      "source": {
+        "actions": [],
+        "slug": "meetings",
+        "title": "Meetings"
+      }
+    },
+    {
+      "id": "09-question-page-6--searching-for-information",
+      "label": "Searching for information",
+      "value": "searching-for-information",
+      "source": {
+        "actions": [],
+        "slug": "searching-for-information",
+        "title": "Searching for information"
+      }
+    },
+    {
+      "id": "09-question-page-6--writing-documents",
+      "label": "Writing documents",
+      "value": "writing-documents",
+      "source": {
+        "actions": [],
+        "slug": "writing-documents",
+        "title": "Writing documents"
+      }
+    },
+    {
+      "id": "09-question-page-6--manual-data-entry",
+      "label": "Manual data entry",
+      "value": "manual-data-entry",
+      "source": {
+        "actions": [],
+        "slug": "manual-data-entry",
+        "title": "Manual data entry"
+      }
+    },
+    {
+      "id": "09-question-page-6--switching-between-tasks",
+      "label": "Switching between tasks",
+      "value": "switching-between-tasks",
+      "source": {
+        "actions": [],
+        "slug": "switching-between-tasks",
+        "title": "Switching between tasks"
+      }
+    },
+    {
+      "id": "09-question-page-6--deciding-what-to-do-next",
+      "label": "Deciding what to do next",
+      "value": "deciding-what-to-do-next",
+      "source": {
+        "actions": [],
+        "slug": "deciding-what-to-do-next",
+        "title": "Deciding what to do next"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-6",
+  "progress": {
+    "current": 6,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-7",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "fearful_face.webp",
+          "slug": "always",
+          "title": "Always"
+        },
+        {
+          "actions": [],
+          "icon": "anguished_face.webp",
+          "slug": "often",
+          "title": "Often"
+        },
+        {
+          "actions": [],
+          "icon": "face_with_diagonal_mouth.webp",
+          "slug": "sometimes",
+          "title": "Sometimes"
+        },
+        {
+          "actions": [],
+          "icon": "smiling_face_with_sunglasses.webp",
+          "slug": "not_really",
+          "title": "Not really"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "are_you_afraid_to_fall_behind_the_ai_trend",
+      "stats": {},
+      "title": "Are you afraid to fall behind the AI trend?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 6,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/seedling.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/test_tube.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/laptop.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/brain.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/wild-page"
+  },
+  "schemaVersion": 1,
+  "slug": "are_you_afraid_to_fall_behind_the_ai_trend",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-6?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-6",
+  "title": "What consumes the most unnecessary time?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

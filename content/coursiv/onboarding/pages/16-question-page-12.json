@@ -1,0 +1,325 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "backgroundImage": null,
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "this-is-my-first-structured-program",
+        "title": "This is my first structured program"
+      },
+      {
+        "actions": [],
+        "slug": "i-ve-watched-free-videos",
+        "title": "I’ve watched free videos"
+      },
+      {
+        "actions": [],
+        "slug": "i-ve-bought-a-productivity-course",
+        "title": "I’ve bought a productivity course"
+      },
+      {
+        "actions": [],
+        "slug": "i-ve-tried-task-management-systems",
+        "title": "I’ve tried task-management systems"
+      },
+      {
+        "actions": [],
+        "slug": "i-already-use-ai-but-lack-a-clear-workflow",
+        "title": "I already use AI but lack a clear workflow"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "have_you_tried_learning_ai_before",
+    "stats": {},
+    "title": "Have you tried productivity systems or AI courses before?",
+    "tryAskingLabel": "Try asking",
+    "subtitle": "This helps us avoid repeating what hasn’t worked.",
+    "description": ""
+  },
+  "id": "16-question-page-12",
+  "index": 15,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 3324,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/83f61fd2257dd14b807db8becd8288a73c4bd4e5f1cd9505a51920fdd0fbcbba.webp",
+      "reference": "free_button.webp",
+      "sha256": "83f61fd2257dd14b807db8becd8288a73c4bd4e5f1cd9505a51920fdd0fbcbba",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/free_button.webp"
+    },
+    {
+      "bytes": 6676,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/71c8df5c454dd097b1f8d636efc99e7ecbfb062ef2044a2ab126d8bc61202aec.webp",
+      "reference": "graduation_cap.webp",
+      "sha256": "71c8df5c454dd097b1f8d636efc99e7ecbfb062ef2044a2ab126d8bc61202aec",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/graduation_cap.webp"
+    },
+    {
+      "bytes": 3868,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/961b57b2b8e585651b898eba2004f8601e8b72d6bfcfbeb9e761c2150d9ac4dc.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/check_mark_button.webp",
+      "sha256": "961b57b2b8e585651b898eba2004f8601e8b72d6bfcfbeb9e761c2150d9ac4dc",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/check_mark_button.webp"
+    },
+    {
+      "bytes": 5608,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f5e84cb5535d0e46004c7661ff22a430c1d192e587e5ef327d2ca57f5c628c25.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/cross_mark.webp",
+      "sha256": "f5e84cb5535d0e46004c7661ff22a430c1d192e587e5ef327d2ca57f5c628c25",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/cross_mark.webp"
+    },
+    {
+      "bytes": 8804,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/a0377f818962ad70b1b498466d173bdf8742d65a1fd72daac72630f584eb0905.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/person_shrugging.webp",
+      "sha256": "a0377f818962ad70b1b498466d173bdf8742d65a1fd72daac72630f584eb0905",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/person_shrugging.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 3456,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/8bd3a77bac59f219310b61a559f0ea0ab2976969da8dcd779b5aecf08f51e886.webp",
+      "reference": "new_button.webp",
+      "sha256": "8bd3a77bac59f219310b61a559f0ea0ab2976969da8dcd779b5aecf08f51e886",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/new_button.webp"
+    },
+    {
+      "bytes": 7894,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/26fa90debcede775f8060ff521314529959043952e0280d7fe641858e2edbbb3.webp",
+      "reference": "puzzle_piece.webp",
+      "sha256": "26fa90debcede775f8060ff521314529959043952e0280d7fe641858e2edbbb3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/puzzle_piece.webp"
+    }
+  ],
+  "mediaReferences": [
+    "free_button.webp",
+    "graduation_cap.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/check_mark_button.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/cross_mark.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/person_shrugging.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "new_button.webp",
+    "puzzle_piece.webp"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-13",
+    "previous": "/dynamic/wild-page-2",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "16-question-page-12--this-is-my-first-structured-program",
+      "label": "This is my first structured program",
+      "value": "this-is-my-first-structured-program",
+      "source": {
+        "actions": [],
+        "slug": "this-is-my-first-structured-program",
+        "title": "This is my first structured program"
+      }
+    },
+    {
+      "id": "16-question-page-12--i-ve-watched-free-videos",
+      "label": "I’ve watched free videos",
+      "value": "i-ve-watched-free-videos",
+      "source": {
+        "actions": [],
+        "slug": "i-ve-watched-free-videos",
+        "title": "I’ve watched free videos"
+      }
+    },
+    {
+      "id": "16-question-page-12--i-ve-bought-a-productivity-course",
+      "label": "I’ve bought a productivity course",
+      "value": "i-ve-bought-a-productivity-course",
+      "source": {
+        "actions": [],
+        "slug": "i-ve-bought-a-productivity-course",
+        "title": "I’ve bought a productivity course"
+      }
+    },
+    {
+      "id": "16-question-page-12--i-ve-tried-task-management-systems",
+      "label": "I’ve tried task-management systems",
+      "value": "i-ve-tried-task-management-systems",
+      "source": {
+        "actions": [],
+        "slug": "i-ve-tried-task-management-systems",
+        "title": "I’ve tried task-management systems"
+      }
+    },
+    {
+      "id": "16-question-page-12--i-already-use-ai-but-lack-a-clear-workflow",
+      "label": "I already use AI but lack a clear workflow",
+      "value": "i-already-use-ai-but-lack-a-clear-workflow",
+      "source": {
+        "actions": [],
+        "slug": "i-already-use-ai-but-lack-a-clear-workflow",
+        "title": "I already use AI but lack a clear workflow"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-12",
+  "progress": {
+    "current": 12,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-13",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "backgroundImage": null,
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "new_button.webp",
+          "slug": "no_this_is_my_first_time",
+          "title": "No, this is my first time"
+        },
+        {
+          "actions": [],
+          "icon": "free_button.webp",
+          "slug": "free_resources_youtube_articles",
+          "title": "Free resources (YouTube, articles)"
+        },
+        {
+          "actions": [],
+          "icon": "graduation_cap.webp",
+          "slug": "paid_course_on_another_platform",
+          "title": "Paid course on another platform"
+        },
+        {
+          "actions": [],
+          "icon": "puzzle_piece.webp",
+          "slug": "i_use_ai_daily_but_want_structured_learning",
+          "title": "I use AI but want structured learning"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "have_you_tried_learning_ai_before",
+      "stats": {},
+      "title": "Have you tried other courses or resources to learn AI?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 12,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/check_mark_button.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/person_shrugging.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/cross_mark.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/wild-page-2"
+  },
+  "schemaVersion": 1,
+  "slug": "have_you_tried_learning_ai_before",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-12?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-12",
+  "title": "Have you tried productivity systems or AI courses before?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

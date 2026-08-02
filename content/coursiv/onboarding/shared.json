@@ -1,0 +1,1451 @@
+{
+  "colorTokens": [
+    {
+      "name": "base-color-text-warning",
+      "value": "#ff6624"
+    },
+    {
+      "name": "base-color-text-success",
+      "value": "#0d5519"
+    },
+    {
+      "name": "base-color-text-disabled",
+      "value": "#a6aab3"
+    },
+    {
+      "name": "base-color-text-error",
+      "value": "#ff441f"
+    },
+    {
+      "name": "base-color-text-accent",
+      "value": "#5653fe"
+    },
+    {
+      "name": "base-color-text-secondary",
+      "value": "#565b66"
+    },
+    {
+      "name": "base-color-text-primary",
+      "value": "#100018"
+    },
+    {
+      "name": "base-color-text-tertiary",
+      "value": "#ffffff"
+    },
+    {
+      "name": "base-color-text-terms",
+      "value": "#0050b2"
+    },
+    {
+      "name": "base-color-text-success-2",
+      "value": "#138026"
+    },
+    {
+      "name": "base-color-text-disclaimer",
+      "value": "#565b66"
+    },
+    {
+      "name": "base-color-text-quaternary",
+      "value": "#ffffff"
+    },
+    {
+      "name": "base-color-bg-warning",
+      "value": "#fff5ed"
+    },
+    {
+      "name": "base-color-bg-accent-2",
+      "value": "#d8e1ff"
+    },
+    {
+      "name": "base-color-bg-card",
+      "value": "#f3f5f6"
+    },
+    {
+      "name": "base-color-bg-error",
+      "value": "#ff441f"
+    },
+    {
+      "name": "base-color-bg-container",
+      "value": "#ffffff"
+    },
+    {
+      "name": "base-color-bg-disabled",
+      "value": "#a6aab3"
+    },
+    {
+      "name": "base-color-bg-success",
+      "value": "#e8f6ea"
+    },
+    {
+      "name": "base-color-bg-page",
+      "value": "#ffffff"
+    },
+    {
+      "name": "base-color-bg-accent-1",
+      "value": "#5653fe"
+    },
+    {
+      "name": "base-color-bg-select-default",
+      "value": "#f3f5f6"
+    },
+    {
+      "name": "base-color-bg-select-active",
+      "value": "#eeeeff"
+    },
+    {
+      "name": "base-color-bg-overlay",
+      "value": "#ffffff"
+    },
+    {
+      "name": "base-color-bg-card-2",
+      "value": "#f3f5f6"
+    },
+    {
+      "name": "base-color-bg-card-3",
+      "value": "#ececec"
+    },
+    {
+      "name": "base-color-bg-email",
+      "value": "#f3f5f6"
+    },
+    {
+      "name": "base-color-bg-accent-3",
+      "value": "#eeeeff"
+    },
+    {
+      "name": "base-color-bg-accent-4",
+      "value": "#5653fe"
+    },
+    {
+      "name": "base-color-border-primary",
+      "value": "#cfcfcf"
+    },
+    {
+      "name": "base-color-border-error",
+      "value": "#ff441f"
+    },
+    {
+      "name": "base-color-border-success",
+      "value": "#19aa32"
+    },
+    {
+      "name": "base-color-border-accent",
+      "value": "#5653fe"
+    },
+    {
+      "name": "base-color-border-warning",
+      "value": "#ff7b37"
+    },
+    {
+      "name": "base-color-border-secondary",
+      "value": "#ececec"
+    },
+    {
+      "name": "base-color-border-accent-2",
+      "value": "#bd9cf6"
+    },
+    {
+      "name": "base-color-border-tertiary",
+      "value": "#f3f5f6"
+    },
+    {
+      "name": "base-color-border-secondary-2",
+      "value": "#ececec"
+    },
+    {
+      "name": "base-color-fill-neutral-primary",
+      "value": "#100018"
+    },
+    {
+      "name": "base-color-fill-neutral-tertiary",
+      "value": "#565b66"
+    },
+    {
+      "name": "base-color-fill-neutral-secondary",
+      "value": "#cfcfcf"
+    },
+    {
+      "name": "base-color-fill-neutral-quaternary",
+      "value": "#ffffff"
+    },
+    {
+      "name": "base-color-fill-neutral-secondary-2",
+      "value": "#f3f5f6"
+    },
+    {
+      "name": "base-color-fill-brand-secondary-2",
+      "value": "#807efe"
+    },
+    {
+      "name": "base-color-fill-brand-primary",
+      "value": "#5653fe"
+    },
+    {
+      "name": "base-color-fill-brand-secondary",
+      "value": "#d5d4ff"
+    },
+    {
+      "name": "base-color-fill-feedback-success",
+      "value": "#53bf65"
+    },
+    {
+      "name": "base-color-fill-feedback-error",
+      "value": "#ff441f"
+    },
+    {
+      "name": "base-color-fill-feedback-warning",
+      "value": "#ff7b37"
+    },
+    {
+      "name": "base-color-fill-special-discount",
+      "value": "#ff441f"
+    },
+    {
+      "name": "base-color-fill-special-star",
+      "value": "#ffb800"
+    },
+    {
+      "name": "button-color-accent-button-accent",
+      "value": "#5653fe"
+    },
+    {
+      "name": "button-color-accent-button-disabled",
+      "value": "#aba9ff"
+    },
+    {
+      "name": "button-color-accent-button-text-active",
+      "value": "#ffffff"
+    },
+    {
+      "name": "button-color-accent-button-text-disabled",
+      "value": "#ececec"
+    },
+    {
+      "name": "button-color-accent-button-icon",
+      "value": "#ffffff"
+    },
+    {
+      "name": "button-color-alert-button-alert",
+      "value": "#ff441f"
+    },
+    {
+      "name": "button-color-alert-button-text-alert",
+      "value": "#ffffff"
+    },
+    {
+      "name": "button-color-alert-button-icon-alert",
+      "value": "#ffffff"
+    },
+    {
+      "name": "button-color-neutral-button-neutral",
+      "value": "#cfcfcf"
+    },
+    {
+      "name": "button-color-neutral-button-text",
+      "value": "#100018"
+    },
+    {
+      "name": "sp-promocode-bg-primary-sp-promocode",
+      "value": "#e8f6ea"
+    },
+    {
+      "name": "sp-promocode-bg-secondary-surface-sp-promocode",
+      "value": "#ffffff"
+    },
+    {
+      "name": "sp-promocode-bg-tertiary-sp-promocode-2",
+      "value": "#c5eacc"
+    },
+    {
+      "name": "sp-promocode-bg-accent-sp-promocode-3",
+      "value": "#53bf65"
+    },
+    {
+      "name": "sp-promocode-text-primary-sp-promocode",
+      "value": "#100018"
+    },
+    {
+      "name": "sp-promocode-text-secondary-sp-promocode",
+      "value": "#565b66"
+    },
+    {
+      "name": "sp-promocode-text-accent-sp-promocode",
+      "value": "#58961d"
+    },
+    {
+      "name": "sp-promocode-text-tertiary-sp-promocode-2",
+      "value": "#ffffff"
+    },
+    {
+      "name": "sp-promocode-line-primary-sp-promocode",
+      "value": "#8cd598"
+    },
+    {
+      "name": "sp-promocode-line-secondary-sp-promocode",
+      "value": "#c5eacc"
+    },
+    {
+      "name": "sp-promocode-icon-primary-sp-promocode",
+      "value": "#53bf65"
+    },
+    {
+      "name": "sp-promocode-icon-secondary-sp-promocode",
+      "value": "#565b66"
+    },
+    {
+      "name": "scratching-promocode-bg-over1-scratching-promocode",
+      "value": "#ffca40"
+    },
+    {
+      "name": "scratching-promocode-bg-under-scratching-promocode",
+      "value": "#e8f6ea"
+    },
+    {
+      "name": "scratching-promocode-bg-over2-scratching-promocode",
+      "value": "#ffb800"
+    },
+    {
+      "name": "scratching-promocode-text-primary-scratching-promocode",
+      "value": "#100018"
+    },
+    {
+      "name": "scratching-promocode-text-accent-scratching-promocode",
+      "value": "#138026"
+    },
+    {
+      "name": "scratching-promocode-border-primary-scratching-promocode",
+      "value": "#19aa32"
+    },
+    {
+      "name": "scratching-promocode-border-secondary-scratching-promocode-2",
+      "value": "#8cd598"
+    },
+    {
+      "name": "scratching-promocode-other-vector-scratching-promocode",
+      "value": "#ffab70"
+    },
+    {
+      "name": "offer-block-bg-primary-offer-block",
+      "value": "#ffffff"
+    },
+    {
+      "name": "offer-block-text-primary-offer-block",
+      "value": "#100018"
+    },
+    {
+      "name": "offer-block-text-secondary-offer-block",
+      "value": "#565b66"
+    },
+    {
+      "name": "offer-block-text-accent-offer-block",
+      "value": "#5653fe"
+    },
+    {
+      "name": "offer-block-border-primary-offer-block",
+      "value": "#cfcfcf"
+    },
+    {
+      "name": "offer-block-border-accent-offer-block",
+      "value": "#5653fe"
+    },
+    {
+      "name": "offer-block-fill-accent-offer-block",
+      "value": "#5653fe"
+    },
+    {
+      "name": "offer-block-bg-secondary-offer-block-2",
+      "value": "#f3f5f6"
+    },
+    {
+      "name": "offer-block-text-tertiary-offer-block",
+      "value": "#ffffff"
+    },
+    {
+      "name": "paywall-page-paywall",
+      "value": "#ffffff"
+    },
+    {
+      "name": "paywall-elevated-paywall",
+      "value": "#f3f5f6"
+    },
+    {
+      "name": "paywall-promocode-bg-paywall",
+      "value": "#ececec"
+    },
+    {
+      "name": "paywall-promocode-text-paywall",
+      "value": "#565b66"
+    },
+    {
+      "name": "paywall-promocode-icon-paywall",
+      "value": "#565b66"
+    },
+    {
+      "name": "paywall-text-primary-paywall",
+      "value": "#100018"
+    },
+    {
+      "name": "paywall-text-secondary-paywall",
+      "value": "#565b66"
+    },
+    {
+      "name": "paywall-text-accent-paywall",
+      "value": "#5653fe"
+    },
+    {
+      "name": "paywall-text-text-red-paywall",
+      "value": "#ff441f"
+    },
+    {
+      "name": "paywall-button-primary-paywall",
+      "value": "#5653fe"
+    },
+    {
+      "name": "paywall-button-paypal-paywall",
+      "value": "#ffb800"
+    },
+    {
+      "name": "paywall-button-apple-paywall",
+      "value": "#0a0a0a"
+    },
+    {
+      "name": "paywall-button-apple-stroke-paywall",
+      "value": "#cfcfcf"
+    },
+    {
+      "name": "paywall-button-text-disabled",
+      "value": "#cfcfcf"
+    },
+    {
+      "name": "paywall-button-disabled",
+      "value": "#aba9ff"
+    },
+    {
+      "name": "paywall-button-primary-text-active-paywall",
+      "value": "#ffffff"
+    },
+    {
+      "name": "paywall-button-icon-paywall",
+      "value": "#ffffff"
+    },
+    {
+      "name": "paywall-button-secondary-text-active-paywall-2",
+      "value": "#0a0a0a"
+    },
+    {
+      "name": "paywall-icon-primary-paywall",
+      "value": "#ffffff"
+    },
+    {
+      "name": "paywall-icon-secondary-paywall",
+      "value": "#a6aab3"
+    },
+    {
+      "name": "paywall-border-primary-paywall",
+      "value": "#cfcfcf"
+    },
+    {
+      "name": "paywall-border-secondary-paywall",
+      "value": "#ececec"
+    },
+    {
+      "name": "paywall-border-accent-paywall",
+      "value": "#5653fe"
+    },
+    {
+      "name": "paywall-timer-timer-bg-paywall",
+      "value": "#ffe3de"
+    },
+    {
+      "name": "paywall-timer-timer-text-primary-paywall",
+      "value": "#db3012"
+    },
+    {
+      "name": "paywall-timer-timer-icon-primary-paywall",
+      "value": "#db3012"
+    },
+    {
+      "name": "paywall-timer-timer-border-paywall",
+      "value": "#ff441f"
+    },
+    {
+      "name": "paywall-timer-timer-icon-accent-paywall",
+      "value": "#ff441f"
+    },
+    {
+      "name": "paywall-surface-paywall",
+      "value": "#f3f5f6"
+    },
+    {
+      "name": "betterme-promocode-border-primary1-better-promocode",
+      "value": "#ffab70"
+    },
+    {
+      "name": "betterme-promocode-border-primary2--better-promocode",
+      "value": "#e8f6ea"
+    },
+    {
+      "name": "betterme-promocode-fill-vector-better-promocode",
+      "value": "#ffab70"
+    },
+    {
+      "name": "betterme-promocode-fill-icon",
+      "value": "#f3f5f6"
+    },
+    {
+      "name": "betterme-promocode-text-primary-better-promocode",
+      "value": "#ffffff"
+    },
+    {
+      "name": "betterme-promocode-text-secondary-better-promocode",
+      "value": "#cfcfcf"
+    },
+    {
+      "name": "betterme-promocode-bg-over1-better-promocode",
+      "value": "#ff7b37"
+    },
+    {
+      "name": "betterme-promocode-bg-over2-better-promocode",
+      "value": "#ff7b37"
+    },
+    {
+      "name": "betterme-promocode-bg-under1-better-promocode",
+      "value": "#53bf65"
+    },
+    {
+      "name": "betterme-promocode-bg-under2-better-promocode",
+      "value": "#19aa32"
+    },
+    {
+      "name": "sp-nowgoal-bg-card-now-bad",
+      "value": "#ffe3de"
+    },
+    {
+      "name": "sp-nowgoal-bg-card-after",
+      "value": "#d8e1ff"
+    },
+    {
+      "name": "sp-nowgoal-border",
+      "value": "#5653fe"
+    },
+    {
+      "name": "sp-nowgoal-sp-money-back-guarantee",
+      "value": "#ffffff"
+    },
+    {
+      "name": "sp-money-back-bg-money-back",
+      "value": "#e8f6ea"
+    },
+    {
+      "name": "sp-money-back-text-money-back",
+      "value": "#100018"
+    },
+    {
+      "name": "sp-money-back-icon-money-back",
+      "value": "#53bf65"
+    },
+    {
+      "name": "sp-gradient-banner-gradient-1",
+      "value": "#d8e1ff"
+    },
+    {
+      "name": "sp-gradient-banner-gradient-2",
+      "value": "#ffffff"
+    },
+    {
+      "name": "gift-box-bg-green-primary",
+      "value": "#b8dcaa"
+    },
+    {
+      "name": "gift-box-button-green-primary",
+      "value": "#539a63"
+    },
+    {
+      "name": "gift-box-button-secondary",
+      "value": "#ffffff4d"
+    },
+    {
+      "name": "gift-box-bg-radial-figure-white-100%",
+      "value": "#ffffff"
+    },
+    {
+      "name": "gift-box-bg-radial-figure-white-0%",
+      "value": "#ffffff00"
+    },
+    {
+      "name": "gift-box-bg-green-banner-paywall",
+      "value": "#f0f9ed"
+    },
+    {
+      "name": "gift-box-stroke-green-banner-paywall",
+      "value": "#b8dcaa"
+    },
+    {
+      "name": "gift-box-bg-pink-primary",
+      "value": "#ffcde5"
+    },
+    {
+      "name": "gift-box-button-pink-primary",
+      "value": "#cc4eee"
+    },
+    {
+      "name": "gift-box-bg-red-primary",
+      "value": "#ffdb80"
+    },
+    {
+      "name": "gift-box-button-red-primary",
+      "value": "#db3012"
+    },
+    {
+      "name": "gift-box-bg-yellow-banner-paywall-2",
+      "value": "#fff8e5"
+    },
+    {
+      "name": "gift-box-stroke-yellow-banner-paywall",
+      "value": "#ffdb80"
+    },
+    {
+      "name": "gift-box-bg-pink-banner-paywall",
+      "value": "#fff0f7"
+    },
+    {
+      "name": "gift-box-stroke-pink-banner-paywall",
+      "value": "#ffcde5"
+    },
+    {
+      "name": "base-color-text-flag-remote",
+      "value": "#ff6624"
+    }
+  ],
+  "discountSellingPage": [],
+  "featureGates": {
+    "fg_payments_core_offers": true,
+    "fg_primer_payment_processor": true
+  },
+  "i18n": {
+    "initialI18nStore": {
+      "en": {
+        "common": {
+          "1 month": "1 month",
+          "1-WEEK CHALLENGE": "1-WEEK CHALLENGE",
+          "1-WEEK PLAN": "1-WEEK PLAN",
+          "1-WEEK TRIAL": "1-WEEK TRIAL",
+          "12-WEEK CHALLENGE": "12-WEEK CHALLENGE",
+          "12-WEEK PLAN": "12-WEEK PLAN",
+          "3 months": "3 months",
+          "3D secure verification failed": "3D secure verification failed",
+          "3D-Secure authentication required": "3D-Secure authentication required",
+          "3DS cascade to 2D": "3DS cascade to 2D",
+          "4-WEEK CHALLENGE": "4-WEEK CHALLENGE",
+          "4-WEEK PLAN": "4-WEEK PLAN",
+          "ABPromoCode": {
+            "off": "OFF"
+          },
+          "AVS mismatch": "AVS mismatch",
+          "Account is blocked": "Account is blocked",
+          "Antifraud service": "Antifraud service",
+          "Apple online payment error": "Apple online payment error",
+          "Application error": "Application error",
+          "Authentication failed": "Authentication failed",
+          "Become master of": "Become a master of",
+          "Blocked by country/IP": "Blocked by country/IP",
+          "CONFIRM PAYMENT": "CONFIRM PAYMENT",
+          "CONTINUE": "CONTINUE",
+          "Call your bank": "Call your bank",
+          "Card brand is not supported": "Card brand is not supported",
+          "Card is blocked": "Card is blocked",
+          "Card is in a black list": "Card is in a black list",
+          "Card token not found": "Card token not found",
+          "Checkout": "Checkout",
+          "Closed user account": "Closed user account",
+          "Connection error": "Connection error",
+          "Coupon is not active": "Coupon is not active",
+          "Debit card not supported": "Debit card not supported",
+          "Discount expires in": "Discount expires in",
+          "Do not honor": "Do not honor",
+          "Duplicate order": "Duplicate order",
+          "EMDisclaimer": "We respect your privacy and are committed to protecting your personal data. Your data will be processed in accordance with our <a>Privacy Policy.</a>",
+          "EPrivacySettings": "e-Privacy Settings",
+          "Exceeded API calls limits": "Exceeded API calls limits",
+          "GET MY PLAN": "GET MY PLAN",
+          "General decline": "General decline",
+          "Google payment error": "Google payment error",
+          "Illegal operation (violation of law)": "Illegal operation (violation of law)",
+          "Insufficient funds": "Insufficient funds. Please try another card.",
+          "Invalid 3DS flow": "Invalid 3DS flow",
+          "Invalid 3DS flow on the bank side": "Invalid 3DS flow on the bank side",
+          "Invalid 3DS flow on the merchant side": "Invalid 3DS flow on the merchant side",
+          "Invalid CVV2 code": "Invalid CVV2 code",
+          "Invalid IP": "Invalid IP",
+          "Invalid amount": "Invalid amount",
+          "Invalid card number": "Invalid card number",
+          "Invalid card token": "Invalid card token",
+          "Invalid currency": "Invalid currency",
+          "Invalid data/Order not found": "Invalid data/Order not found",
+          "Invalid expiration date": "Invalid expiration date",
+          "Invalid routing": "Invalid routing",
+          "Invalid transaction": "Invalid transaction",
+          "LIMITED OFFER": "LIMITED OFFER",
+          "LiveInsightsEmailCarousel": {
+            "and": "and",
+            "mastered": "AI tools mastered",
+            "more": "more",
+            "title": "people discovered AI earning secrets today"
+          },
+          "Lost card": "Lost card",
+          "MOST POPULAR": "MOST POPULAR",
+          "Merchant is not activated yet": "Merchant is not activated yet",
+          "Merchant is not configured correctly": "Merchant is not configured correctly",
+          "Merchant not found": "Merchant not found",
+          "My Account": "My Account",
+          "Order expired": "Order expired",
+          "Order not found": "Order not found",
+          "PSP antifraud": "PSP antifraud",
+          "Pay safe & secure": "Pay safe & secure",
+          "Payment amount limit excess": "Payment amount limit excess",
+          "Payment successful": "Payment successful",
+          "Please do not close the window": "Please do not close the window",
+          "Privacy Policy": "Privacy Policy",
+          "Processing issue": "Processing issue",
+          "Processor does not support requested API method": "Processor does not support requested API method",
+          "Recurring billing. Cancel anytime.": "Recurring billing. Cancel anytime.",
+          "Recurring payment cancelled": "Recurring payment cancelled",
+          "Redirecting you to the app...": "Redirecting you to the app...",
+          "Refund Policy": "Refund Policy",
+          "Request is empty": "Request is empty",
+          "Restricted card": "Restricted card",
+          "SAVE 33%": "SAVE 33%",
+          "SCA engine error": "SCA engine error",
+          "SCA require 3D authentication": "SCA require 3D authentication",
+          "Smart cascade decline": "Smart cascade decline",
+          "Stolen card": "Stolen card",
+          "Subscription Terms": "Subscription Terms",
+          "Subscription error": "Subscription error",
+          "Subscription is locked": "Subscription is locked",
+          "Support Center": "Support Center",
+          "Suspected Fraud": "Please try another card",
+          "TAKE THE QUIZ": "Start Now",
+          "Terms & Conditions": "Terms & Conditions",
+          "The transaction is declined by the issuer": "The transaction is declined by the issuer",
+          "Token generation error": "Token generation error",
+          "Total": "Total",
+          "Trusted antifraud system": "Trusted antifraud system",
+          "Unknown decline code": "Unknown decline code",
+          "We are processing your request": "We are processing your request",
+          "abLivenPaywall": {
+            "Safe_checkout": "Safe checkout",
+            "title": "<span class=\"text-accent-main\">91% of users</span> are satisfied with the plan and stay with us after its completion",
+            "totalPrice": {
+              "Introductory_offer_discount": "Introductory offer discount",
+              "Total": "Total",
+              "VAT": "VAT",
+              "You_just_saved": "You just saved <price></price> ",
+              "off": "off",
+              "planName": {
+                "13": "AI-Driven Income Challenge",
+                "22": "Influencer Growth Challenge",
+                "31": "Personal Remote Job Plan"
+              }
+            }
+          },
+          "agreementABTest26": "By clicking TRY NOW, I agree to pay  <b>{{__price_now__}}</b> for my trial and that if I do not cancel before the end of the <b>{{__introductory_period__}}</b> {{__plan_type__}}, trial converts into subscription and Coursiv will automatically charge me  <b>{{__price__}}</b> every <b>{{__plan_period__}}</b> thereafter until I cancel. I can cancel online by visiting subscription page in <a className='underline'>my account</a> on website to avoid being charged for the next billing cycle.",
+          "aiBoost": {
+            "label": "<accent>Yes!</accent> I’d like to boost my productivity using <bold>{{name}}</bold>.",
+            "lineItemLabel": "AI Assistant",
+            "plateNote": "One time payment • Forever yours"
+          },
+          "applyPromocode": "Apply",
+          "base plan": "base plan",
+          "brandSeo": {
+            "about": {
+              "appDescription": "Prefer learning on your phone? Coursiv is available on both major app stores.",
+              "appHeading": "Get the app",
+              "appStore": "Download on the App Store",
+              "certBullet1": "Coursiv's core learning program is accredited by CPD, a globally recognized authority in professional development",
+              "certBullet2": "Certificates may serve as proof of hands-on skills with real AI tools and can be shared anywhere",
+              "certBullet3": "Earned at your own pace, at least 15 minutes a day",
+              "certDescription": "Finish courses and get shareable Coursiv certificates that can be added to your LinkedIn account.",
+              "certHeading": "Earn certificates that prove your skills",
+              "challengeBadge": "Most popular",
+              "challengeBullet1": "Daily lessons that fit a busy schedule and just a few minutes each",
+              "challengeBullet2": "Finish with a shareable certificate for your LinkedIn and resume",
+              "challengeBullet3": "Join hundreds of thousands of learners worldwide",
+              "challengeDescription": "Coursiv's flagship program turns \"I should learn AI\" into done. Take one bite-size lesson a day and, in four weeks, go from curious to confident by practicing real tools on real tasks, at your own pace.",
+              "challengeHeading": "The 28-Day AI Certificate Program Challenge",
+              "ctaGetCertificate": "Get your certificate",
+              "ctaSeeReviews": "See reviews",
+              "ctaStartLearning": "Start learning",
+              "faqA1": "Coursiv is for anyone looking to use AI more effectively in their work or daily life. It covers essential tools like ChatGPT and Claude, along with specialized programs for productivity, business development, marketing, content creation, and other practical use cases. No prior technical experience is required.",
+              "faqA2": "You learn how to use popular AI tools in everyday tasks—writing, planning, research, and content—plus prompting techniques and ways to apply AI at work. Content is organized into short lessons and challenges like the 28-Day AI Certificate Program Challenge.",
+              "faqA3": "No. Coursiv is easy to start with and useful at different skill levels. The onboarding quiz helps you find a suitable learning path, and lessons guide you step by step.",
+              "faqQ1": "Who is Coursiv for?",
+              "faqQ2": "What will I learn on Coursiv?",
+              "faqQ3": "Do I need any experience to start?",
+              "googlePlay": "Get it on Google Play",
+              "heroDescription": "Coursiv is a globally recognized online learning platform focused on helping people build practical digital and AI skills through short, accessible courses. Our mission is to help professionals become AI-native: confident in understanding modern AI tools and capable of applying them meaningfully in their work, communication, productivity, and daily decision-making.",
+              "heroEyebrow": "About",
+              "heroTitle": "What is Coursiv?",
+              "learnBullet1": "How to use ChatGPT, Claude, and other popular AI tools in everyday tasks",
+              "learnBullet2": "Prompting techniques that lead to get better, more reliable results",
+              "learnBullet3": "Applying AI to writing, planning, research, and content creation",
+              "learnBullet4": "Using AI to boost productivity, optimize workflows, and handle everyday tasks more efficiently",
+              "learnBullet5": "Guided programs and challenges, like the 28-Day AI Certificate Program Challenge",
+              "learnHeading": "What you can learn",
+              "learnIntro": "From your very first lesson you're using AI on real tasks, not sitting through theory. By the end you can learn:",
+              "metaDescription": "Coursiv is an AI learning platform for all skill levels. Learn what Coursiv is, what you can learn, how it works, who it's for, and whether it's legit—on web and mobile.",
+              "metaKeywords": "what is coursiv, coursiv, coursiv ai, coursiv learning, coursiv limited, is coursiv legit, coursiv elearning",
+              "metaTitle": "What Is Coursiv? — The AI Learning Platform Explained | Coursiv",
+              "step1Body": "You answer a few questions about your goals and experience. Coursiv uses this to build a learning plan tailored to you.",
+              "step1Title": "Take a short quiz",
+              "step2Body": "Lessons are broken into bite-size steps designed to fit a busy schedule, typically a few minutes at a time.",
+              "step2Title": "Learn in short daily lessons",
+              "step3Body": "You apply what you learn to real tasks and tools, so the skills carry over to your work and daily life.",
+              "step3Title": "Practice with real AI tools",
+              "step4Body": "One account works across the website and the iOS/Android apps, so your progress follows you everywhere.",
+              "step4Title": "Track progress on web and app",
+              "stepsHeading": "How Coursiv works",
+              "toolsLabel": "Tools you'll master"
+            },
+            "cancel": {
+              "cardCancel": "Cancel subscription",
+              "cardLabel": "Your subscription",
+              "cardRenews": "Renews automatically",
+              "cardStatusActive": "Active",
+              "cardTwoTaps": "Two taps in your profile—no phone calls.",
+              "ctaContactSupport": "Contact support",
+              "ctaManage": "Sign in to manage subscription",
+              "faqA1": "Sign in to your Coursiv account, open your profile subscription settings on the website or in the app, and cancel from there before the end of your current billing cycle.",
+              "faqA2": "Cancellation stops future renewals according to your plan timing. Refund eligibility depends on the Refund Policy. Review <0>Refund Policy</0> or contact support for your specific case.",
+              "faqA3": "If you purchased through the App Store or Google Play, you may also need to manage or cancel the subscription in that store's subscription settings, in addition to checking your Coursiv account.",
+              "faqA4": "Contact <0>support@coursiv.io</0> or the <1>Support Center</1> with your account email and approximate charge date so the team can help with your case.",
+              "faqQ1": "How do I cancel my Coursiv subscription?",
+              "faqQ2": "Will I get a refund if I cancel?",
+              "faqQ3": "Where do I cancel if I subscribed on iOS or Android?",
+              "faqQ4": "I canceled but was still charged. What now?",
+              "help1Desc": "support@coursiv.io",
+              "help1Title": "Email support",
+              "help2Desc": "Help articles and chat",
+              "help2Title": "Support Center",
+              "help3Desc": "How billing and renewals work",
+              "help3Title": "Subscription Terms",
+              "help4Desc": "Eligibility and how to request",
+              "help4Title": "Refund Policy",
+              "helpHeading": "Need more help?",
+              "heroDescription": "You can cancel online anytime from your Coursiv profile on the website or in the app. Cancel before the end of your current billing cycle to avoid being charged for the next period.",
+              "heroEyebrow": "Account help",
+              "heroTitle": "How to cancel your Coursiv subscription",
+              "metaDescription": "Cancel your Coursiv subscription from your account settings on web or in the app. Step-by-step instructions, support contacts, and links to subscription & refund policies.",
+              "metaKeywords": "coursiv cancel subscription, how to cancel coursiv, cancel coursiv, coursiv unsubscribe",
+              "metaTitle": "How to Cancel Coursiv Subscription | Coursiv",
+              "relatedLine": "Looking up cost details instead? See <0>Coursiv pricing</0>.",
+              "step1Body": "Open the <0>Coursiv sign-in page</0> (or the Coursiv app) and sign in with the email used for your subscription.",
+              "step1Title": "Sign in to your account",
+              "step2Body": "Open your profile, then open the subscription section where your current plan and renewal details are shown.",
+              "step2Title": "Go to subscription settings",
+              "step3Body": "Select cancel and confirm. To avoid the next charge, finish cancellation before your current billing cycle ends.",
+              "step3Title": "Confirm cancellation",
+              "stepsHeading": "Cancel in a few steps"
+            },
+            "charge": {
+              "ctaSignInBilling": "Sign in to check billing",
+              "faqA1": "Coursiv is a subscription, so it renews automatically until you cancel. To stop future charges, cancel from your account before the next billing date.",
+              "faqA2": "Sign in to your Coursiv account, open subscription settings, and cancel before the current billing cycle ends. See the <0>cancellation guide</0> for step-by-step instructions.",
+              "faqA3": "Check the email inbox that may have received a Coursiv receipt, and confirm whether anyone with access to your card subscribed. If you still don't recognize it, contact <0>support@coursiv.io</0> with the approximate charge date and amount so the team can help.",
+              "faqA4": "Refund eligibility depends on the <0>Refund Policy</0>. Contact <1>support@coursiv.io</1> with your account email and the charge details to review your specific case.",
+              "faqQ1": "Why was I charged again?",
+              "faqQ2": "How do I stop the charge?",
+              "faqQ3": "I don't recognize this charge. What should I do?",
+              "faqQ4": "Can I get a refund?",
+              "help1Desc": "Send the charge date and amount",
+              "help1Title": "Email support",
+              "help2Desc": "Browse help articles or chat",
+              "help2Title": "Support Center",
+              "help3Desc": "Check if you're eligible for a refund",
+              "help3Title": "Refund Policy",
+              "heroDescription": "Coursiv uses a subscription model so you can learn AI skills at your own pace, and it renews automatically. To stop future charges, cancel before your next billing date. For a full breakdown and what to do if you don't recognize a charge, <0>reach out to our support team</0>.",
+              "heroEyebrow": "Billing",
+              "heroTitle": "Why Was I Charged?",
+              "metaDescription": "Seeing a COURSIV, VCOURSIV, or SGT*VCOURSIV charge on your bank statement? Here's what it is, why it appears, how to stop future charges, and how to contact support.",
+              "metaKeywords": "vcoursiv, sgt vcoursiv, vcoursiv dover de, coursiv charge, coursiv charge on statement, what is vcoursiv",
+              "metaTitle": "Why Was I Charged? — VCOURSIV / SGT*VCOURSIV Charge Explained | Coursiv",
+              "notRecognizeHeading": "Don't recognize the charge?",
+              "notRecognizeIntro": "If you've checked and still don't recognize the charge, contact us before disputing with your bank—support can usually identify and resolve it faster.",
+              "relatedLine": "Related: <0>how Coursiv pricing works</0> · <1>cancel your subscription</1>.",
+              "step1Body": "Check the email inbox that may have received a Coursiv receipt, and confirm whether you—or someone with access to your card—started a Coursiv subscription.",
+              "step1Title": "Confirm the subscription",
+              "step2Body": "<0>Sign in to your account</0> and check your subscription and renewal details in your profile.",
+              "step2Title": "Sign in and review billing",
+              "step3Body": "If you don't want to continue, cancel before the next billing date. Follow the <0>cancellation guide</0>.",
+              "step3Title": "Cancel to stop future charges",
+              "stepsHeading": "What to do next"
+            },
+            "common": {
+              "appHaveQuestion": "Have a question first? Read the <0>Coursiv FAQ</0>.",
+              "faqHeading": "Frequently asked questions"
+            },
+            "faq": {
+              "cantFind": "Can't find your answer below? The <0>Support Center</0> and <1>support@coursiv.io</1> can help directly.",
+              "chip1": "What is Coursiv?",
+              "chip2": "How much does it cost?",
+              "chip3": "How do I cancel?",
+              "ctaContactSupport": "Contact support",
+              "ctaStartLearning": "Start learning",
+              "faqA1": "Coursiv is a globally recognized online learning platform focused on helping people build practical digital and AI skills through short, accessible courses. Our mission is to help professionals become AI-native: confident in understanding modern AI tools and capable of applying them meaningfully in their work, communication, productivity, and daily decision-making.",
+              "faqA10": "Yes. One account works across the website and the iOS and Android apps with the same credentials.",
+              "faqA11": "No. Coursiv is for anyone looking to use AI more effectively in their work or daily life. It covers essential tools like ChatGPT and Claude, along with specialized programs for productivity, business development, marketing, content creation, and other practical use cases. No prior technical experience is required.",
+              "faqA12": "You can find Coursiv reviews on <0>Trustpilot</0>, the App Store, and Google Play, as well as browse learner feedback on our <1>Reviews page</1>.",
+              "faqA2": "Yes. Coursiv is a real product operated by Coursiv Limited. You can read independent reviews on <0>Trustpilot</0> and the App Store, Google Play and review the <1>legal terms</1> on legal.coursiv.io.",
+              "faqA3": "Coursiv is a paid subscription product. You can explore the offer flow first; your subscription provides access to all courses and the full app experience.",
+              "faqA4": "Coursiv is a subscription product. The exact price is always shown on the checkout screen before you pay. If you have any questions, contact <0>support@coursiv.io</0>.",
+              "faqA5": "Promotional and introductory plans change over time. Any trial or intro pricing is shown on the payment screen before you confirm.",
+              "faqA6": "Sign in at <0>the Coursiv sign-in page</0> on the web, or open the Coursiv app and use the same email and password. See the <1>Login page</1> for step-by-step help.",
+              "faqA7": "On the sign-in page, use the forgot-password / reset option and follow the email instructions. If you do not receive an email, check spam or contact <0>support@coursiv.io</0>.",
+              "faqA8": "Sign in, open your profile subscription settings on the website or in the app, and cancel before your current billing cycle ends. Full instructions are on the <0>Cancel subscription page</0>.",
+              "faqA9": "Refund eligibility depends on the <0>Refund Policy</0>. Cancelling stops future renewals; for a specific charge, contact <1>support@coursiv.io</1>.",
+              "faqQ1": "What is Coursiv?",
+              "faqQ10": "Can I use Coursiv on both web and mobile?",
+              "faqQ11": "Do I need experience with AI to start?",
+              "faqQ12": "Where can I read Coursiv reviews?",
+              "faqQ2": "Is Coursiv legit?",
+              "faqQ3": "Is Coursiv free?",
+              "faqQ4": "How much does Coursiv cost?",
+              "faqQ5": "Does Coursiv have a free trial?",
+              "faqQ6": "How do I log in to Coursiv?",
+              "faqQ7": "I forgot my password. What should I do?",
+              "faqQ8": "How do I cancel my Coursiv subscription?",
+              "faqQ9": "Can I get a refund?",
+              "heroDescription": "Quick answers to the most common questions about Coursiv: what it is, how billing works, how to log in or cancel, and what to do about a charge on your statement.",
+              "heroEyebrow": "Help center",
+              "heroTitle": "Coursiv FAQ",
+              "jumpHeading": "Jump to a topic",
+              "mediaTitle": "Answers, in plain English",
+              "metaDescription": "Frequently asked questions about Coursiv: what it is, pricing, free trial, login, cancelling your subscription, refunds, and statement charges. Get quick answers.",
+              "metaKeywords": "coursiv faq, coursiv questions, is coursiv legit, is coursiv free, coursiv help",
+              "metaTitle": "Coursiv FAQ — Answers About Pricing, Login, Cancelling & More | Coursiv",
+              "quick1": "What is Coursiv",
+              "quick2": "Pricing",
+              "quick3": "Reviews",
+              "quick4": "Login",
+              "quick5": "Cancel subscription",
+              "quick6": "Why was I charged?"
+            },
+            "login": {
+              "appDescription": "Download Coursiv and sign in with the same account you use on the website.",
+              "appHeading": "Prefer the mobile app?",
+              "appStore": "Download on the App Store",
+              "ctaLoginHelp": "Get login help",
+              "ctaSignIn": "Sign in to Coursiv",
+              "faqA1": "Sign in on the web at the <0>Coursiv sign-in page</0>, or open the Coursiv mobile app and use the same email and password.",
+              "faqA2": "On the sign-in page, use the forgot-password / reset option and follow the email instructions. If you do not receive an email, check spam or contact <0>support@coursiv.io</0>.",
+              "faqA3": "Yes. Your Coursiv account works across the website and the iOS/Android apps with the same credentials.",
+              "faqA4": "Contact the <0>Support Center</0> or email <1>support@coursiv.io</1> with the email address tied to your account.",
+              "faqQ1": "Where do I log in to Coursiv?",
+              "faqQ2": "I forgot my Coursiv password. What should I do?",
+              "faqQ3": "Can I use the same login on web and mobile?",
+              "faqQ4": "I cannot access my account. Who can help?",
+              "googlePlay": "Get it on Google Play",
+              "heroDescription": "Sign in to continue learning AI skills, open your courses, and manage your subscription. Use the same account on web and in the Coursiv app.",
+              "heroEyebrow": "Account access",
+              "heroTitle": "Coursiv Login",
+              "metaDescription": "Log in to Coursiv on the web or in the app. Access your AI courses, track progress, and manage your subscription from one account.",
+              "metaKeywords": "coursiv login, coursiv sign in, app.coursiv.io login, coursiv account",
+              "metaTitle": "Coursiv Login — Sign In to Your Account | Coursiv",
+              "newToCoursiv": "New to Coursiv? <0>Start learning</0>.",
+              "step1Body": "Go to the <0>Sign-in page</0> on your browser, or launch the Coursiv app on your phone.",
+              "step1Title": "Open the official Sign-In page",
+              "step2Body": "Use the email address you registered with. If you bought access through the website, that same email is your login.",
+              "step2Title": "Enter your email and password",
+              "step3Body": "Once you are signed in, you can open your courses, track progress, and update subscription settings from your profile.",
+              "step3Title": "Continue learning",
+              "stepsHeading": "How to Log In"
+            },
+            "pricing": {
+              "benefit1Body": "Full access to Coursiv's AI courses from ChatGPT and Claude to image and video tools.",
+              "benefit1Title": "All courses and learning paths",
+              "benefit2Body": "One account works across the website and the iOS and Android apps.",
+              "benefit2Title": "Web and mobile app",
+              "benefit3Body": "Pick up where you left off, your streak and lesson progress are always saved.",
+              "benefit3Title": "Progress that follows you",
+              "benefit4Body": "Manage or cancel from your profile before the next billing date.",
+              "benefit4Title": "Cancel anytime",
+              "ctaSeeOffer": "See my offer",
+              "faqA1": "Coursiv is a subscription product. The exact price is always shown on the checkout screen before you pay. If you have any questions, contact <0>support@coursiv.io</0>.",
+              "faqA2": "Coursiv is not an unlimited free product. You can explore the offer flow first; a subscription provides access to all courses and the full app experience for the plan you choose.",
+              "faqA3": "Promotional and introductory plans can change. Any trial or intro pricing is always shown on the payment screen before you confirm.",
+              "faqA4": "Yes. You can cancel from your account subscription settings on the website or in the app before the next billing date. See our <0>Cancel subscription guide</0> for step-by-step instructions.",
+              "faqQ1": "How much does Coursiv cost?",
+              "faqQ2": "Is Coursiv free?",
+              "faqQ3": "Does Coursiv have a free trial?",
+              "faqQ4": "Can I cancel anytime?",
+              "heroDescription": "Coursiv works on a subscription basis, so you can learn AI skills at your own pace. Your exact price depends on the chosen plan and is shown on the checkout page before you complete your purchase.",
+              "heroEyebrow": "Billing",
+              "heroTitle": "Coursiv pricing",
+              "includesHeading": "What your subscription includes",
+              "manage1Desc": "Sign in to your account",
+              "manage1Title": "Review your plan",
+              "manage2Desc": "How billing and renewals work",
+              "manage2Title": "Subscription Terms",
+              "manage3Desc": "Eligibility and how to request",
+              "manage3Title": "Refund Policy",
+              "manage4Desc": "Questions about a charge",
+              "manage4Title": "Contact support",
+              "manageHeading": "Manage billing",
+              "manageIntro": "Everything about your plan, in one place. Already subscribed? Jump straight to what you need:",
+              "metaDescription": "Coursiv works on a subscription basis. See how pricing works, what affects your price, and how to manage or cancel your plan.",
+              "metaKeywords": "coursiv pricing, coursiv cost, how much is coursiv, coursiv price, coursiv subscription",
+              "metaTitle": "Coursiv Pricing — Plans, Cost & Billing | Coursiv"
+            },
+            "reviews": {
+              "ctaStartLearning": "Start learning",
+              "faqA1": "The main public review page is <0>Trustpilot</0>. You can also browse learner feedback embedded on this page.",
+              "faqA2": "Coursiv is designed for people who want practical AI skills for work and everyday use. Whether it is worth it depends on your goals, but many learners use it to build skills with tools like ChatGPT and Claude and to explore specialized programs for productivity, business development, and other use cases.",
+              "faqA3": "Tens of thousands of learners use Coursiv every day to build practical AI skills through short lessons and specialized programs.",
+              "faqQ1": "Where can I read Coursiv reviews?",
+              "faqQ2": "Is Coursiv worth it?",
+              "faqQ3": "How many people use Coursiv?",
+              "glanceHeading": "Coursiv ratings at a glance",
+              "glanceIntro": "Coursiv is rated across the major app stores and the leading independent review platform. Tap any card to see every review on that store. Ratings shown are current averages and can change over time.",
+              "heroDescription": "See what learners say about Coursiv AI courses. Browse Trustpilot feedback, common themes, and links to official policies before you join.",
+              "heroEyebrow": "Social proof",
+              "heroTitle": "Coursiv reviews",
+              "mention1Body": "Clear, guided lessons for ChatGPT, Claude, and other AI tools.",
+              "mention1Title": "Beginner-friendly",
+              "mention2Body": "Short daily practice instead of long lectures, so you can learn in as little as 15 minutes a day.",
+              "mention2Title": "Fits your day",
+              "mention3Body": "The app works alongside the web experience, so your progress goes everywhere.",
+              "mention3Title": "Web and mobile",
+              "mention4Body": "Clear account, billing, and cancellation options right in your profile settings.",
+              "mention4Title": "Easy to manage",
+              "mentionsHeading": "What people usually mention",
+              "metaDescription": "Read Coursiv reviews from real learners. See Trustpilot ratings, common feedback themes, and decide if Coursiv AI courses are right for you.",
+              "metaKeywords": "coursiv reviews, coursiv review, is coursiv legit, coursiv trustpilot, coursiv.io reviews",
+              "metaTitle": "Coursiv Reviews — Trustpilot Ratings & Learner Feedback | Coursiv",
+              "ratingCardCaption": "Average rating across the App Store, Google Play, and Trustpilot"
+            }
+          },
+          "brazilDisclaimerExtraPart": " This transaction will be processed by <a href=\"https://www.ebanx.com/pt-br/legal/\">EBANX</a> according to their terms. By continuing you acknowledge and accept these terms and conditions. In the case of multiple cards (credit/debit) the charge will be using the credit function.",
+          "commitmentBlock": "People using the plan for 12 weeks achieve twice as many results as for 4 weeks",
+          "commitmentBlockDisclaimer": "*According to a research by Coursiv, 2026",
+          "disclaimerAboveButton": {
+            "bmText": "By clicking {{buttonText}}, I agree to pay <b>{{currentPrice}}</b>{{vatText}} for my plan and that if I do not cancel before the end of the <b>{{billingPeriodAdj}}</b> introductory plan, it will convert to a <b>{{billingPeriodAdj}}</b> subscription and Coursiv will automatically charge my payment method the regular price <b>{{offerFullPrice}}</b>{{vatText}} every <b>{{billingPeriodPlural}}</b> thereafter until I cancel. I can cancel online by visiting the subscription page in <a>my profile</a> on the website or in the app to avoid being charged for the next billing cycle.",
+            "bmTextWithIntro": "By clicking {{buttonText}}, I agree to pay <b>{{currentPrice}}</b>{{vatText}} for my <b>{{trialBillingPeriodAdj}}</b> plan and that if I do not cancel before the end of the <b>{{trialBillingPeriodAdj}}</b> introductory plan, it will convert to a <b>{{billingPeriodAdj}}</b> subscription and renew until I cancel, and Coursiv will automatically charge my payment method the regular price <b>{{offerFullPrice}}</b>{{vatText}} every <b>{{billingPeriodPlural}}</b> thereafter until I cancel. I can cancel online by visiting the subscription page in <a>my profile</a> on the website or in the app to avoid being charged for the next billing cycle.",
+            "bmVatText": " (excluding taxes)",
+            "shortBmText": "By clicking {{buttonText}}, I agree to pay <b>{{currentPrice}}</b>{{vatText}} for a <b>{{billingPeriodAdj}} intro plan</b>. If not cancelled before it ends, it auto-renews at <b>{{offerFullPrice}}</b>{{vatText}} <b>every {{billingPeriodPlural}}</b>. Cancel via the subscription page <b>in your</b> <a>profile</a> (web or app) before renewal to avoid the next charge.",
+            "shortBmTextWithIntro": "By clicking {{buttonText}}, I agree to pay <b>{{currentPrice}}</b>{{vatText}} for a <b>{{trialBillingPeriodAdj}} trial</b>. If not cancelled before it ends, it <b>converts</b> to a <b>{{billingPeriodAdj}}</b> subscription and auto-renews at <b>{{offerFullPrice}}</b>{{vatText}} every <b>{{billingPeriodPlural}}</b>. Cancel via the subscription page <b>in your</b> <a>profile</a> (web or app) before renewal to avoid the next charge."
+          },
+          "disclosureLanding": {
+            "coverSubtitle": "Take the quiz to personalize your subscription"
+          },
+          "disclosurePaywall": {
+            "checkoutTitle": "Complete your checkout",
+            "cta": "SUBSCRIBE",
+            "disclaimerPlan": "By choosing a payment method and proceeding you will be charged <b>{{priceNow}}</b> today and <b>{{offerFullPrice}} automatically every {{billingPeriod}}</b> thereafter unless you cancel. You can cancel your subscription through the Manage Subscription tab in your account settings.",
+            "disclaimerTrial": "By choosing a payment method and proceeding you will be charged <b>{{priceNow}}</b> today and <b>{{offerFullPrice}} automatically every {{billingPeriod}}</b> thereafter unless you cancel before the end of your {{trialDays}}-day trial. You can cancel your subscription through the Manage Subscription tab in your account settings.",
+            "introDiscount": "Intro discount",
+            "offerCardSubtitle": "{{priceNow}} now, then auto-renews <renewal>{{offerFullPrice}} every {{billingPeriod}}</renewal>",
+            "offerCardSubtitleTrial": "{{priceNow}} for the first week,<br/>then auto-renews {{offerFullPrice}}<br/>every {{billingPeriod}}",
+            "planLabelRegular": "Regular {{weeks}}-week price",
+            "planLabelTrial": "{{weeks}}-week trial price",
+            "renewalText": "<price></price>",
+            "renewalTitle": "After {{billingPeriod}} (auto-renewed):",
+            "startQuizSubtext": "Pass this quiz to personalize your subscription",
+            "timerText": "{{discount}}% Discount expires in <b><span>{{time}}</span> min</b>",
+            "title": "Join over 2,000,000 users to achieve your goals",
+            "totalToday": "Total today:"
+          },
+          "emPrivacy": {
+            "withLink": "I have read and understood the <a>Privacy Policy</a>, and I consent to the processing of my personal data as described.",
+            "withoutLink": "To continue, please accept our Privacy Policy."
+          },
+          "emailPage.trustedByProfessionals": "Trusted by Professionals at",
+          "enterPromocode": "Enter promo code",
+          "featuredReviewsFromTrustpilot": "Featured reviews from Trustpilot.",
+          "giftBoxCertificate": {
+            "activationSuccess": "Professional Certificate activated successfully!",
+            "alert": {
+              "subtitle": "Share on LinkedIn • Add to your resume",
+              "title": "Professional Certificate Included"
+            }
+          },
+          "hw_social_proof": {
+            "already_use": "already use Coursiv",
+            "mentioned_in": "Latest AI tools mentioned in",
+            "people_count": "100 000+ people",
+            "phrase": "AI Won't Replace Humans — <br /> But Humans With AI Will Replace Humans Without AI"
+          },
+          "introductory": "introductory",
+          "invalidPromocode": "Invalid promo code",
+          "jurisdictions": {
+            "main": {
+              "ARNEGEN": "Copyright {{year}} Edulagoon Digital Corp. <br> Las Vegas, Nevada, USA. ©All Rights Reserved.",
+              "COURSIV": "Coursiv product by Coursiv Limited. <br> {{year}} ©All Rights Reserved.",
+              "EDULAGOON": "Copyright {{year}} Edulagoon Digital Corp. <br> 2300 West Sahara Avenue, Suite 800, Las Vegas, NV 89102, USA. ©All Rights Reserved.",
+              "FINELO": "Coursiv product by Finelo Limited. <br> {{year}} ©All Rights Reserved.",
+              "HONGKONG_HARBOUR": "Harbour TechVision Limited, Hong Kong. {{year}} ©All Rights Reserved.",
+              "SCORPIOS": "Copyright {{year}}. SCORPIOS-TECH FZO <br>Dubai, UAE. ©All Rights Reserved.",
+              "ZIMRAN": "Coursiv product by Zimran Limited. <br> {{year}} ©All Rights Reserved."
+            },
+            "paywall": {
+              "ARNEGEN": "Edulagoon Digital Corp, Las Vegas, Nevada",
+              "COURSIV": "Coursiv Limited. Limassol, Cyprus",
+              "EDULAGOON": "Edulagoon Digital Corp, 2300 West Sahara Avenue, Suite 800, Las Vegas, NV 89102",
+              "FINELO": "Finelo Limited. Limassol, Cyprus",
+              "HONGKONG_HARBOUR": "Harbour TechVision Limited, Hong Kong",
+              "SCORPIOS": "SCORPIOS-TECH FZO, Dubai, United Arab Emirates",
+              "ZIMRAN": "ZIMRAN LIMITED, Limassol, Cyprus"
+            },
+            "start-quiz": {
+              "ARNEGEN": "Edulagoon Digital Corp, Las Vegas, Nevada",
+              "COURSIV": "Coursiv Limited. Limassol, Cyprus",
+              "EDULAGOON": "Edulagoon Digital Corp, 2300 West Sahara Avenue, Suite 800, Las Vegas, NV 89102",
+              "FINELO": "Finelo Limited. Limassol, Cyprus",
+              "HONGKONG_HARBOUR": "Harbour TechVision Limited, Hong Kong",
+              "SCORPIOS": "SCORPIOS-TECH FZO, Dubai, United Arab Emirates",
+              "ZIMRAN": "ZIMRAN LIMITED, Limassol, Cyprus"
+            }
+          },
+          "lifetimeOfferDisclaimer": "This is a one-time purchase and is non-refundable, except as stated in the <a className=\"!font-normal underline\" href=\"https://legal.coursiv.io/subscription\">Subscription Terms</a>.",
+          "maestroCardError": "Please enter another card type.",
+          "min": "min",
+          "mmOfferBlock": {
+            "oneWeekPlan": "1-week plan",
+            "weekPlan": "{{week}}-week plan"
+          },
+          "months": "months",
+          "offer-checkbox": {
+            "compliance": "I agree to the <terms>Terms and Conditions</terms>, <privacy>Privacy Policy</privacy>, <subscription>Subscription Policy</subscription> and <refund>Refund Policy</refund>"
+          },
+          "or_pay_with_card": "or pay with card",
+          "paywallTimer": {
+            "min": "min",
+            "yourDiscountReservedFor": "Your Discount Reserved for <b><span>{{time}}</span> min</b>"
+          },
+          "per day": "per day",
+          "primerDecline": {
+            "authFailed": "Card authentication failed. Please try again or use a different card.",
+            "authRequired": "Additional authentication is required. Please try again.",
+            "doNotHonor": "Your card was declined by the issuer. Please try a different card.",
+            "expiredCard": "Your card has expired. Please use a different card.",
+            "generic": "Your payment was declined. Please try a different card or payment method.",
+            "insufficientFunds": "Insufficient funds. Please try another card.",
+            "invalidCard": "The card number is invalid. Please check and try again.",
+            "issuerUnavailable": "The card issuer is temporarily unavailable. Please try again in a few minutes.",
+            "limitExceeded": "The transaction exceeds your card limit. Please try a smaller amount or use a different card.",
+            "lostOrStolen": "This card has been reported lost or stolen. Please use a different card.",
+            "referToIssuer": "Your card issuer requested you contact your bank. Please use a different card or contact your bank.",
+            "sessionError": "Something went wrong. Please try again.",
+            "suspectedFraud": "The transaction was flagged for security. Please use a different card or contact your bank.",
+            "tokenization": "We couldn't process your card. Please check the details and try again."
+          },
+          "promoApplied": "Promo code applied!",
+          "sec": "sec",
+          "selling-page_socialProof_paybox_content": "<span>91% of users</span> are satisfied with the plan and stay with us after its completion",
+          "selling-page_socialProof_paybox_disclaimer": "You agree that <b>{{intro_price}}</b> will be as an intro offer, then <b>{{full_price}}</b> will be automatically billed every {{plan_period}} until you cancel in settings. <span>Subscription Terms.</span>",
+          "sidebar.support.message": "We will be glad to assist you via email. Please send your questions and feedback <support>here</support>",
+          "static": {
+            "email": {
+              "messages": {
+                "error": "Hmm... something's wrong, try to enter another email",
+                "success": "Well done!"
+              },
+              "placeholder": "Your email"
+            },
+            "gender-select": {
+              "disclaimer": "By clicking \"Male\" or \"Female\", you agree with <terms>Terms and Conditions</terms>, <privacy>Privacy Policy</privacy>, <subscription>Subscription Terms</subscription>"
+            },
+            "genderless-start-quiz": {
+              "disclaimer": "By proceeding, you agree with <terms>Terms and Conditions</terms>, <privacy>Privacy Policy</privacy>, <subscription>Subscription Terms</subscription>"
+            },
+            "option-select": {
+              "disclaimer": "By clicking <option1></option1> or <option2></option2>, you agree with <terms>Terms and Conditions</terms>, <privacy>Privacy Policy</privacy>, <subscription>Subscription Terms</subscription>"
+            },
+            "personal-plan": {
+              "disclaimer": "Individual results may vary.",
+              "months": {
+                "Apr": "Apr",
+                "Aug": "Aug",
+                "Dec": "Dec",
+                "Feb": "Feb",
+                "Jan": "Jan",
+                "Jul": "Jul",
+                "Jun": "Jun",
+                "Mar": "Mar",
+                "May": "May",
+                "Nov": "Nov",
+                "Oct": "Oct",
+                "Sep": "Sep"
+              }
+            },
+            "selling-page": {
+              "DeclineBottomSheet": {
+                "buttonText": "Try again",
+                "description": "We are sorry, there was an issue <br /> with your transaction",
+                "image": "https://d2vm05b1botqyl.cloudfront.net/images/wealth-growth-funnel/selling-page/icon-error.svg",
+                "subtitle": "Decline reason",
+                "title": "Oops!"
+              },
+              "EmailBottomSheet": {
+                "buttonText": "log in",
+                "description": "We sent you a link to continue registration if you haven't set up your account yet",
+                "image": "https://d2vm05b1botqyl.cloudfront.net/images/p14_v3_mfp_nt/icons/think.webp",
+                "title": "It seems like you already have an active subscription. Please try to login",
+                "warningIcon": "https://d2vm05b1botqyl.cloudfront.net/images/p14_v3_mfp_nt/icons/info.svg"
+              },
+              "money-back-block": {
+                "description": "We are so confident in our service that we are ready to offer a full refund of your initial purchase. Additional terms and conditions apply.",
+                "image": "https://d2vm05b1botqyl.cloudfront.net/images/wealth-growth-funnel/selling-page/ab-test-assets/money-back/icon-money-back.svg",
+                "learnMore": "For full details, please review our complete refund policy <a>here.</a>",
+                "title": "Money-Back Guarantee"
+              },
+              "offer-block": {
+                "buttonText": "GET MY PLAN"
+              }
+            },
+            "start-quiz": {
+              "disclaimer": "By choosing your age, you agree with <terms>Terms and Conditions</terms>, <privacy>Privacy Policy</privacy>, <subscription>Subscription Terms</subscription>"
+            }
+          },
+          "stripePaywall": {
+            "applePay": "Apple Pay",
+            "applePayDescription": "Click the button below to select a payment method from your Apple Pay wallet. You will be able to review your order before completing your purchase.",
+            "appliedPromoCode": "Applied promo code:",
+            "card": "Card",
+            "cardInformation": "Card information",
+            "closeDetails": "Close",
+            "exchangeRateNote": "Exchange rate and fees of your bank may apply",
+            "introductoryOfferDiscount": "{{percent}}% Introductory offer discount",
+            "monthOne": "month",
+            "monthOther": "{{count}} months",
+            "paymentMethod": "Payment Method",
+            "paypal": "PayPal",
+            "paypalDescription": "You will be taken to PayPal to authorize a billing agreement. Please make sure pop-ups aren’t blocked. You will not be charged at this time.",
+            "perPeriod": "per {{period}}",
+            "rebillText": "Then {{price}} per {{period}}",
+            "subscribeTitle": "Subscribe to Coursiv - {{weeks}} week plan",
+            "total": "Total",
+            "vat": "VAT",
+            "viewDetails": "View details",
+            "weekOne": "week",
+            "weekOther": "{{count}} weeks"
+          },
+          "subscription": "subscription",
+          "then billed monthly": "then billed monthly",
+          "timelinePaywall": {
+            "chargedNow": "{{price}} charged now",
+            "chargedRenewal": "{{price}} charged",
+            "checkpointDay": "DAY {{n}}",
+            "checkpointNote": "Unlock your progress report and the AI Presentation tool.",
+            "checkpointTitle": "Your Pathway checkpoint",
+            "checkpointWeek": "WEEK {{n}}",
+            "discountPill": "{{discount}}% OFF",
+            "dueForNext": "for the next {{weeks}} weeks",
+            "dueOn": "Due {{date}}",
+            "dueToday": "Due today",
+            "headlineDiscount": "{{discount}}% off your <accent>first {{weeks}} weeks</accent>",
+            "headlineDiscountTrial": "{{discount}}% off your <accent>first week trial</accent>",
+            "headlinePlain": "Your <accent>first {{weeks}} weeks</accent>",
+            "headlineTrial": "Your <accent>first week trial</accent>",
+            "nodeToday": "TODAY",
+            "promoLabel": "Promo code",
+            "renewalNote": "Renews automatically every {{weeks}} weeks until you cancel.",
+            "renewalTerms": "Then <b>{{renewalPrice}} every {{weeks}} weeks.</b><br/>Cancel anytime before renewal — no penalties.",
+            "todayNote": "Your first weeks of access to Coursiv"
+          },
+          "vsl-page": {
+            "auto-continuing-in": "Auto-continuing in {{seconds}}...",
+            "click-to-unmute": "Click To Unmute",
+            "continue-to-next-step": "Continue to Next Step",
+            "continue-watching": "Continue watching?",
+            "resume": "Resume",
+            "start-from-beginning": "Start from beginning",
+            "video-complete": "Video Complete!",
+            "video-is-playing": "Your Video Is Playing."
+          },
+          "week": "week",
+          "weeks": "weeks"
+        }
+      }
+    },
+    "initialLocale": "en",
+    "ns": [
+      "common"
+    ],
+    "userConfig": {
+      "default": {
+        "i18n": {
+          "defaultLocale": "default",
+          "locales": [
+            "default",
+            "en",
+            "es",
+            "de",
+            "it",
+            "fr",
+            "pt",
+            "id",
+            "vi",
+            "th",
+            "fil",
+            "ja",
+            "ar",
+            "he",
+            "hi",
+            "zh",
+            "ko",
+            "tr",
+            "cs",
+            "pl",
+            "nl",
+            "hu",
+            "ms",
+            "ro"
+          ]
+        },
+        "reloadOnPrerender": false
+      },
+      "i18n": {
+        "defaultLocale": "default",
+        "locales": [
+          "default",
+          "en",
+          "es",
+          "de",
+          "it",
+          "fr",
+          "pt",
+          "id",
+          "vi",
+          "th",
+          "fil",
+          "ja",
+          "ar",
+          "he",
+          "hi",
+          "zh",
+          "ko",
+          "tr",
+          "cs",
+          "pl",
+          "nl",
+          "hu",
+          "ms",
+          "ro"
+        ]
+      },
+      "reloadOnPrerender": false
+    }
+  },
+  "schemaVersion": 1,
+  "sellingPage": [
+    {
+      "blockType": "gradientSpecialDiscountBlock",
+      "discountText": "Special discount:",
+      "icon": "gift-1.webp",
+      "label": "Become the Master of AI",
+      "title": "Your Personalized AI <br>Certificate Program is Ready!   ",
+      "titlePersonalizationRule": {
+        "personalization": []
+      }
+    },
+    {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    {
+      "autocancelProtectionEnabled": false,
+      "blockType": "offerBlock",
+      "button": "THIS IS REQUIRED FIELD YOU MUST FILL IT",
+      "commitmentBlock": [],
+      "enableAiBoostPaywall": false,
+      "enableBottomBetMyPlan": false,
+      "enableCurrencyLocalization": false,
+      "enableDualSolidPaywall": false,
+      "enableFastPayment": false,
+      "enableLivenFlow": false,
+      "enableStripePaywall": false,
+      "getMyPlanButtonProps": {
+        "badge": {
+          "isVisible": false
+        },
+        "isCapitalized": false
+      },
+      "image": [],
+      "imageBlock": [],
+      "offerCtaTexts": {
+        "fourWeek": {},
+        "oneWeek": {},
+        "twelveWeek": {}
+      },
+      "paymentMethodsBlock": [],
+      "paywallConfigIdPersonalizationRule": {
+        "personalization": []
+      },
+      "paywallProps": {
+        "socialProofText": "Join over <span className='text-accent'>2,000,000 users</span> to achieve your goals"
+      },
+      "paywallType": [],
+      "promocode": [
+        {
+          "applied": "Your promo code applied!",
+          "appliedPromoCode": "Applied promo code:",
+          "chooseTheBestPlan": "Choose the best plan for you",
+          "minutes": "Minutes",
+          "newPromoApplied": "New promo code applied!",
+          "off": "OFF",
+          "seconds": "Seconds",
+          "type": "name"
+        }
+      ],
+      "timerProps": {},
+      "uiType": [
+        {
+          "blockType": "withDualPrice",
+          "plans": [
+            {
+              "offerIndex": "0",
+              "withSubtitle": false
+            },
+            {
+              "offerIndex": "1",
+              "withSubtitle": false
+            },
+            {
+              "offerIndex": "2",
+              "withSubtitle": false
+            }
+          ]
+        }
+      ],
+      "withEmailModal": false,
+      "withNextOfferDiscount": false
+    },
+    {
+      "blockType": "discountBottomSheet",
+      "boxText": "<h1 className=\"text-2xl text-[#24234C] font-bold text-center mb-[14px]\">\n                                    Special Offer\n                                </h1>\n                                <p className=\"text-[14px] text-center text-[#24234C] font-light\">\n                                    We want you to find success so we are\n                                    offering you a discount to try our proven\n                                    learning program and master AI\n                                </p>",
+      "button": "GET 60% DISCOUNT",
+      "image": "box60.webp"
+    }
+  ],
+  "source": {
+    "buildId": "HgPJlQtdiOvKgKTaE9huT",
+    "entryUrl": "https://coursiv.io/dynamic?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero",
+    "funnelVersion": "c_1185",
+    "language": "en",
+    "prcId": 1185
+  }
+}

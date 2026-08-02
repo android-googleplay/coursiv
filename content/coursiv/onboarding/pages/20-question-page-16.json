@@ -1,0 +1,334 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "finish-work-earlier",
+        "title": "Finish work earlier"
+      },
+      {
+        "actions": [],
+        "slug": "spend-more-time-with-family",
+        "title": "Spend more time with family"
+      },
+      {
+        "actions": [],
+        "slug": "focus-on-strategic-work",
+        "title": "Focus on strategic work"
+      },
+      {
+        "actions": [],
+        "slug": "learn-new-skills",
+        "title": "Learn new skills"
+      },
+      {
+        "actions": [],
+        "slug": "build-a-side-project",
+        "title": "Build a side project"
+      },
+      {
+        "actions": [],
+        "slug": "feel-less-stressed",
+        "title": "Feel less stressed"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "how_would_you_celebrate_your_first_results_with_ai",
+    "stats": {},
+    "subtitle": "Connect your plan to something personally meaningful.",
+    "title": "What would you do with more control over your time?",
+    "tryAskingLabel": "Try asking",
+    "description": ""
+  },
+  "id": "20-question-page-16",
+  "index": 19,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 4040,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/1287b111f62590abac8c9bab7bb39f2a5197a19116da9dac242ad183b99224fe.webp",
+      "reference": "Image_quiz-10.webp",
+      "sha256": "1287b111f62590abac8c9bab7bb39f2a5197a19116da9dac242ad183b99224fe",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-10.webp"
+    },
+    {
+      "bytes": 4618,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/29fba3306818c542367a287bec6ad78b0f91329c041b20bdb22889aca6665837.webp",
+      "reference": "Image_quiz-9.webp",
+      "sha256": "29fba3306818c542367a287bec6ad78b0f91329c041b20bdb22889aca6665837",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-9.webp"
+    },
+    {
+      "bytes": 21414,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/704d11410dbdaded4976f0802472df4eb37bb03fffa1a87ca6d1c091d81c5da1.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0801-1.webp",
+      "sha256": "704d11410dbdaded4976f0802472df4eb37bb03fffa1a87ca6d1c091d81c5da1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0801-1.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 5820,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/97285b0710cb837d032921ed2d2f31df7bab25cf20ae5f00c8bdfb2cad2f0bf3.webp",
+      "reference": "receipt.webp",
+      "sha256": "97285b0710cb837d032921ed2d2f31df7bab25cf20ae5f00c8bdfb2cad2f0bf3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/receipt.webp"
+    },
+    {
+      "bytes": 9454,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/7956905ef6b4f497e03c8ed9c6142048393ec1017576602e76eb0e32a75fa1d9.webp",
+      "reference": "rocket-2.webp",
+      "sha256": "7956905ef6b4f497e03c8ed9c6142048393ec1017576602e76eb0e32a75fa1d9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/rocket-2.webp"
+    },
+    {
+      "bytes": 9904,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/3edbad077f900d3886fee781705cfdae44b07713df01c6e5f4075120cee182a6.webp",
+      "reference": "v3_migrated_d14fbcf1p6wyzn_v3_quiz_wish_3.webp",
+      "sha256": "3edbad077f900d3886fee781705cfdae44b07713df01c6e5f4075120cee182a6",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/v3_migrated_d14fbcf1p6wyzn_v3_quiz_wish_3.webp"
+    }
+  ],
+  "mediaReferences": [
+    "Image_quiz-10.webp",
+    "Image_quiz-9.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0801-1.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "receipt.webp",
+    "rocket-2.webp",
+    "v3_migrated_d14fbcf1p6wyzn_v3_quiz_wish_3.webp"
+  ],
+  "navigation": {
+    "next": "/dynamic/followup-teaser-page",
+    "previous": "/dynamic/question-page-15",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "20-question-page-16--finish-work-earlier",
+      "label": "Finish work earlier",
+      "value": "finish-work-earlier",
+      "source": {
+        "actions": [],
+        "slug": "finish-work-earlier",
+        "title": "Finish work earlier"
+      }
+    },
+    {
+      "id": "20-question-page-16--spend-more-time-with-family",
+      "label": "Spend more time with family",
+      "value": "spend-more-time-with-family",
+      "source": {
+        "actions": [],
+        "slug": "spend-more-time-with-family",
+        "title": "Spend more time with family"
+      }
+    },
+    {
+      "id": "20-question-page-16--focus-on-strategic-work",
+      "label": "Focus on strategic work",
+      "value": "focus-on-strategic-work",
+      "source": {
+        "actions": [],
+        "slug": "focus-on-strategic-work",
+        "title": "Focus on strategic work"
+      }
+    },
+    {
+      "id": "20-question-page-16--learn-new-skills",
+      "label": "Learn new skills",
+      "value": "learn-new-skills",
+      "source": {
+        "actions": [],
+        "slug": "learn-new-skills",
+        "title": "Learn new skills"
+      }
+    },
+    {
+      "id": "20-question-page-16--build-a-side-project",
+      "label": "Build a side project",
+      "value": "build-a-side-project",
+      "source": {
+        "actions": [],
+        "slug": "build-a-side-project",
+        "title": "Build a side project"
+      }
+    },
+    {
+      "id": "20-question-page-16--feel-less-stressed",
+      "label": "Feel less stressed",
+      "value": "feel-less-stressed",
+      "source": {
+        "actions": [],
+        "slug": "feel-less-stressed",
+        "title": "Feel less stressed"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-16",
+  "progress": {
+    "current": 16,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/followup-teaser-page",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "receipt.webp",
+          "slug": "pay_off_some_bills",
+          "title": "Pay off some bills"
+        },
+        {
+          "actions": [],
+          "icon": "Image_quiz-9.webp",
+          "slug": "build_a_safety_net_for_my_family",
+          "title": "Add to a retirement fund"
+        },
+        {
+          "actions": [],
+          "icon": "Image_quiz-10.webp",
+          "slug": "add_to_an_emergency_fund",
+          "title": "Add to an emergency fund"
+        },
+        {
+          "actions": [],
+          "icon": "v3_migrated_d14fbcf1p6wyzn_v3_quiz_wish_3.webp",
+          "slug": "plan_a_vacation",
+          "title": "Plan a vacation"
+        },
+        {
+          "actions": [],
+          "icon": "rocket-2.webp",
+          "slug": "other",
+          "title": "Other"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "how_would_you_celebrate_your_first_results_with_ai",
+      "stats": {},
+      "subtitle": "Setting goals and rewarding yourself keeps you motivated",
+      "title": "How would you celebrate your first results with AI?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 16,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0801-1.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-15"
+  },
+  "schemaVersion": 1,
+  "slug": "how_would_you_celebrate_your_first_results_with_ai",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-16?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-16",
+  "title": "What would you do with more control over your time?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

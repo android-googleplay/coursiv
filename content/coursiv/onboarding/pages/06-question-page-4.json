@@ -1,0 +1,333 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "constantly-reacting",
+        "title": "Constantly reacting"
+      },
+      {
+        "actions": [],
+        "slug": "busy-but-not-progressing",
+        "title": "Busy but not progressing"
+      },
+      {
+        "actions": [],
+        "slug": "frequently-distracted",
+        "title": "Frequently distracted"
+      },
+      {
+        "actions": [],
+        "slug": "overwhelmed-by-too-many-priorities",
+        "title": "Overwhelmed by too many priorities"
+      },
+      {
+        "actions": [],
+        "slug": "mostly-in-control",
+        "title": "Mostly in control"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "do_you_feel_overwhelmed_with_ai",
+    "stats": {},
+    "title": "How does your workday usually feel?",
+    "tryAskingLabel": "Try asking",
+    "subtitle": "Be honest—there’s no right answer.",
+    "description": ""
+  },
+  "id": "06-question-page-4",
+  "index": 5,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 8498,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/45e498a9dba9b34860cac9d453d6b5bcf7501ca7c87d78e5b5e9572b58d5fe1d.webp",
+      "reference": "anxious_face_with_sweat.webp",
+      "sha256": "45e498a9dba9b34860cac9d453d6b5bcf7501ca7c87d78e5b5e9572b58d5fe1d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/anxious_face_with_sweat.webp"
+    },
+    {
+      "bytes": 8508,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/0921da2e9d9249703f64ae39e83cbfa6b2997a64137b6351bf7f231e603db421.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/downcast_face_with_sweat.webp",
+      "sha256": "0921da2e9d9249703f64ae39e83cbfa6b2997a64137b6351bf7f231e603db421",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/downcast_face_with_sweat.webp"
+    },
+    {
+      "bytes": 3456,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/8bd3a77bac59f219310b61a559f0ea0ab2976969da8dcd779b5aecf08f51e886.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/new_button.webp",
+      "sha256": "8bd3a77bac59f219310b61a559f0ea0ab2976969da8dcd779b5aecf08f51e886",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/new_button.webp"
+    },
+    {
+      "bytes": 8804,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/a0377f818962ad70b1b498466d173bdf8742d65a1fd72daac72630f584eb0905.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/person_shrugging.webp",
+      "sha256": "a0377f818962ad70b1b498466d173bdf8742d65a1fd72daac72630f584eb0905",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/person_shrugging.webp"
+    },
+    {
+      "bytes": 5998,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f0b0b1ec774d9ba6ef3b2d453ba362c260783964c5df2ba61caccb4d6d1b8cf3.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/thumbs_up.webp",
+      "sha256": "f0b0b1ec774d9ba6ef3b2d453ba362c260783964c5df2ba61caccb4d6d1b8cf3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/thumbs_up.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 8306,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/728d44528164f8dd948b0340785777994490124f7b9727eeab05f4c5313ad890.webp",
+      "reference": "relieved_face.webp",
+      "sha256": "728d44528164f8dd948b0340785777994490124f7b9727eeab05f4c5313ad890",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/relieved_face.webp"
+    },
+    {
+      "bytes": 8246,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/6444889de824fec2458424eb16958c839bfae766314d6d51ffdbe6e7fe12dc0a.webp",
+      "reference": "thinking_face.webp",
+      "sha256": "6444889de824fec2458424eb16958c839bfae766314d6d51ffdbe6e7fe12dc0a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/thinking_face.webp"
+    },
+    {
+      "bytes": 8554,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/3d9ef1fb1626380fc462d8121620bff36b7429d15fbb28bc9bbefb18f386b57d.webp",
+      "reference": "worried_face.webp",
+      "sha256": "3d9ef1fb1626380fc462d8121620bff36b7429d15fbb28bc9bbefb18f386b57d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/worried_face.webp"
+    }
+  ],
+  "mediaReferences": [
+    "anxious_face_with_sweat.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/downcast_face_with_sweat.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/new_button.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/person_shrugging.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/thumbs_up.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "relieved_face.webp",
+    "thinking_face.webp",
+    "worried_face.webp"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-5",
+    "previous": "/dynamic/question-page-3",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "06-question-page-4--constantly-reacting",
+      "label": "Constantly reacting",
+      "value": "constantly-reacting",
+      "source": {
+        "actions": [],
+        "slug": "constantly-reacting",
+        "title": "Constantly reacting"
+      }
+    },
+    {
+      "id": "06-question-page-4--busy-but-not-progressing",
+      "label": "Busy but not progressing",
+      "value": "busy-but-not-progressing",
+      "source": {
+        "actions": [],
+        "slug": "busy-but-not-progressing",
+        "title": "Busy but not progressing"
+      }
+    },
+    {
+      "id": "06-question-page-4--frequently-distracted",
+      "label": "Frequently distracted",
+      "value": "frequently-distracted",
+      "source": {
+        "actions": [],
+        "slug": "frequently-distracted",
+        "title": "Frequently distracted"
+      }
+    },
+    {
+      "id": "06-question-page-4--overwhelmed-by-too-many-priorities",
+      "label": "Overwhelmed by too many priorities",
+      "value": "overwhelmed-by-too-many-priorities",
+      "source": {
+        "actions": [],
+        "slug": "overwhelmed-by-too-many-priorities",
+        "title": "Overwhelmed by too many priorities"
+      }
+    },
+    {
+      "id": "06-question-page-4--mostly-in-control",
+      "label": "Mostly in control",
+      "value": "mostly-in-control",
+      "source": {
+        "actions": [],
+        "slug": "mostly-in-control",
+        "title": "Mostly in control"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-4",
+  "progress": {
+    "current": 4,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-5",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "anxious_face_with_sweat.webp",
+          "slug": "always",
+          "title": "Always"
+        },
+        {
+          "actions": [],
+          "icon": "worried_face.webp",
+          "slug": "often",
+          "title": "Often"
+        },
+        {
+          "actions": [],
+          "icon": "thinking_face.webp",
+          "slug": "sometimes",
+          "title": "Sometimes"
+        },
+        {
+          "actions": [],
+          "icon": "relieved_face.webp",
+          "slug": "not_really",
+          "title": "Not really"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "do_you_feel_overwhelmed_with_ai",
+      "stats": {},
+      "title": "Do you feel overwhelmed by AI?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 4,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/thumbs_up.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/person_shrugging.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/downcast_face_with_sweat.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/new_button.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-3"
+  },
+  "schemaVersion": 1,
+  "slug": "do_you_feel_overwhelmed_with_ai",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-4?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-4",
+  "title": "How does your workday usually feel?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

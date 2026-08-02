@@ -1,0 +1,531 @@
+{
+  "content": {
+    "animationSources": [],
+    "blockType": "personalized-summary-page",
+    "button": {
+      "actions": [
+        {
+          "blockType": "next_page",
+          "payload": {
+            "searchParams": {}
+          }
+        }
+      ],
+      "text": "CONTINUE",
+      "value": "continue"
+    },
+    "currentStep": 1,
+    "meter": {
+      "defaultLevel": "low",
+      "high": {
+        "answers": [
+          "im_comfortable"
+        ],
+        "calloutText": "",
+        "levelText": "Above Average"
+      },
+      "highLabel": "High",
+      "low": {
+        "answers": [
+          "i_dont_know_anything",
+          "i_struggle_a_lot"
+        ],
+        "calloutText": "",
+        "levelText": "Low"
+      },
+      "lowLabel": "Low",
+      "medium": {
+        "answers": [
+          "i_struggle_sometimes"
+        ],
+        "calloutText": "",
+        "levelText": "Medium"
+      },
+      "mediumLabel": "Medium",
+      "meterLabel": "AI Skills",
+      "source": "how_comfortable_are_you_using_ai_tools_right_now"
+    },
+    "pageViewActions": [
+      {
+        "blockType": "track_sentinel_event",
+        "payload": {
+          "eventName": "pr_funnel_personal_summary_page_view"
+        }
+      }
+    ],
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "rows": [
+      {
+        "icon": "mingcute_target-fill-1.webp",
+        "label": "Your focus",
+        "value": {
+          "default": "Your focus",
+          "map": [
+            {
+              "answer": "falling_behind_colleagues",
+              "text": "Keeping pace with AI"
+            },
+            {
+              "answer": "job_becoming_automated",
+              "text": "Future-proofing your role"
+            },
+            {
+              "answer": "not_having_right_skills",
+              "text": "Building job-ready skills"
+            },
+            {
+              "answer": "nothing_ai_opportunity",
+              "text": "Making AI your advantage"
+            },
+            {
+              "answer": "default",
+              "text": "Keeping pace with AI"
+            }
+          ],
+          "source": "when_you_think_about_ai_and_your_career_what_concerns_you_most"
+        }
+      },
+      {
+        "icon": "ic_round-star.svg",
+        "label": "Your readiness",
+        "value": {
+          "default": "Your readiness",
+          "map": [
+            {
+              "answer": "yes",
+              "text": "Ready to learn online"
+            },
+            {
+              "answer": "not_sure",
+              "text": "Open to a guided approach"
+            },
+            {
+              "answer": "no",
+              "text": "Prefers step-by-step guidance"
+            },
+            {
+              "answer": "default",
+              "text": "Ready to learn online"
+            }
+          ],
+          "source": "are_you_comfortable_learning_new_skills_online"
+        }
+      },
+      {
+        "icon": "mingcute_time-fill.svg",
+        "label": "Your pace",
+        "value": {
+          "default": "Your pace",
+          "map": [
+            {
+              "answer": "10_min_day",
+              "text": "10 min a day"
+            },
+            {
+              "answer": "15_min_day",
+              "text": "15 min a day"
+            },
+            {
+              "answer": "20_min_day",
+              "text": "20 min a day"
+            },
+            {
+              "answer": "default",
+              "text": "20 min a day"
+            }
+          ],
+          "source": "how_much_time_ready_to_spend_for_goal"
+        }
+      },
+      {
+        "icon": "bxs_book.svg",
+        "label": "Learning experience",
+        "value": {
+          "default": "Learning experience",
+          "map": [
+            {
+              "answer": "no_this_is_my_first_time",
+              "text": "First time learning AI"
+            },
+            {
+              "answer": "free_resources_youtube_articles",
+              "text": "Self-taught so far"
+            },
+            {
+              "answer": "paid_course_on_another_platform",
+              "text": "Building on a past course"
+            },
+            {
+              "answer": "i_use_ai_daily_but_want_structured_learning",
+              "text": "Using AI, ready for structure"
+            },
+            {
+              "answer": "default",
+              "text": "Using AI, ready for structure"
+            }
+          ],
+          "source": "have_you_tried_learning_ai_before"
+        }
+      }
+    ],
+    "subtitle": "See your biggest workday leak, strongest opportunity and recommended starting point.",
+    "title": "Your AI Workday Profile",
+    "totalSteps": 4,
+    "description": ""
+  },
+  "id": "25-personalized-summary-page",
+  "index": 24,
+  "interaction": "continue",
+  "media": [
+    {
+      "bytes": 504,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/fa3f2137fab839095ae89dd0a14e50c43aff0a0eaf29586734e0ab4578087485.svg",
+      "reference": "bxs_book.svg",
+      "sha256": "fa3f2137fab839095ae89dd0a14e50c43aff0a0eaf29586734e0ab4578087485",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/bxs_book.svg"
+    },
+    {
+      "bytes": 14918,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/a292f3e6a9271c0f299c1e70c0a36494c57dadee496d20aa50416f46f8dd5121.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Characters-1.webp",
+      "sha256": "a292f3e6a9271c0f299c1e70c0a36494c57dadee496d20aa50416f46f8dd5121",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Characters-1.webp"
+    },
+    {
+      "bytes": 11434,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/7335e5c151075632eb0a1a45055ec175f91bf3dbae42f652f8003fefa9298ef9.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Characters.webp",
+      "sha256": "7335e5c151075632eb0a1a45055ec175f91bf3dbae42f652f8003fefa9298ef9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Characters.webp"
+    },
+    {
+      "bytes": 90876,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/034de82cb3375fc42cc8c080464791754012084e1e28c1c6752e20ff345e5139.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/cert_ba-3.webp",
+      "sha256": "034de82cb3375fc42cc8c080464791754012084e1e28c1c6752e20ff345e5139",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/cert_ba-3.webp"
+    },
+    {
+      "bytes": 545,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/fdf0622d69584f7fb96f93ba07930ecad4bec72a1cae7fb55f75fb9b5621813d.svg",
+      "reference": "ic_round-star.svg",
+      "sha256": "fdf0622d69584f7fb96f93ba07930ecad4bec72a1cae7fb55f75fb9b5621813d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/ic_round-star.svg"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 1548,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d2cec33f361a1ffa2009ede9f27a5a34216fb3c836fa7f58306b8dbbad9935bc.webp",
+      "reference": "mingcute_target-fill-1.webp",
+      "sha256": "d2cec33f361a1ffa2009ede9f27a5a34216fb3c836fa7f58306b8dbbad9935bc",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/mingcute_target-fill-1.webp"
+    },
+    {
+      "bytes": 980,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/464f91c13aa97928890f95dd9c3bc3b5e5278d261fc846f1fc477e20d55db5aa.svg",
+      "reference": "mingcute_time-fill.svg",
+      "sha256": "464f91c13aa97928890f95dd9c3bc3b5e5278d261fc846f1fc477e20d55db5aa",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/mingcute_time-fill.svg"
+    }
+  ],
+  "mediaReferences": [
+    "bxs_book.svg",
+    "https://d3kigabz1zn79w.cloudfront.net/Characters-1.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/Characters.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/cert_ba-3.webp",
+    "ic_round-star.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "mingcute_target-fill-1.webp",
+    "mingcute_time-fill.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/before-after-page-personalized",
+    "previous": "/dynamic/enter-name-page",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [],
+  "path": "/dynamic/personalized-summary-page",
+  "progress": {
+    "current": null,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/before-after-page-personalized",
+    "pageContent": {
+      "animationSources": [],
+      "blockType": "personalized-summary-page",
+      "button": {
+        "actions": [
+          {
+            "blockType": "next_page",
+            "payload": {
+              "searchParams": {}
+            }
+          }
+        ],
+        "text": "CONTINUE",
+        "value": "continue"
+      },
+      "currentStep": 1,
+      "meter": {
+        "defaultLevel": "low",
+        "high": {
+          "answers": [
+            "im_comfortable"
+          ],
+          "calloutText": "",
+          "levelText": "Above Average"
+        },
+        "highLabel": "High",
+        "low": {
+          "answers": [
+            "i_dont_know_anything",
+            "i_struggle_a_lot"
+          ],
+          "calloutText": "",
+          "levelText": "Low"
+        },
+        "lowLabel": "Low",
+        "medium": {
+          "answers": [
+            "i_struggle_sometimes"
+          ],
+          "calloutText": "",
+          "levelText": "Medium"
+        },
+        "mediumLabel": "Medium",
+        "meterLabel": "AI Skills",
+        "source": "how_comfortable_are_you_using_ai_tools_right_now"
+      },
+      "pageViewActions": [
+        {
+          "blockType": "track_sentinel_event",
+          "payload": {
+            "eventName": "pr_funnel_personal_summary_page_view"
+          }
+        }
+      ],
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "rows": [
+        {
+          "icon": "mingcute_target-fill-1.webp",
+          "label": "Your focus",
+          "value": {
+            "default": "Your focus",
+            "map": [
+              {
+                "answer": "falling_behind_colleagues",
+                "text": "Keeping pace with AI"
+              },
+              {
+                "answer": "job_becoming_automated",
+                "text": "Future-proofing your role"
+              },
+              {
+                "answer": "not_having_right_skills",
+                "text": "Building job-ready skills"
+              },
+              {
+                "answer": "nothing_ai_opportunity",
+                "text": "Making AI your advantage"
+              },
+              {
+                "answer": "default",
+                "text": "Keeping pace with AI"
+              }
+            ],
+            "source": "when_you_think_about_ai_and_your_career_what_concerns_you_most"
+          }
+        },
+        {
+          "icon": "ic_round-star.svg",
+          "label": "Your readiness",
+          "value": {
+            "default": "Your readiness",
+            "map": [
+              {
+                "answer": "yes",
+                "text": "Ready to learn online"
+              },
+              {
+                "answer": "not_sure",
+                "text": "Open to a guided approach"
+              },
+              {
+                "answer": "no",
+                "text": "Prefers step-by-step guidance"
+              },
+              {
+                "answer": "default",
+                "text": "Ready to learn online"
+              }
+            ],
+            "source": "are_you_comfortable_learning_new_skills_online"
+          }
+        },
+        {
+          "icon": "mingcute_time-fill.svg",
+          "label": "Your pace",
+          "value": {
+            "default": "Your pace",
+            "map": [
+              {
+                "answer": "10_min_day",
+                "text": "10 min a day"
+              },
+              {
+                "answer": "15_min_day",
+                "text": "15 min a day"
+              },
+              {
+                "answer": "20_min_day",
+                "text": "20 min a day"
+              },
+              {
+                "answer": "default",
+                "text": "20 min a day"
+              }
+            ],
+            "source": "how_much_time_ready_to_spend_for_goal"
+          }
+        },
+        {
+          "icon": "bxs_book.svg",
+          "label": "Learning experience",
+          "value": {
+            "default": "Learning experience",
+            "map": [
+              {
+                "answer": "no_this_is_my_first_time",
+                "text": "First time learning AI"
+              },
+              {
+                "answer": "free_resources_youtube_articles",
+                "text": "Self-taught so far"
+              },
+              {
+                "answer": "paid_course_on_another_platform",
+                "text": "Building on a past course"
+              },
+              {
+                "answer": "i_use_ai_daily_but_want_structured_learning",
+                "text": "Using AI, ready for structure"
+              },
+              {
+                "answer": "default",
+                "text": "Using AI, ready for structure"
+              }
+            ],
+            "source": "have_you_tried_learning_ai_before"
+          }
+        }
+      ],
+      "subtitle": {
+        "default": "The quiz indicates that your current barrier to mastering AI might be lack of clarity and AI skills",
+        "map": [
+          {
+            "answer": "no_clear_system_or_roadmap",
+            "text": "The quiz indicates that your biggest blocker is the lack of a clear roadmap, not your ability"
+          },
+          {
+            "answer": "not_enough_time",
+            "text": "The quiz indicates that what's held you back is time, not capability"
+          },
+          {
+            "answer": "too_complicated_for_me",
+            "text": "The quiz indicates that AI has felt more complicated than it really is"
+          },
+          {
+            "answer": "dont_know_where_to_start",
+            "text": "The quiz indicates that you're ready - you've just been missing a clear starting point"
+          }
+        ],
+        "source": "whats_the_1_thing_holding_you_back_from_using_ai_effectively"
+      },
+      "title": "Your Personal Summary",
+      "totalSteps": 4
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": null,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/cert_ba-3.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/Characters.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/Characters-1.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/enter-name-page"
+  },
+  "schemaVersion": 1,
+  "slug": null,
+  "sourceUrl": "https://coursiv.io/dynamic/personalized-summary-page?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=personalized-summary-page",
+  "title": "Your AI Workday Profile",
+  "type": "personalized-summary-page",
+  "migrationId": "ai-workday-v1"
+}

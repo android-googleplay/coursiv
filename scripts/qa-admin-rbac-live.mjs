@@ -1,0 +1,22 @@
+import { applicationDefault, cert, getApps, initializeApp } from "firebase-admin/app";
+import { getAuth } from "firebase-admin/auth";
+
+const apiKey=process.env.NEXT_PUBLIC_FIREBASE_API_KEY;if(!apiKey)throw new Error("NEXT_PUBLIC_FIREBASE_API_KEY is required");
+const credential=process.env.FIREBASE_PROJECT_ID&&process.env.FIREBASE_CLIENT_EMAIL&&process.env.FIREBASE_PRIVATE_KEY?cert({projectId:process.env.FIREBASE_PROJECT_ID,clientEmail:process.env.FIREBASE_CLIENT_EMAIL,privateKey:process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g,"\n")}):applicationDefault();
+const auth=getAuth(getApps()[0]??initializeApp({credential}));const base=process.env.ADMIN_QA_BASE_URL??"http://localhost:3015";const email=`coursiv.cms.qa.${Date.now()}@example.com`;const user=await auth.createUser({email,emailVerified:true,displayName:"Coursiv CMS QA"});
+const results=[];const assert=(name,actual,expected)=>{results.push({name,actual,expected,passed:actual===expected});if(actual!==expected)throw new Error(`${name}: expected ${expected}, got ${actual}`)};
+async function tokenFor(role){await auth.setCustomUserClaims(user.uid,{staffRole:role,admin:role==="admin"});const customToken=await auth.createCustomToken(user.uid);const response=await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:signInWithCustomToken?key=${apiKey}`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({token:customToken,returnSecureToken:true})});const data=await response.json();if(!response.ok)throw new Error(data.error?.message??"Unable to exchange custom token");return data.idToken}
+async function call(token,path,init={}){return fetch(`${base}${path}`,{...init,headers:{Authorization:`Bearer ${token}`,...init.headers}})}
+try{
+  const anonymous=await fetch(`${base}/api/admin/overview`);assert("anonymous blocked",anonymous.status,403);
+  const analyst=await tokenFor("analyst");assert("analyst overview",(await call(analyst,"/api/admin/overview")).status,200);assert("analyst publish blocked",(await call(analyst,"/api/admin/content/lessons/use-case-2__tax-research-review",{method:"PUT",headers:{"Content-Type":"application/json","Idempotency-Key":crypto.randomUUID()},body:"{}"})).status,403);
+  const support=await tokenFor("support");assert("support users",(await call(support,"/api/admin/users?limit=5")).status,200);assert("support content blocked",(await call(support,"/api/admin/content/courses")).status,403);
+  const editor=await tokenFor("editor");assert("editor content",(await call(editor,"/api/admin/content/courses")).status,200);assert("editor users blocked",(await call(editor,"/api/admin/users")).status,403);
+  const lessonResponse=await call(editor,"/api/admin/content/lessons/use-case-2__tax-research-review");assert("editor lesson read",lessonResponse.status,200);const lesson=(await lessonResponse.json()).lesson;
+  const publish=await call(editor,"/api/admin/content/lessons/use-case-2__tax-research-review",{method:"PUT",headers:{"Content-Type":"application/json","Idempotency-Key":crypto.randomUUID()},body:JSON.stringify({lesson,expectedVersion:lesson.version,changeSummary:"Automated no-content-change transactional publish smoke test"})});assert("transactional publish",publish.status,200);const published=(await publish.json()).lesson;
+  const revisionsResponse=await call(editor,"/api/admin/content/use-case-2__tax-research-review/revisions");assert("revision created",revisionsResponse.status,200);const revisions=(await revisionsResponse.json()).revisions;const revision=revisions.find((item)=>item.version===lesson.version);if(!revision)throw new Error("Expected revision was not created");
+  const rollback=await call(editor,"/api/admin/content/use-case-2__tax-research-review/rollback",{method:"POST",headers:{"Content-Type":"application/json","Idempotency-Key":crypto.randomUUID()},body:JSON.stringify({revisionId:revision.id,expectedVersion:published.version,reason:"Complete transactional QA smoke test",confirm:true})});assert("transactional rollback",rollback.status,200);
+  const admin=await tokenFor("admin");assert("admin staff management",(await call(admin,"/api/admin/staff")).status,200);
+  console.log(JSON.stringify({passed:true,temporaryUser:user.uid,checks:results.length,results},null,2));
+}catch(error){console.error(JSON.stringify({passed:false,error:error instanceof Error?error.message.split(";")[0]:"Admin live QA failed",completedChecks:results},null,2));process.exitCode=1}
+finally{await auth.deleteUser(user.uid).catch(()=>undefined)}

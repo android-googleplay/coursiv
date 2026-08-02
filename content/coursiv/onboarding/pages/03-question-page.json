@@ -1,0 +1,330 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "backgroundImage": "1091_assets_0207.webp",
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "at-a-company",
+        "title": "At a company"
+      },
+      {
+        "actions": [],
+        "slug": "across-a-team-i-manage",
+        "title": "Across a team I manage"
+      },
+      {
+        "actions": [],
+        "slug": "in-my-own-business",
+        "title": "In my own business"
+      },
+      {
+        "actions": [],
+        "slug": "as-a-freelancer-or-independent-worker",
+        "title": "As a freelancer or independent worker"
+      },
+      {
+        "actions": [],
+        "slug": "while-preparing-for-a-new-role",
+        "title": "While preparing for a new role"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "full-single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "what_is_your_age",
+    "stats": {},
+    "subtitle": "We’ll adapt your plan to how you work.",
+    "title": "Where does most of your workday happen?",
+    "tryAskingLabel": "Try asking",
+    "description": ""
+  },
+  "id": "03-question-page",
+  "index": 2,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 81294,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/5097306c877ea8965c262dccaf06bdc5d28fda7bafcc59b1114a9fb992ba26bb.webp",
+      "reference": "1091_assets_0207.webp",
+      "sha256": "5097306c877ea8965c262dccaf06bdc5d28fda7bafcc59b1114a9fb992ba26bb",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0207.webp"
+    },
+    {
+      "bytes": 7970,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2334f8336ac847a873912d0b115b5ad4e14a3ccb2633fba69358dfcb7d55d08e.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp",
+      "sha256": "2334f8336ac847a873912d0b115b5ad4e14a3ccb2633fba69358dfcb7d55d08e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp"
+    },
+    {
+      "bytes": 5318,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/9cfedfe9129c95e3d0cc33a537c7bfa68575b897f70bfb925c91878abea5ef7e.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/chart_increasing.webp",
+      "sha256": "9cfedfe9129c95e3d0cc33a537c7bfa68575b897f70bfb925c91878abea5ef7e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/chart_increasing.webp"
+    },
+    {
+      "bytes": 4670,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f89227ea3d89ddf73d24c7005fe330357ace342f1932ace70723ae248bac3a92.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/counterclockwise_arrows_button.webp",
+      "sha256": "f89227ea3d89ddf73d24c7005fe330357ace342f1932ace70723ae248bac3a92",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/counterclockwise_arrows_button.webp"
+    },
+    {
+      "bytes": 8398,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f28ec9e8e2018378b71e6ca7605bd7f9de4c1718913552077516ab726ecb501f.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp",
+      "sha256": "f28ec9e8e2018378b71e6ca7605bd7f9de4c1718913552077516ab726ecb501f",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp"
+    },
+    {
+      "bytes": 6174,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/41be05a38fdc1f725e43df70ca41993ee3f3eef7c33ed583252e4f73b0102e46.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/money_bag.webp",
+      "sha256": "41be05a38fdc1f725e43df70ca41993ee3f3eef7c33ed583252e4f73b0102e46",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/money_bag.webp"
+    },
+    {
+      "bytes": 9334,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/6c1141f3cf0c195e782583977eacc979778725d64e130a4dfe138bd51de88e74.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/rocket-3.webp",
+      "sha256": "6c1141f3cf0c195e782583977eacc979778725d64e130a4dfe138bd51de88e74",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/rocket-3.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "1091_assets_0207.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/chart_increasing.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/counterclockwise_arrows_button.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/money_bag.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/rocket-3.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-2",
+    "previous": "/dynamic/classic-social-proof",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "03-question-page--at-a-company",
+      "label": "At a company",
+      "value": "at-a-company",
+      "source": {
+        "actions": [],
+        "slug": "at-a-company",
+        "title": "At a company"
+      }
+    },
+    {
+      "id": "03-question-page--across-a-team-i-manage",
+      "label": "Across a team I manage",
+      "value": "across-a-team-i-manage",
+      "source": {
+        "actions": [],
+        "slug": "across-a-team-i-manage",
+        "title": "Across a team I manage"
+      }
+    },
+    {
+      "id": "03-question-page--in-my-own-business",
+      "label": "In my own business",
+      "value": "in-my-own-business",
+      "source": {
+        "actions": [],
+        "slug": "in-my-own-business",
+        "title": "In my own business"
+      }
+    },
+    {
+      "id": "03-question-page--as-a-freelancer-or-independent-worker",
+      "label": "As a freelancer or independent worker",
+      "value": "as-a-freelancer-or-independent-worker",
+      "source": {
+        "actions": [],
+        "slug": "as-a-freelancer-or-independent-worker",
+        "title": "As a freelancer or independent worker"
+      }
+    },
+    {
+      "id": "03-question-page--while-preparing-for-a-new-role",
+      "label": "While preparing for a new role",
+      "value": "while-preparing-for-a-new-role",
+      "source": {
+        "actions": [],
+        "slug": "while-preparing-for-a-new-role",
+        "title": "While preparing for a new role"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page",
+  "progress": {
+    "current": 1,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-2",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "backgroundImage": "1091_assets_0207.webp",
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "slug": "18-24",
+          "title": "18–24"
+        },
+        {
+          "actions": [],
+          "slug": "25-34",
+          "title": "25–34"
+        },
+        {
+          "actions": [],
+          "slug": "35-44",
+          "title": "35–44"
+        },
+        {
+          "actions": [],
+          "slug": "45-54",
+          "title": "45–54"
+        },
+        {
+          "actions": [],
+          "slug": "55",
+          "title": "55+"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "full-single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "what_is_your_age",
+      "stats": {},
+      "subtitle": "We will personalize your AI Program based on your answers ",
+      "title": "How old are you?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 1,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/chart_increasing.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/counterclockwise_arrows_button.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/money_bag.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/rocket-3.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/classic-social-proof"
+  },
+  "schemaVersion": 1,
+  "slug": "what_is_your_age",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page",
+  "title": "Where does most of your workday happen?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

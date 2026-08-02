@@ -1,0 +1,269 @@
+{
+  "version": "reference-v1",
+  "frozenAt": "2026-07-22T16:30:00+08:00",
+  "source": "https://app.coursiv.io",
+  "acceptance": {
+    "maxDiffPixelRatio": 0.01,
+    "maxGeometryDriftCssPx": 4,
+    "criticalBehaviorPassRate": 1
+  },
+  "officialViewports": {
+    "mobile": {
+      "width": 393,
+      "height": 852
+    },
+    "desktop": {
+      "width": 1440,
+      "height": 900
+    },
+    "tabletSmoke": {
+      "width": 768,
+      "height": 1024
+    }
+  },
+  "dynamicMasks": [
+    "user-name",
+    "date",
+    "streak",
+    "progress",
+    "subscription"
+  ],
+  "states": [
+    {
+      "id": "dashboard-desktop-seed",
+      "surface": "dashboard",
+      "viewport": {
+        "width": 1200,
+        "height": 616
+      },
+      "file": "dashboard-desktop-seed.png",
+      "sha256": "36ef13074e70a7b67edacac6068ff6e63fe76fc917eb543b99b2759070eee7af",
+      "status": "captured",
+      "formal": false
+    },
+    {
+      "id": "catalog-desktop-seed",
+      "surface": "courses",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "file": "catalog-desktop-seed.png",
+      "sha256": "2466edcf5821ee94f3b46a0dfff7a0345380b91cc3d797a9f0373b4e6a2970be",
+      "status": "captured",
+      "formal": false
+    },
+    {
+      "id": "course-map-desktop-seed",
+      "surface": "course-map",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "file": "course-map-desktop-seed.png",
+      "sha256": "61c9f321ca6d443a84a6e99ff4c7db904f011c43a12e10b663cc05a6108dbc1b",
+      "status": "captured",
+      "formal": false
+    },
+    {
+      "id": "lesson-read-desktop-seed",
+      "surface": "lesson-read",
+      "viewport": {
+        "width": 1200,
+        "height": 616
+      },
+      "file": "lesson-read-desktop-seed.png",
+      "sha256": "e7353e14beb9bf42091f3df1e61d651c1dc781db4a0269122386644bcb79f563",
+      "status": "captured",
+      "formal": false
+    },
+    {
+      "id": "lesson-accumulated-desktop-seed",
+      "surface": "lesson-accumulated",
+      "viewport": {
+        "width": 1200,
+        "height": 616
+      },
+      "file": "lesson-accumulated-desktop-seed.png",
+      "sha256": "ae82f1347dceabf36bcea7d42d0306c003b61b9c7381bf159d8a90ac539edbeb",
+      "status": "captured",
+      "formal": false
+    },
+    {
+      "id": "practice-desktop-seed",
+      "surface": "practice",
+      "viewport": {
+        "width": 1200,
+        "height": 616
+      },
+      "file": "practice-desktop-seed.png",
+      "sha256": "eb79fee0ae77993905ec2133fef4b4c049c4e2a6e2c195cb8d8628531f45ad65",
+      "status": "captured",
+      "formal": false
+    },
+    {
+      "id": "practice-success-desktop-seed",
+      "surface": "practice-success",
+      "viewport": {
+        "width": 1200,
+        "height": 616
+      },
+      "file": "practice-success-desktop-seed.png",
+      "sha256": "81a331c36f63835fa8bfd2acc14d8eeae780035c7d75ce4eef68c051e5e0059a",
+      "status": "captured",
+      "formal": false
+    },
+    {
+      "id": "knowledge-check-desktop-seed",
+      "surface": "knowledge-check",
+      "viewport": {
+        "width": 1200,
+        "height": 616
+      },
+      "file": "knowledge-check-desktop-seed.png",
+      "sha256": "f659abd1972456ca1feb77d2bccef558bc8079e441238d022c3ce3a43540ae9e",
+      "status": "captured",
+      "formal": false
+    },
+    {
+      "id": "dashboard-mobile",
+      "surface": "dashboard",
+      "viewport": {
+        "width": 393,
+        "height": 852
+      },
+      "file": "dashboard-mobile.png",
+      "sha256": "7ce7bedbef7de83038dba39186ca8f12ef433db357046e24d24b876b3f4dc64a",
+      "status": "captured",
+      "formal": true
+    },
+    {
+      "id": "courses-mobile",
+      "surface": "courses",
+      "viewport": {
+        "width": 393,
+        "height": 852
+      },
+      "file": "courses-mobile.png",
+      "sha256": "34f0e883ff266120f8bff63cb6c51090ac8154b859bca17f303dac3eecdbc581",
+      "status": "captured",
+      "formal": true
+    },
+    {
+      "id": "ai-tools-mobile",
+      "surface": "ai-tools",
+      "viewport": {
+        "width": 393,
+        "height": 852
+      },
+      "file": "ai-tools-mobile.png",
+      "sha256": "e34ac28a45e2208f7c96700aea5d50b5b3e8e91e6a468f6d9be7ced36d977af8",
+      "status": "captured",
+      "formal": true
+    },
+    {
+      "id": "games-mobile",
+      "surface": "games",
+      "viewport": {
+        "width": 393,
+        "height": 852
+      },
+      "file": "games-mobile.png",
+      "sha256": "4534f3d04a812a5e13dcf268823290c5e018f2b0dca51e281cb6a09d7b67ae8e",
+      "status": "captured",
+      "formal": true
+    },
+    {
+      "id": "profile-mobile",
+      "surface": "profile",
+      "viewport": {
+        "width": 393,
+        "height": 852
+      },
+      "file": "profile-mobile.png",
+      "sha256": "81c25a8541c87c78c8dfcef24fb951f7a6e8e1d20dd1336ea2ce173b2efcd13f",
+      "status": "captured",
+      "formal": true
+    },
+    {
+      "id": "dashboard-desktop",
+      "surface": "dashboard",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "file": "dashboard-desktop.png",
+      "sha256": "ed6326cf3c79e4df3774a3125d167a551d362c49d41bfb71757dc603c38113db",
+      "status": "captured",
+      "formal": true
+    },
+    {
+      "id": "courses-desktop",
+      "surface": "courses",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "file": "courses-desktop.png",
+      "sha256": "b1e9b7db3b17390aeaf21b551a843de442deb4c1c1fffc52f0f67d6e9fcfa0e7",
+      "status": "captured",
+      "formal": true
+    },
+    {
+      "id": "ai-tools-desktop",
+      "surface": "ai-tools",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "file": "ai-tools-desktop.png",
+      "sha256": "d78ff3b95b76f425e914ae3438d4cf5f7def65a56456bedcfeafd8da78db0615",
+      "status": "captured",
+      "formal": true
+    },
+    {
+      "id": "games-desktop",
+      "surface": "games",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "file": "games-desktop.png",
+      "sha256": "343611eea18f18c08b13f4c6a75fa75698034d0848f44ad6c02492387d886ff3",
+      "status": "captured",
+      "formal": true
+    },
+    {
+      "id": "profile-desktop",
+      "surface": "profile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "file": "profile-desktop.png",
+      "sha256": "b33d71c416f359b9331f418a3b62ce1da6f5180aaf94b1fb0545ba3ae45daae1",
+      "status": "captured",
+      "formal": true
+    },
+    {
+      "id": "remaining-member-states-mobile",
+      "surface": "state-matrix",
+      "viewport": {
+        "width": 393,
+        "height": 852
+      },
+      "status": "pending",
+      "formal": true
+    },
+    {
+      "id": "remaining-member-states-desktop",
+      "surface": "state-matrix",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "pending",
+      "formal": true
+    }
+  ]
+}

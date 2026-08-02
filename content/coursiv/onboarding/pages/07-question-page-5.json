@@ -1,0 +1,304 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "messages-and-requests-control-my-day",
+        "title": "Messages and requests control my day"
+      },
+      {
+        "actions": [],
+        "slug": "i-make-a-plan-but-rarely-follow-it",
+        "title": "I make a plan but rarely follow it"
+      },
+      {
+        "actions": [],
+        "slug": "i-know-my-priorities-but-struggle-to-start",
+        "title": "I know my priorities but struggle to start"
+      },
+      {
+        "actions": [],
+        "slug": "i-work-well-but-take-on-too-much",
+        "title": "I work well but take on too much"
+      },
+      {
+        "actions": [],
+        "slug": "i-control-most-of-my-schedule",
+        "title": "I control most of my schedule"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "how_comfortable_are_you_using_ai_tools_right_now",
+    "stats": {},
+    "title": "How much control do you have over your daily priorities?",
+    "tryAskingLabel": "Try asking",
+    "subtitle": "This helps us understand your current work system.",
+    "description": ""
+  },
+  "id": "07-question-page-5",
+  "index": 6,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 8508,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/0921da2e9d9249703f64ae39e83cbfa6b2997a64137b6351bf7f231e603db421.webp",
+      "reference": "downcast_face_with_sweat.webp",
+      "sha256": "0921da2e9d9249703f64ae39e83cbfa6b2997a64137b6351bf7f231e603db421",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/downcast_face_with_sweat.webp"
+    },
+    {
+      "bytes": 54028,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/4ea381d202b359e3e1b7df8b6862ef9532fbbeda3fc7eaa4b5ff53547ff5276c.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_2-1.webp",
+      "sha256": "4ea381d202b359e3e1b7df8b6862ef9532fbbeda3fc7eaa4b5ff53547ff5276c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_2-1.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 3456,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/8bd3a77bac59f219310b61a559f0ea0ab2976969da8dcd779b5aecf08f51e886.webp",
+      "reference": "new_button.webp",
+      "sha256": "8bd3a77bac59f219310b61a559f0ea0ab2976969da8dcd779b5aecf08f51e886",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/new_button.webp"
+    },
+    {
+      "bytes": 8804,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/a0377f818962ad70b1b498466d173bdf8742d65a1fd72daac72630f584eb0905.webp",
+      "reference": "person_shrugging.webp",
+      "sha256": "a0377f818962ad70b1b498466d173bdf8742d65a1fd72daac72630f584eb0905",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/person_shrugging.webp"
+    },
+    {
+      "bytes": 5998,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f0b0b1ec774d9ba6ef3b2d453ba362c260783964c5df2ba61caccb4d6d1b8cf3.webp",
+      "reference": "thumbs_up.webp",
+      "sha256": "f0b0b1ec774d9ba6ef3b2d453ba362c260783964c5df2ba61caccb4d6d1b8cf3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/thumbs_up.webp"
+    }
+  ],
+  "mediaReferences": [
+    "downcast_face_with_sweat.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_2-1.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "new_button.webp",
+    "person_shrugging.webp",
+    "thumbs_up.webp"
+  ],
+  "navigation": {
+    "next": "/dynamic/wild-page",
+    "previous": "/dynamic/question-page-4",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "07-question-page-5--messages-and-requests-control-my-day",
+      "label": "Messages and requests control my day",
+      "value": "messages-and-requests-control-my-day",
+      "source": {
+        "actions": [],
+        "slug": "messages-and-requests-control-my-day",
+        "title": "Messages and requests control my day"
+      }
+    },
+    {
+      "id": "07-question-page-5--i-make-a-plan-but-rarely-follow-it",
+      "label": "I make a plan but rarely follow it",
+      "value": "i-make-a-plan-but-rarely-follow-it",
+      "source": {
+        "actions": [],
+        "slug": "i-make-a-plan-but-rarely-follow-it",
+        "title": "I make a plan but rarely follow it"
+      }
+    },
+    {
+      "id": "07-question-page-5--i-know-my-priorities-but-struggle-to-start",
+      "label": "I know my priorities but struggle to start",
+      "value": "i-know-my-priorities-but-struggle-to-start",
+      "source": {
+        "actions": [],
+        "slug": "i-know-my-priorities-but-struggle-to-start",
+        "title": "I know my priorities but struggle to start"
+      }
+    },
+    {
+      "id": "07-question-page-5--i-work-well-but-take-on-too-much",
+      "label": "I work well but take on too much",
+      "value": "i-work-well-but-take-on-too-much",
+      "source": {
+        "actions": [],
+        "slug": "i-work-well-but-take-on-too-much",
+        "title": "I work well but take on too much"
+      }
+    },
+    {
+      "id": "07-question-page-5--i-control-most-of-my-schedule",
+      "label": "I control most of my schedule",
+      "value": "i-control-most-of-my-schedule",
+      "source": {
+        "actions": [],
+        "slug": "i-control-most-of-my-schedule",
+        "title": "I control most of my schedule"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-5",
+  "progress": {
+    "current": 5,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/wild-page",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "thumbs_up.webp",
+          "slug": "im_comfortable",
+          "title": "I'm comfortable"
+        },
+        {
+          "actions": [],
+          "icon": "person_shrugging.webp",
+          "slug": "i_struggle_sometimes",
+          "title": "I struggle sometimes"
+        },
+        {
+          "actions": [],
+          "icon": "downcast_face_with_sweat.webp",
+          "slug": "i_struggle_a_lot",
+          "title": "I struggle a lot"
+        },
+        {
+          "actions": [],
+          "icon": "new_button.webp",
+          "slug": "i_dont_know_anything",
+          "title": "I don't know anything"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "how_comfortable_are_you_using_ai_tools_right_now",
+      "stats": {},
+      "title": "How comfortable are you using AI tools right now?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 5,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_2-1.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_2-1.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-4"
+  },
+  "schemaVersion": 1,
+  "slug": "how_comfortable_are_you_using_ai_tools_right_now",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-5?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-5",
+  "title": "How much control do you have over your daily priorities?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

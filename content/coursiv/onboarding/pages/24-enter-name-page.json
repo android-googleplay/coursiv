@@ -1,0 +1,201 @@
+{
+  "content": {
+    "blockType": "enter-name-page",
+    "button": {
+      "actions": [
+        {
+          "blockType": "next_page",
+          "payload": {
+            "searchParams": {}
+          }
+        }
+      ],
+      "text": "CONTINUE",
+      "value": "continue"
+    },
+    "notificationBanner": {
+      "image": [],
+      "text": ""
+    },
+    "pageViewActions": [
+      {
+        "blockType": "track_sentinel_event",
+        "payload": {
+          "eventName": "pr_funnel_quiz_teaser_view"
+        }
+      }
+    ],
+    "placeholder": "Enter your name",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "title": "What should we call you?",
+    "version": "v2",
+    "subtitle": "We’ll use your name inside your personal plan.",
+    "description": ""
+  },
+  "id": "24-enter-name-page",
+  "index": 23,
+  "interaction": "name",
+  "media": [
+    {
+      "bytes": 504,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/fa3f2137fab839095ae89dd0a14e50c43aff0a0eaf29586734e0ab4578087485.svg",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/bxs_book.svg",
+      "sha256": "fa3f2137fab839095ae89dd0a14e50c43aff0a0eaf29586734e0ab4578087485",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/bxs_book.svg"
+    },
+    {
+      "bytes": 545,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/fdf0622d69584f7fb96f93ba07930ecad4bec72a1cae7fb55f75fb9b5621813d.svg",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/ic_round-star.svg",
+      "sha256": "fdf0622d69584f7fb96f93ba07930ecad4bec72a1cae7fb55f75fb9b5621813d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/ic_round-star.svg"
+    },
+    {
+      "bytes": 1548,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d2cec33f361a1ffa2009ede9f27a5a34216fb3c836fa7f58306b8dbbad9935bc.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/mingcute_target-fill-1.webp",
+      "sha256": "d2cec33f361a1ffa2009ede9f27a5a34216fb3c836fa7f58306b8dbbad9935bc",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/mingcute_target-fill-1.webp"
+    },
+    {
+      "bytes": 980,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/464f91c13aa97928890f95dd9c3bc3b5e5278d261fc846f1fc477e20d55db5aa.svg",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/mingcute_time-fill.svg",
+      "sha256": "464f91c13aa97928890f95dd9c3bc3b5e5278d261fc846f1fc477e20d55db5aa",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/mingcute_time-fill.svg"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "https://d3kigabz1zn79w.cloudfront.net/bxs_book.svg",
+    "https://d3kigabz1zn79w.cloudfront.net/ic_round-star.svg",
+    "https://d3kigabz1zn79w.cloudfront.net/mingcute_target-fill-1.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/mingcute_time-fill.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/personalized-summary-page",
+    "previous": "/dynamic/email-page",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [],
+  "path": "/dynamic/enter-name-page",
+  "progress": {
+    "current": null,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/personalized-summary-page",
+    "pageContent": {
+      "blockType": "enter-name-page",
+      "button": {
+        "actions": [
+          {
+            "blockType": "next_page",
+            "payload": {
+              "searchParams": {}
+            }
+          }
+        ],
+        "text": "CONTINUE",
+        "value": "continue"
+      },
+      "notificationBanner": {
+        "image": [],
+        "text": ""
+      },
+      "pageViewActions": [
+        {
+          "blockType": "track_sentinel_event",
+          "payload": {
+            "eventName": "pr_funnel_quiz_teaser_view"
+          }
+        }
+      ],
+      "placeholder": "Enter your name",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "title": "What should we call you?",
+      "version": "v2"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": null,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/mingcute_target-fill-1.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/ic_round-star.svg",
+      "https://d3kigabz1zn79w.cloudfront.net/mingcute_time-fill.svg",
+      "https://d3kigabz1zn79w.cloudfront.net/bxs_book.svg"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/email-page"
+  },
+  "schemaVersion": 1,
+  "slug": null,
+  "sourceUrl": "https://coursiv.io/dynamic/enter-name-page?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=enter-name-page",
+  "title": "What should we call you?",
+  "type": "enter-name-page",
+  "migrationId": "ai-workday-v1"
+}

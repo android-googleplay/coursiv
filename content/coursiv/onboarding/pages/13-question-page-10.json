@@ -1,0 +1,378 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "write-and-reply-to-emails",
+        "title": "Write and reply to emails"
+      },
+      {
+        "actions": [],
+        "slug": "turn-meetings-into-action-lists",
+        "title": "Turn meetings into action lists"
+      },
+      {
+        "actions": [],
+        "slug": "research-and-summarize-information",
+        "title": "Research and summarize information"
+      },
+      {
+        "actions": [],
+        "slug": "create-reports-and-documents",
+        "title": "Create reports and documents"
+      },
+      {
+        "actions": [],
+        "slug": "understand-spreadsheets",
+        "title": "Understand spreadsheets"
+      },
+      {
+        "actions": [],
+        "slug": "plan-and-prioritize-work",
+        "title": "Plan and prioritize work"
+      },
+      {
+        "actions": [],
+        "slug": "automate-repeated-admin",
+        "title": "Automate repeated admin"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "what_do_you_want_ai_to_help_you_with_first",
+    "stats": {},
+    "title": "Which workflow would you improve first?",
+    "tryAskingLabel": "Try asking",
+    "subtitle": "Choose one result for your first week.",
+    "description": ""
+  },
+  "id": "13-question-page-10",
+  "index": 12,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 7970,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2334f8336ac847a873912d0b115b5ad4e14a3ccb2633fba69358dfcb7d55d08e.webp",
+      "reference": "artist_palette.webp",
+      "sha256": "2334f8336ac847a873912d0b115b5ad4e14a3ccb2633fba69358dfcb7d55d08e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp"
+    },
+    {
+      "bytes": 5162,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/36aa71107f2c7f3dffb1b02e8775a325a3310783a7ad981865421fc936e5cbe9.webp",
+      "reference": "blue_book.webp",
+      "sha256": "36aa71107f2c7f3dffb1b02e8775a325a3310783a7ad981865421fc936e5cbe9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/blue_book.webp"
+    },
+    {
+      "bytes": 7380,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/becaa9810bb1f7f566b5bd88e4431e1300617d98044bcae7b6630e5eaa177225.webp",
+      "reference": "books.webp",
+      "sha256": "becaa9810bb1f7f566b5bd88e4431e1300617d98044bcae7b6630e5eaa177225",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/books.webp"
+    },
+    {
+      "bytes": 2212,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/8fc95a7532c795197e70ddf77606c15dd8a38a91f2df5bff2973028cfe347186.webp",
+      "reference": "email-1.webp",
+      "sha256": "8fc95a7532c795197e70ddf77606c15dd8a38a91f2df5bff2973028cfe347186",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/email-1.webp"
+    },
+    {
+      "bytes": 7794,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f62a3967cf9f35e9a6ca16217a7cbc95666ecc196956ccda95825a965a777333.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/bullseye.webp",
+      "sha256": "f62a3967cf9f35e9a6ca16217a7cbc95666ecc196956ccda95825a965a777333",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/bullseye.webp"
+    },
+    {
+      "bytes": 7738,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d19c18abc49d2fdeacd0fe9292372384e3f782f3108f5d804a67d5b7949bf704.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/electric_plug.webp",
+      "sha256": "d19c18abc49d2fdeacd0fe9292372384e3f782f3108f5d804a67d5b7949bf704",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/electric_plug.webp"
+    },
+    {
+      "bytes": 4466,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/37c00823cc64d5ac181bf97a8ee4563088090cd3650802bc859f4d954b5d0ab7.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/light_bulb.webp",
+      "sha256": "37c00823cc64d5ac181bf97a8ee4563088090cd3650802bc859f4d954b5d0ab7",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/light_bulb.webp"
+    },
+    {
+      "bytes": 7914,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/db582df8c16d2b2e93f337993e36642ea08644f799b9f05d48320bd678dfffc8.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/person_running.webp",
+      "sha256": "db582df8c16d2b2e93f337993e36642ea08644f799b9f05d48320bd678dfffc8",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/person_running.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 6616,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/55873f86bd7a54e855e680614aa3bfaae3313dfffa026301150c00cff61e9baf.webp",
+      "reference": "writing_hand.webp",
+      "sha256": "55873f86bd7a54e855e680614aa3bfaae3313dfffa026301150c00cff61e9baf",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/writing_hand.webp"
+    }
+  ],
+  "mediaReferences": [
+    "artist_palette.webp",
+    "blue_book.webp",
+    "books.webp",
+    "email-1.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/bullseye.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/electric_plug.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/light_bulb.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/person_running.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "writing_hand.webp"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-11",
+    "previous": "/dynamic/question-page-9",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "13-question-page-10--write-and-reply-to-emails",
+      "label": "Write and reply to emails",
+      "value": "write-and-reply-to-emails",
+      "source": {
+        "actions": [],
+        "slug": "write-and-reply-to-emails",
+        "title": "Write and reply to emails"
+      }
+    },
+    {
+      "id": "13-question-page-10--turn-meetings-into-action-lists",
+      "label": "Turn meetings into action lists",
+      "value": "turn-meetings-into-action-lists",
+      "source": {
+        "actions": [],
+        "slug": "turn-meetings-into-action-lists",
+        "title": "Turn meetings into action lists"
+      }
+    },
+    {
+      "id": "13-question-page-10--research-and-summarize-information",
+      "label": "Research and summarize information",
+      "value": "research-and-summarize-information",
+      "source": {
+        "actions": [],
+        "slug": "research-and-summarize-information",
+        "title": "Research and summarize information"
+      }
+    },
+    {
+      "id": "13-question-page-10--create-reports-and-documents",
+      "label": "Create reports and documents",
+      "value": "create-reports-and-documents",
+      "source": {
+        "actions": [],
+        "slug": "create-reports-and-documents",
+        "title": "Create reports and documents"
+      }
+    },
+    {
+      "id": "13-question-page-10--understand-spreadsheets",
+      "label": "Understand spreadsheets",
+      "value": "understand-spreadsheets",
+      "source": {
+        "actions": [],
+        "slug": "understand-spreadsheets",
+        "title": "Understand spreadsheets"
+      }
+    },
+    {
+      "id": "13-question-page-10--plan-and-prioritize-work",
+      "label": "Plan and prioritize work",
+      "value": "plan-and-prioritize-work",
+      "source": {
+        "actions": [],
+        "slug": "plan-and-prioritize-work",
+        "title": "Plan and prioritize work"
+      }
+    },
+    {
+      "id": "13-question-page-10--automate-repeated-admin",
+      "label": "Automate repeated admin",
+      "value": "automate-repeated-admin",
+      "source": {
+        "actions": [],
+        "slug": "automate-repeated-admin",
+        "title": "Automate repeated admin"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-10",
+  "progress": {
+    "current": 10,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-11",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "writing_hand.webp",
+          "slug": "writing_content_creation",
+          "title": "Writing & content creation"
+        },
+        {
+          "actions": [],
+          "icon": "blue_book.webp",
+          "slug": "data_analysis_research",
+          "title": "Data analysis & research"
+        },
+        {
+          "actions": [],
+          "icon": "artist_palette.webp",
+          "slug": "images_design",
+          "title": "Images & design"
+        },
+        {
+          "actions": [],
+          "icon": "email-1.webp",
+          "slug": "automating_repetitive_tasks",
+          "title": "Automating repetitive tasks"
+        },
+        {
+          "actions": [],
+          "icon": "books.webp",
+          "slug": "learning_upskilling",
+          "title": "Learning & upskilling"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "what_do_you_want_ai_to_help_you_with_first",
+      "stats": {},
+      "title": "What do you want AI to help you with first?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 10,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/person_running.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/electric_plug.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/bullseye.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/light_bulb.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-9"
+  },
+  "schemaVersion": 1,
+  "slug": "what_do_you_want_ai_to_help_you_with_first",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-10?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-10",
+  "title": "Which workflow would you improve first?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

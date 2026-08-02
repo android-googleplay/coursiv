@@ -1,0 +1,336 @@
+{
+  "content": {
+    "blockType": "wild-page",
+    "blocks": [
+      {
+        "answerSlug": "default",
+        "conditionGroups": [],
+        "page": [
+          {
+            "blockType": "followup-teaser-page",
+            "button": "CONTINUE",
+            "description": "You’ll learn workflows based on outcomes, not random features.",
+            "image": "Teaser_1061_3-13.webp",
+            "pageViewActions": [
+              {
+                "blockType": "track_sentinel_event",
+                "payload": {
+                  "eventName": "pr_funnel_quiz_teaser_view"
+                }
+              }
+            ],
+            "progressBar": false,
+            "progressDurationMs": 4000,
+            "routing": {
+              "conditions": [],
+              "defaultEndsFlow": false
+            },
+            "slug": "there_is_nothing_to_worry_about",
+            "title": "AI Should Fit Your Workday—Not Add Another Tool",
+            "subtitle": "You’ll learn workflows based on outcomes, not random features."
+          }
+        ]
+      },
+      {
+        "answerSlug": "not_having_right_skills",
+        "conditionGroups": [],
+        "page": [
+          {
+            "blockType": "followup-teaser-page",
+            "button": "CONTINUE",
+            "description": "You’ll learn workflows based on outcomes, not random features.",
+            "image": "Teaser_1061_3-13.webp",
+            "pageViewActions": [
+              {
+                "blockType": "track_sentinel_event",
+                "payload": {
+                  "eventName": "pr_funnel_quiz_teaser_view"
+                }
+              }
+            ],
+            "progressBar": false,
+            "progressDurationMs": 4000,
+            "routing": {
+              "conditions": [],
+              "defaultEndsFlow": false
+            },
+            "slug": "there_is_nothing_to_worry_about",
+            "title": "AI Should Fit Your Workday—Not Add Another Tool",
+            "subtitle": "You’ll learn workflows based on outcomes, not random features."
+          }
+        ]
+      },
+      {
+        "answerSlug": "nothing_ai_opportunity",
+        "conditionGroups": [],
+        "page": [
+          {
+            "blockType": "followup-teaser-page",
+            "button": "CONTINUE",
+            "description": "You’ll learn workflows based on outcomes, not random features.",
+            "image": "Teaser_1061_3-13.webp",
+            "pageViewActions": [
+              {
+                "blockType": "track_sentinel_event",
+                "payload": {
+                  "eventName": "pr_funnel_quiz_teaser_view"
+                }
+              }
+            ],
+            "progressBar": false,
+            "progressDurationMs": 4000,
+            "routing": {
+              "conditions": [],
+              "defaultEndsFlow": false
+            },
+            "slug": "youve_got_the_hardest_part_already",
+            "title": "AI Should Fit Your Workday—Not Add Another Tool",
+            "subtitle": "You’ll learn workflows based on outcomes, not random features."
+          }
+        ]
+      }
+    ],
+    "pageViewActions": [],
+    "questionSlug": "when_you_think_about_ai_and_your_career_what_concerns_you_most",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "title": "AI Should Fit Your Workday—Not Add Another Tool",
+    "subtitle": "You’ll learn workflows based on outcomes, not random features.",
+    "description": ""
+  },
+  "id": "15-wild-page-2",
+  "index": 14,
+  "interaction": "continue",
+  "media": [
+    {
+      "bytes": 35940,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/0d36e458f9db323bd8b96d965f3530096de08f8ef7aeb1ed76c979d699c9364c.webp",
+      "reference": "Teaser_1061_3-13.webp",
+      "sha256": "0d36e458f9db323bd8b96d965f3530096de08f8ef7aeb1ed76c979d699c9364c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_3-13.webp"
+    },
+    {
+      "bytes": 3324,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/83f61fd2257dd14b807db8becd8288a73c4bd4e5f1cd9505a51920fdd0fbcbba.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/free_button.webp",
+      "sha256": "83f61fd2257dd14b807db8becd8288a73c4bd4e5f1cd9505a51920fdd0fbcbba",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/free_button.webp"
+    },
+    {
+      "bytes": 6676,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/71c8df5c454dd097b1f8d636efc99e7ecbfb062ef2044a2ab126d8bc61202aec.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/graduation_cap.webp",
+      "sha256": "71c8df5c454dd097b1f8d636efc99e7ecbfb062ef2044a2ab126d8bc61202aec",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/graduation_cap.webp"
+    },
+    {
+      "bytes": 3456,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/8bd3a77bac59f219310b61a559f0ea0ab2976969da8dcd779b5aecf08f51e886.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/new_button.webp",
+      "sha256": "8bd3a77bac59f219310b61a559f0ea0ab2976969da8dcd779b5aecf08f51e886",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/new_button.webp"
+    },
+    {
+      "bytes": 7894,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/26fa90debcede775f8060ff521314529959043952e0280d7fe641858e2edbbb3.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/puzzle_piece.webp",
+      "sha256": "26fa90debcede775f8060ff521314529959043952e0280d7fe641858e2edbbb3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/puzzle_piece.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "Teaser_1061_3-13.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/free_button.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/graduation_cap.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/new_button.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/puzzle_piece.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-12",
+    "previous": "/dynamic/question-page-11",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [],
+  "path": "/dynamic/wild-page-2",
+  "progress": {
+    "current": null,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-12",
+    "pageContent": {
+      "blockType": "wild-page",
+      "blocks": [
+        {
+          "answerSlug": "default",
+          "conditionGroups": [],
+          "page": [
+            {
+              "blockType": "followup-teaser-page",
+              "button": "CONTINUE",
+              "description": "As Harvard Business School professor Karim Lakhani put it in HBR, <strong> AI won't replace humans, but humans with AI will replace humans without.</strong> The divide isn't you vs AI but people who use AI vs those who don't. By getting an AI certificate now, you'll never worry about being replaced again.",
+              "image": "Teaser_1061_3-13.webp",
+              "pageViewActions": [
+                {
+                  "blockType": "track_sentinel_event",
+                  "payload": {
+                    "eventName": "pr_funnel_quiz_teaser_view"
+                  }
+                }
+              ],
+              "progressBar": false,
+              "progressDurationMs": 4000,
+              "routing": {
+                "conditions": [],
+                "defaultEndsFlow": false
+              },
+              "slug": "there_is_nothing_to_worry_about",
+              "title": "There is nothing to worry about"
+            }
+          ]
+        },
+        {
+          "answerSlug": "not_having_right_skills",
+          "conditionGroups": [],
+          "page": [
+            {
+              "blockType": "followup-teaser-page",
+              "button": "CONTINUE",
+              "description": "Not having the skills yet isn't the problem - it's the starting line. Your path is built to take you from there, one practical step at a time. As Harvard Business School professor Karim Lakhani put it in HBR,<strong> AI won't replace humans, but humans with AI will replace humans without.</strong> ",
+              "image": "Teaser_1061_3-13.webp",
+              "pageViewActions": [
+                {
+                  "blockType": "track_sentinel_event",
+                  "payload": {
+                    "eventName": "pr_funnel_quiz_teaser_view"
+                  }
+                }
+              ],
+              "progressBar": false,
+              "progressDurationMs": 4000,
+              "routing": {
+                "conditions": [],
+                "defaultEndsFlow": false
+              },
+              "slug": "there_is_nothing_to_worry_about",
+              "title": "There is nothing to worry about"
+            }
+          ]
+        },
+        {
+          "answerSlug": "nothing_ai_opportunity",
+          "conditionGroups": [],
+          "page": [
+            {
+              "blockType": "followup-teaser-page",
+              "button": "CONTINUE",
+              "description": "You're already approaching AI the right way as something to use, not fear. A structured path turns that into hands-on skills and a certificate you can show.",
+              "image": "Teaser_1061_3-13.webp",
+              "pageViewActions": [
+                {
+                  "blockType": "track_sentinel_event",
+                  "payload": {
+                    "eventName": "pr_funnel_quiz_teaser_view"
+                  }
+                }
+              ],
+              "progressBar": false,
+              "progressDurationMs": 4000,
+              "routing": {
+                "conditions": [],
+                "defaultEndsFlow": false
+              },
+              "slug": "youve_got_the_hardest_part_already",
+              "title": "You've got the hardest part already!"
+            }
+          ]
+        }
+      ],
+      "pageViewActions": [],
+      "questionSlug": "when_you_think_about_ai_and_your_career_what_concerns_you_most",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      }
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": null,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/new_button.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/free_button.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/graduation_cap.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/puzzle_piece.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-11"
+  },
+  "schemaVersion": 1,
+  "slug": null,
+  "sourceUrl": "https://coursiv.io/dynamic/wild-page-2?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=wild-page-2",
+  "title": "AI Should Fit Your Workday—Not Add Another Tool",
+  "type": "wild-page",
+  "migrationId": "ai-workday-v1"
+}

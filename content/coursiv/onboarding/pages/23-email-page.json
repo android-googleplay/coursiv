@@ -1,0 +1,153 @@
+{
+  "content": {
+    "animationSources": [],
+    "blockType": "email-page",
+    "bonus": {},
+    "bottomGift": [],
+    "button": {
+      "text": "Continue"
+    },
+    "conquerAlert": {},
+    "conquerParticipants": {
+      "compositeAvatarUrl": []
+    },
+    "emailAutocomplete": false,
+    "notificationBanner": {
+      "image": []
+    },
+    "pageViewActions": [],
+    "productUpdates": {
+      "buttons": {
+        "agree": "YES, I'M IN!",
+        "cancel": "I DON'T WANT TO RECEIVE TIPS OR UPDATES"
+      },
+      "title": "Do you want to receive emails with <span className='label-text-all-accent'>AI</span> tips and product updates?"
+    },
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "subtitle": "Enter your email to save your results and continue on any device. Product updates and offers are optional.",
+    "title": "Where should we send your plan?",
+    "description": ""
+  },
+  "id": "23-email-page",
+  "index": 22,
+  "interaction": "email",
+  "media": [
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/enter-name-page",
+    "previous": "/dynamic/magic-page",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [],
+  "path": "/dynamic/email-page",
+  "progress": {
+    "current": null,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/enter-name-page",
+    "pageContent": {
+      "animationSources": [],
+      "blockType": "email-page",
+      "bonus": {},
+      "bottomGift": [],
+      "button": {
+        "text": "Continue"
+      },
+      "conquerAlert": {},
+      "conquerParticipants": {
+        "compositeAvatarUrl": []
+      },
+      "emailAutocomplete": false,
+      "notificationBanner": {
+        "image": []
+      },
+      "pageViewActions": [],
+      "productUpdates": {
+        "buttons": {
+          "agree": "YES, I'M IN!",
+          "cancel": "I DON'T WANT TO RECEIVE TIPS OR UPDATES"
+        },
+        "title": "Do you want to receive emails with <span className='label-text-all-accent'>AI</span> tips and product updates?"
+      },
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "subtitle": "I'd like to receive valuable insights, exclusive offers, and the latest news straight to my inbox!",
+      "title": "Enter your email to get your <span className='label-text-all-accent'>Personalized AI Program!</span>"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": null,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/magic-page"
+  },
+  "schemaVersion": 1,
+  "slug": null,
+  "sourceUrl": "https://coursiv.io/dynamic/email-page?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=email-page",
+  "title": "Where should we send your plan?",
+  "type": "email-page",
+  "migrationId": "ai-workday-v1"
+}

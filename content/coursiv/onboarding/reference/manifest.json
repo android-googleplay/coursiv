@@ -1,0 +1,63 @@
+{
+  "capturedAt": "2026-07-25T15:53:27.076Z",
+  "source": "https://coursiv.io/dynamic?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero",
+  "capture": "viewport",
+  "screenshots": [
+    {
+      "pageId": "01-dynamic",
+      "file": "reference/desktop/01-dynamic.png",
+      "sha256": "a04a17b4cbc59da301519cf125ee2833a907a2f5c253fee8ecc4e085a985bfe5",
+      "height": 720,
+      "pageHeight": 720,
+      "width": 1280
+    },
+    {
+      "pageId": "02-classic-social-proof",
+      "file": "reference/desktop/02-classic-social-proof.png",
+      "sha256": "69d3dacf9f480500aeaed431b05e6892cc3bb0b4f50e765caa224c69472b4b5b",
+      "height": 720,
+      "pageHeight": 720,
+      "width": 1280
+    },
+    {
+      "pageId": "03-question-page",
+      "file": "reference/desktop/03-question-page.png",
+      "sha256": "c7fa832aa71174a79a41552413b713d9557615fd8100ee3bd8a63d94926c64b8",
+      "height": 720,
+      "pageHeight": 720,
+      "width": 1280
+    },
+    {
+      "pageId": "25-personalized-summary-page",
+      "file": "reference/desktop/25-personalized-summary-page.png",
+      "sha256": "ba0cf030b2fa0783c6cdb230d17212a96872cd156bc39e49fc2515fd696c6905",
+      "height": 720,
+      "pageHeight": 808,
+      "width": 1280
+    },
+    {
+      "pageId": "26-before-after-page-personalized",
+      "file": "reference/desktop/26-before-after-page-personalized.png",
+      "sha256": "323bdd1a7f97f3fbf909e685c169c3d44888914f85f93c0f3722eeb6fb6898dc",
+      "height": 720,
+      "pageHeight": 907,
+      "width": 1280
+    },
+    {
+      "pageId": "27-solution-pitch-page",
+      "file": "reference/desktop/27-solution-pitch-page.png",
+      "sha256": "0d3d1f79485737dfb1e3b06c6952ef6d923b94e689deb65b9b3e0e2bd6a6a2cd",
+      "height": 720,
+      "pageHeight": 1194,
+      "width": 1280
+    },
+    {
+      "pageId": "28-social-proof-testimonials-page",
+      "file": "reference/desktop/28-social-proof-testimonials-page.png",
+      "sha256": "f8d1b96ae3844c2d72857fb89b589a5cf7037f0aa290263b4a6725aa5665ae05",
+      "height": 720,
+      "pageHeight": 2425,
+      "width": 1280
+    }
+  ]
+}

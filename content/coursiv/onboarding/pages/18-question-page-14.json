@@ -1,0 +1,318 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "clear-my-email-backlog",
+        "title": "Clear my email backlog"
+      },
+      {
+        "actions": [],
+        "slug": "improve-one-recurring-meeting",
+        "title": "Improve one recurring meeting"
+      },
+      {
+        "actions": [],
+        "slug": "finish-a-document-faster",
+        "title": "Finish a document faster"
+      },
+      {
+        "actions": [],
+        "slug": "save-a-reusable-workflow",
+        "title": "Save a reusable workflow"
+      },
+      {
+        "actions": [],
+        "slug": "regain-one-focused-hour",
+        "title": "Regain one focused hour"
+      },
+      {
+        "actions": [],
+        "slug": "feel-more-confident-using-ai",
+        "title": "Feel more confident using AI"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "what_result_do_you_want_in_your_first_week",
+    "stats": {},
+    "title": "What would feel like a meaningful win this week?",
+    "tryAskingLabel": "Try asking",
+    "subtitle": "Your first milestone should be small, useful and achievable.",
+    "description": ""
+  },
+  "id": "18-question-page-14",
+  "index": 17,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 6352,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/23bc8bfe6eaf6aaa9626572b7060af139c88ea2dc11183659deffcf6a76630d8.webp",
+      "reference": "dollar_banknote.webp",
+      "sha256": "23bc8bfe6eaf6aaa9626572b7060af139c88ea2dc11183659deffcf6a76630d8",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/dollar_banknote.webp"
+    },
+    {
+      "bytes": 256710,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e8a7abe0600fb19f11a1ebc370d436e9f27887ae0d0f3eec11118053bf589a5e.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0504.webp",
+      "sha256": "e8a7abe0600fb19f11a1ebc370d436e9f27887ae0d0f3eec11118053bf589a5e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0504.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 3782,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/754867fff9f2e021f298e1be878bdda4cbf08fc6d5893cdc5e4380a3e0188ed2.webp",
+      "reference": "mobile_phone.webp",
+      "sha256": "754867fff9f2e021f298e1be878bdda4cbf08fc6d5893cdc5e4380a3e0188ed2",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/mobile_phone.webp"
+    },
+    {
+      "bytes": 6918,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/eccf7ebdcf622191b985e5e7bf5fcf9d5702aa8b0d64fb9d589db9347239d9b9.webp",
+      "reference": "robot.webp",
+      "sha256": "eccf7ebdcf622191b985e5e7bf5fcf9d5702aa8b0d64fb9d589db9347239d9b9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/robot.webp"
+    },
+    {
+      "bytes": 6616,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/55873f86bd7a54e855e680614aa3bfaae3313dfffa026301150c00cff61e9baf.webp",
+      "reference": "writing_hand.webp",
+      "sha256": "55873f86bd7a54e855e680614aa3bfaae3313dfffa026301150c00cff61e9baf",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/writing_hand.webp"
+    }
+  ],
+  "mediaReferences": [
+    "dollar_banknote.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0504.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "mobile_phone.webp",
+    "robot.webp",
+    "writing_hand.webp"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-15",
+    "previous": "/dynamic/question-page-13",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "18-question-page-14--clear-my-email-backlog",
+      "label": "Clear my email backlog",
+      "value": "clear-my-email-backlog",
+      "source": {
+        "actions": [],
+        "slug": "clear-my-email-backlog",
+        "title": "Clear my email backlog"
+      }
+    },
+    {
+      "id": "18-question-page-14--improve-one-recurring-meeting",
+      "label": "Improve one recurring meeting",
+      "value": "improve-one-recurring-meeting",
+      "source": {
+        "actions": [],
+        "slug": "improve-one-recurring-meeting",
+        "title": "Improve one recurring meeting"
+      }
+    },
+    {
+      "id": "18-question-page-14--finish-a-document-faster",
+      "label": "Finish a document faster",
+      "value": "finish-a-document-faster",
+      "source": {
+        "actions": [],
+        "slug": "finish-a-document-faster",
+        "title": "Finish a document faster"
+      }
+    },
+    {
+      "id": "18-question-page-14--save-a-reusable-workflow",
+      "label": "Save a reusable workflow",
+      "value": "save-a-reusable-workflow",
+      "source": {
+        "actions": [],
+        "slug": "save-a-reusable-workflow",
+        "title": "Save a reusable workflow"
+      }
+    },
+    {
+      "id": "18-question-page-14--regain-one-focused-hour",
+      "label": "Regain one focused hour",
+      "value": "regain-one-focused-hour",
+      "source": {
+        "actions": [],
+        "slug": "regain-one-focused-hour",
+        "title": "Regain one focused hour"
+      }
+    },
+    {
+      "id": "18-question-page-14--feel-more-confident-using-ai",
+      "label": "Feel more confident using AI",
+      "value": "feel-more-confident-using-ai",
+      "source": {
+        "actions": [],
+        "slug": "feel-more-confident-using-ai",
+        "title": "Feel more confident using AI"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-14",
+  "progress": {
+    "current": 14,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-15",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "writing_hand.webp",
+          "slug": "write_my_first_ai_prompt_and_see_it_work",
+          "title": "Write my first AI prompt"
+        },
+        {
+          "actions": [],
+          "icon": "robot.webp",
+          "slug": "automate_one_task_at_work",
+          "title": "Automate tasks at work"
+        },
+        {
+          "actions": [],
+          "icon": "mobile_phone.webp",
+          "slug": "create_content_for_social_media_or_business",
+          "title": "Create new content"
+        },
+        {
+          "actions": [],
+          "icon": "dollar_banknote.webp",
+          "slug": "start_building_an_ai_powered_side_income",
+          "title": "Start AI-powered side income"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "what_result_do_you_want_in_your_first_week",
+      "stats": {},
+      "title": "What result do you want in your first week?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 14,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0504.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-13"
+  },
+  "schemaVersion": 1,
+  "slug": "what_result_do_you_want_in_your_first_week",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-14?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-14",
+  "title": "What would feel like a meaningful win this week?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

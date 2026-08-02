@@ -1,0 +1,391 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "button": "",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "individual-contributor",
+        "title": "Individual contributor"
+      },
+      {
+        "actions": [],
+        "slug": "manager",
+        "title": "Manager"
+      },
+      {
+        "actions": [],
+        "slug": "team-leader",
+        "title": "Team leader"
+      },
+      {
+        "actions": [],
+        "slug": "executive",
+        "title": "Executive"
+      },
+      {
+        "actions": [],
+        "slug": "business-owner",
+        "title": "Business owner"
+      },
+      {
+        "actions": [],
+        "slug": "freelancer",
+        "title": "Freelancer"
+      },
+      {
+        "actions": [],
+        "slug": "job-seeker",
+        "title": "Job seeker"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "career_level",
+    "stats": {},
+    "subtitle": "Different roles need different workflows.",
+    "title": "Which best describes your role?",
+    "tryAskingLabel": "Try asking",
+    "description": ""
+  },
+  "id": "12-question-page-9",
+  "index": 11,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 8450,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/c85f6cbba3e8c571649224c740aced4ac5c9bd8b3975e02623b24e9abc03c17c.webp",
+      "reference": "backpack.webp",
+      "sha256": "c85f6cbba3e8c571649224c740aced4ac5c9bd8b3975e02623b24e9abc03c17c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/backpack.webp"
+    },
+    {
+      "bytes": 6100,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/dd38e61f3508cf02a76e7e91fc2dbe0702d052ca1a7496707fedc3e8b7175374.webp",
+      "reference": "busts_in_silhouette.webp",
+      "sha256": "dd38e61f3508cf02a76e7e91fc2dbe0702d052ca1a7496707fedc3e8b7175374",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/busts_in_silhouette.webp"
+    },
+    {
+      "bytes": 8398,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f28ec9e8e2018378b71e6ca7605bd7f9de4c1718913552077516ab726ecb501f.webp",
+      "reference": "house_with_garden.webp",
+      "sha256": "f28ec9e8e2018378b71e6ca7605bd7f9de4c1718913552077516ab726ecb501f",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp"
+    },
+    {
+      "bytes": 7970,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2334f8336ac847a873912d0b115b5ad4e14a3ccb2633fba69358dfcb7d55d08e.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp",
+      "sha256": "2334f8336ac847a873912d0b115b5ad4e14a3ccb2633fba69358dfcb7d55d08e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp"
+    },
+    {
+      "bytes": 5162,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/36aa71107f2c7f3dffb1b02e8775a325a3310783a7ad981865421fc936e5cbe9.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/blue_book.webp",
+      "sha256": "36aa71107f2c7f3dffb1b02e8775a325a3310783a7ad981865421fc936e5cbe9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/blue_book.webp"
+    },
+    {
+      "bytes": 7380,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/becaa9810bb1f7f566b5bd88e4431e1300617d98044bcae7b6630e5eaa177225.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/books.webp",
+      "sha256": "becaa9810bb1f7f566b5bd88e4431e1300617d98044bcae7b6630e5eaa177225",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/books.webp"
+    },
+    {
+      "bytes": 2212,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/8fc95a7532c795197e70ddf77606c15dd8a38a91f2df5bff2973028cfe347186.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/email-1.webp",
+      "sha256": "8fc95a7532c795197e70ddf77606c15dd8a38a91f2df5bff2973028cfe347186",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/email-1.webp"
+    },
+    {
+      "bytes": 6616,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/55873f86bd7a54e855e680614aa3bfaae3313dfffa026301150c00cff61e9baf.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/writing_hand.webp",
+      "sha256": "55873f86bd7a54e855e680614aa3bfaae3313dfffa026301150c00cff61e9baf",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/writing_hand.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 5866,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e202553d8b206ceedbc4cdc7aa63da5afbc552c62effc9396e2fe98424b6d220.webp",
+      "reference": "office_building.webp",
+      "sha256": "e202553d8b206ceedbc4cdc7aa63da5afbc552c62effc9396e2fe98424b6d220",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/office_building.webp"
+    },
+    {
+      "bytes": 6044,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d412614eab774866496999bf5240b2e9b0afcae3dc956258a0e264363028fe19.webp",
+      "reference": "technologist.webp",
+      "sha256": "d412614eab774866496999bf5240b2e9b0afcae3dc956258a0e264363028fe19",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/technologist.webp"
+    }
+  ],
+  "mediaReferences": [
+    "backpack.webp",
+    "busts_in_silhouette.webp",
+    "house_with_garden.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/blue_book.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/books.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/email-1.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/writing_hand.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "office_building.webp",
+    "technologist.webp"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-10",
+    "previous": "/dynamic/question-page-8",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "12-question-page-9--individual-contributor",
+      "label": "Individual contributor",
+      "value": "individual-contributor",
+      "source": {
+        "actions": [],
+        "slug": "individual-contributor",
+        "title": "Individual contributor"
+      }
+    },
+    {
+      "id": "12-question-page-9--manager",
+      "label": "Manager",
+      "value": "manager",
+      "source": {
+        "actions": [],
+        "slug": "manager",
+        "title": "Manager"
+      }
+    },
+    {
+      "id": "12-question-page-9--team-leader",
+      "label": "Team leader",
+      "value": "team-leader",
+      "source": {
+        "actions": [],
+        "slug": "team-leader",
+        "title": "Team leader"
+      }
+    },
+    {
+      "id": "12-question-page-9--executive",
+      "label": "Executive",
+      "value": "executive",
+      "source": {
+        "actions": [],
+        "slug": "executive",
+        "title": "Executive"
+      }
+    },
+    {
+      "id": "12-question-page-9--business-owner",
+      "label": "Business owner",
+      "value": "business-owner",
+      "source": {
+        "actions": [],
+        "slug": "business-owner",
+        "title": "Business owner"
+      }
+    },
+    {
+      "id": "12-question-page-9--freelancer",
+      "label": "Freelancer",
+      "value": "freelancer",
+      "source": {
+        "actions": [],
+        "slug": "freelancer",
+        "title": "Freelancer"
+      }
+    },
+    {
+      "id": "12-question-page-9--job-seeker",
+      "label": "Job seeker",
+      "value": "job-seeker",
+      "source": {
+        "actions": [],
+        "slug": "job-seeker",
+        "title": "Job seeker"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-9",
+  "progress": {
+    "current": 9,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-10",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "button": "",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "backpack.webp",
+          "slug": "student_or_early_career",
+          "title": "Student or early career"
+        },
+        {
+          "actions": [],
+          "icon": "technologist.webp",
+          "slug": "individual_contributor",
+          "title": "Individual contributor"
+        },
+        {
+          "actions": [],
+          "icon": "busts_in_silhouette.webp",
+          "slug": "manager_team_lead",
+          "title": "Manager / Team lead"
+        },
+        {
+          "actions": [],
+          "icon": "office_building.webp",
+          "slug": "executive__business_owner",
+          "title": "Executive / Business owner"
+        },
+        {
+          "actions": [],
+          "icon": "house_with_garden.webp",
+          "slug": "retired",
+          "title": "Retired"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "career_level",
+      "stats": {},
+      "subtitle": "",
+      "title": "What best describes your career level?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 9,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/writing_hand.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/blue_book.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/email-1.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/books.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-8"
+  },
+  "schemaVersion": 1,
+  "slug": "career_level",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-9?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-9",
+  "title": "Which best describes your role?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

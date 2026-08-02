@@ -1,0 +1,379 @@
+{
+  "content": {
+    "animationSources": [],
+    "banner": {},
+    "blockType": "gender-select-landing",
+    "conquer": {
+      "compositeAvatarUrl": []
+    },
+    "conquerTopApp": {},
+    "infoBlocks": [],
+    "jurisdictionType": "genderless-start-quiz",
+    "optionsGroup": {
+      "actions": [
+        {
+          "blockType": "next_page",
+          "payload": {
+            "searchParams": {}
+          }
+        },
+        {
+          "blockType": "track_sentinel_event",
+          "payload": {
+            "eventName": "pr_funnel_start_quiz_click"
+          }
+        },
+        {
+          "blockType": "send_pixel_event",
+          "payload": {
+            "eventName": "startQuiz"
+          }
+        }
+      ],
+      "options": [
+        {
+          "actions": [],
+          "slug": "i-work-for-a-company",
+          "title": "I work for a company"
+        },
+        {
+          "actions": [],
+          "slug": "i-manage-a-team",
+          "title": "I manage a team"
+        },
+        {
+          "actions": [],
+          "slug": "i-run-a-business",
+          "title": "I run a business"
+        },
+        {
+          "actions": [],
+          "slug": "i-freelance-or-work-independently",
+          "title": "I freelance or work independently"
+        },
+        {
+          "actions": [],
+          "slug": "i-m-preparing-for-a-new-role",
+          "title": "I’m preparing for a new role"
+        }
+      ]
+    },
+    "pageViewActions": [
+      {
+        "blockType": "send_pixel_event",
+        "payload": {
+          "eventName": "viewedLanding"
+        }
+      },
+      {
+        "blockType": "track_sentinel_event",
+        "payload": {
+          "eventName": "pr_funnel_landing_view"
+        }
+      }
+    ],
+    "quizDuration": "<p style=\"font-size: 18px;\">How would you describe yourself?</p>",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "showMarqueeTicker": false,
+    "showTrustpilotBadge": false,
+    "subtitle": "Discover where AI can save you time and give you more control over your workday.",
+    "title": "Build Your Personal AI Workday Plan",
+    "trustpilot": {},
+    "description": "",
+    "options": [
+      {
+        "actions": [],
+        "slug": "i-work-for-a-company",
+        "title": "I work for a company"
+      },
+      {
+        "actions": [],
+        "slug": "i-manage-a-team",
+        "title": "I manage a team"
+      },
+      {
+        "actions": [],
+        "slug": "i-run-a-business",
+        "title": "I run a business"
+      },
+      {
+        "actions": [],
+        "slug": "i-freelance-or-work-independently",
+        "title": "I freelance or work independently"
+      },
+      {
+        "actions": [],
+        "slug": "i-m-preparing-for-a-new-role",
+        "title": "I’m preparing for a new role"
+      }
+    ]
+  },
+  "id": "01-dynamic",
+  "index": 0,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 25516,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e3ebe56d20e6eb58daa3f9a77ed5cfa7f40b52174d44483a7ed44a54b03c77af.webp",
+      "reference": "1091_mn-2.webp",
+      "sha256": "e3ebe56d20e6eb58daa3f9a77ed5cfa7f40b52174d44483a7ed44a54b03c77af",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_mn-2.webp"
+    },
+    {
+      "bytes": 18364,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/36c1098b0e3f02cc8699b52ce0bdefc198aba1b12392feadd75eb50185090771.webp",
+      "reference": "1091_wm.webp",
+      "sha256": "36c1098b0e3f02cc8699b52ce0bdefc198aba1b12392feadd75eb50185090771",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_wm.webp"
+    },
+    {
+      "bytes": 77172,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/129cc36c926eaba57b18bf4abd7489b495480c21cdbbcf1aaa2053171c05b283.webp",
+      "reference": "box60.webp",
+      "sha256": "129cc36c926eaba57b18bf4abd7489b495480c21cdbbcf1aaa2053171c05b283",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/box60.webp"
+    },
+    {
+      "bytes": 1252,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2d75c3a92a37a7280eed9efe49dee22de83f64a380a11e5cef6cfd98adf1c942.webp",
+      "reference": "gift-1.webp",
+      "sha256": "2d75c3a92a37a7280eed9efe49dee22de83f64a380a11e5cef6cfd98adf1c942",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/gift-1.webp"
+    },
+    {
+      "bytes": 29500,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/7059474f2e4f19afedd6e9fb1c4a16b74080dffc1e9bb4045b02f64156016e9d.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/1061_Social_Proof-10.webp",
+      "sha256": "7059474f2e4f19afedd6e9fb1c4a16b74080dffc1e9bb4045b02f64156016e9d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1061_Social_Proof-10.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "1091_mn-2.webp",
+    "1091_wm.webp",
+    "box60.webp",
+    "gift-1.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/1061_Social_Proof-10.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/classic-social-proof",
+    "previous": "/dynamic/",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "01-dynamic--i-work-for-a-company",
+      "label": "I work for a company",
+      "value": "i-work-for-a-company",
+      "source": {
+        "actions": [],
+        "slug": "i-work-for-a-company",
+        "title": "I work for a company"
+      }
+    },
+    {
+      "id": "01-dynamic--i-manage-a-team",
+      "label": "I manage a team",
+      "value": "i-manage-a-team",
+      "source": {
+        "actions": [],
+        "slug": "i-manage-a-team",
+        "title": "I manage a team"
+      }
+    },
+    {
+      "id": "01-dynamic--i-run-a-business",
+      "label": "I run a business",
+      "value": "i-run-a-business",
+      "source": {
+        "actions": [],
+        "slug": "i-run-a-business",
+        "title": "I run a business"
+      }
+    },
+    {
+      "id": "01-dynamic--i-freelance-or-work-independently",
+      "label": "I freelance or work independently",
+      "value": "i-freelance-or-work-independently",
+      "source": {
+        "actions": [],
+        "slug": "i-freelance-or-work-independently",
+        "title": "I freelance or work independently"
+      }
+    },
+    {
+      "id": "01-dynamic--i-m-preparing-for-a-new-role",
+      "label": "I’m preparing for a new role",
+      "value": "i-m-preparing-for-a-new-role",
+      "source": {
+        "actions": [],
+        "slug": "i-m-preparing-for-a-new-role",
+        "title": "I’m preparing for a new role"
+      }
+    }
+  ],
+  "path": "/dynamic",
+  "progress": {
+    "current": null,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/classic-social-proof",
+    "pageContent": {
+      "animationSources": [],
+      "banner": {},
+      "blockType": "gender-select-landing",
+      "conquer": {
+        "compositeAvatarUrl": []
+      },
+      "conquerTopApp": {},
+      "infoBlocks": [],
+      "jurisdictionType": "genderless-start-quiz",
+      "optionsGroup": {
+        "actions": [
+          {
+            "blockType": "next_page",
+            "payload": {
+              "searchParams": {}
+            }
+          },
+          {
+            "blockType": "track_sentinel_event",
+            "payload": {
+              "eventName": "pr_funnel_start_quiz_click"
+            }
+          },
+          {
+            "blockType": "send_pixel_event",
+            "payload": {
+              "eventName": "startQuiz"
+            }
+          }
+        ],
+        "options": [
+          {
+            "image": [
+              {
+                "blockType": "staticImage",
+                "image": "1091_mn-2.webp"
+              }
+            ],
+            "text": "I work for a company",
+            "value": "i_work_for_a_company"
+          },
+          {
+            "image": [
+              {
+                "blockType": "staticImage",
+                "image": "1091_wm.webp"
+              }
+            ],
+            "text": "I work for myself",
+            "value": "i_work_for_myself"
+          }
+        ]
+      },
+      "pageViewActions": [
+        {
+          "blockType": "send_pixel_event",
+          "payload": {
+            "eventName": "viewedLanding"
+          }
+        },
+        {
+          "blockType": "track_sentinel_event",
+          "payload": {
+            "eventName": "pr_funnel_landing_view"
+          }
+        }
+      ],
+      "quizDuration": "<p style=\"font-size: 18px;\">How would you describe yourself?</p>",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "showMarqueeTicker": false,
+      "showTrustpilotBadge": false,
+      "subtitle": " ",
+      "title": "Personalized AI <p> Certificate Program",
+      "trustpilot": {}
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": null,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/1061_Social_Proof-10.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/"
+  },
+  "schemaVersion": 1,
+  "slug": null,
+  "sourceUrl": "https://coursiv.io/dynamic?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero",
+  "title": "Build Your Personal AI Workday Plan",
+  "type": "gender-select-landing",
+  "migrationId": "ai-workday-v1"
+}

@@ -1,0 +1,336 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "i-haven-t-used-ai-for-work",
+        "title": "I haven’t used AI for work"
+      },
+      {
+        "actions": [],
+        "slug": "i-ve-tried-a-few-simple-prompts",
+        "title": "I’ve tried a few simple prompts"
+      },
+      {
+        "actions": [],
+        "slug": "i-use-ai-occasionally",
+        "title": "I use AI occasionally"
+      },
+      {
+        "actions": [],
+        "slug": "i-use-ai-regularly",
+        "title": "I use AI regularly"
+      },
+      {
+        "actions": [],
+        "slug": "i-ve-built-repeatable-ai-workflows",
+        "title": "I’ve built repeatable AI workflows"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "what_best_describes_your_experience_with_ai",
+    "stats": {},
+    "title": "How much experience do you have using AI for work?",
+    "tryAskingLabel": "Try asking",
+    "subtitle": "Your plan will start at the right level.",
+    "description": ""
+  },
+  "id": "10-question-page-7",
+  "index": 9,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 6482,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/04f8180dcf2ebfd0794239e89ee19913b333c5f11da2fdd719d87d6651f0e29a.webp",
+      "reference": "brain.webp",
+      "sha256": "04f8180dcf2ebfd0794239e89ee19913b333c5f11da2fdd719d87d6651f0e29a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/brain.webp"
+    },
+    {
+      "bytes": 9552,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d9386abb2fbf1b55da7e0a23d24912a8ed141bd2b2b4b31c699b904a44720cc1.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/compass.webp",
+      "sha256": "d9386abb2fbf1b55da7e0a23d24912a8ed141bd2b2b4b31c699b904a44720cc1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/compass.webp"
+    },
+    {
+      "bytes": 2560,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/c0e27c7ff231386267cbd9387e3e2f1c116558371b25754d6603ed4291ef9516.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/door.webp",
+      "sha256": "c0e27c7ff231386267cbd9387e3e2f1c116558371b25754d6603ed4291ef9516",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/door.webp"
+    },
+    {
+      "bytes": 8190,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/67d7dac6c125579836cbfd557983f10888294fdd512e8be0373c7fc9fc6915fb.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/face_with_spiral_eyes.webp",
+      "sha256": "67d7dac6c125579836cbfd557983f10888294fdd512e8be0373c7fc9fc6915fb",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/face_with_spiral_eyes.webp"
+    },
+    {
+      "bytes": 7220,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/013a026c67215357e0b75e35df4b7604461fcd9129164a0501caf5339e833e8d.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/hourglass_done.webp",
+      "sha256": "013a026c67215357e0b75e35df4b7604461fcd9129164a0501caf5339e833e8d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/hourglass_done.webp"
+    },
+    {
+      "bytes": 5432,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/fccd2ab7f4b5d8e4c4808f219ac12d2372f4b647773e66c4d9c3506105c6693a.webp",
+      "reference": "laptop.webp",
+      "sha256": "fccd2ab7f4b5d8e4c4808f219ac12d2372f4b647773e66c4d9c3506105c6693a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/laptop.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 6176,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/ea3cbb2406e70beab579e5703edb49a5e8424db21b745cf41a33b033909d1d2f.webp",
+      "reference": "seedling.webp",
+      "sha256": "ea3cbb2406e70beab579e5703edb49a5e8424db21b745cf41a33b033909d1d2f",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/seedling.webp"
+    },
+    {
+      "bytes": 10608,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/07fa51fdb633096b611ec4a39c2db399d08710a06abc5d93ed4133683b43d77d.webp",
+      "reference": "test_tube.webp",
+      "sha256": "07fa51fdb633096b611ec4a39c2db399d08710a06abc5d93ed4133683b43d77d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/test_tube.webp"
+    }
+  ],
+  "mediaReferences": [
+    "brain.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/compass.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/door.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/face_with_spiral_eyes.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/hourglass_done.webp",
+    "laptop.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "seedling.webp",
+    "test_tube.webp"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-8",
+    "previous": "/dynamic/question-page-6",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "10-question-page-7--i-haven-t-used-ai-for-work",
+      "label": "I haven’t used AI for work",
+      "value": "i-haven-t-used-ai-for-work",
+      "source": {
+        "actions": [],
+        "slug": "i-haven-t-used-ai-for-work",
+        "title": "I haven’t used AI for work"
+      }
+    },
+    {
+      "id": "10-question-page-7--i-ve-tried-a-few-simple-prompts",
+      "label": "I’ve tried a few simple prompts",
+      "value": "i-ve-tried-a-few-simple-prompts",
+      "source": {
+        "actions": [],
+        "slug": "i-ve-tried-a-few-simple-prompts",
+        "title": "I’ve tried a few simple prompts"
+      }
+    },
+    {
+      "id": "10-question-page-7--i-use-ai-occasionally",
+      "label": "I use AI occasionally",
+      "value": "i-use-ai-occasionally",
+      "source": {
+        "actions": [],
+        "slug": "i-use-ai-occasionally",
+        "title": "I use AI occasionally"
+      }
+    },
+    {
+      "id": "10-question-page-7--i-use-ai-regularly",
+      "label": "I use AI regularly",
+      "value": "i-use-ai-regularly",
+      "source": {
+        "actions": [],
+        "slug": "i-use-ai-regularly",
+        "title": "I use AI regularly"
+      }
+    },
+    {
+      "id": "10-question-page-7--i-ve-built-repeatable-ai-workflows",
+      "label": "I’ve built repeatable AI workflows",
+      "value": "i-ve-built-repeatable-ai-workflows",
+      "source": {
+        "actions": [],
+        "slug": "i-ve-built-repeatable-ai-workflows",
+        "title": "I’ve built repeatable AI workflows"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-7",
+  "progress": {
+    "current": 7,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-8",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "seedling.webp",
+          "slug": "complete_beginner",
+          "subtitle": "",
+          "title": "Completely new to AI"
+        },
+        {
+          "actions": [],
+          "icon": "test_tube.webp",
+          "slug": "tried_a_few_times",
+          "subtitle": "",
+          "title": "Tried a few times for simple tasks"
+        },
+        {
+          "actions": [],
+          "icon": "laptop.webp",
+          "slug": "use_ai_regularly_for_work_or_personal_projects",
+          "subtitle": "",
+          "title": "Use AI regularly for work or personal projects"
+        },
+        {
+          "actions": [],
+          "icon": "brain.webp",
+          "slug": "i_build_ai_workflows_for_complex_tasks",
+          "title": "I build AI workflows for complex tasks"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "what_best_describes_your_experience_with_ai",
+      "stats": {},
+      "title": "What best describes your experience with AI?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 7,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/compass.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/hourglass_done.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/face_with_spiral_eyes.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/door.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-6"
+  },
+  "schemaVersion": 1,
+  "slug": "what_best_describes_your_experience_with_ai",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-7?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-7",
+  "title": "How much experience do you have using AI for work?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

@@ -1,0 +1,161 @@
+{
+  "content": {
+    "blockType": "selling-page",
+    "blocks": [],
+    "title": "Your AI Workday Plan Is Ready",
+    "subtitle": "Start with short daily lessons and build a practical system for your role.",
+    "description": ""
+  },
+  "id": "29-selling-page",
+  "index": 28,
+  "interaction": "continue",
+  "media": [],
+  "mediaReferences": [],
+  "navigation": {
+    "next": null,
+    "previous": null,
+    "routing": null
+  },
+  "options": [],
+  "path": "/dynamic/selling-page",
+  "progress": {
+    "current": null,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": null,
+    "nextPageRouting": null,
+    "nextPageUrl": null,
+    "pageContent": [
+      {
+        "blockType": "gradientSpecialDiscountBlock",
+        "discountText": "Special discount:",
+        "icon": "gift-1.webp",
+        "label": "Become the Master of AI",
+        "title": "Your Personalized AI <br>Certificate Program is Ready!   ",
+        "titlePersonalizationRule": {
+          "personalization": []
+        }
+      },
+      {
+        "blockType": "prosperiBenefitsBlock",
+        "blocks": [
+          {
+            "answerMap": [],
+            "defaultText": "Grow my current role",
+            "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+            "slug": "what_is_your_main_goal_with_ai",
+            "title": "Your goal"
+          },
+          {
+            "answerMap": [],
+            "defaultText": "Pay off some bills",
+            "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+            "slug": "how_would_you_celebrate_your_first_results_with_ai",
+            "title": "Your target"
+          }
+        ]
+      },
+      {
+        "autocancelProtectionEnabled": false,
+        "blockType": "offerBlock",
+        "button": "THIS IS REQUIRED FIELD YOU MUST FILL IT",
+        "commitmentBlock": [],
+        "enableAiBoostPaywall": false,
+        "enableBottomBetMyPlan": false,
+        "enableCurrencyLocalization": false,
+        "enableDualSolidPaywall": false,
+        "enableFastPayment": false,
+        "enableLivenFlow": false,
+        "enableStripePaywall": false,
+        "getMyPlanButtonProps": {
+          "badge": {
+            "isVisible": false
+          },
+          "isCapitalized": false
+        },
+        "image": [],
+        "imageBlock": [],
+        "offerCtaTexts": {
+          "fourWeek": {},
+          "oneWeek": {},
+          "twelveWeek": {}
+        },
+        "paymentMethodsBlock": [],
+        "paywallConfigIdPersonalizationRule": {
+          "personalization": []
+        },
+        "paywallProps": {
+          "socialProofText": "Join over <span className='text-accent'>2,000,000 users</span> to achieve your goals"
+        },
+        "paywallType": [],
+        "promocode": [
+          {
+            "applied": "Your promo code applied!",
+            "appliedPromoCode": "Applied promo code:",
+            "chooseTheBestPlan": "Choose the best plan for you",
+            "minutes": "Minutes",
+            "newPromoApplied": "New promo code applied!",
+            "off": "OFF",
+            "seconds": "Seconds",
+            "type": "name"
+          }
+        ],
+        "timerProps": {},
+        "uiType": [
+          {
+            "blockType": "withDualPrice",
+            "plans": [
+              {
+                "offerIndex": "0",
+                "withSubtitle": false
+              },
+              {
+                "offerIndex": "1",
+                "withSubtitle": false
+              },
+              {
+                "offerIndex": "2",
+                "withSubtitle": false
+              }
+            ]
+          }
+        ],
+        "withEmailModal": false,
+        "withNextOfferDiscount": false
+      },
+      {
+        "blockType": "discountBottomSheet",
+        "boxText": "<h1 className=\"text-2xl text-[#24234C] font-bold text-center mb-[14px]\">\n                                    Special Offer\n                                </h1>\n                                <p className=\"text-[14px] text-center text-[#24234C] font-light\">\n                                    We want you to find success so we are\n                                    offering you a discount to try our proven\n                                    learning program and master AI\n                                </p>",
+        "button": "GET 60% DISCOUNT",
+        "image": "box60.webp"
+      }
+    ],
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": null,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [],
+    "preloadLotties": [],
+    "prevPageUrl": null
+  },
+  "schemaVersion": 1,
+  "slug": null,
+  "sourceUrl": "https://coursiv.io/dynamic/selling-page?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=selling-page",
+  "title": "Your AI Workday Plan Is Ready",
+  "type": "selling-page",
+  "migrationId": "ai-workday-v1"
+}

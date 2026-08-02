@@ -1,0 +1,314 @@
+{
+  "content": {
+    "animationSources": [],
+    "blockType": "solution-pitch-page",
+    "button": {
+      "actions": [
+        {
+          "blockType": "next_page",
+          "payload": {
+            "searchParams": {}
+          }
+        }
+      ],
+      "text": "CONTINUE",
+      "value": "continue"
+    },
+    "currentStep": 3,
+    "list": [
+      {
+        "icon": "icons_sp_new01.webp",
+        "item": "Master AI tools to <strong>build practical AI skills and confidence</strong>"
+      },
+      {
+        "icon": "icons_sp_new02.webp",
+        "item": "Access the world's top AI tools: <strong> ChatGPT, Gemini, Grok and more </strong> — all in one place"
+      },
+      {
+        "icon": "icons_sp_new03.webp",
+        "item": " <strong>Get AI Certificate </strong> and stand out from people who still struggle with AI"
+      },
+      {
+        "icon": "icons_sp_new04.webp",
+        "item": "<strong>Unlock 1000+ proven AI prompts</strong> for productivity, business, and creativity"
+      },
+      {
+        "icon": "icons_sp_5.webp",
+        "item": "Progress tracking to see your <strong>growth and build confidence</strong> with each lesson"
+      },
+      {
+        "item": "...and much more!"
+      }
+    ],
+    "listTitle": "<span style=\"font-size: 24px;\">Try Coursiv and you will:</span>",
+    "mainImage": "img-9.webp",
+    "pageViewActions": [
+      {
+        "blockType": "track_sentinel_event",
+        "payload": {
+          "eventName": "pr_funnel_solution_pitch_page_view"
+        }
+      }
+    ],
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "subtitle": "Learn one practical workflow at a time and apply it immediately.",
+    "title": "A System Built Around Work You Already Do",
+    "totalSteps": 4,
+    "description": ""
+  },
+  "id": "27-solution-pitch-page",
+  "index": 26,
+  "interaction": "continue",
+  "media": [
+    {
+      "bytes": 60886,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e6c0f5de2ba26f6cfef268f62a18f69e6ae9aebc1128280d39fcad1591a86a49.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/1-25.webp",
+      "sha256": "e6c0f5de2ba26f6cfef268f62a18f69e6ae9aebc1128280d39fcad1591a86a49",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1-25.webp"
+    },
+    {
+      "bytes": 58598,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/099dcea8416562b5a50be0a8bb7de67eab7fbad649de47af859597ad93337d9c.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/145678.webp",
+      "sha256": "099dcea8416562b5a50be0a8bb7de67eab7fbad649de47af859597ad93337d9c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/145678.webp"
+    },
+    {
+      "bytes": 109100,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d679127d5a7a1349f8b6266d0a79ebdc6300d15af664869d272178d189a3ac38.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/7-4.webp",
+      "sha256": "d679127d5a7a1349f8b6266d0a79ebdc6300d15af664869d272178d189a3ac38",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/7-4.webp"
+    },
+    {
+      "bytes": 149044,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/3bf5ccf4b500da7c7521769c27eb0f9a89b83dc35e669a7190a185de553a7595.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/8-2.webp",
+      "sha256": "3bf5ccf4b500da7c7521769c27eb0f9a89b83dc35e669a7190a185de553a7595",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/8-2.webp"
+    },
+    {
+      "bytes": 16434,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/905dea762ceca96693dd4800383bd3e7b8381dfba98c402e33ce904d51f64328.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Frame_2147205514.webp",
+      "sha256": "905dea762ceca96693dd4800383bd3e7b8381dfba98c402e33ce904d51f64328",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Frame_2147205514.webp"
+    },
+    {
+      "bytes": 532,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/ce703e6f7290dd2682e7be669bbe7a07a1d9cf7dc3a224eb1c5a16e4c5812a43.webp",
+      "reference": "icons_sp_5.webp",
+      "sha256": "ce703e6f7290dd2682e7be669bbe7a07a1d9cf7dc3a224eb1c5a16e4c5812a43",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_5.webp"
+    },
+    {
+      "bytes": 720,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/33bd3851ca23f25d5d1f159fa268b2c06fded4ae6a6890e235b5041edce61693.webp",
+      "reference": "icons_sp_new01.webp",
+      "sha256": "33bd3851ca23f25d5d1f159fa268b2c06fded4ae6a6890e235b5041edce61693",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new01.webp"
+    },
+    {
+      "bytes": 324,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e35246c724c01b33b0056a7b02b8adc6b09299f9b7caa2eb4fad0ec60f573296.webp",
+      "reference": "icons_sp_new02.webp",
+      "sha256": "e35246c724c01b33b0056a7b02b8adc6b09299f9b7caa2eb4fad0ec60f573296",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new02.webp"
+    },
+    {
+      "bytes": 574,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/65dc86c1cb0f73dd361e3156a842504ba065648e6af80a38dd04c2d433ae520e.webp",
+      "reference": "icons_sp_new03.webp",
+      "sha256": "65dc86c1cb0f73dd361e3156a842504ba065648e6af80a38dd04c2d433ae520e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new03.webp"
+    },
+    {
+      "bytes": 584,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/cd944eb0b8d1358057fd161dce4267af623fd85d5171d07afb14f3a0ab0040d3.webp",
+      "reference": "icons_sp_new04.webp",
+      "sha256": "cd944eb0b8d1358057fd161dce4267af623fd85d5171d07afb14f3a0ab0040d3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new04.webp"
+    },
+    {
+      "bytes": 47872,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/83acdcd8358d4151b9745c73b15757e9f8ab7ccc91836e3a770177719b208209.webp",
+      "reference": "img-9.webp",
+      "sha256": "83acdcd8358d4151b9745c73b15757e9f8ab7ccc91836e3a770177719b208209",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/img-9.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "https://d3kigabz1zn79w.cloudfront.net/1-25.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/145678.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/7-4.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/8-2.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/Frame_2147205514.webp",
+    "icons_sp_5.webp",
+    "icons_sp_new01.webp",
+    "icons_sp_new02.webp",
+    "icons_sp_new03.webp",
+    "icons_sp_new04.webp",
+    "img-9.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/social-proof-testimonials-page",
+    "previous": "/dynamic/before-after-page-personalized",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [],
+  "path": "/dynamic/solution-pitch-page",
+  "progress": {
+    "current": null,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/social-proof-testimonials-page",
+    "pageContent": {
+      "animationSources": [],
+      "blockType": "solution-pitch-page",
+      "button": {
+        "actions": [
+          {
+            "blockType": "next_page",
+            "payload": {
+              "searchParams": {}
+            }
+          }
+        ],
+        "text": "CONTINUE",
+        "value": "continue"
+      },
+      "currentStep": 3,
+      "list": [
+        {
+          "icon": "icons_sp_new01.webp",
+          "item": "Master AI tools to <strong>build practical AI skills and confidence</strong>"
+        },
+        {
+          "icon": "icons_sp_new02.webp",
+          "item": "Access the world's top AI tools: <strong> ChatGPT, Gemini, Grok and more </strong> — all in one place"
+        },
+        {
+          "icon": "icons_sp_new03.webp",
+          "item": " <strong>Get AI Certificate </strong> and stand out from people who still struggle with AI"
+        },
+        {
+          "icon": "icons_sp_new04.webp",
+          "item": "<strong>Unlock 1000+ proven AI prompts</strong> for productivity, business, and creativity"
+        },
+        {
+          "icon": "icons_sp_5.webp",
+          "item": "Progress tracking to see your <strong>growth and build confidence</strong> with each lesson"
+        },
+        {
+          "item": "...and much more!"
+        }
+      ],
+      "listTitle": "<span style=\"font-size: 24px;\">Try Coursiv and you will:</span>",
+      "mainImage": "img-9.webp",
+      "pageViewActions": [
+        {
+          "blockType": "track_sentinel_event",
+          "payload": {
+            "eventName": "pr_funnel_solution_pitch_page_view"
+          }
+        }
+      ],
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "subtitle": "Our certificate program is designed to make a difference in your AI Knowledge from day one",
+      "title": "AI is Easier Than You Think",
+      "totalSteps": 4
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": null,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/Frame_2147205514.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/145678.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/7-4.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/8-2.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/1-25.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/before-after-page-personalized"
+  },
+  "schemaVersion": 1,
+  "slug": null,
+  "sourceUrl": "https://coursiv.io/dynamic/solution-pitch-page?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=solution-pitch-page",
+  "title": "A System Built Around Work You Already Do",
+  "type": "solution-pitch-page",
+  "migrationId": "ai-workday-v1"
+}

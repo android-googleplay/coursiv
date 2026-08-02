@@ -1,0 +1,1757 @@
+{
+  "capture": null,
+  "media": [
+    {
+      "bytes": 60886,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e6c0f5de2ba26f6cfef268f62a18f69e6ae9aebc1128280d39fcad1591a86a49.webp",
+      "reference": "1-25.webp",
+      "sha256": "e6c0f5de2ba26f6cfef268f62a18f69e6ae9aebc1128280d39fcad1591a86a49",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1-25.webp"
+    },
+    {
+      "bytes": 29500,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/7059474f2e4f19afedd6e9fb1c4a16b74080dffc1e9bb4045b02f64156016e9d.webp",
+      "reference": "1061_Social_Proof-10.webp",
+      "sha256": "7059474f2e4f19afedd6e9fb1c4a16b74080dffc1e9bb4045b02f64156016e9d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1061_Social_Proof-10.webp"
+    },
+    {
+      "bytes": 81294,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/5097306c877ea8965c262dccaf06bdc5d28fda7bafcc59b1114a9fb992ba26bb.webp",
+      "reference": "1091_assets_0207.webp",
+      "sha256": "5097306c877ea8965c262dccaf06bdc5d28fda7bafcc59b1114a9fb992ba26bb",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0207.webp"
+    },
+    {
+      "bytes": 256710,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e8a7abe0600fb19f11a1ebc370d436e9f27887ae0d0f3eec11118053bf589a5e.webp",
+      "reference": "1091_assets_0504.webp",
+      "sha256": "e8a7abe0600fb19f11a1ebc370d436e9f27887ae0d0f3eec11118053bf589a5e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0504.webp"
+    },
+    {
+      "bytes": 21414,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/704d11410dbdaded4976f0802472df4eb37bb03fffa1a87ca6d1c091d81c5da1.webp",
+      "reference": "1091_assets_0801-1.webp",
+      "sha256": "704d11410dbdaded4976f0802472df4eb37bb03fffa1a87ca6d1c091d81c5da1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0801-1.webp"
+    },
+    {
+      "bytes": 25516,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e3ebe56d20e6eb58daa3f9a77ed5cfa7f40b52174d44483a7ed44a54b03c77af.webp",
+      "reference": "1091_mn-2.webp",
+      "sha256": "e3ebe56d20e6eb58daa3f9a77ed5cfa7f40b52174d44483a7ed44a54b03c77af",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_mn-2.webp"
+    },
+    {
+      "bytes": 18364,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/36c1098b0e3f02cc8699b52ce0bdefc198aba1b12392feadd75eb50185090771.webp",
+      "reference": "1091_wm.webp",
+      "sha256": "36c1098b0e3f02cc8699b52ce0bdefc198aba1b12392feadd75eb50185090771",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_wm.webp"
+    },
+    {
+      "bytes": 58598,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/099dcea8416562b5a50be0a8bb7de67eab7fbad649de47af859597ad93337d9c.webp",
+      "reference": "145678.webp",
+      "sha256": "099dcea8416562b5a50be0a8bb7de67eab7fbad649de47af859597ad93337d9c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/145678.webp"
+    },
+    {
+      "bytes": 109100,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d679127d5a7a1349f8b6266d0a79ebdc6300d15af664869d272178d189a3ac38.webp",
+      "reference": "7-4.webp",
+      "sha256": "d679127d5a7a1349f8b6266d0a79ebdc6300d15af664869d272178d189a3ac38",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/7-4.webp"
+    },
+    {
+      "bytes": 149044,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/3bf5ccf4b500da7c7521769c27eb0f9a89b83dc35e669a7190a185de553a7595.webp",
+      "reference": "8-2.webp",
+      "sha256": "3bf5ccf4b500da7c7521769c27eb0f9a89b83dc35e669a7190a185de553a7595",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/8-2.webp"
+    },
+    {
+      "bytes": 8172,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/5c4993d093a0854ff1a57f422d282f4dc3b60dc8f6978e22326c7266a6e6486d.webp",
+      "reference": "anguished_face.webp",
+      "sha256": "5c4993d093a0854ff1a57f422d282f4dc3b60dc8f6978e22326c7266a6e6486d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/anguished_face.webp"
+    },
+    {
+      "bytes": 8498,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/45e498a9dba9b34860cac9d453d6b5bcf7501ca7c87d78e5b5e9572b58d5fe1d.webp",
+      "reference": "anxious_face_with_sweat.webp",
+      "sha256": "45e498a9dba9b34860cac9d453d6b5bcf7501ca7c87d78e5b5e9572b58d5fe1d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/anxious_face_with_sweat.webp"
+    },
+    {
+      "bytes": 7970,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2334f8336ac847a873912d0b115b5ad4e14a3ccb2633fba69358dfcb7d55d08e.webp",
+      "reference": "artist_palette.webp",
+      "sha256": "2334f8336ac847a873912d0b115b5ad4e14a3ccb2633fba69358dfcb7d55d08e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp"
+    },
+    {
+      "bytes": 8450,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/c85f6cbba3e8c571649224c740aced4ac5c9bd8b3975e02623b24e9abc03c17c.webp",
+      "reference": "backpack.webp",
+      "sha256": "c85f6cbba3e8c571649224c740aced4ac5c9bd8b3975e02623b24e9abc03c17c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/backpack.webp"
+    },
+    {
+      "bytes": 6870,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2c36bf17575d3b4f17f60cd061a6e0397be505691725f13117a2b060bb8c35b9.webp",
+      "reference": "bank.webp",
+      "sha256": "2c36bf17575d3b4f17f60cd061a6e0397be505691725f13117a2b060bb8c35b9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/bank.webp"
+    },
+    {
+      "bytes": 5162,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/36aa71107f2c7f3dffb1b02e8775a325a3310783a7ad981865421fc936e5cbe9.webp",
+      "reference": "blue_book.webp",
+      "sha256": "36aa71107f2c7f3dffb1b02e8775a325a3310783a7ad981865421fc936e5cbe9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/blue_book.webp"
+    },
+    {
+      "bytes": 7380,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/becaa9810bb1f7f566b5bd88e4431e1300617d98044bcae7b6630e5eaa177225.webp",
+      "reference": "books.webp",
+      "sha256": "becaa9810bb1f7f566b5bd88e4431e1300617d98044bcae7b6630e5eaa177225",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/books.webp"
+    },
+    {
+      "bytes": 77172,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/129cc36c926eaba57b18bf4abd7489b495480c21cdbbcf1aaa2053171c05b283.webp",
+      "reference": "box60.webp",
+      "sha256": "129cc36c926eaba57b18bf4abd7489b495480c21cdbbcf1aaa2053171c05b283",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/box60.webp"
+    },
+    {
+      "bytes": 6482,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/04f8180dcf2ebfd0794239e89ee19913b333c5f11da2fdd719d87d6651f0e29a.webp",
+      "reference": "brain.webp",
+      "sha256": "04f8180dcf2ebfd0794239e89ee19913b333c5f11da2fdd719d87d6651f0e29a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/brain.webp"
+    },
+    {
+      "bytes": 7794,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f62a3967cf9f35e9a6ca16217a7cbc95666ecc196956ccda95825a965a777333.webp",
+      "reference": "bullseye.webp",
+      "sha256": "f62a3967cf9f35e9a6ca16217a7cbc95666ecc196956ccda95825a965a777333",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/bullseye.webp"
+    },
+    {
+      "bytes": 6100,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/dd38e61f3508cf02a76e7e91fc2dbe0702d052ca1a7496707fedc3e8b7175374.webp",
+      "reference": "busts_in_silhouette.webp",
+      "sha256": "dd38e61f3508cf02a76e7e91fc2dbe0702d052ca1a7496707fedc3e8b7175374",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/busts_in_silhouette.webp"
+    },
+    {
+      "bytes": 504,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/fa3f2137fab839095ae89dd0a14e50c43aff0a0eaf29586734e0ab4578087485.svg",
+      "reference": "bxs_book.svg",
+      "sha256": "fa3f2137fab839095ae89dd0a14e50c43aff0a0eaf29586734e0ab4578087485",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/bxs_book.svg"
+    },
+    {
+      "bytes": 90876,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/034de82cb3375fc42cc8c080464791754012084e1e28c1c6752e20ff345e5139.webp",
+      "reference": "cert_ba-3.webp",
+      "sha256": "034de82cb3375fc42cc8c080464791754012084e1e28c1c6752e20ff345e5139",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/cert_ba-3.webp"
+    },
+    {
+      "bytes": 14918,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/a292f3e6a9271c0f299c1e70c0a36494c57dadee496d20aa50416f46f8dd5121.webp",
+      "reference": "Characters-1.webp",
+      "sha256": "a292f3e6a9271c0f299c1e70c0a36494c57dadee496d20aa50416f46f8dd5121",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Characters-1.webp"
+    },
+    {
+      "bytes": 11434,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/7335e5c151075632eb0a1a45055ec175f91bf3dbae42f652f8003fefa9298ef9.webp",
+      "reference": "Characters.webp",
+      "sha256": "7335e5c151075632eb0a1a45055ec175f91bf3dbae42f652f8003fefa9298ef9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Characters.webp"
+    },
+    {
+      "bytes": 5318,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/9cfedfe9129c95e3d0cc33a537c7bfa68575b897f70bfb925c91878abea5ef7e.webp",
+      "reference": "chart_increasing.webp",
+      "sha256": "9cfedfe9129c95e3d0cc33a537c7bfa68575b897f70bfb925c91878abea5ef7e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/chart_increasing.webp"
+    },
+    {
+      "bytes": 3868,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/961b57b2b8e585651b898eba2004f8601e8b72d6bfcfbeb9e761c2150d9ac4dc.webp",
+      "reference": "check_mark_button.webp",
+      "sha256": "961b57b2b8e585651b898eba2004f8601e8b72d6bfcfbeb9e761c2150d9ac4dc",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/check_mark_button.webp"
+    },
+    {
+      "bytes": 4222,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/1900fa5961c7466f8abbeb83b3187b3543c9c4a7cb2f7bb97814349170fc7504.webp",
+      "reference": "clipboard.webp",
+      "sha256": "1900fa5961c7466f8abbeb83b3187b3543c9c4a7cb2f7bb97814349170fc7504",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/clipboard.webp"
+    },
+    {
+      "bytes": 9552,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d9386abb2fbf1b55da7e0a23d24912a8ed141bd2b2b4b31c699b904a44720cc1.webp",
+      "reference": "compass.webp",
+      "sha256": "d9386abb2fbf1b55da7e0a23d24912a8ed141bd2b2b4b31c699b904a44720cc1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/compass.webp"
+    },
+    {
+      "bytes": 4670,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f89227ea3d89ddf73d24c7005fe330357ace342f1932ace70723ae248bac3a92.webp",
+      "reference": "counterclockwise_arrows_button.webp",
+      "sha256": "f89227ea3d89ddf73d24c7005fe330357ace342f1932ace70723ae248bac3a92",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/counterclockwise_arrows_button.webp"
+    },
+    {
+      "bytes": 5608,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f5e84cb5535d0e46004c7661ff22a430c1d192e587e5ef327d2ca57f5c628c25.webp",
+      "reference": "cross_mark.webp",
+      "sha256": "f5e84cb5535d0e46004c7661ff22a430c1d192e587e5ef327d2ca57f5c628c25",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/cross_mark.webp"
+    },
+    {
+      "bytes": 6352,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/23bc8bfe6eaf6aaa9626572b7060af139c88ea2dc11183659deffcf6a76630d8.webp",
+      "reference": "dollar_banknote.webp",
+      "sha256": "23bc8bfe6eaf6aaa9626572b7060af139c88ea2dc11183659deffcf6a76630d8",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/dollar_banknote.webp"
+    },
+    {
+      "bytes": 2560,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/c0e27c7ff231386267cbd9387e3e2f1c116558371b25754d6603ed4291ef9516.webp",
+      "reference": "door.webp",
+      "sha256": "c0e27c7ff231386267cbd9387e3e2f1c116558371b25754d6603ed4291ef9516",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/door.webp"
+    },
+    {
+      "bytes": 8508,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/0921da2e9d9249703f64ae39e83cbfa6b2997a64137b6351bf7f231e603db421.webp",
+      "reference": "downcast_face_with_sweat.webp",
+      "sha256": "0921da2e9d9249703f64ae39e83cbfa6b2997a64137b6351bf7f231e603db421",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/downcast_face_with_sweat.webp"
+    },
+    {
+      "bytes": 7738,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d19c18abc49d2fdeacd0fe9292372384e3f782f3108f5d804a67d5b7949bf704.webp",
+      "reference": "electric_plug.webp",
+      "sha256": "d19c18abc49d2fdeacd0fe9292372384e3f782f3108f5d804a67d5b7949bf704",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/electric_plug.webp"
+    },
+    {
+      "bytes": 2212,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/8fc95a7532c795197e70ddf77606c15dd8a38a91f2df5bff2973028cfe347186.webp",
+      "reference": "email-1.webp",
+      "sha256": "8fc95a7532c795197e70ddf77606c15dd8a38a91f2df5bff2973028cfe347186",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/email-1.webp"
+    },
+    {
+      "bytes": 6768,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/22e882e6098477dad685338e1c87693db21c1d8dfc71aa841a27e8cc2fa6ad50.webp",
+      "reference": "face_with_diagonal_mouth.webp",
+      "sha256": "22e882e6098477dad685338e1c87693db21c1d8dfc71aa841a27e8cc2fa6ad50",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/face_with_diagonal_mouth.webp"
+    },
+    {
+      "bytes": 8190,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/67d7dac6c125579836cbfd557983f10888294fdd512e8be0373c7fc9fc6915fb.webp",
+      "reference": "face_with_spiral_eyes.webp",
+      "sha256": "67d7dac6c125579836cbfd557983f10888294fdd512e8be0373c7fc9fc6915fb",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/face_with_spiral_eyes.webp"
+    },
+    {
+      "bytes": 8052,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/196871669d1a94cc49710561f96738ba650f684cc8cbcd95ef2259c166a2c277.webp",
+      "reference": "fearful_face.webp",
+      "sha256": "196871669d1a94cc49710561f96738ba650f684cc8cbcd95ef2259c166a2c277",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/fearful_face.webp"
+    },
+    {
+      "bytes": 16434,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/905dea762ceca96693dd4800383bd3e7b8381dfba98c402e33ce904d51f64328.webp",
+      "reference": "Frame_2147205514.webp",
+      "sha256": "905dea762ceca96693dd4800383bd3e7b8381dfba98c402e33ce904d51f64328",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Frame_2147205514.webp"
+    },
+    {
+      "bytes": 3324,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/83f61fd2257dd14b807db8becd8288a73c4bd4e5f1cd9505a51920fdd0fbcbba.webp",
+      "reference": "free_button.webp",
+      "sha256": "83f61fd2257dd14b807db8becd8288a73c4bd4e5f1cd9505a51920fdd0fbcbba",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/free_button.webp"
+    },
+    {
+      "bytes": 1252,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2d75c3a92a37a7280eed9efe49dee22de83f64a380a11e5cef6cfd98adf1c942.webp",
+      "reference": "gift-1.webp",
+      "sha256": "2d75c3a92a37a7280eed9efe49dee22de83f64a380a11e5cef6cfd98adf1c942",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/gift-1.webp"
+    },
+    {
+      "bytes": 6676,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/71c8df5c454dd097b1f8d636efc99e7ecbfb062ef2044a2ab126d8bc61202aec.webp",
+      "reference": "graduation_cap.webp",
+      "sha256": "71c8df5c454dd097b1f8d636efc99e7ecbfb062ef2044a2ab126d8bc61202aec",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/graduation_cap.webp"
+    },
+    {
+      "bytes": 5988,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/6680c10585e1c17d2a6b11ace12501362a72583b0e2caad19ac127e409ced6ce.webp",
+      "reference": "handshake.webp",
+      "sha256": "6680c10585e1c17d2a6b11ace12501362a72583b0e2caad19ac127e409ced6ce",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/handshake.webp"
+    },
+    {
+      "bytes": 7220,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/013a026c67215357e0b75e35df4b7604461fcd9129164a0501caf5339e833e8d.webp",
+      "reference": "hourglass_done.webp",
+      "sha256": "013a026c67215357e0b75e35df4b7604461fcd9129164a0501caf5339e833e8d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/hourglass_done.webp"
+    },
+    {
+      "bytes": 8398,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f28ec9e8e2018378b71e6ca7605bd7f9de4c1718913552077516ab726ecb501f.webp",
+      "reference": "house_with_garden.webp",
+      "sha256": "f28ec9e8e2018378b71e6ca7605bd7f9de4c1718913552077516ab726ecb501f",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp"
+    },
+    {
+      "bytes": 60886,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e6c0f5de2ba26f6cfef268f62a18f69e6ae9aebc1128280d39fcad1591a86a49.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/1-25.webp",
+      "sha256": "e6c0f5de2ba26f6cfef268f62a18f69e6ae9aebc1128280d39fcad1591a86a49",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1-25.webp"
+    },
+    {
+      "bytes": 29500,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/7059474f2e4f19afedd6e9fb1c4a16b74080dffc1e9bb4045b02f64156016e9d.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/1061_Social_Proof-10.webp",
+      "sha256": "7059474f2e4f19afedd6e9fb1c4a16b74080dffc1e9bb4045b02f64156016e9d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1061_Social_Proof-10.webp"
+    },
+    {
+      "bytes": 81294,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/5097306c877ea8965c262dccaf06bdc5d28fda7bafcc59b1114a9fb992ba26bb.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0207.webp",
+      "sha256": "5097306c877ea8965c262dccaf06bdc5d28fda7bafcc59b1114a9fb992ba26bb",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0207.webp"
+    },
+    {
+      "bytes": 256710,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e8a7abe0600fb19f11a1ebc370d436e9f27887ae0d0f3eec11118053bf589a5e.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0504.webp",
+      "sha256": "e8a7abe0600fb19f11a1ebc370d436e9f27887ae0d0f3eec11118053bf589a5e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0504.webp"
+    },
+    {
+      "bytes": 21414,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/704d11410dbdaded4976f0802472df4eb37bb03fffa1a87ca6d1c091d81c5da1.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0801-1.webp",
+      "sha256": "704d11410dbdaded4976f0802472df4eb37bb03fffa1a87ca6d1c091d81c5da1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0801-1.webp"
+    },
+    {
+      "bytes": 58598,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/099dcea8416562b5a50be0a8bb7de67eab7fbad649de47af859597ad93337d9c.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/145678.webp",
+      "sha256": "099dcea8416562b5a50be0a8bb7de67eab7fbad649de47af859597ad93337d9c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/145678.webp"
+    },
+    {
+      "bytes": 109100,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d679127d5a7a1349f8b6266d0a79ebdc6300d15af664869d272178d189a3ac38.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/7-4.webp",
+      "sha256": "d679127d5a7a1349f8b6266d0a79ebdc6300d15af664869d272178d189a3ac38",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/7-4.webp"
+    },
+    {
+      "bytes": 149044,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/3bf5ccf4b500da7c7521769c27eb0f9a89b83dc35e669a7190a185de553a7595.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/8-2.webp",
+      "sha256": "3bf5ccf4b500da7c7521769c27eb0f9a89b83dc35e669a7190a185de553a7595",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/8-2.webp"
+    },
+    {
+      "bytes": 8172,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/5c4993d093a0854ff1a57f422d282f4dc3b60dc8f6978e22326c7266a6e6486d.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/anguished_face.webp",
+      "sha256": "5c4993d093a0854ff1a57f422d282f4dc3b60dc8f6978e22326c7266a6e6486d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/anguished_face.webp"
+    },
+    {
+      "bytes": 8498,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/45e498a9dba9b34860cac9d453d6b5bcf7501ca7c87d78e5b5e9572b58d5fe1d.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/anxious_face_with_sweat.webp",
+      "sha256": "45e498a9dba9b34860cac9d453d6b5bcf7501ca7c87d78e5b5e9572b58d5fe1d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/anxious_face_with_sweat.webp"
+    },
+    {
+      "bytes": 7970,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2334f8336ac847a873912d0b115b5ad4e14a3ccb2633fba69358dfcb7d55d08e.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp",
+      "sha256": "2334f8336ac847a873912d0b115b5ad4e14a3ccb2633fba69358dfcb7d55d08e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp"
+    },
+    {
+      "bytes": 8450,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/c85f6cbba3e8c571649224c740aced4ac5c9bd8b3975e02623b24e9abc03c17c.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/backpack.webp",
+      "sha256": "c85f6cbba3e8c571649224c740aced4ac5c9bd8b3975e02623b24e9abc03c17c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/backpack.webp"
+    },
+    {
+      "bytes": 6870,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2c36bf17575d3b4f17f60cd061a6e0397be505691725f13117a2b060bb8c35b9.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/bank.webp",
+      "sha256": "2c36bf17575d3b4f17f60cd061a6e0397be505691725f13117a2b060bb8c35b9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/bank.webp"
+    },
+    {
+      "bytes": 5162,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/36aa71107f2c7f3dffb1b02e8775a325a3310783a7ad981865421fc936e5cbe9.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/blue_book.webp",
+      "sha256": "36aa71107f2c7f3dffb1b02e8775a325a3310783a7ad981865421fc936e5cbe9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/blue_book.webp"
+    },
+    {
+      "bytes": 7380,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/becaa9810bb1f7f566b5bd88e4431e1300617d98044bcae7b6630e5eaa177225.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/books.webp",
+      "sha256": "becaa9810bb1f7f566b5bd88e4431e1300617d98044bcae7b6630e5eaa177225",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/books.webp"
+    },
+    {
+      "bytes": 77172,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/129cc36c926eaba57b18bf4abd7489b495480c21cdbbcf1aaa2053171c05b283.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/box60.webp",
+      "sha256": "129cc36c926eaba57b18bf4abd7489b495480c21cdbbcf1aaa2053171c05b283",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/box60.webp"
+    },
+    {
+      "bytes": 6482,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/04f8180dcf2ebfd0794239e89ee19913b333c5f11da2fdd719d87d6651f0e29a.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/brain.webp",
+      "sha256": "04f8180dcf2ebfd0794239e89ee19913b333c5f11da2fdd719d87d6651f0e29a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/brain.webp"
+    },
+    {
+      "bytes": 7794,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f62a3967cf9f35e9a6ca16217a7cbc95666ecc196956ccda95825a965a777333.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/bullseye.webp",
+      "sha256": "f62a3967cf9f35e9a6ca16217a7cbc95666ecc196956ccda95825a965a777333",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/bullseye.webp"
+    },
+    {
+      "bytes": 6100,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/dd38e61f3508cf02a76e7e91fc2dbe0702d052ca1a7496707fedc3e8b7175374.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/busts_in_silhouette.webp",
+      "sha256": "dd38e61f3508cf02a76e7e91fc2dbe0702d052ca1a7496707fedc3e8b7175374",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/busts_in_silhouette.webp"
+    },
+    {
+      "bytes": 504,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/fa3f2137fab839095ae89dd0a14e50c43aff0a0eaf29586734e0ab4578087485.svg",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/bxs_book.svg",
+      "sha256": "fa3f2137fab839095ae89dd0a14e50c43aff0a0eaf29586734e0ab4578087485",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/bxs_book.svg"
+    },
+    {
+      "bytes": 90876,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/034de82cb3375fc42cc8c080464791754012084e1e28c1c6752e20ff345e5139.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/cert_ba-3.webp",
+      "sha256": "034de82cb3375fc42cc8c080464791754012084e1e28c1c6752e20ff345e5139",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/cert_ba-3.webp"
+    },
+    {
+      "bytes": 14918,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/a292f3e6a9271c0f299c1e70c0a36494c57dadee496d20aa50416f46f8dd5121.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Characters-1.webp",
+      "sha256": "a292f3e6a9271c0f299c1e70c0a36494c57dadee496d20aa50416f46f8dd5121",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Characters-1.webp"
+    },
+    {
+      "bytes": 11434,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/7335e5c151075632eb0a1a45055ec175f91bf3dbae42f652f8003fefa9298ef9.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Characters.webp",
+      "sha256": "7335e5c151075632eb0a1a45055ec175f91bf3dbae42f652f8003fefa9298ef9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Characters.webp"
+    },
+    {
+      "bytes": 5318,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/9cfedfe9129c95e3d0cc33a537c7bfa68575b897f70bfb925c91878abea5ef7e.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/chart_increasing.webp",
+      "sha256": "9cfedfe9129c95e3d0cc33a537c7bfa68575b897f70bfb925c91878abea5ef7e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/chart_increasing.webp"
+    },
+    {
+      "bytes": 3868,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/961b57b2b8e585651b898eba2004f8601e8b72d6bfcfbeb9e761c2150d9ac4dc.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/check_mark_button.webp",
+      "sha256": "961b57b2b8e585651b898eba2004f8601e8b72d6bfcfbeb9e761c2150d9ac4dc",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/check_mark_button.webp"
+    },
+    {
+      "bytes": 4222,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/1900fa5961c7466f8abbeb83b3187b3543c9c4a7cb2f7bb97814349170fc7504.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/clipboard.webp",
+      "sha256": "1900fa5961c7466f8abbeb83b3187b3543c9c4a7cb2f7bb97814349170fc7504",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/clipboard.webp"
+    },
+    {
+      "bytes": 9552,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d9386abb2fbf1b55da7e0a23d24912a8ed141bd2b2b4b31c699b904a44720cc1.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/compass.webp",
+      "sha256": "d9386abb2fbf1b55da7e0a23d24912a8ed141bd2b2b4b31c699b904a44720cc1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/compass.webp"
+    },
+    {
+      "bytes": 4670,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f89227ea3d89ddf73d24c7005fe330357ace342f1932ace70723ae248bac3a92.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/counterclockwise_arrows_button.webp",
+      "sha256": "f89227ea3d89ddf73d24c7005fe330357ace342f1932ace70723ae248bac3a92",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/counterclockwise_arrows_button.webp"
+    },
+    {
+      "bytes": 5608,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f5e84cb5535d0e46004c7661ff22a430c1d192e587e5ef327d2ca57f5c628c25.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/cross_mark.webp",
+      "sha256": "f5e84cb5535d0e46004c7661ff22a430c1d192e587e5ef327d2ca57f5c628c25",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/cross_mark.webp"
+    },
+    {
+      "bytes": 6352,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/23bc8bfe6eaf6aaa9626572b7060af139c88ea2dc11183659deffcf6a76630d8.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/dollar_banknote.webp",
+      "sha256": "23bc8bfe6eaf6aaa9626572b7060af139c88ea2dc11183659deffcf6a76630d8",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/dollar_banknote.webp"
+    },
+    {
+      "bytes": 2560,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/c0e27c7ff231386267cbd9387e3e2f1c116558371b25754d6603ed4291ef9516.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/door.webp",
+      "sha256": "c0e27c7ff231386267cbd9387e3e2f1c116558371b25754d6603ed4291ef9516",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/door.webp"
+    },
+    {
+      "bytes": 8508,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/0921da2e9d9249703f64ae39e83cbfa6b2997a64137b6351bf7f231e603db421.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/downcast_face_with_sweat.webp",
+      "sha256": "0921da2e9d9249703f64ae39e83cbfa6b2997a64137b6351bf7f231e603db421",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/downcast_face_with_sweat.webp"
+    },
+    {
+      "bytes": 7738,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d19c18abc49d2fdeacd0fe9292372384e3f782f3108f5d804a67d5b7949bf704.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/electric_plug.webp",
+      "sha256": "d19c18abc49d2fdeacd0fe9292372384e3f782f3108f5d804a67d5b7949bf704",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/electric_plug.webp"
+    },
+    {
+      "bytes": 2212,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/8fc95a7532c795197e70ddf77606c15dd8a38a91f2df5bff2973028cfe347186.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/email-1.webp",
+      "sha256": "8fc95a7532c795197e70ddf77606c15dd8a38a91f2df5bff2973028cfe347186",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/email-1.webp"
+    },
+    {
+      "bytes": 6768,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/22e882e6098477dad685338e1c87693db21c1d8dfc71aa841a27e8cc2fa6ad50.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/face_with_diagonal_mouth.webp",
+      "sha256": "22e882e6098477dad685338e1c87693db21c1d8dfc71aa841a27e8cc2fa6ad50",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/face_with_diagonal_mouth.webp"
+    },
+    {
+      "bytes": 8190,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/67d7dac6c125579836cbfd557983f10888294fdd512e8be0373c7fc9fc6915fb.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/face_with_spiral_eyes.webp",
+      "sha256": "67d7dac6c125579836cbfd557983f10888294fdd512e8be0373c7fc9fc6915fb",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/face_with_spiral_eyes.webp"
+    },
+    {
+      "bytes": 8052,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/196871669d1a94cc49710561f96738ba650f684cc8cbcd95ef2259c166a2c277.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/fearful_face.webp",
+      "sha256": "196871669d1a94cc49710561f96738ba650f684cc8cbcd95ef2259c166a2c277",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/fearful_face.webp"
+    },
+    {
+      "bytes": 16434,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/905dea762ceca96693dd4800383bd3e7b8381dfba98c402e33ce904d51f64328.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Frame_2147205514.webp",
+      "sha256": "905dea762ceca96693dd4800383bd3e7b8381dfba98c402e33ce904d51f64328",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Frame_2147205514.webp"
+    },
+    {
+      "bytes": 3324,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/83f61fd2257dd14b807db8becd8288a73c4bd4e5f1cd9505a51920fdd0fbcbba.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/free_button.webp",
+      "sha256": "83f61fd2257dd14b807db8becd8288a73c4bd4e5f1cd9505a51920fdd0fbcbba",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/free_button.webp"
+    },
+    {
+      "bytes": 1252,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2d75c3a92a37a7280eed9efe49dee22de83f64a380a11e5cef6cfd98adf1c942.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/gift-1.webp",
+      "sha256": "2d75c3a92a37a7280eed9efe49dee22de83f64a380a11e5cef6cfd98adf1c942",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/gift-1.webp"
+    },
+    {
+      "bytes": 6676,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/71c8df5c454dd097b1f8d636efc99e7ecbfb062ef2044a2ab126d8bc61202aec.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/graduation_cap.webp",
+      "sha256": "71c8df5c454dd097b1f8d636efc99e7ecbfb062ef2044a2ab126d8bc61202aec",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/graduation_cap.webp"
+    },
+    {
+      "bytes": 5988,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/6680c10585e1c17d2a6b11ace12501362a72583b0e2caad19ac127e409ced6ce.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/handshake.webp",
+      "sha256": "6680c10585e1c17d2a6b11ace12501362a72583b0e2caad19ac127e409ced6ce",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/handshake.webp"
+    },
+    {
+      "bytes": 7220,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/013a026c67215357e0b75e35df4b7604461fcd9129164a0501caf5339e833e8d.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/hourglass_done.webp",
+      "sha256": "013a026c67215357e0b75e35df4b7604461fcd9129164a0501caf5339e833e8d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/hourglass_done.webp"
+    },
+    {
+      "bytes": 8398,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f28ec9e8e2018378b71e6ca7605bd7f9de4c1718913552077516ab726ecb501f.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp",
+      "sha256": "f28ec9e8e2018378b71e6ca7605bd7f9de4c1718913552077516ab726ecb501f",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp"
+    },
+    {
+      "bytes": 545,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/fdf0622d69584f7fb96f93ba07930ecad4bec72a1cae7fb55f75fb9b5621813d.svg",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/ic_round-star.svg",
+      "sha256": "fdf0622d69584f7fb96f93ba07930ecad4bec72a1cae7fb55f75fb9b5621813d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/ic_round-star.svg"
+    },
+    {
+      "bytes": 532,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/ce703e6f7290dd2682e7be669bbe7a07a1d9cf7dc3a224eb1c5a16e4c5812a43.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_5.webp",
+      "sha256": "ce703e6f7290dd2682e7be669bbe7a07a1d9cf7dc3a224eb1c5a16e4c5812a43",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_5.webp"
+    },
+    {
+      "bytes": 720,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/33bd3851ca23f25d5d1f159fa268b2c06fded4ae6a6890e235b5041edce61693.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new01.webp",
+      "sha256": "33bd3851ca23f25d5d1f159fa268b2c06fded4ae6a6890e235b5041edce61693",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new01.webp"
+    },
+    {
+      "bytes": 324,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e35246c724c01b33b0056a7b02b8adc6b09299f9b7caa2eb4fad0ec60f573296.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new02.webp",
+      "sha256": "e35246c724c01b33b0056a7b02b8adc6b09299f9b7caa2eb4fad0ec60f573296",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new02.webp"
+    },
+    {
+      "bytes": 574,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/65dc86c1cb0f73dd361e3156a842504ba065648e6af80a38dd04c2d433ae520e.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new03.webp",
+      "sha256": "65dc86c1cb0f73dd361e3156a842504ba065648e6af80a38dd04c2d433ae520e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new03.webp"
+    },
+    {
+      "bytes": 584,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/cd944eb0b8d1358057fd161dce4267af623fd85d5171d07afb14f3a0ab0040d3.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new04.webp",
+      "sha256": "cd944eb0b8d1358057fd161dce4267af623fd85d5171d07afb14f3a0ab0040d3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new04.webp"
+    },
+    {
+      "bytes": 4040,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/1287b111f62590abac8c9bab7bb39f2a5197a19116da9dac242ad183b99224fe.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-10.webp",
+      "sha256": "1287b111f62590abac8c9bab7bb39f2a5197a19116da9dac242ad183b99224fe",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-10.webp"
+    },
+    {
+      "bytes": 4618,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/29fba3306818c542367a287bec6ad78b0f91329c041b20bdb22889aca6665837.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-9.webp",
+      "sha256": "29fba3306818c542367a287bec6ad78b0f91329c041b20bdb22889aca6665837",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-9.webp"
+    },
+    {
+      "bytes": 47872,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/83acdcd8358d4151b9745c73b15757e9f8ab7ccc91836e3a770177719b208209.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/img-9.webp",
+      "sha256": "83acdcd8358d4151b9745c73b15757e9f8ab7ccc91836e3a770177719b208209",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/img-9.webp"
+    },
+    {
+      "bytes": 5432,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/fccd2ab7f4b5d8e4c4808f219ac12d2372f4b647773e66c4d9c3506105c6693a.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/laptop.webp",
+      "sha256": "fccd2ab7f4b5d8e4c4808f219ac12d2372f4b647773e66c4d9c3506105c6693a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/laptop.webp"
+    },
+    {
+      "bytes": 3898,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/80a1ba7db40b5a68fe10ce992c6dcad4ae732a31d16c4dd190a44cd5e9486516.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/large_blue_diamond.webp",
+      "sha256": "80a1ba7db40b5a68fe10ce992c6dcad4ae732a31d16c4dd190a44cd5e9486516",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/large_blue_diamond.webp"
+    },
+    {
+      "bytes": 4466,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/37c00823cc64d5ac181bf97a8ee4563088090cd3650802bc859f4d954b5d0ab7.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/light_bulb.webp",
+      "sha256": "37c00823cc64d5ac181bf97a8ee4563088090cd3650802bc859f4d954b5d0ab7",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/light_bulb.webp"
+    },
+    {
+      "bytes": 7372,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/9bd70997701eefc16724c9fd14f023009422dd73117754c74933b313a9469352.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/megaphone.webp",
+      "sha256": "9bd70997701eefc16724c9fd14f023009422dd73117754c74933b313a9469352",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/megaphone.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 1548,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d2cec33f361a1ffa2009ede9f27a5a34216fb3c836fa7f58306b8dbbad9935bc.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/mingcute_target-fill-1.webp",
+      "sha256": "d2cec33f361a1ffa2009ede9f27a5a34216fb3c836fa7f58306b8dbbad9935bc",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/mingcute_target-fill-1.webp"
+    },
+    {
+      "bytes": 980,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/464f91c13aa97928890f95dd9c3bc3b5e5278d261fc846f1fc477e20d55db5aa.svg",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/mingcute_time-fill.svg",
+      "sha256": "464f91c13aa97928890f95dd9c3bc3b5e5278d261fc846f1fc477e20d55db5aa",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/mingcute_time-fill.svg"
+    },
+    {
+      "bytes": 3782,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/754867fff9f2e021f298e1be878bdda4cbf08fc6d5893cdc5e4380a3e0188ed2.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/mobile_phone.webp",
+      "sha256": "754867fff9f2e021f298e1be878bdda4cbf08fc6d5893cdc5e4380a3e0188ed2",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/mobile_phone.webp"
+    },
+    {
+      "bytes": 6174,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/41be05a38fdc1f725e43df70ca41993ee3f3eef7c33ed583252e4f73b0102e46.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/money_bag.webp",
+      "sha256": "41be05a38fdc1f725e43df70ca41993ee3f3eef7c33ed583252e4f73b0102e46",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/money_bag.webp"
+    },
+    {
+      "bytes": 3456,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/8bd3a77bac59f219310b61a559f0ea0ab2976969da8dcd779b5aecf08f51e886.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/new_button.webp",
+      "sha256": "8bd3a77bac59f219310b61a559f0ea0ab2976969da8dcd779b5aecf08f51e886",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/new_button.webp"
+    },
+    {
+      "bytes": 5866,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e202553d8b206ceedbc4cdc7aa63da5afbc552c62effc9396e2fe98424b6d220.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/office_building.webp",
+      "sha256": "e202553d8b206ceedbc4cdc7aa63da5afbc552c62effc9396e2fe98424b6d220",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/office_building.webp"
+    },
+    {
+      "bytes": 7914,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/db582df8c16d2b2e93f337993e36642ea08644f799b9f05d48320bd678dfffc8.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/person_running.webp",
+      "sha256": "db582df8c16d2b2e93f337993e36642ea08644f799b9f05d48320bd678dfffc8",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/person_running.webp"
+    },
+    {
+      "bytes": 8804,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/a0377f818962ad70b1b498466d173bdf8742d65a1fd72daac72630f584eb0905.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/person_shrugging.webp",
+      "sha256": "a0377f818962ad70b1b498466d173bdf8742d65a1fd72daac72630f584eb0905",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/person_shrugging.webp"
+    },
+    {
+      "bytes": 7894,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/26fa90debcede775f8060ff521314529959043952e0280d7fe641858e2edbbb3.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/puzzle_piece.webp",
+      "sha256": "26fa90debcede775f8060ff521314529959043952e0280d7fe641858e2edbbb3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/puzzle_piece.webp"
+    },
+    {
+      "bytes": 5820,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/97285b0710cb837d032921ed2d2f31df7bab25cf20ae5f00c8bdfb2cad2f0bf3.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/receipt.webp",
+      "sha256": "97285b0710cb837d032921ed2d2f31df7bab25cf20ae5f00c8bdfb2cad2f0bf3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/receipt.webp"
+    },
+    {
+      "bytes": 8306,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/728d44528164f8dd948b0340785777994490124f7b9727eeab05f4c5313ad890.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/relieved_face.webp",
+      "sha256": "728d44528164f8dd948b0340785777994490124f7b9727eeab05f4c5313ad890",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/relieved_face.webp"
+    },
+    {
+      "bytes": 6918,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/eccf7ebdcf622191b985e5e7bf5fcf9d5702aa8b0d64fb9d589db9347239d9b9.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/robot.webp",
+      "sha256": "eccf7ebdcf622191b985e5e7bf5fcf9d5702aa8b0d64fb9d589db9347239d9b9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/robot.webp"
+    },
+    {
+      "bytes": 9454,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/7956905ef6b4f497e03c8ed9c6142048393ec1017576602e76eb0e32a75fa1d9.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/rocket-2.webp",
+      "sha256": "7956905ef6b4f497e03c8ed9c6142048393ec1017576602e76eb0e32a75fa1d9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/rocket-2.webp"
+    },
+    {
+      "bytes": 9334,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/6c1141f3cf0c195e782583977eacc979778725d64e130a4dfe138bd51de88e74.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/rocket-3.webp",
+      "sha256": "6c1141f3cf0c195e782583977eacc979778725d64e130a4dfe138bd51de88e74",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/rocket-3.webp"
+    },
+    {
+      "bytes": 6176,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/ea3cbb2406e70beab579e5703edb49a5e8424db21b745cf41a33b033909d1d2f.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/seedling.webp",
+      "sha256": "ea3cbb2406e70beab579e5703edb49a5e8424db21b745cf41a33b033909d1d2f",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/seedling.webp"
+    },
+    {
+      "bytes": 8862,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/ca915e9881ce277313a7f135d86afa46b2fd08da302e472c2fc295d283fbb6e8.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/smiling_face_with_sunglasses.webp",
+      "sha256": "ca915e9881ce277313a7f135d86afa46b2fd08da302e472c2fc295d283fbb6e8",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/smiling_face_with_sunglasses.webp"
+    },
+    {
+      "bytes": 11010,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e5da6e940a009ca0359e5022f3311f29a9a922fba56e0d2ca3d7515c6e4c76d4.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/stethoscope.webp",
+      "sha256": "e5da6e940a009ca0359e5022f3311f29a9a922fba56e0d2ca3d7515c6e4c76d4",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/stethoscope.webp"
+    },
+    {
+      "bytes": 54028,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/4ea381d202b359e3e1b7df8b6862ef9532fbbeda3fc7eaa4b5ff53547ff5276c.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_2-1.webp",
+      "sha256": "4ea381d202b359e3e1b7df8b6862ef9532fbbeda3fc7eaa4b5ff53547ff5276c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_2-1.webp"
+    },
+    {
+      "bytes": 35940,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/0d36e458f9db323bd8b96d965f3530096de08f8ef7aeb1ed76c979d699c9364c.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_3-13.webp",
+      "sha256": "0d36e458f9db323bd8b96d965f3530096de08f8ef7aeb1ed76c979d699c9364c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_3-13.webp"
+    },
+    {
+      "bytes": 6044,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d412614eab774866496999bf5240b2e9b0afcae3dc956258a0e264363028fe19.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/technologist.webp",
+      "sha256": "d412614eab774866496999bf5240b2e9b0afcae3dc956258a0e264363028fe19",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/technologist.webp"
+    },
+    {
+      "bytes": 10608,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/07fa51fdb633096b611ec4a39c2db399d08710a06abc5d93ed4133683b43d77d.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/test_tube.webp",
+      "sha256": "07fa51fdb633096b611ec4a39c2db399d08710a06abc5d93ed4133683b43d77d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/test_tube.webp"
+    },
+    {
+      "bytes": 8246,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/6444889de824fec2458424eb16958c839bfae766314d6d51ffdbe6e7fe12dc0a.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/thinking_face.webp",
+      "sha256": "6444889de824fec2458424eb16958c839bfae766314d6d51ffdbe6e7fe12dc0a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/thinking_face.webp"
+    },
+    {
+      "bytes": 5998,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f0b0b1ec774d9ba6ef3b2d453ba362c260783964c5df2ba61caccb4d6d1b8cf3.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/thumbs_up.webp",
+      "sha256": "f0b0b1ec774d9ba6ef3b2d453ba362c260783964c5df2ba61caccb4d6d1b8cf3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/thumbs_up.webp"
+    },
+    {
+      "bytes": 9904,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/3edbad077f900d3886fee781705cfdae44b07713df01c6e5f4075120cee182a6.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/v3_migrated_d14fbcf1p6wyzn_v3_quiz_wish_3.webp",
+      "sha256": "3edbad077f900d3886fee781705cfdae44b07713df01c6e5f4075120cee182a6",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/v3_migrated_d14fbcf1p6wyzn_v3_quiz_wish_3.webp"
+    },
+    {
+      "bytes": 8554,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/3d9ef1fb1626380fc462d8121620bff36b7429d15fbb28bc9bbefb18f386b57d.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/worried_face.webp",
+      "sha256": "3d9ef1fb1626380fc462d8121620bff36b7429d15fbb28bc9bbefb18f386b57d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/worried_face.webp"
+    },
+    {
+      "bytes": 6616,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/55873f86bd7a54e855e680614aa3bfaae3313dfffa026301150c00cff61e9baf.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/writing_hand.webp",
+      "sha256": "55873f86bd7a54e855e680614aa3bfaae3313dfffa026301150c00cff61e9baf",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/writing_hand.webp"
+    },
+    {
+      "bytes": 545,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/fdf0622d69584f7fb96f93ba07930ecad4bec72a1cae7fb55f75fb9b5621813d.svg",
+      "reference": "ic_round-star.svg",
+      "sha256": "fdf0622d69584f7fb96f93ba07930ecad4bec72a1cae7fb55f75fb9b5621813d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/ic_round-star.svg"
+    },
+    {
+      "bytes": 532,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/ce703e6f7290dd2682e7be669bbe7a07a1d9cf7dc3a224eb1c5a16e4c5812a43.webp",
+      "reference": "icons_sp_5.webp",
+      "sha256": "ce703e6f7290dd2682e7be669bbe7a07a1d9cf7dc3a224eb1c5a16e4c5812a43",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_5.webp"
+    },
+    {
+      "bytes": 720,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/33bd3851ca23f25d5d1f159fa268b2c06fded4ae6a6890e235b5041edce61693.webp",
+      "reference": "icons_sp_new01.webp",
+      "sha256": "33bd3851ca23f25d5d1f159fa268b2c06fded4ae6a6890e235b5041edce61693",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new01.webp"
+    },
+    {
+      "bytes": 324,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e35246c724c01b33b0056a7b02b8adc6b09299f9b7caa2eb4fad0ec60f573296.webp",
+      "reference": "icons_sp_new02.webp",
+      "sha256": "e35246c724c01b33b0056a7b02b8adc6b09299f9b7caa2eb4fad0ec60f573296",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new02.webp"
+    },
+    {
+      "bytes": 574,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/65dc86c1cb0f73dd361e3156a842504ba065648e6af80a38dd04c2d433ae520e.webp",
+      "reference": "icons_sp_new03.webp",
+      "sha256": "65dc86c1cb0f73dd361e3156a842504ba065648e6af80a38dd04c2d433ae520e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new03.webp"
+    },
+    {
+      "bytes": 584,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/cd944eb0b8d1358057fd161dce4267af623fd85d5171d07afb14f3a0ab0040d3.webp",
+      "reference": "icons_sp_new04.webp",
+      "sha256": "cd944eb0b8d1358057fd161dce4267af623fd85d5171d07afb14f3a0ab0040d3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/icons_sp_new04.webp"
+    },
+    {
+      "bytes": 4040,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/1287b111f62590abac8c9bab7bb39f2a5197a19116da9dac242ad183b99224fe.webp",
+      "reference": "Image_quiz-10.webp",
+      "sha256": "1287b111f62590abac8c9bab7bb39f2a5197a19116da9dac242ad183b99224fe",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-10.webp"
+    },
+    {
+      "bytes": 4618,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/29fba3306818c542367a287bec6ad78b0f91329c041b20bdb22889aca6665837.webp",
+      "reference": "Image_quiz-9.webp",
+      "sha256": "29fba3306818c542367a287bec6ad78b0f91329c041b20bdb22889aca6665837",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-9.webp"
+    },
+    {
+      "bytes": 47872,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/83acdcd8358d4151b9745c73b15757e9f8ab7ccc91836e3a770177719b208209.webp",
+      "reference": "img-9.webp",
+      "sha256": "83acdcd8358d4151b9745c73b15757e9f8ab7ccc91836e3a770177719b208209",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/img-9.webp"
+    },
+    {
+      "bytes": 5432,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/fccd2ab7f4b5d8e4c4808f219ac12d2372f4b647773e66c4d9c3506105c6693a.webp",
+      "reference": "laptop.webp",
+      "sha256": "fccd2ab7f4b5d8e4c4808f219ac12d2372f4b647773e66c4d9c3506105c6693a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/laptop.webp"
+    },
+    {
+      "bytes": 3898,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/80a1ba7db40b5a68fe10ce992c6dcad4ae732a31d16c4dd190a44cd5e9486516.webp",
+      "reference": "large_blue_diamond.webp",
+      "sha256": "80a1ba7db40b5a68fe10ce992c6dcad4ae732a31d16c4dd190a44cd5e9486516",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/large_blue_diamond.webp"
+    },
+    {
+      "bytes": 4466,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/37c00823cc64d5ac181bf97a8ee4563088090cd3650802bc859f4d954b5d0ab7.webp",
+      "reference": "light_bulb.webp",
+      "sha256": "37c00823cc64d5ac181bf97a8ee4563088090cd3650802bc859f4d954b5d0ab7",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/light_bulb.webp"
+    },
+    {
+      "bytes": 7372,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/9bd70997701eefc16724c9fd14f023009422dd73117754c74933b313a9469352.webp",
+      "reference": "megaphone.webp",
+      "sha256": "9bd70997701eefc16724c9fd14f023009422dd73117754c74933b313a9469352",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/megaphone.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 1548,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d2cec33f361a1ffa2009ede9f27a5a34216fb3c836fa7f58306b8dbbad9935bc.webp",
+      "reference": "mingcute_target-fill-1.webp",
+      "sha256": "d2cec33f361a1ffa2009ede9f27a5a34216fb3c836fa7f58306b8dbbad9935bc",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/mingcute_target-fill-1.webp"
+    },
+    {
+      "bytes": 980,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/464f91c13aa97928890f95dd9c3bc3b5e5278d261fc846f1fc477e20d55db5aa.svg",
+      "reference": "mingcute_time-fill.svg",
+      "sha256": "464f91c13aa97928890f95dd9c3bc3b5e5278d261fc846f1fc477e20d55db5aa",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/mingcute_time-fill.svg"
+    },
+    {
+      "bytes": 3782,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/754867fff9f2e021f298e1be878bdda4cbf08fc6d5893cdc5e4380a3e0188ed2.webp",
+      "reference": "mobile_phone.webp",
+      "sha256": "754867fff9f2e021f298e1be878bdda4cbf08fc6d5893cdc5e4380a3e0188ed2",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/mobile_phone.webp"
+    },
+    {
+      "bytes": 6174,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/41be05a38fdc1f725e43df70ca41993ee3f3eef7c33ed583252e4f73b0102e46.webp",
+      "reference": "money_bag.webp",
+      "sha256": "41be05a38fdc1f725e43df70ca41993ee3f3eef7c33ed583252e4f73b0102e46",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/money_bag.webp"
+    },
+    {
+      "bytes": 3456,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/8bd3a77bac59f219310b61a559f0ea0ab2976969da8dcd779b5aecf08f51e886.webp",
+      "reference": "new_button.webp",
+      "sha256": "8bd3a77bac59f219310b61a559f0ea0ab2976969da8dcd779b5aecf08f51e886",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/new_button.webp"
+    },
+    {
+      "bytes": 5866,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e202553d8b206ceedbc4cdc7aa63da5afbc552c62effc9396e2fe98424b6d220.webp",
+      "reference": "office_building.webp",
+      "sha256": "e202553d8b206ceedbc4cdc7aa63da5afbc552c62effc9396e2fe98424b6d220",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/office_building.webp"
+    },
+    {
+      "bytes": 7914,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/db582df8c16d2b2e93f337993e36642ea08644f799b9f05d48320bd678dfffc8.webp",
+      "reference": "person_running.webp",
+      "sha256": "db582df8c16d2b2e93f337993e36642ea08644f799b9f05d48320bd678dfffc8",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/person_running.webp"
+    },
+    {
+      "bytes": 8804,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/a0377f818962ad70b1b498466d173bdf8742d65a1fd72daac72630f584eb0905.webp",
+      "reference": "person_shrugging.webp",
+      "sha256": "a0377f818962ad70b1b498466d173bdf8742d65a1fd72daac72630f584eb0905",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/person_shrugging.webp"
+    },
+    {
+      "bytes": 7894,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/26fa90debcede775f8060ff521314529959043952e0280d7fe641858e2edbbb3.webp",
+      "reference": "puzzle_piece.webp",
+      "sha256": "26fa90debcede775f8060ff521314529959043952e0280d7fe641858e2edbbb3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/puzzle_piece.webp"
+    },
+    {
+      "bytes": 5820,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/97285b0710cb837d032921ed2d2f31df7bab25cf20ae5f00c8bdfb2cad2f0bf3.webp",
+      "reference": "receipt.webp",
+      "sha256": "97285b0710cb837d032921ed2d2f31df7bab25cf20ae5f00c8bdfb2cad2f0bf3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/receipt.webp"
+    },
+    {
+      "bytes": 8306,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/728d44528164f8dd948b0340785777994490124f7b9727eeab05f4c5313ad890.webp",
+      "reference": "relieved_face.webp",
+      "sha256": "728d44528164f8dd948b0340785777994490124f7b9727eeab05f4c5313ad890",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/relieved_face.webp"
+    },
+    {
+      "bytes": 6918,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/eccf7ebdcf622191b985e5e7bf5fcf9d5702aa8b0d64fb9d589db9347239d9b9.webp",
+      "reference": "robot.webp",
+      "sha256": "eccf7ebdcf622191b985e5e7bf5fcf9d5702aa8b0d64fb9d589db9347239d9b9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/robot.webp"
+    },
+    {
+      "bytes": 9454,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/7956905ef6b4f497e03c8ed9c6142048393ec1017576602e76eb0e32a75fa1d9.webp",
+      "reference": "rocket-2.webp",
+      "sha256": "7956905ef6b4f497e03c8ed9c6142048393ec1017576602e76eb0e32a75fa1d9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/rocket-2.webp"
+    },
+    {
+      "bytes": 9334,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/6c1141f3cf0c195e782583977eacc979778725d64e130a4dfe138bd51de88e74.webp",
+      "reference": "rocket-3.webp",
+      "sha256": "6c1141f3cf0c195e782583977eacc979778725d64e130a4dfe138bd51de88e74",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/rocket-3.webp"
+    },
+    {
+      "bytes": 6176,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/ea3cbb2406e70beab579e5703edb49a5e8424db21b745cf41a33b033909d1d2f.webp",
+      "reference": "seedling.webp",
+      "sha256": "ea3cbb2406e70beab579e5703edb49a5e8424db21b745cf41a33b033909d1d2f",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/seedling.webp"
+    },
+    {
+      "bytes": 8862,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/ca915e9881ce277313a7f135d86afa46b2fd08da302e472c2fc295d283fbb6e8.webp",
+      "reference": "smiling_face_with_sunglasses.webp",
+      "sha256": "ca915e9881ce277313a7f135d86afa46b2fd08da302e472c2fc295d283fbb6e8",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/smiling_face_with_sunglasses.webp"
+    },
+    {
+      "bytes": 11010,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e5da6e940a009ca0359e5022f3311f29a9a922fba56e0d2ca3d7515c6e4c76d4.webp",
+      "reference": "stethoscope.webp",
+      "sha256": "e5da6e940a009ca0359e5022f3311f29a9a922fba56e0d2ca3d7515c6e4c76d4",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/stethoscope.webp"
+    },
+    {
+      "bytes": 54028,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/4ea381d202b359e3e1b7df8b6862ef9532fbbeda3fc7eaa4b5ff53547ff5276c.webp",
+      "reference": "Teaser_1061_2-1.webp",
+      "sha256": "4ea381d202b359e3e1b7df8b6862ef9532fbbeda3fc7eaa4b5ff53547ff5276c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_2-1.webp"
+    },
+    {
+      "bytes": 35940,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/0d36e458f9db323bd8b96d965f3530096de08f8ef7aeb1ed76c979d699c9364c.webp",
+      "reference": "Teaser_1061_3-13.webp",
+      "sha256": "0d36e458f9db323bd8b96d965f3530096de08f8ef7aeb1ed76c979d699c9364c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_3-13.webp"
+    },
+    {
+      "bytes": 6044,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d412614eab774866496999bf5240b2e9b0afcae3dc956258a0e264363028fe19.webp",
+      "reference": "technologist.webp",
+      "sha256": "d412614eab774866496999bf5240b2e9b0afcae3dc956258a0e264363028fe19",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/technologist.webp"
+    },
+    {
+      "bytes": 10608,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/07fa51fdb633096b611ec4a39c2db399d08710a06abc5d93ed4133683b43d77d.webp",
+      "reference": "test_tube.webp",
+      "sha256": "07fa51fdb633096b611ec4a39c2db399d08710a06abc5d93ed4133683b43d77d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/test_tube.webp"
+    },
+    {
+      "bytes": 8246,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/6444889de824fec2458424eb16958c839bfae766314d6d51ffdbe6e7fe12dc0a.webp",
+      "reference": "thinking_face.webp",
+      "sha256": "6444889de824fec2458424eb16958c839bfae766314d6d51ffdbe6e7fe12dc0a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/thinking_face.webp"
+    },
+    {
+      "bytes": 5998,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f0b0b1ec774d9ba6ef3b2d453ba362c260783964c5df2ba61caccb4d6d1b8cf3.webp",
+      "reference": "thumbs_up.webp",
+      "sha256": "f0b0b1ec774d9ba6ef3b2d453ba362c260783964c5df2ba61caccb4d6d1b8cf3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/thumbs_up.webp"
+    },
+    {
+      "bytes": 9904,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/3edbad077f900d3886fee781705cfdae44b07713df01c6e5f4075120cee182a6.webp",
+      "reference": "v3_migrated_d14fbcf1p6wyzn_v3_quiz_wish_3.webp",
+      "sha256": "3edbad077f900d3886fee781705cfdae44b07713df01c6e5f4075120cee182a6",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/v3_migrated_d14fbcf1p6wyzn_v3_quiz_wish_3.webp"
+    },
+    {
+      "bytes": 8554,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/3d9ef1fb1626380fc462d8121620bff36b7429d15fbb28bc9bbefb18f386b57d.webp",
+      "reference": "worried_face.webp",
+      "sha256": "3d9ef1fb1626380fc462d8121620bff36b7429d15fbb28bc9bbefb18f386b57d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/worried_face.webp"
+    },
+    {
+      "bytes": 6616,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/55873f86bd7a54e855e680614aa3bfaae3313dfffa026301150c00cff61e9baf.webp",
+      "reference": "writing_hand.webp",
+      "sha256": "55873f86bd7a54e855e680614aa3bfaae3313dfffa026301150c00cff61e9baf",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/writing_hand.webp"
+    }
+  ],
+  "mediaFailures": [],
+  "pages": [
+    {
+      "file": "pages/01-dynamic.json",
+      "id": "01-dynamic",
+      "index": 0,
+      "interaction": "selection",
+      "optionCount": 5,
+      "path": "/dynamic",
+      "sha256": "4c0738fe2da8911fa6ecba956ea186acafed4b7c0a904f83d8ebcf086902512b",
+      "slug": null,
+      "title": "Build Your Personal AI Workday Plan",
+      "type": "gender-select-landing"
+    },
+    {
+      "file": "pages/02-classic-social-proof.json",
+      "id": "02-classic-social-proof",
+      "index": 1,
+      "interaction": "continue",
+      "optionCount": 0,
+      "path": "/dynamic/classic-social-proof",
+      "sha256": "d04973cb8cab8f8a2095f5048f93985f89dbd383842ce9fb4d2bc0dd6692e062",
+      "slug": null,
+      "title": "Built for Busy Professionals",
+      "type": "classic-social-proof"
+    },
+    {
+      "file": "pages/03-question-page.json",
+      "id": "03-question-page",
+      "index": 2,
+      "interaction": "selection",
+      "optionCount": 5,
+      "path": "/dynamic/question-page",
+      "sha256": "a030e467c84223e162354ceb9c29eac81d80c2095a725c726356aa777cd11b98",
+      "slug": "what_is_your_age",
+      "title": "Where does most of your workday happen?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/04-question-page-2.json",
+      "id": "04-question-page-2",
+      "index": 3,
+      "interaction": "selection",
+      "optionCount": 5,
+      "path": "/dynamic/question-page-2",
+      "sha256": "089dd052bbf2014f0fb544078d4b77672d5e8e403a832600317754f00519581c",
+      "slug": "what_is_your_main_goal_with_ai",
+      "title": "What would make the biggest difference to your workday?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/05-question-page-3.json",
+      "id": "05-question-page-3",
+      "index": 4,
+      "interaction": "selection",
+      "optionCount": 7,
+      "path": "/dynamic/question-page-3",
+      "sha256": "094a117fa41f5607fb6a94cd2f636b937b600ac74dadd97238ef83fa52460a07",
+      "slug": "what_industry_do_you_work_in",
+      "title": "Which type of work do you do most often?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/06-question-page-4.json",
+      "id": "06-question-page-4",
+      "index": 5,
+      "interaction": "selection",
+      "optionCount": 5,
+      "path": "/dynamic/question-page-4",
+      "sha256": "9a01316420c3a13c4b4a2745ae2bc0ef12ad673259bc1472a01281186ba82e00",
+      "slug": "do_you_feel_overwhelmed_with_ai",
+      "title": "How does your workday usually feel?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/07-question-page-5.json",
+      "id": "07-question-page-5",
+      "index": 6,
+      "interaction": "selection",
+      "optionCount": 5,
+      "path": "/dynamic/question-page-5",
+      "sha256": "defb2d58c20b56c8d8c6de41b187a3c35d7c388b962d1ea8d9f51c3f19d5ec1a",
+      "slug": "how_comfortable_are_you_using_ai_tools_right_now",
+      "title": "How much control do you have over your daily priorities?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/08-wild-page.json",
+      "id": "08-wild-page",
+      "index": 7,
+      "interaction": "continue",
+      "optionCount": 0,
+      "path": "/dynamic/wild-page",
+      "sha256": "d3fde3246bf82f20c72f23f09f53d528bb3ebd511834f998b47955172bca592d",
+      "slug": null,
+      "title": "Being Busy Isn’t the Same as Moving Forward",
+      "type": "wild-page"
+    },
+    {
+      "file": "pages/09-question-page-6.json",
+      "id": "09-question-page-6",
+      "index": 8,
+      "interaction": "selection",
+      "optionCount": 7,
+      "path": "/dynamic/question-page-6",
+      "sha256": "b8868b300fb785f8f97107772d9f1655e943c3f90c9317f3f0ee6926c2448734",
+      "slug": "are_you_afraid_to_fall_behind_the_ai_trend",
+      "title": "What consumes the most unnecessary time?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/10-question-page-7.json",
+      "id": "10-question-page-7",
+      "index": 9,
+      "interaction": "selection",
+      "optionCount": 5,
+      "path": "/dynamic/question-page-7",
+      "sha256": "2629afd21af1292de8532821f8e8232bd2d75520dd880984f67e3b8e0fb2ee7f",
+      "slug": "what_best_describes_your_experience_with_ai",
+      "title": "How much experience do you have using AI for work?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/11-question-page-8.json",
+      "id": "11-question-page-8",
+      "index": 10,
+      "interaction": "selection",
+      "optionCount": 6,
+      "path": "/dynamic/question-page-8",
+      "sha256": "a00eb63323d362878b61b0b75c2157ea7ef95577cf4d8bbae411cad5e6657132",
+      "slug": "whats_the_1_thing_holding_you_back_from_using_ai_effectively",
+      "title": "What stops you from using AI more effectively?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/12-question-page-9.json",
+      "id": "12-question-page-9",
+      "index": 11,
+      "interaction": "selection",
+      "optionCount": 7,
+      "path": "/dynamic/question-page-9",
+      "sha256": "de2fdf672eaf2d326e7bda3b521b4b8ac35e734e034761597b3d2c758d3d68e9",
+      "slug": "career_level",
+      "title": "Which best describes your role?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/13-question-page-10.json",
+      "id": "13-question-page-10",
+      "index": 12,
+      "interaction": "selection",
+      "optionCount": 7,
+      "path": "/dynamic/question-page-10",
+      "sha256": "5304a545311454e4cef974fc41a73fc54b22d57fd0875048fc0db8a2fdfb24a4",
+      "slug": "what_do_you_want_ai_to_help_you_with_first",
+      "title": "Which workflow would you improve first?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/14-question-page-11.json",
+      "id": "14-question-page-11",
+      "index": 13,
+      "interaction": "selection",
+      "optionCount": 6,
+      "path": "/dynamic/question-page-11",
+      "sha256": "312d760b8a3de5ba16d290d7e312208ab568147aac1ad3ec90dd08b075a2e990",
+      "slug": "when_you_think_about_ai_and_your_career_what_concerns_you_most",
+      "title": "What concerns you most about AI at work?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/15-wild-page-2.json",
+      "id": "15-wild-page-2",
+      "index": 14,
+      "interaction": "continue",
+      "optionCount": 0,
+      "path": "/dynamic/wild-page-2",
+      "sha256": "20d0db5f4ec4a3e829425eb6b784b75136ae2a2c7105850a0368279ad7c955c2",
+      "slug": null,
+      "title": "AI Should Fit Your Workday—Not Add Another Tool",
+      "type": "wild-page"
+    },
+    {
+      "file": "pages/16-question-page-12.json",
+      "id": "16-question-page-12",
+      "index": 15,
+      "interaction": "selection",
+      "optionCount": 5,
+      "path": "/dynamic/question-page-12",
+      "sha256": "7940514bf52f01525e10971abe7872ff9a5e9d0e994bb067779af7a7caeb531c",
+      "slug": "have_you_tried_learning_ai_before",
+      "title": "Have you tried productivity systems or AI courses before?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/17-question-page-13.json",
+      "id": "17-question-page-13",
+      "index": 16,
+      "interaction": "selection",
+      "optionCount": 5,
+      "path": "/dynamic/question-page-13",
+      "sha256": "9635477201447e1ba33aacdfe83201f10e5f94e485291c0304f1d2787b2e3d0a",
+      "slug": "are_you_comfortable_learning_new_skills_online",
+      "title": "How do you prefer to learn?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/18-question-page-14.json",
+      "id": "18-question-page-14",
+      "index": 17,
+      "interaction": "selection",
+      "optionCount": 6,
+      "path": "/dynamic/question-page-14",
+      "sha256": "c923e00fe93d40007a62686d20e08cac5699fbf364b9ad4b781a8440b76fec84",
+      "slug": "what_result_do_you_want_in_your_first_week",
+      "title": "What would feel like a meaningful win this week?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/19-question-page-15.json",
+      "id": "19-question-page-15",
+      "index": 18,
+      "interaction": "selection",
+      "optionCount": 4,
+      "path": "/dynamic/question-page-15",
+      "sha256": "53c8ee067425395a106bd5abbc27c57e25d358eb100b2f3021fb15ca7abb2d68",
+      "slug": "how_much_time_ready_to_spend_for_goal",
+      "title": "How much time can you invest each day?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/20-question-page-16.json",
+      "id": "20-question-page-16",
+      "index": 19,
+      "interaction": "selection",
+      "optionCount": 6,
+      "path": "/dynamic/question-page-16",
+      "sha256": "4dad1909bd5d85c54ff0b8109eca7a0ec9c564b2b60037b712efa85ebbb7e09c",
+      "slug": "how_would_you_celebrate_your_first_results_with_ai",
+      "title": "What would you do with more control over your time?",
+      "type": "question-page"
+    },
+    {
+      "file": "pages/21-followup-teaser-page.json",
+      "id": "21-followup-teaser-page",
+      "index": 20,
+      "interaction": "continue",
+      "optionCount": 0,
+      "path": "/dynamic/followup-teaser-page",
+      "sha256": "89a7dca4abbebc4b75a36a09890e144e076016630519051d4586e0a2646b6a73",
+      "slug": "youre_already_making_progress",
+      "title": "Your Workday Profile Is Taking Shape",
+      "type": "followup-teaser-page"
+    },
+    {
+      "file": "pages/22-magic-page.json",
+      "id": "22-magic-page",
+      "index": 21,
+      "interaction": "continue",
+      "optionCount": 0,
+      "path": "/dynamic/magic-page",
+      "sha256": "afe75bb70a2393c10b07978ff96e6dab7d4b2c5bd186d35dec05f74827b51a8a",
+      "slug": null,
+      "title": "Building Your Personal AI Workday Plan",
+      "type": "magic-page"
+    },
+    {
+      "file": "pages/23-email-page.json",
+      "id": "23-email-page",
+      "index": 22,
+      "interaction": "email",
+      "optionCount": 0,
+      "path": "/dynamic/email-page",
+      "sha256": "24f80a5c8b31c07a2697a01c226aeaed3444bac28c4605eac1b3e0f9ef30f017",
+      "slug": null,
+      "title": "Where should we send your plan?",
+      "type": "email-page"
+    },
+    {
+      "file": "pages/24-enter-name-page.json",
+      "id": "24-enter-name-page",
+      "index": 23,
+      "interaction": "name",
+      "optionCount": 0,
+      "path": "/dynamic/enter-name-page",
+      "sha256": "2afa6bd6ce847d70abe8a4682117c997ed20a9d93fa64dc9b03ee719458b58b8",
+      "slug": null,
+      "title": "What should we call you?",
+      "type": "enter-name-page"
+    },
+    {
+      "file": "pages/25-personalized-summary-page.json",
+      "id": "25-personalized-summary-page",
+      "index": 24,
+      "interaction": "continue",
+      "optionCount": 0,
+      "path": "/dynamic/personalized-summary-page",
+      "sha256": "6267d49f69a56184a9b9d8d9a09ada5500ad9f2b633f0bf29814e53eaa4f1245",
+      "slug": null,
+      "title": "Your AI Workday Profile",
+      "type": "personalized-summary-page"
+    },
+    {
+      "file": "pages/26-before-after-page-personalized.json",
+      "id": "26-before-after-page-personalized",
+      "index": 25,
+      "interaction": "continue",
+      "optionCount": 0,
+      "path": "/dynamic/before-after-page-personalized",
+      "sha256": "791daeca79cd018a6cbab302fcfef1e7a8848d74a155eb2e7f6398de30032316",
+      "slug": null,
+      "title": "From Reactive to In Control",
+      "type": "before-after-page-personalized"
+    },
+    {
+      "file": "pages/27-solution-pitch-page.json",
+      "id": "27-solution-pitch-page",
+      "index": 26,
+      "interaction": "continue",
+      "optionCount": 0,
+      "path": "/dynamic/solution-pitch-page",
+      "sha256": "e898425f32c7bfd5227a47d8eebd709de9800c71dedd5af0324117fce2083094",
+      "slug": null,
+      "title": "A System Built Around Work You Already Do",
+      "type": "solution-pitch-page"
+    },
+    {
+      "file": "pages/28-social-proof-testimonials-page.json",
+      "id": "28-social-proof-testimonials-page",
+      "index": 27,
+      "interaction": "continue",
+      "optionCount": 0,
+      "path": "/dynamic/social-proof-testimonials-page",
+      "sha256": "74e8c013eb12626c879d34add4390e833864f0e5df53b73076c9142f2913fc89",
+      "slug": null,
+      "title": "What Your First Week Will Produce",
+      "type": "social-proof-testimonials-page"
+    },
+    {
+      "file": "pages/29-selling-page.json",
+      "id": "29-selling-page",
+      "index": 28,
+      "interaction": "continue",
+      "optionCount": 0,
+      "path": "/dynamic/selling-page",
+      "sha256": "f891441f28ce3c3a436ae622c6284608550b9db76751210262e65c08c070b606",
+      "slug": null,
+      "title": "Your AI Workday Plan Is Ready",
+      "type": "selling-page"
+    }
+  ],
+  "schemaVersion": 1,
+  "scrapedAt": "2026-07-25T15:46:23.799Z",
+  "shared": {
+    "file": "shared.json",
+    "sha256": "dde774fdec0a8f8b489a15823ff17b2f9b14b19ef4f1c785faa96e7cec9c8b10"
+  },
+  "source": {
+    "buildId": "HgPJlQtdiOvKgKTaE9huT",
+    "entryUrl": "https://coursiv.io/dynamic?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero",
+    "funnelVersion": "c_1185",
+    "language": "en",
+    "prcId": 1185
+  },
+  "totals": {
+    "media": 172,
+    "mediaFailures": 0,
+    "options": 96,
+    "pages": 29,
+    "questions": 16,
+    "screenshotFailures": 0,
+    "unknownPageTypes": 0
+  },
+  "unknownPageTypes": [],
+  "aiWorkdayMigrationId": "ai-workday-v1",
+  "updatedAt": "2026-07-26T10:57:49.093Z"
+}

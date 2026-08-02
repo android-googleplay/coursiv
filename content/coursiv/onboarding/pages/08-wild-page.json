@@ -1,0 +1,279 @@
+{
+  "content": {
+    "blockType": "wild-page",
+    "blocks": [
+      {
+        "answerSlug": "default",
+        "conditionGroups": [],
+        "page": [
+          {
+            "blockType": "followup-teaser-page",
+            "button": "CONTINUE",
+            "description": "The right workflow reduces reactive work and protects time for what matters.",
+            "image": "Teaser_1061_2-1.webp",
+            "pageViewActions": [
+              {
+                "blockType": "track_sentinel_event",
+                "payload": {
+                  "eventName": "pr_funnel_quiz_teaser_view"
+                }
+              }
+            ],
+            "progressBar": false,
+            "progressDurationMs": 4000,
+            "routing": {
+              "conditions": [],
+              "defaultEndsFlow": false
+            },
+            "slug": "younger_generation_teaser_1",
+            "title": "Being Busy Isn’t the Same as Moving Forward",
+            "subtitle": "The right workflow reduces reactive work and protects time for what matters."
+          }
+        ]
+      },
+      {
+        "answerSlug": "im_comfortable",
+        "conditionGroups": [],
+        "page": [
+          {
+            "blockType": "followup-teaser-page",
+            "button": "CONTINUE",
+            "description": "The right workflow reduces reactive work and protects time for what matters.",
+            "image": "Teaser_1061_2-1.webp",
+            "pageViewActions": [
+              {
+                "blockType": "track_sentinel_event",
+                "payload": {
+                  "eventName": "pr_funnel_quiz_teaser_view"
+                }
+              }
+            ],
+            "progressBar": false,
+            "progressDurationMs": 4000,
+            "routing": {
+              "conditions": [],
+              "defaultEndsFlow": false
+            },
+            "slug": "younger_generation_teaser_1",
+            "title": "Being Busy Isn’t the Same as Moving Forward",
+            "subtitle": "The right workflow reduces reactive work and protects time for what matters."
+          }
+        ]
+      }
+    ],
+    "pageViewActions": [],
+    "questionSlug": "how_comfortable_are_you_using_ai_tools_right_now",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "title": "Being Busy Isn’t the Same as Moving Forward",
+    "subtitle": "The right workflow reduces reactive work and protects time for what matters.",
+    "description": ""
+  },
+  "id": "08-wild-page",
+  "index": 7,
+  "interaction": "continue",
+  "media": [
+    {
+      "bytes": 54028,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/4ea381d202b359e3e1b7df8b6862ef9532fbbeda3fc7eaa4b5ff53547ff5276c.webp",
+      "reference": "Teaser_1061_2-1.webp",
+      "sha256": "4ea381d202b359e3e1b7df8b6862ef9532fbbeda3fc7eaa4b5ff53547ff5276c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Teaser_1061_2-1.webp"
+    },
+    {
+      "bytes": 8172,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/5c4993d093a0854ff1a57f422d282f4dc3b60dc8f6978e22326c7266a6e6486d.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/anguished_face.webp",
+      "sha256": "5c4993d093a0854ff1a57f422d282f4dc3b60dc8f6978e22326c7266a6e6486d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/anguished_face.webp"
+    },
+    {
+      "bytes": 6768,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/22e882e6098477dad685338e1c87693db21c1d8dfc71aa841a27e8cc2fa6ad50.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/face_with_diagonal_mouth.webp",
+      "sha256": "22e882e6098477dad685338e1c87693db21c1d8dfc71aa841a27e8cc2fa6ad50",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/face_with_diagonal_mouth.webp"
+    },
+    {
+      "bytes": 8052,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/196871669d1a94cc49710561f96738ba650f684cc8cbcd95ef2259c166a2c277.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/fearful_face.webp",
+      "sha256": "196871669d1a94cc49710561f96738ba650f684cc8cbcd95ef2259c166a2c277",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/fearful_face.webp"
+    },
+    {
+      "bytes": 8862,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/ca915e9881ce277313a7f135d86afa46b2fd08da302e472c2fc295d283fbb6e8.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/smiling_face_with_sunglasses.webp",
+      "sha256": "ca915e9881ce277313a7f135d86afa46b2fd08da302e472c2fc295d283fbb6e8",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/smiling_face_with_sunglasses.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "Teaser_1061_2-1.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/anguished_face.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/face_with_diagonal_mouth.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/fearful_face.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/smiling_face_with_sunglasses.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-6",
+    "previous": "/dynamic/question-page-5",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [],
+  "path": "/dynamic/wild-page",
+  "progress": {
+    "current": null,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-6",
+    "pageContent": {
+      "blockType": "wild-page",
+      "blocks": [
+        {
+          "answerSlug": "default",
+          "conditionGroups": [],
+          "page": [
+            {
+              "blockType": "followup-teaser-page",
+              "button": "CONTINUE",
+              "description": "We helped more than 2,000,000 of adults to master AI and can help you too. Our program is backed by thousands hours of research and content carefully crafted to your needs and skills!",
+              "image": "Teaser_1061_2-1.webp",
+              "pageViewActions": [
+                {
+                  "blockType": "track_sentinel_event",
+                  "payload": {
+                    "eventName": "pr_funnel_quiz_teaser_view"
+                  }
+                }
+              ],
+              "progressBar": false,
+              "progressDurationMs": 4000,
+              "routing": {
+                "conditions": [],
+                "defaultEndsFlow": false
+              },
+              "slug": "younger_generation_teaser_1",
+              "title": "Worry no more! We will help you to gain your confidence back"
+            }
+          ]
+        },
+        {
+          "answerSlug": "im_comfortable",
+          "conditionGroups": [],
+          "page": [
+            {
+              "blockType": "followup-teaser-page",
+              "button": "CONTINUE",
+              "description": "We helped more than 2,000,000 of adults to master AI and can help you too. Our program is backed by thousands hours of research and content carefully crafted to your needs and skills!",
+              "image": "Teaser_1061_2-1.webp",
+              "pageViewActions": [
+                {
+                  "blockType": "track_sentinel_event",
+                  "payload": {
+                    "eventName": "pr_funnel_quiz_teaser_view"
+                  }
+                }
+              ],
+              "progressBar": false,
+              "progressDurationMs": 4000,
+              "routing": {
+                "conditions": [],
+                "defaultEndsFlow": false
+              },
+              "slug": "younger_generation_teaser_1",
+              "title": "Awesome! Let’s get you to the next level"
+            }
+          ]
+        }
+      ],
+      "pageViewActions": [],
+      "questionSlug": "how_comfortable_are_you_using_ai_tools_right_now",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      }
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": null,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/fearful_face.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/anguished_face.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/face_with_diagonal_mouth.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/smiling_face_with_sunglasses.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-5"
+  },
+  "schemaVersion": 1,
+  "slug": null,
+  "sourceUrl": "https://coursiv.io/dynamic/wild-page?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=wild-page",
+  "title": "Being Busy Isn’t the Same as Moving Forward",
+  "type": "wild-page",
+  "migrationId": "ai-workday-v1"
+}

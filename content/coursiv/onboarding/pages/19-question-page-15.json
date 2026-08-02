@@ -1,0 +1,294 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "backgroundImage": "1091_assets_0504.webp",
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "5-minutes",
+        "title": "5 minutes"
+      },
+      {
+        "actions": [],
+        "slug": "10-minutes",
+        "title": "10 minutes"
+      },
+      {
+        "actions": [],
+        "slug": "15-minutes",
+        "title": "15 minutes"
+      },
+      {
+        "actions": [],
+        "slug": "20-minutes",
+        "title": "20 minutes"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "full-single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "how_much_time_ready_to_spend_for_goal",
+    "stats": {},
+    "title": "How much time can you invest each day?",
+    "tryAskingLabel": "Try asking",
+    "subtitle": "Consistency matters more than long sessions.",
+    "description": ""
+  },
+  "id": "19-question-page-15",
+  "index": 18,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 256710,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e8a7abe0600fb19f11a1ebc370d436e9f27887ae0d0f3eec11118053bf589a5e.webp",
+      "reference": "1091_assets_0504.webp",
+      "sha256": "e8a7abe0600fb19f11a1ebc370d436e9f27887ae0d0f3eec11118053bf589a5e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0504.webp"
+    },
+    {
+      "bytes": 4040,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/1287b111f62590abac8c9bab7bb39f2a5197a19116da9dac242ad183b99224fe.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-10.webp",
+      "sha256": "1287b111f62590abac8c9bab7bb39f2a5197a19116da9dac242ad183b99224fe",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-10.webp"
+    },
+    {
+      "bytes": 4618,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/29fba3306818c542367a287bec6ad78b0f91329c041b20bdb22889aca6665837.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-9.webp",
+      "sha256": "29fba3306818c542367a287bec6ad78b0f91329c041b20bdb22889aca6665837",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-9.webp"
+    },
+    {
+      "bytes": 5820,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/97285b0710cb837d032921ed2d2f31df7bab25cf20ae5f00c8bdfb2cad2f0bf3.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/receipt.webp",
+      "sha256": "97285b0710cb837d032921ed2d2f31df7bab25cf20ae5f00c8bdfb2cad2f0bf3",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/receipt.webp"
+    },
+    {
+      "bytes": 9454,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/7956905ef6b4f497e03c8ed9c6142048393ec1017576602e76eb0e32a75fa1d9.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/rocket-2.webp",
+      "sha256": "7956905ef6b4f497e03c8ed9c6142048393ec1017576602e76eb0e32a75fa1d9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/rocket-2.webp"
+    },
+    {
+      "bytes": 9904,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/3edbad077f900d3886fee781705cfdae44b07713df01c6e5f4075120cee182a6.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/v3_migrated_d14fbcf1p6wyzn_v3_quiz_wish_3.webp",
+      "sha256": "3edbad077f900d3886fee781705cfdae44b07713df01c6e5f4075120cee182a6",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/v3_migrated_d14fbcf1p6wyzn_v3_quiz_wish_3.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "1091_assets_0504.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-10.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-9.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/receipt.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/rocket-2.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/v3_migrated_d14fbcf1p6wyzn_v3_quiz_wish_3.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-16",
+    "previous": "/dynamic/question-page-14",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "19-question-page-15--5-minutes",
+      "label": "5 minutes",
+      "value": "5-minutes",
+      "source": {
+        "actions": [],
+        "slug": "5-minutes",
+        "title": "5 minutes"
+      }
+    },
+    {
+      "id": "19-question-page-15--10-minutes",
+      "label": "10 minutes",
+      "value": "10-minutes",
+      "source": {
+        "actions": [],
+        "slug": "10-minutes",
+        "title": "10 minutes"
+      }
+    },
+    {
+      "id": "19-question-page-15--15-minutes",
+      "label": "15 minutes",
+      "value": "15-minutes",
+      "source": {
+        "actions": [],
+        "slug": "15-minutes",
+        "title": "15 minutes"
+      }
+    },
+    {
+      "id": "19-question-page-15--20-minutes",
+      "label": "20 minutes",
+      "value": "20-minutes",
+      "source": {
+        "actions": [],
+        "slug": "20-minutes",
+        "title": "20 minutes"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-15",
+  "progress": {
+    "current": 15,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-16",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "backgroundImage": "1091_assets_0504.webp",
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "slug": "10_min_day",
+          "title": "10 min/day"
+        },
+        {
+          "actions": [],
+          "slug": "15_min_day",
+          "title": "15 min/day"
+        },
+        {
+          "actions": [],
+          "slug": "20_min_day",
+          "title": "20 min/day"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "full-single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "how_much_time_ready_to_spend_for_goal",
+      "stats": {},
+      "title": "Let’s set your daily AI mastering goal",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 15,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/receipt.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-9.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/Image_quiz-10.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/v3_migrated_d14fbcf1p6wyzn_v3_quiz_wish_3.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/rocket-2.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-14"
+  },
+  "schemaVersion": 1,
+  "slug": "how_much_time_ready_to_spend_for_goal",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-15?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-15",
+  "title": "How much time can you invest each day?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

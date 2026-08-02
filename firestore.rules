@@ -1,0 +1,40 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function owns(uid) { return signedIn() && request.auth.uid == uid; }
+    function isAdmin() { return signedIn() && (request.auth.token.admin == true || request.auth.token.staffRole == 'admin'); }
+    function isEditor() { return isAdmin() || (signedIn() && (request.auth.token.editor == true || request.auth.token.staffRole == 'editor')); }
+
+    match /users/{uid} {
+      allow read: if owns(uid) || isAdmin();
+      allow create: if owns(uid);
+      allow update: if owns(uid) && request.resource.data.role == resource.data.role;
+      allow delete: if isAdmin();
+    }
+    match /subscriptions/{uid} { allow read: if owns(uid) || isAdmin(); allow write: if false; }
+    match /progress/{uid}/{document=**} { allow read: if owns(uid) || isAdmin(); allow write: if false; }
+    match /learningProgress/{uid}/{document=**} { allow read: if owns(uid) || isAdmin(); allow write: if false; }
+    match /programs/{id} { allow read: if resource.data.status == 'published' || isEditor(); allow write: if false; }
+    match /courses/{id} { allow read: if resource.data.status == 'published' || isEditor(); allow write: if false; }
+    match /lessons/{id} { allow read: if resource.data.status == 'published' || isEditor(); allow write: if false; }
+    match /challenges/{id} { allow read: if resource.data.status == 'published' || isEditor(); allow write: if false; }
+    match /prompts/{id} { allow read: if resource.data.status == 'published' || isEditor(); allow write: if false; }
+    match /useCases/{id} { allow read: if resource.data.status == 'published' || isEditor(); allow write: if false; }
+    match /contentMetadata/{id} { allow read: if true; allow write: if false; }
+    match /events/{id} { allow create: if signedIn(); allow read: if isAdmin(); allow update, delete: if false; }
+    match /supportTickets/{id} { allow read: if isAdmin() || (signedIn() && resource.data.userId == request.auth.uid); allow write: if false; }
+    match /pushTokens/{uid}/{document=**} { allow read, write: if false; }
+    match /certificates/{id} {
+      allow read: if resource.data.visibility == 'public' || owns(resource.data.userId) || isAdmin();
+      allow write: if false;
+    }
+    match /contentRevisions/{id}/{document=**} { allow read, write: if false; }
+    match /mediaAssets/{id} { allow read: if signedIn(); allow write: if false; }
+    match /adminUserSummaries/{uid} { allow read, write: if false; }
+    match /adminUserMeta/{uid} { allow read, write: if false; }
+    match /adminAuditLogs/{id} { allow read, write: if false; }
+    match /adminIdempotency/{id} { allow read, write: if false; }
+    match /webhookEvents/{id} { allow read, write: if false; }
+  }
+}

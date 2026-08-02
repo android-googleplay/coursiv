@@ -1,0 +1,403 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "finish-work-with-less-stress",
+        "title": "Finish work with less stress"
+      },
+      {
+        "actions": [],
+        "slug": "save-time-on-repetitive-tasks",
+        "title": "Save time on repetitive tasks"
+      },
+      {
+        "actions": [],
+        "slug": "communicate-more-clearly",
+        "title": "Communicate more clearly"
+      },
+      {
+        "actions": [],
+        "slug": "make-better-decisions",
+        "title": "Make better decisions"
+      },
+      {
+        "actions": [],
+        "slug": "create-more-time-for-important-work",
+        "title": "Create more time for important work"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "what_is_your_main_goal_with_ai",
+    "stats": {},
+    "title": "What would make the biggest difference to your workday?",
+    "tryAskingLabel": "Try asking",
+    "subtitle": "Choose the result that matters most right now.",
+    "description": ""
+  },
+  "id": "04-question-page-2",
+  "index": 3,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 7970,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2334f8336ac847a873912d0b115b5ad4e14a3ccb2633fba69358dfcb7d55d08e.webp",
+      "reference": "artist_palette.webp",
+      "sha256": "2334f8336ac847a873912d0b115b5ad4e14a3ccb2633fba69358dfcb7d55d08e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/artist_palette.webp"
+    },
+    {
+      "bytes": 5318,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/9cfedfe9129c95e3d0cc33a537c7bfa68575b897f70bfb925c91878abea5ef7e.webp",
+      "reference": "chart_increasing.webp",
+      "sha256": "9cfedfe9129c95e3d0cc33a537c7bfa68575b897f70bfb925c91878abea5ef7e",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/chart_increasing.webp"
+    },
+    {
+      "bytes": 4670,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f89227ea3d89ddf73d24c7005fe330357ace342f1932ace70723ae248bac3a92.webp",
+      "reference": "counterclockwise_arrows_button.webp",
+      "sha256": "f89227ea3d89ddf73d24c7005fe330357ace342f1932ace70723ae248bac3a92",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/counterclockwise_arrows_button.webp"
+    },
+    {
+      "bytes": 8398,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f28ec9e8e2018378b71e6ca7605bd7f9de4c1718913552077516ab726ecb501f.webp",
+      "reference": "house_with_garden.webp",
+      "sha256": "f28ec9e8e2018378b71e6ca7605bd7f9de4c1718913552077516ab726ecb501f",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp"
+    },
+    {
+      "bytes": 6870,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2c36bf17575d3b4f17f60cd061a6e0397be505691725f13117a2b060bb8c35b9.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/bank.webp",
+      "sha256": "2c36bf17575d3b4f17f60cd061a6e0397be505691725f13117a2b060bb8c35b9",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/bank.webp"
+    },
+    {
+      "bytes": 7380,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/becaa9810bb1f7f566b5bd88e4431e1300617d98044bcae7b6630e5eaa177225.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/books.webp",
+      "sha256": "becaa9810bb1f7f566b5bd88e4431e1300617d98044bcae7b6630e5eaa177225",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/books.webp"
+    },
+    {
+      "bytes": 4222,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/1900fa5961c7466f8abbeb83b3187b3543c9c4a7cb2f7bb97814349170fc7504.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/clipboard.webp",
+      "sha256": "1900fa5961c7466f8abbeb83b3187b3543c9c4a7cb2f7bb97814349170fc7504",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/clipboard.webp"
+    },
+    {
+      "bytes": 5988,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/6680c10585e1c17d2a6b11ace12501362a72583b0e2caad19ac127e409ced6ce.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/handshake.webp",
+      "sha256": "6680c10585e1c17d2a6b11ace12501362a72583b0e2caad19ac127e409ced6ce",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/handshake.webp"
+    },
+    {
+      "bytes": 5432,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/fccd2ab7f4b5d8e4c4808f219ac12d2372f4b647773e66c4d9c3506105c6693a.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/laptop.webp",
+      "sha256": "fccd2ab7f4b5d8e4c4808f219ac12d2372f4b647773e66c4d9c3506105c6693a",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/laptop.webp"
+    },
+    {
+      "bytes": 3898,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/80a1ba7db40b5a68fe10ce992c6dcad4ae732a31d16c4dd190a44cd5e9486516.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/large_blue_diamond.webp",
+      "sha256": "80a1ba7db40b5a68fe10ce992c6dcad4ae732a31d16c4dd190a44cd5e9486516",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/large_blue_diamond.webp"
+    },
+    {
+      "bytes": 7372,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/9bd70997701eefc16724c9fd14f023009422dd73117754c74933b313a9469352.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/megaphone.webp",
+      "sha256": "9bd70997701eefc16724c9fd14f023009422dd73117754c74933b313a9469352",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/megaphone.webp"
+    },
+    {
+      "bytes": 11010,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e5da6e940a009ca0359e5022f3311f29a9a922fba56e0d2ca3d7515c6e4c76d4.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/stethoscope.webp",
+      "sha256": "e5da6e940a009ca0359e5022f3311f29a9a922fba56e0d2ca3d7515c6e4c76d4",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/stethoscope.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 6174,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/41be05a38fdc1f725e43df70ca41993ee3f3eef7c33ed583252e4f73b0102e46.webp",
+      "reference": "money_bag.webp",
+      "sha256": "41be05a38fdc1f725e43df70ca41993ee3f3eef7c33ed583252e4f73b0102e46",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/money_bag.webp"
+    },
+    {
+      "bytes": 9334,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/6c1141f3cf0c195e782583977eacc979778725d64e130a4dfe138bd51de88e74.webp",
+      "reference": "rocket-3.webp",
+      "sha256": "6c1141f3cf0c195e782583977eacc979778725d64e130a4dfe138bd51de88e74",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/rocket-3.webp"
+    }
+  ],
+  "mediaReferences": [
+    "artist_palette.webp",
+    "chart_increasing.webp",
+    "counterclockwise_arrows_button.webp",
+    "house_with_garden.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/bank.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/books.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/clipboard.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/handshake.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/laptop.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/large_blue_diamond.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/megaphone.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/stethoscope.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "money_bag.webp",
+    "rocket-3.webp"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-3",
+    "previous": "/dynamic/question-page",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "04-question-page-2--finish-work-with-less-stress",
+      "label": "Finish work with less stress",
+      "value": "finish-work-with-less-stress",
+      "source": {
+        "actions": [],
+        "slug": "finish-work-with-less-stress",
+        "title": "Finish work with less stress"
+      }
+    },
+    {
+      "id": "04-question-page-2--save-time-on-repetitive-tasks",
+      "label": "Save time on repetitive tasks",
+      "value": "save-time-on-repetitive-tasks",
+      "source": {
+        "actions": [],
+        "slug": "save-time-on-repetitive-tasks",
+        "title": "Save time on repetitive tasks"
+      }
+    },
+    {
+      "id": "04-question-page-2--communicate-more-clearly",
+      "label": "Communicate more clearly",
+      "value": "communicate-more-clearly",
+      "source": {
+        "actions": [],
+        "slug": "communicate-more-clearly",
+        "title": "Communicate more clearly"
+      }
+    },
+    {
+      "id": "04-question-page-2--make-better-decisions",
+      "label": "Make better decisions",
+      "value": "make-better-decisions",
+      "source": {
+        "actions": [],
+        "slug": "make-better-decisions",
+        "title": "Make better decisions"
+      }
+    },
+    {
+      "id": "04-question-page-2--create-more-time-for-important-work",
+      "label": "Create more time for important work",
+      "value": "create-more-time-for-important-work",
+      "source": {
+        "actions": [],
+        "slug": "create-more-time-for-important-work",
+        "title": "Create more time for important work"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-2",
+  "progress": {
+    "current": 2,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-3",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "chart_increasing.webp",
+          "slug": "grow_in_my_current_role",
+          "title": "Grow in my current role"
+        },
+        {
+          "actions": [],
+          "icon": "counterclockwise_arrows_button.webp",
+          "slug": "switch_to_a_new_career",
+          "title": "Switch to a new career"
+        },
+        {
+          "actions": [],
+          "icon": "money_bag.webp",
+          "slug": "find_freelance_or_side_income",
+          "title": "Find freelance or side income"
+        },
+        {
+          "actions": [],
+          "icon": "house_with_garden.webp",
+          "slug": "work_remotely_or_independently",
+          "title": "Work remotely or independently"
+        },
+        {
+          "actions": [],
+          "icon": "artist_palette.webp",
+          "slug": "use_ai_for_personal_projects",
+          "title": "Use AI for personal projects"
+        },
+        {
+          "actions": [],
+          "icon": "rocket-3.webp",
+          "slug": "other",
+          "title": "Other"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "what_is_your_main_goal_with_ai",
+      "stats": {},
+      "title": "What is your main goal with AI?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 2,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/laptop.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/bank.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/megaphone.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/stethoscope.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/books.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/handshake.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/clipboard.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/large_blue_diamond.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page"
+  },
+  "schemaVersion": 1,
+  "slug": "what_is_your_main_goal_with_ai",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-2?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-2",
+  "title": "What would make the biggest difference to your workday?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}

@@ -1,0 +1,183 @@
+{
+  "content": {
+    "animationSources": [],
+    "blockType": "classic-social-proof",
+    "button": {
+      "actions": [
+        {
+          "blockType": "next_page",
+          "payload": {
+            "searchParams": {}
+          }
+        }
+      ],
+      "text": "CONTINUE",
+      "value": "continue"
+    },
+    "image": [
+      {
+        "blockType": "staticImage",
+        "image": "1061_Social_Proof-10.webp"
+      }
+    ],
+    "pageViewActions": [
+      {
+        "blockType": "track_sentinel_event",
+        "payload": {
+          "eventName": "pr_funnel_quiz_teaser_view"
+        }
+      }
+    ],
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "subtitle": "Short, practical lessons designed around work you already do—no technical background required.",
+    "title": "Built for Busy Professionals",
+    "description": ""
+  },
+  "id": "02-classic-social-proof",
+  "index": 1,
+  "interaction": "continue",
+  "media": [
+    {
+      "bytes": 29500,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/7059474f2e4f19afedd6e9fb1c4a16b74080dffc1e9bb4045b02f64156016e9d.webp",
+      "reference": "1061_Social_Proof-10.webp",
+      "sha256": "7059474f2e4f19afedd6e9fb1c4a16b74080dffc1e9bb4045b02f64156016e9d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1061_Social_Proof-10.webp"
+    },
+    {
+      "bytes": 81294,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/5097306c877ea8965c262dccaf06bdc5d28fda7bafcc59b1114a9fb992ba26bb.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0207.webp",
+      "sha256": "5097306c877ea8965c262dccaf06bdc5d28fda7bafcc59b1114a9fb992ba26bb",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0207.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "1061_Social_Proof-10.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0207.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page",
+    "previous": "/dynamic/gender-select-landing",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [],
+  "path": "/dynamic/classic-social-proof",
+  "progress": {
+    "current": null,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page",
+    "pageContent": {
+      "animationSources": [],
+      "blockType": "classic-social-proof",
+      "button": {
+        "actions": [
+          {
+            "blockType": "next_page",
+            "payload": {
+              "searchParams": {}
+            }
+          }
+        ],
+        "text": "CONTINUE",
+        "value": "continue"
+      },
+      "image": [
+        {
+          "blockType": "staticImage",
+          "image": "1061_Social_Proof-10.webp"
+        }
+      ],
+      "pageViewActions": [
+        {
+          "blockType": "track_sentinel_event",
+          "payload": {
+            "eventName": "pr_funnel_quiz_teaser_view"
+          }
+        }
+      ],
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "subtitle": "people joined Coursiv to master AI",
+      "title": "“More than 2,000,000”"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": null,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0207.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/gender-select-landing"
+  },
+  "schemaVersion": 1,
+  "slug": null,
+  "sourceUrl": "https://coursiv.io/dynamic/classic-social-proof?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=classic-social-proof",
+  "title": "Built for Busy Professionals",
+  "type": "classic-social-proof",
+  "migrationId": "ai-workday-v1"
+}

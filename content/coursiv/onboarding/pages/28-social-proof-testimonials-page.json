@@ -1,0 +1,272 @@
+{
+  "content": {
+    "animationSources": [],
+    "blockType": "social-proof-testimonials-page",
+    "button": {
+      "actions": [
+        {
+          "blockType": "next_page",
+          "payload": {
+            "searchParams": {}
+          }
+        }
+      ],
+      "text": "CONTINUE",
+      "value": "continue"
+    },
+    "currentStep": 4,
+    "list": [
+      {
+        "feedbackScreenshot": "145678.webp"
+      },
+      {
+        "feedbackScreenshot": "7-4.webp"
+      },
+      {
+        "feedbackScreenshot": "8-2.webp"
+      },
+      {
+        "feedbackScreenshot": "1-25.webp"
+      }
+    ],
+    "listTitle": "Hear What Others Are <br> Saying About Coursiv",
+    "pageViewActions": [
+      {
+        "blockType": "track_sentinel_event",
+        "payload": {
+          "eventName": "pr_funnel_social_proof_testimonials_page_view"
+        }
+      }
+    ],
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "socialProofImage": "Frame_2147205514.webp",
+    "title": "What Your First Week Will Produce",
+    "totalSteps": 4,
+    "subtitle": "Preview the emails, meeting actions, documents and time-saving workflows you’ll create.",
+    "description": ""
+  },
+  "id": "28-social-proof-testimonials-page",
+  "index": 27,
+  "interaction": "continue",
+  "media": [
+    {
+      "bytes": 60886,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e6c0f5de2ba26f6cfef268f62a18f69e6ae9aebc1128280d39fcad1591a86a49.webp",
+      "reference": "1-25.webp",
+      "sha256": "e6c0f5de2ba26f6cfef268f62a18f69e6ae9aebc1128280d39fcad1591a86a49",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1-25.webp"
+    },
+    {
+      "bytes": 58598,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/099dcea8416562b5a50be0a8bb7de67eab7fbad649de47af859597ad93337d9c.webp",
+      "reference": "145678.webp",
+      "sha256": "099dcea8416562b5a50be0a8bb7de67eab7fbad649de47af859597ad93337d9c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/145678.webp"
+    },
+    {
+      "bytes": 109100,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d679127d5a7a1349f8b6266d0a79ebdc6300d15af664869d272178d189a3ac38.webp",
+      "reference": "7-4.webp",
+      "sha256": "d679127d5a7a1349f8b6266d0a79ebdc6300d15af664869d272178d189a3ac38",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/7-4.webp"
+    },
+    {
+      "bytes": 149044,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/3bf5ccf4b500da7c7521769c27eb0f9a89b83dc35e669a7190a185de553a7595.webp",
+      "reference": "8-2.webp",
+      "sha256": "3bf5ccf4b500da7c7521769c27eb0f9a89b83dc35e669a7190a185de553a7595",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/8-2.webp"
+    },
+    {
+      "bytes": 16434,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/905dea762ceca96693dd4800383bd3e7b8381dfba98c402e33ce904d51f64328.webp",
+      "reference": "Frame_2147205514.webp",
+      "sha256": "905dea762ceca96693dd4800383bd3e7b8381dfba98c402e33ce904d51f64328",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/Frame_2147205514.webp"
+    },
+    {
+      "bytes": 77172,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/129cc36c926eaba57b18bf4abd7489b495480c21cdbbcf1aaa2053171c05b283.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/box60.webp",
+      "sha256": "129cc36c926eaba57b18bf4abd7489b495480c21cdbbcf1aaa2053171c05b283",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/box60.webp"
+    },
+    {
+      "bytes": 1252,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/2d75c3a92a37a7280eed9efe49dee22de83f64a380a11e5cef6cfd98adf1c942.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/gift-1.webp",
+      "sha256": "2d75c3a92a37a7280eed9efe49dee22de83f64a380a11e5cef6cfd98adf1c942",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/gift-1.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "1-25.webp",
+    "145678.webp",
+    "7-4.webp",
+    "8-2.webp",
+    "Frame_2147205514.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/box60.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/gift-1.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/selling-page",
+    "previous": "/dynamic/solution-pitch-page",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [],
+  "path": "/dynamic/social-proof-testimonials-page",
+  "progress": {
+    "current": null,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/selling-page",
+    "pageContent": {
+      "animationSources": [],
+      "blockType": "social-proof-testimonials-page",
+      "button": {
+        "actions": [
+          {
+            "blockType": "next_page",
+            "payload": {
+              "searchParams": {}
+            }
+          }
+        ],
+        "text": "CONTINUE",
+        "value": "continue"
+      },
+      "currentStep": 4,
+      "list": [
+        {
+          "feedbackScreenshot": "145678.webp"
+        },
+        {
+          "feedbackScreenshot": "7-4.webp"
+        },
+        {
+          "feedbackScreenshot": "8-2.webp"
+        },
+        {
+          "feedbackScreenshot": "1-25.webp"
+        }
+      ],
+      "listTitle": "Hear What Others Are <br> Saying About Coursiv",
+      "pageViewActions": [
+        {
+          "blockType": "track_sentinel_event",
+          "payload": {
+            "eventName": "pr_funnel_social_proof_testimonials_page_view"
+          }
+        }
+      ],
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "socialProofImage": "Frame_2147205514.webp",
+      "title": "See How Coursiv <br>Empowers Learners",
+      "totalSteps": 4
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": null,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/gift-1.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "https://d3kigabz1zn79w.cloudfront.net/box60.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/solution-pitch-page"
+  },
+  "schemaVersion": 1,
+  "slug": null,
+  "sourceUrl": "https://coursiv.io/dynamic/social-proof-testimonials-page?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=social-proof-testimonials-page",
+  "title": "What Your First Week Will Produce",
+  "type": "social-proof-testimonials-page",
+  "migrationId": "ai-workday-v1"
+}

@@ -1,0 +1,144 @@
+{
+  "content": {
+    "blockType": "followup-teaser-page",
+    "button": "CONTINUE",
+    "description": "",
+    "image": "1091_assets_0801-1.webp",
+    "pageViewActions": [
+      {
+        "blockType": "track_sentinel_event",
+        "payload": {
+          "eventName": "pr_funnel_quiz_teaser_view"
+        }
+      }
+    ],
+    "progressBar": false,
+    "progressDurationMs": 4000,
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "youre_already_making_progress",
+    "title": "Your Workday Profile Is Taking Shape",
+    "subtitle": "We’ve identified the patterns behind your answers."
+  },
+  "id": "21-followup-teaser-page",
+  "index": 20,
+  "interaction": "continue",
+  "media": [
+    {
+      "bytes": 21414,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/704d11410dbdaded4976f0802472df4eb37bb03fffa1a87ca6d1c091d81c5da1.webp",
+      "reference": "1091_assets_0801-1.webp",
+      "sha256": "704d11410dbdaded4976f0802472df4eb37bb03fffa1a87ca6d1c091d81c5da1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/1091_assets_0801-1.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "1091_assets_0801-1.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/magic-page",
+    "previous": "/dynamic/question-page-16",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [],
+  "path": "/dynamic/followup-teaser-page",
+  "progress": {
+    "current": null,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/magic-page",
+    "pageContent": {
+      "blockType": "followup-teaser-page",
+      "button": "CONTINUE",
+      "description": "Research shows that clear goals and small rewards boost motivation and consistency. We’ll help you set clear targets, highlight small wins, and keep your momentum going. Coursiv keeps your goals in view and sends gentle reminders as you learn.",
+      "image": "1091_assets_0801-1.webp",
+      "pageViewActions": [
+        {
+          "blockType": "track_sentinel_event",
+          "payload": {
+            "eventName": "pr_funnel_quiz_teaser_view"
+          }
+        }
+      ],
+      "progressBar": false,
+      "progressDurationMs": 4000,
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "youre_already_making_progress",
+      "title": "You’re already making progress!"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": null,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-16"
+  },
+  "schemaVersion": 1,
+  "slug": "youre_already_making_progress",
+  "sourceUrl": "https://coursiv.io/dynamic/followup-teaser-page?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=followup-teaser-page",
+  "title": "Your Workday Profile Is Taking Shape",
+  "type": "followup-teaser-page",
+  "migrationId": "ai-workday-v1"
+}

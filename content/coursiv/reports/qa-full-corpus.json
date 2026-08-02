@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-25T00:28:03.445Z",
+  "expected": {
+    "courses": 37,
+    "lessons": 343,
+    "screens": 8925,
+    "images": 2549,
+    "videos": 77
+  },
+  "counts": {
+    "courses": 37,
+    "lessons": 343,
+    "screens": 8925,
+    "images": 2549,
+    "videos": 77,
+    "requiredInteractions": 869,
+    "optionalPractices": 1497,
+    "unknown": 0
+  },
+  "blockTypes": {
+    "callout": 584,
+    "fill-in-blank": 1050,
+    "heading": 3419,
+    "image": 2549,
+    "matching-pairs": 54,
+    "multi-choice": 232,
+    "ordering-task": 110,
+    "paragraph": 7992,
+    "prompt-fixer": 9,
+    "single-choice": 637,
+    "true-false": 274,
+    "video": 77
+  },
+  "errors": [],
+  "passed": true
+}

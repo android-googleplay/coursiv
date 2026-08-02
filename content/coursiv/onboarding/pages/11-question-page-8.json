@@ -1,0 +1,358 @@
+{
+  "content": {
+    "agentHeader": {},
+    "aiAgentStates": [],
+    "benefitsCard": {
+      "items": []
+    },
+    "blockType": "question-page",
+    "chatAnswerKind": "single-choice",
+    "chatButton": {},
+    "chatLockHistory": false,
+    "chatMessages": [],
+    "chatSlider": {
+      "defaultValue": 5,
+      "max": 10,
+      "min": 1,
+      "step": 1
+    },
+    "hideProgress": false,
+    "metrics": [],
+    "options": [
+      {
+        "actions": [],
+        "slug": "i-don-t-know-what-to-use-it-for",
+        "title": "I don’t know what to use it for"
+      },
+      {
+        "actions": [],
+        "slug": "i-don-t-trust-the-answers",
+        "title": "I don’t trust the answers"
+      },
+      {
+        "actions": [],
+        "slug": "i-m-worried-about-privacy",
+        "title": "I’m worried about privacy"
+      },
+      {
+        "actions": [],
+        "slug": "prompting-feels-complicated",
+        "title": "Prompting feels complicated"
+      },
+      {
+        "actions": [],
+        "slug": "i-don-t-have-time-to-learn",
+        "title": "I don’t have time to learn"
+      },
+      {
+        "actions": [],
+        "slug": "i-ve-tried-but-the-results-weren-t-useful",
+        "title": "I’ve tried, but the results weren’t useful"
+      }
+    ],
+    "pageViewActions": [],
+    "questionType": "single-select",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    },
+    "slug": "whats_the_1_thing_holding_you_back_from_using_ai_effectively",
+    "stats": {},
+    "title": "What stops you from using AI more effectively?",
+    "tryAskingLabel": "Try asking",
+    "subtitle": "We’ll build around your biggest barrier.",
+    "description": ""
+  },
+  "id": "11-question-page-8",
+  "index": 10,
+  "interaction": "selection",
+  "media": [
+    {
+      "bytes": 9552,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d9386abb2fbf1b55da7e0a23d24912a8ed141bd2b2b4b31c699b904a44720cc1.webp",
+      "reference": "compass.webp",
+      "sha256": "d9386abb2fbf1b55da7e0a23d24912a8ed141bd2b2b4b31c699b904a44720cc1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/compass.webp"
+    },
+    {
+      "bytes": 2560,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/c0e27c7ff231386267cbd9387e3e2f1c116558371b25754d6603ed4291ef9516.webp",
+      "reference": "door.webp",
+      "sha256": "c0e27c7ff231386267cbd9387e3e2f1c116558371b25754d6603ed4291ef9516",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/door.webp"
+    },
+    {
+      "bytes": 8190,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/67d7dac6c125579836cbfd557983f10888294fdd512e8be0373c7fc9fc6915fb.webp",
+      "reference": "face_with_spiral_eyes.webp",
+      "sha256": "67d7dac6c125579836cbfd557983f10888294fdd512e8be0373c7fc9fc6915fb",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/face_with_spiral_eyes.webp"
+    },
+    {
+      "bytes": 7220,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/013a026c67215357e0b75e35df4b7604461fcd9129164a0501caf5339e833e8d.webp",
+      "reference": "hourglass_done.webp",
+      "sha256": "013a026c67215357e0b75e35df4b7604461fcd9129164a0501caf5339e833e8d",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/hourglass_done.webp"
+    },
+    {
+      "bytes": 8450,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/c85f6cbba3e8c571649224c740aced4ac5c9bd8b3975e02623b24e9abc03c17c.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/backpack.webp",
+      "sha256": "c85f6cbba3e8c571649224c740aced4ac5c9bd8b3975e02623b24e9abc03c17c",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/backpack.webp"
+    },
+    {
+      "bytes": 6100,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/dd38e61f3508cf02a76e7e91fc2dbe0702d052ca1a7496707fedc3e8b7175374.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/busts_in_silhouette.webp",
+      "sha256": "dd38e61f3508cf02a76e7e91fc2dbe0702d052ca1a7496707fedc3e8b7175374",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/busts_in_silhouette.webp"
+    },
+    {
+      "bytes": 8398,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/f28ec9e8e2018378b71e6ca7605bd7f9de4c1718913552077516ab726ecb501f.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp",
+      "sha256": "f28ec9e8e2018378b71e6ca7605bd7f9de4c1718913552077516ab726ecb501f",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp"
+    },
+    {
+      "bytes": 5866,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/e202553d8b206ceedbc4cdc7aa63da5afbc552c62effc9396e2fe98424b6d220.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/office_building.webp",
+      "sha256": "e202553d8b206ceedbc4cdc7aa63da5afbc552c62effc9396e2fe98424b6d220",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/office_building.webp"
+    },
+    {
+      "bytes": 6044,
+      "contentType": "image/webp",
+      "localSrc": "/coursiv-onboarding-media/d412614eab774866496999bf5240b2e9b0afcae3dc956258a0e264363028fe19.webp",
+      "reference": "https://d3kigabz1zn79w.cloudfront.net/technologist.webp",
+      "sha256": "d412614eab774866496999bf5240b2e9b0afcae3dc956258a0e264363028fe19",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/technologist.webp"
+    },
+    {
+      "bytes": 1431,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+      "sha256": "f24460b060106f28c67067a86d517a25ebc990bf20c5cc8168ff07be9f337a02",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg"
+    },
+    {
+      "bytes": 375,
+      "contentType": "image/svg+xml",
+      "localSrc": "/coursiv-onboarding-media/8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1.svg",
+      "reference": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+      "sha256": "8c261af6a7f01d0304d42271ee1bd2cce1468caa64ca37cded3dbb761b8c3ad1",
+      "sourceUrl": "https://d3kigabz1zn79w.cloudfront.net/migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+    }
+  ],
+  "mediaReferences": [
+    "compass.webp",
+    "door.webp",
+    "face_with_spiral_eyes.webp",
+    "hourglass_done.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/backpack.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/busts_in_silhouette.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/office_building.webp",
+    "https://d3kigabz1zn79w.cloudfront.net/technologist.webp",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+    "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg"
+  ],
+  "navigation": {
+    "next": "/dynamic/question-page-9",
+    "previous": "/dynamic/question-page-7",
+    "routing": {
+      "conditions": [],
+      "defaultEndsFlow": false
+    }
+  },
+  "options": [
+    {
+      "id": "11-question-page-8--i-don-t-know-what-to-use-it-for",
+      "label": "I don’t know what to use it for",
+      "value": "i-don-t-know-what-to-use-it-for",
+      "source": {
+        "actions": [],
+        "slug": "i-don-t-know-what-to-use-it-for",
+        "title": "I don’t know what to use it for"
+      }
+    },
+    {
+      "id": "11-question-page-8--i-don-t-trust-the-answers",
+      "label": "I don’t trust the answers",
+      "value": "i-don-t-trust-the-answers",
+      "source": {
+        "actions": [],
+        "slug": "i-don-t-trust-the-answers",
+        "title": "I don’t trust the answers"
+      }
+    },
+    {
+      "id": "11-question-page-8--i-m-worried-about-privacy",
+      "label": "I’m worried about privacy",
+      "value": "i-m-worried-about-privacy",
+      "source": {
+        "actions": [],
+        "slug": "i-m-worried-about-privacy",
+        "title": "I’m worried about privacy"
+      }
+    },
+    {
+      "id": "11-question-page-8--prompting-feels-complicated",
+      "label": "Prompting feels complicated",
+      "value": "prompting-feels-complicated",
+      "source": {
+        "actions": [],
+        "slug": "prompting-feels-complicated",
+        "title": "Prompting feels complicated"
+      }
+    },
+    {
+      "id": "11-question-page-8--i-don-t-have-time-to-learn",
+      "label": "I don’t have time to learn",
+      "value": "i-don-t-have-time-to-learn",
+      "source": {
+        "actions": [],
+        "slug": "i-don-t-have-time-to-learn",
+        "title": "I don’t have time to learn"
+      }
+    },
+    {
+      "id": "11-question-page-8--i-ve-tried-but-the-results-weren-t-useful",
+      "label": "I’ve tried, but the results weren’t useful",
+      "value": "i-ve-tried-but-the-results-weren-t-useful",
+      "source": {
+        "actions": [],
+        "slug": "i-ve-tried-but-the-results-weren-t-useful",
+        "title": "I’ve tried, but the results weren’t useful"
+      }
+    }
+  ],
+  "path": "/dynamic/question-page-8",
+  "progress": {
+    "current": 8,
+    "total": 16
+  },
+  "raw": {
+    "goalBlock": {
+      "blockType": "prosperiBenefitsBlock",
+      "blocks": [
+        {
+          "answerMap": [],
+          "defaultText": "Grow my current role",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_goal.svg",
+          "slug": "what_is_your_main_goal_with_ai",
+          "title": "Your goal"
+        },
+        {
+          "answerMap": [],
+          "defaultText": "Pay off some bills",
+          "image": "migrated_d2vm05b1botqyl_images_get_out_of_debt_selling-page_stats_icon.svg",
+          "slug": "how_would_you_celebrate_your_first_results_with_ai",
+          "title": "Your target"
+        }
+      ]
+    },
+    "nextPageRouting": null,
+    "nextPageUrl": "/dynamic/question-page-9",
+    "pageContent": {
+      "agentHeader": {},
+      "aiAgentStates": [],
+      "benefitsCard": {
+        "items": []
+      },
+      "blockType": "question-page",
+      "chatAnswerKind": "single-choice",
+      "chatButton": {},
+      "chatLockHistory": false,
+      "chatMessages": [],
+      "chatSlider": {
+        "defaultValue": 5,
+        "max": 10,
+        "min": 1,
+        "step": 1
+      },
+      "hideProgress": false,
+      "metrics": [],
+      "options": [
+        {
+          "actions": [],
+          "icon": "compass.webp",
+          "slug": "no_clear_system_or_roadmap",
+          "title": "No clear system or roadmap"
+        },
+        {
+          "actions": [],
+          "icon": "hourglass_done.webp",
+          "slug": "not_enough_time",
+          "title": "Not enough time"
+        },
+        {
+          "actions": [],
+          "icon": "face_with_spiral_eyes.webp",
+          "slug": "too_complicated_for_me",
+          "title": "Too complicated for me"
+        },
+        {
+          "actions": [],
+          "icon": "door.webp",
+          "slug": "dont_know_where_to_start",
+          "title": "Don't know where to start"
+        }
+      ],
+      "pageViewActions": [],
+      "questionType": "single-select",
+      "routing": {
+        "conditions": [],
+        "defaultEndsFlow": false
+      },
+      "slug": "whats_the_1_thing_holding_you_back_from_using_ai_effectively",
+      "stats": {},
+      "title": "What's the #1 thing holding you back from using AI effectively?",
+      "tryAskingLabel": "Try asking"
+    },
+    "pageMeta": {
+      "arrow": {
+        "label": "AI",
+        "value": "ai"
+      },
+      "edition": "default",
+      "funnelVersion": "c_1185",
+      "isPersonalized": false,
+      "isSellingPageFunnel": false,
+      "language": "en",
+      "planName": "28-Day AI Certificate Program",
+      "prc_id": 1185,
+      "questionPageCurrentStep": 8,
+      "questionPageShortestTotalSteps": null,
+      "questionPageTotalSteps": 16,
+      "theme": "default"
+    },
+    "preloadImages": [
+      "https://d3kigabz1zn79w.cloudfront.net/backpack.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/technologist.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/busts_in_silhouette.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/office_building.webp",
+      "https://d3kigabz1zn79w.cloudfront.net/house_with_garden.webp"
+    ],
+    "preloadLotties": [],
+    "prevPageUrl": "/dynamic/question-page-7"
+  },
+  "schemaVersion": 1,
+  "slug": "whats_the_1_thing_holding_you_back_from_using_ai_effectively",
+  "sourceUrl": "https://coursiv.io/dynamic/question-page-8?prc_id=1185&page_name=home&component_name=cta_hero&utm_source=organic_seo_website&utm_type=Product&utm_platform=Webblog&utm_placement=page&content_id=Homepage_Hero&block=question-page-8",
+  "title": "What stops you from using AI more effectively?",
+  "type": "question-page",
+  "migrationId": "ai-workday-v1"
+}
