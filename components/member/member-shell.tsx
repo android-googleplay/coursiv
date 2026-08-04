@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { BookOpen, Flame, Gamepad2, History, Home, Sparkles, UserRound } from "lucide-react";
 import type { MemberTab } from "@/lib/member-data";
 import { calculateStreaks, localDateKey } from "@/lib/learner-state";
+import { coursivMediaUrl } from "@/lib/coursiv-media-url";
 import { useLearner } from "./learner-context";
 
 const tabs: { id: MemberTab; href: string; label: string; icon: typeof BookOpen }[] = [
@@ -53,5 +54,6 @@ export function MemberShell({ children, title, showTop = true, hideNav = false }
 }
 
 export function PlaceholderArt({ index = 0, label, src }: { index?: number; label?: string; src?:string }) {
-  return <div className={`placeholder-art art-${index % 6} ${src?"has-image":""}`} style={src?{backgroundImage:`url(${src})`}:undefined} aria-label={`${label ?? "Coursiv"} course artwork`}><i /><b>{label?.slice(0, 2).toUpperCase() ?? "AI"}</b><span>✦</span></div>;
+  const resolvedSrc = coursivMediaUrl(src);
+  return <div className={`placeholder-art art-${index % 6} ${resolvedSrc?"has-image":""}`} style={resolvedSrc?{backgroundImage:`url(${resolvedSrc})`}:undefined} aria-label={`${label ?? "Coursiv"} course artwork`}><i /><b>{label?.slice(0, 2).toUpperCase() ?? "AI"}</b><span>✦</span></div>;
 }
