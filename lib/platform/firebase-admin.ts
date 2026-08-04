@@ -8,20 +8,23 @@ import { getStorage } from "firebase-admin/storage";
 export function isFirebaseAdminConfigured() {
   return Boolean(
     process.env.GOOGLE_APPLICATION_CREDENTIALS ||
-      (process.env.FIREBASE_PROJECT_ID && process.env.FIREBASE_CLIENT_EMAIL && process.env.FIREBASE_PRIVATE_KEY),
+      (process.env.FIREBASE_PROJECT_ID && process.env.FIREBASE_CLIENT_EMAIL && process.env.FIREBASE_PRIVATE_KEY) ||
+      process.env.FIREBASE_CONFIG ||
+      process.env.GOOGLE_CLOUD_PROJECT ||
+      process.env.GCLOUD_PROJECT,
   );
 }
 
 function getAdminApp() {
   if (!isFirebaseAdminConfigured()) throw new Error("Firebase Admin is not configured");
   if (getApps().length) return getApps()[0]!;
-  const credential = process.env.GOOGLE_APPLICATION_CREDENTIALS
-    ? applicationDefault()
-    : cert({
+  const credential = process.env.FIREBASE_PROJECT_ID && process.env.FIREBASE_CLIENT_EMAIL && process.env.FIREBASE_PRIVATE_KEY
+    ? cert({
         projectId: process.env.FIREBASE_PROJECT_ID,
         clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
         privateKey: process.env.FIREBASE_PRIVATE_KEY!.replace(/\\n/g, "\n"),
-      });
+      })
+    : applicationDefault();
   return initializeApp({ credential, storageBucket: process.env.FIREBASE_STORAGE_BUCKET ?? process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET });
 }
 
