@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { readFile, stat } from "node:fs/promises";
 import { basename, extname, join } from "node:path";
 import type { CoursivCourse } from "../coursiv-content";
+import { coursivMediaUrl } from "../coursiv-media-url";
 import type { MediaAsset } from "./types";
 
 type CanonicalManifest = {
@@ -51,7 +52,7 @@ export function collectCanonicalMediaAssets(
           id: `canonical-${checksum.slice(0, 24)}`,
           name: `Course cover — ${course.title}${extension}`,
           path: courseCover,
-          url: courseCover,
+          url: coursivMediaUrl(courseCover) ?? courseCover,
           mimeType,
           bytes: 0,
           checksum,
@@ -82,7 +83,7 @@ export function collectCanonicalMediaAssets(
               id: `canonical-${checksum.slice(0, 24)}`,
               name: `Screen ${screenIndex + 1} — ${lesson.title} · ${course.title}${extension}`,
               path: source,
-              url: source,
+              url: coursivMediaUrl(source) ?? source,
               mimeType,
               bytes: 0,
               checksum,

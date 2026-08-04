@@ -13,6 +13,11 @@ env:
     availability:
       - BUILD
       - RUNTIME
+  - variable: NEXT_PUBLIC_COURSIV_MEDIA_BASE_URL
+    value: https://courseai-73920.web.app/coursiv-media
+    availability:
+      - BUILD
+      - RUNTIME
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
     value: AIzaSyDiT-yRHKgTXm_dSvJ9jzISZmAskyGHcfs
     availability:

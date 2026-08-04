@@ -8,6 +8,7 @@ import type { CoursivContentBlock, CoursivLesson, CoursivLessonScreen } from "@/
 import { useLearner } from "@/components/member/learner-context";
 import { SafeRichText } from "@/components/shared/safe-rich-text";
 import { richTextEditorHtml, richTextPlainText } from "@/lib/rich-text";
+import { coursivMediaUrl } from "@/lib/coursiv-media-url";
 
 type ChoiceBlock = Extract<CoursivContentBlock,{type:"single-choice"|"multi-choice"|"true-false"}>;
 type ScreenAnswer = { blockId:string;values:string[] };
@@ -87,8 +88,8 @@ function Static({block,onResolved}:{block:CoursivContentBlock;onResolved:(answer
   if(block.type==="paragraph")return <SafeRichText value={block.text}/>;
   if(block.type==="list"){const Tag=block.ordered?"ol":"ul";return <Tag>{block.items.map((item)=><li key={item}>{item}</li>)}</Tag>}
   if(block.type==="callout")return <aside className={`canonical-callout ${block.tone??""}`}>{block.title&&<strong>{block.title}</strong>}<SafeRichText value={block.text}/></aside>;
-  if(block.type==="image")return <figure><img src={block.localSrc??block.src} alt={block.alt}/>{block.alt&&<figcaption>{block.alt}</figcaption>}</figure>;
-  if(block.type==="video")return <video controls playsInline poster={block.poster} src={block.src}/>;
+  if(block.type==="image")return <figure><img src={coursivMediaUrl(block.localSrc??block.src)} alt={block.alt}/>{block.alt&&<figcaption>{block.alt}</figcaption>}</figure>;
+  if(block.type==="video")return <video controls playsInline poster={coursivMediaUrl(block.poster)} src={coursivMediaUrl(block.src)}/>;
   if(block.type==="practice")return <div className="canonical-practice"><h1>{block.title}</h1>{block.prompt&&<p>{block.prompt}</p>}<button className="canonical-submit" onClick={()=>onResolved({blockId:block.id,values:["submitted"]})}>I&apos;ve completed this practice</button></div>;
   if(block.type==="feedback")return <div className={`canonical-feedback ${block.correct===false?"incorrect":"correct"}`}><h2>{block.title}</h2><SafeRichText value={block.text}/></div>;
   if(block.type==="unknown")return <div className="canonical-unknown"><small>{block.sourceType}</small>{block.text&&<p>{block.text}</p>}</div>;
