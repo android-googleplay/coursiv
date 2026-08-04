@@ -7,10 +7,10 @@ import { allCourseLessons, certificatePrograms, courseCatalog, getCourse, type C
 import { LESSON_ID } from "@/lib/lesson-data";
 import { LessonModal } from "./lesson-modal";
 import { useLearner } from "@/components/member/learner-context";
+import { useAuth } from "@/components/auth/auth-context";
+import { lessonNodeState, type LessonNodeState } from "@/lib/course-access";
 
-type NodeState = "available" | "locked" | "completed";
-
-function LessonNode({ lesson, index, state, onOpen }: { lesson: LessonDefinition; index: number; state: NodeState; onOpen: () => void }) {
+function LessonNode({ lesson, index, state, onOpen }: { lesson: LessonDefinition; index: number; state: LessonNodeState; onOpen: () => void }) {
   return (
     <article className={`member-lesson-node ${index % 2 ? "right" : "left"} ${state}`}>
       <button type="button" onClick={onOpen} aria-label={`${state === "completed" ? "Review" : state === "locked" ? "Preview" : "Start"} ${lesson.title}`}>
@@ -24,6 +24,7 @@ function LessonNode({ lesson, index, state, onOpen }: { lesson: LessonDefinition
 export function CourseExperience({runtimeCourse,runtimeCatalog=[],runtimeCourses=[]}:{runtimeCourse?:CourseDefinition;runtimeCatalog?:CatalogItem[];runtimeCourses?:CourseDefinition[]}={}) {
   const params = useParams<{ courseId: string }>();
   const router = useRouter();
+  const auth = useAuth();
   const { state: learnerState, resetCourse } = useLearner();
   const normalizedId = params.courseId === "ai-mastery" ? "chatgpt" : params.courseId;
   const effectiveCatalog=runtimeCatalog.length?runtimeCatalog:courseCatalog;
@@ -37,6 +38,7 @@ export function CourseExperience({runtimeCourse,runtimeCatalog=[],runtimeCourses
   const [courseError, setCourseError] = useState("");
   const [lockedLesson, setLockedLesson] = useState<string | null>(null);
   const completedLessonIds = learnerState.courses[course.id]?.completedLessonIds ?? [];
+  const allLessonsUnlocked = auth.user?.demo === true;
   const courseLessons = useMemo(() => allCourseLessons(course), [course]);
   const completedCount = completedLessonIds.length;
   const score = courseLessons.length?Math.min(100,Math.round(completedCount/courseLessons.length*100)):0;
@@ -69,7 +71,7 @@ export function CourseExperience({runtimeCourse,runtimeCatalog=[],runtimeCourses
         <div className="member-path">
           {course.sections.map((section) => <div className="course-section" key={section.title ?? "course-start"}>{section.title && <div className="section-divider"><span>{section.title}</span></div>}{section.lessons.map((lesson) => {
             const index = courseLessons.findIndex((item) => item.id === lesson.id);
-            const state: NodeState = completedLessonIds.includes(lesson.id) ? "completed" : index <= completedLessonIds.length ? "available" : "locked";
+            const state = lessonNodeState({ lessonId:lesson.id,lessonIndex:index,completedLessonIds,allLessonsUnlocked });
             return <LessonNode key={lesson.id} lesson={lesson} index={index} state={state} onOpen={() => { if(state==="locked"){setLockedLesson(lesson.title);return;} setSelectedLesson(lesson);setModalOpen(true); }} />;
           })}</div>)}
         </div>
