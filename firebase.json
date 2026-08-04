@@ -1,4 +1,22 @@
 {
+  "apphosting": [
+    {
+      "backendId": "coursiv",
+      "rootDir": ".",
+      "ignore": [
+        "node_modules",
+        ".git",
+        ".next",
+        ".playwright-cli",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "output",
+        "playwright-report",
+        "test-results",
+        "tmp"
+      ]
+    }
+  ],
   "firestore": {
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
@@ -10,4 +28,3 @@
     "ui": { "enabled": true, "port": 4000 }
   }
 }
-
