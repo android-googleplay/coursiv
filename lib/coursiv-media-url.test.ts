@@ -9,9 +9,9 @@ afterEach(() => {
 });
 
 describe("Coursiv media URLs", () => {
-  it("keeps local media paths during local development", () => {
+  it("uses the Firebase media CDN when no override is configured", () => {
     delete process.env.NEXT_PUBLIC_COURSIV_MEDIA_BASE_URL;
-    expect(coursivMediaUrl("/coursiv-media/example.webp")).toBe("/coursiv-media/example.webp");
+    expect(coursivMediaUrl("/coursiv-media/example.webp")).toBe("https://courseai-73920.web.app/coursiv-media/example.webp");
   });
 
   it("routes canonical media through the configured Firebase CDN", () => {
