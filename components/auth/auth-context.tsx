@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import { createUserWithEmailAndPassword, EmailAuthProvider, getAdditionalUserInfo, GoogleAuthProvider, onAuthStateChanged, reauthenticateWithCredential, reauthenticateWithPopup, sendEmailVerification, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut as firebaseSignOut, updateProfile, verifyBeforeUpdateEmail, type User } from "firebase/auth";
+import { createUserWithEmailAndPassword, EmailAuthProvider, getAdditionalUserInfo, GoogleAuthProvider, onAuthStateChanged, reauthenticateWithCredential, reauthenticateWithPopup, sendEmailVerification, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signInWithRedirect, signOut as firebaseSignOut, updateProfile, verifyBeforeUpdateEmail, type User } from "firebase/auth";
 import { getFirebaseClient, isFirebaseClientConfigured } from "@/lib/platform/firebase-client";
 import { ensureUserProfile } from "@/lib/platform/user-profile-client";
 
@@ -41,6 +41,9 @@ function readLocalUser() {
   try{return {...demoUser,...JSON.parse(saved) as Partial<AuthUser>,demo:true}}catch{return demoUser}
 }
 function saveLocalUser(user:AuthUser){localStorage.setItem(DEMO_AUTH_KEY,JSON.stringify(user))}
+function hasFirebaseAuthErrorCode(reason: unknown, code: string) {
+  return typeof reason === "object" && reason !== null && "code" in reason && reason.code === code;
+}
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const configured = isFirebaseClientConfigured();
@@ -91,7 +94,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     leaveGuestMode();
     const client = getFirebaseClient();
     if (client) {
-      const credential = await signInWithPopup(client.auth, new GoogleAuthProvider());
+      const provider = new GoogleAuthProvider();
+      let credential;
+      try {
+        credential = await signInWithPopup(client.auth, provider);
+      } catch (reason) {
+        if (hasFirebaseAuthErrorCode(reason, "auth/popup-blocked")) {
+          return signInWithRedirect(client.auth, provider);
+        }
+        throw reason;
+      }
       const mapped = mapUser(credential.user);
       await ensureUserProfile(mapped);
       setUser(mapped);
