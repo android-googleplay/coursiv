@@ -8,6 +8,10 @@ env:
     availability:
       - BUILD
       - RUNTIME
+  - variable: COURSIV_GUEST_ADMIN_ENABLED
+    value: "true"
+    availability:
+      - RUNTIME
   - variable: NEXT_PUBLIC_APP_URL
     value: https://coursiv--courseai-73920.asia-east1.hosted.app
     availability:

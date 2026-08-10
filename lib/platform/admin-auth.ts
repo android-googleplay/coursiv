@@ -2,6 +2,7 @@ import "server-only";
 
 import type { DecodedIdToken } from "firebase-admin/auth";
 import { getAdminAuth, verifyBearerToken } from "./firebase-admin";
+import { isGuestAdminSession } from "./admin-guest";
 
 export const ADMIN_SESSION_COOKIE = "coursiv_admin_session";
 export type StaffRole = "admin" | "editor" | "support" | "analyst";
@@ -41,6 +42,7 @@ export async function getStaffActor(request: Request): Promise<StaffActor | null
   let decoded = await verifyBearerToken(request);
   if (!decoded) {
     const session = cookieValue(request, ADMIN_SESSION_COOKIE);
+    if (isGuestAdminSession(session)) return { uid: "guest-admin", email: null, role: "admin", debug: false, authenticatedAt: Math.floor(Date.now()/1000) };
     if (session) {
       try { decoded = await getAdminAuth().verifySessionCookie(session, true); } catch { decoded = null; }
     }

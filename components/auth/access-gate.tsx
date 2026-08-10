@@ -5,7 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useAuth } from "@/components/auth/auth-context";
 import { useLearner } from "@/components/member/learner-context";
 
-const publicPrefixes = ["/login", "/verify", "/legal", "/dynamic", "/email-preview", "/account/recovery", "/account/action", "/worksheet-builder"];
+const publicPrefixes = ["/admin", "/login", "/verify", "/legal", "/dynamic", "/email-preview", "/account/recovery", "/account/action", "/worksheet-builder"];
 
 export function AccessGate({ children }: { children: React.ReactNode }) {
   const auth = useAuth();

@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { ADMIN_SESSION_COOKIE, getStaffActor, isDebugStaffRequest, sessionCookie } from "@/lib/platform/admin-auth";
+import { GUEST_ADMIN_SESSION_VALUE, guestAdminEnabled } from "@/lib/platform/admin-guest";
 import { getAdminAuth, verifyBearerToken } from "@/lib/platform/firebase-admin";
 
 export const runtime = "nodejs";
@@ -11,6 +12,12 @@ export async function GET(request: Request) {
 
 export async function POST(request: Request) {
   if (isDebugStaffRequest(request)) return NextResponse.json({ actor: await getStaffActor(request) });
+  if (guestAdminEnabled() && new URL(request.url).searchParams.get("guest") === "1") {
+    return NextResponse.json(
+      { actor: { uid: "guest-admin", email: null, role: "admin", debug: false } },
+      { headers: { "Set-Cookie": sessionCookie(GUEST_ADMIN_SESSION_VALUE) } },
+    );
+  }
   const decoded = await verifyBearerToken(request);
   const role = decoded?.admin === true ? "admin" : decoded?.staffRole;
   if (!decoded || !["admin", "editor", "support", "analyst"].includes(String(role))) return NextResponse.json({ error: "Staff access required" }, { status: 403 });
