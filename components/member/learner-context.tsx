@@ -102,8 +102,9 @@ export function LearnerProvider({ children }: { children: React.ReactNode }) {
     const token = await getAuthToken();
     if (!token) throw new Error("Sign in again to save learning progress.");
     const response = await fetch(path, { method:"POST",headers:{"Content-Type":"application/json",Authorization:`Bearer ${token}`},body:JSON.stringify(body) });
-    const data = await response.json();
-    if (!response.ok) throw new Error(data.error ?? "Unable to save learning progress");
+    const data = await response.json().catch(() => null) as ({ error?: string } & T) | null;
+    if (!response.ok) throw new Error(data?.error ?? `Unable to save learning progress (${response.status})`);
+    if (!data) throw new Error("Learning progress returned an empty response.");
     return data as T;
   }, [authUser, getAuthToken]);
 

@@ -2,7 +2,7 @@ import "server-only";
 
 import { applicationDefault, cert, getApps, initializeApp } from "firebase-admin/app";
 import { getAuth } from "firebase-admin/auth";
-import { getFirestore } from "firebase-admin/firestore";
+import { getFirestore, initializeFirestore } from "firebase-admin/firestore";
 import { getStorage } from "firebase-admin/storage";
 
 export function isFirebaseAdminConfigured() {
@@ -29,14 +29,14 @@ function getAdminApp() {
 }
 
 export function getAdminAuth() { return getAuth(getAdminApp()); }
-let adminDbConfigured = false;
+
+const adminRuntime = globalThis as typeof globalThis & {
+  __coursivFirebaseAdminDb?: ReturnType<typeof getFirestore>;
+};
+
 export function getAdminDb() {
-  const database = getFirestore(getAdminApp());
-  if (!adminDbConfigured) {
-    database.settings({ preferRest: true });
-    adminDbConfigured = true;
-  }
-  return database;
+  adminRuntime.__coursivFirebaseAdminDb ??= initializeFirestore(getAdminApp(), { preferRest: true });
+  return adminRuntime.__coursivFirebaseAdminDb;
 }
 export function getAdminStorage() { return getStorage(getAdminApp()); }
 
