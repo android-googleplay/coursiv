@@ -16,11 +16,15 @@ export async function eligibleCertificateDefinitionsFromContent(value: Partial<L
     const done=new Set(state.courses[courseId]?.completedLessonIds??[]);
     return lessonIds.length>0&&lessonIds.every((lessonId)=>done.has(lessonId));
   };
-  const courses=catalog.filter((course)=>course.kind==="tool").filter((course)=>completed(course.id,course.sections.flatMap((section)=>section.lessons.map((lesson)=>lesson.id)))).map((course)=>({courseId:course.id,courseTitle:course.title,courseHours:durationHours(course.duration)}));
+  const requiredLessonIds=(course:(typeof catalog)[number])=>course.sections.flatMap((section)=>section.lessons.filter((lesson)=>!lesson.optional).map((lesson)=>lesson.id));
+  const courses=catalog.filter((course)=>course.kind==="tool").filter((course)=>completed(course.id,requiredLessonIds(course))).map((course)=>({courseId:course.id,courseTitle:course.title,courseHours:durationHours(course.duration)}));
   const byId=new Map(catalog.map((course)=>[course.id,course]));
   const programs=certificatePrograms.filter((program)=>{
     const assessment=state.programAssessments[program.id];
-    return Boolean(assessment?.passedAt&&assessment.score>=70)&&program.courseIds.every((courseId)=>{const course=byId.get(courseId);return Boolean(course&&completed(courseId,course.sections.flatMap((section)=>section.lessons.map((lesson)=>lesson.id))))});
+    return Boolean(assessment?.passedAt&&assessment.score>=70)&&program.courseIds.every((courseId)=>{
+      const course=byId.get(courseId);
+      return Boolean(course&&completed(courseId,requiredLessonIds(course)));
+    });
   }).map((program)=>({courseId:`program-${program.id}`,courseTitle:program.title,courseHours:program.courseIds.reduce((total,courseId)=>total+durationHours(byId.get(courseId)?.duration??"1 hour"),0)}));
   return [...courses,...programs];
 }

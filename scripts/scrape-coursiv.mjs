@@ -337,7 +337,7 @@ async function scrapeCourse(page, context, guide, checkpoint, budget) {
   ensureUniqueLessonSlugs(course);course.media = Object.values(media); await atomicWrite(join(COURSE_DIR, `${guide.id}.json`), course); return course;
 }
 function catalogEntry(course) {
-  return { id: course.id, sourceId: course.sourceId, kind: course.kind, title: course.title, image:course.localImage??course.image, duration: course.duration, categories: course.categories, sections: course.units.map((unit) => ({ title: unit.title, sourceId: unit.sourceId, lessons: unit.lessons.map((lesson) => ({ id: lesson.slug, sourceId: lesson.sourceId, title: lesson.title, screenIds: lessonScreenIds(lesson), hasAudio: lesson.hasAudio })) })) };
+  return { id: course.id, sourceId: course.sourceId, kind: course.kind, title: course.title, image:course.localImage??course.image, duration: course.duration, categories: course.categories, ...(course.sourceUpdatedAt?{sourceUpdatedAt:course.sourceUpdatedAt}:{}), sections: course.units.map((unit) => ({ title: unit.title, sourceId: unit.sourceId, lessons: unit.lessons.map((lesson) => ({ id: lesson.slug, sourceId: lesson.sourceId, title: lesson.title, screenIds: lessonScreenIds(lesson), hasAudio: lesson.hasAudio, ...(lesson.optional===true?{optional:true}:{}) })) })) };
 }
 async function writeCatalog(courses, failures) {
   const entries = courses.map(catalogEntry); const unknown = courses.flatMap(collectUnknownBlocks); const lessonCount = courses.reduce((total, course) => total + course.units.reduce((subtotal, unit) => subtotal + unit.lessons.length, 0), 0);

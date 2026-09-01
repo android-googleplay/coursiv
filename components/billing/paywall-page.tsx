@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { ArrowRight, Check, LockKeyhole, ShieldCheck, Sparkles } from "lucide-react";
 import { useAuth } from "@/components/auth/auth-context";
 import { useMetaTracking } from "@/components/privacy/meta-tracking-provider";
+import { browserUuid } from "@/lib/platform/browser-uuid";
 
 type Offer = {
   configured: boolean;
@@ -44,7 +45,7 @@ export function PaywallPage() {
     try {
       const token = await auth.getToken();
       if (!token) throw new Error("Please sign in again to continue.");
-      const eventId = crypto.randomUUID();
+      const eventId = browserUuid();
       const response = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },

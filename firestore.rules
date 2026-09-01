@@ -35,6 +35,7 @@ service cloud.firestore {
     match /adminUserMeta/{uid} { allow read, write: if false; }
     match /adminAuditLogs/{id} { allow read, write: if false; }
     match /adminIdempotency/{id} { allow read, write: if false; }
+    match /emailDeliveries/{id} { allow read, write: if false; }
     match /webhookEvents/{id} { allow read, write: if false; }
   }
 }

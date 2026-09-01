@@ -3,12 +3,13 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import { useAuth } from "@/components/auth/auth-context";
 import {
-  defaultLearnerState, learnerStateStorageKey, LEARNER_STATE_STORAGE_KEY, localDateKey, mergeLearnerState,
+  defaultLearnerState, isCourseLessonProgressStorageKey, learnerStateStorageKey, lessonStartedStorageKey, LEARNER_STATE_STORAGE_KEY, localDateKey, mergeLearnerState, resetLessonProgress,
   type AiConversation, type LearnerPreferences, type LearnerState,
 } from "@/lib/learner-state";
-import { COURSE_PROGRESS_STORAGE_KEY } from "@/lib/lesson-data";
+import { COURSE_PROGRESS_STORAGE_KEY, LESSON_ID, LESSON_STORAGE_KEY, lessonStorageKey } from "@/lib/lesson-data";
 import { gradeProgramAssessment } from "@/lib/program-assessment";
 import { practiceGames } from "@/lib/member-data";
+import { ButtonLanguageProvider, type ButtonLanguage } from "./button-text";
 
 type LearnerContextValue = {
   state: LearnerState;
@@ -16,6 +17,7 @@ type LearnerContextValue = {
   saveScreen: (courseId: string, lessonId: string, screenId: string, response?: {outcome:"answered";blockId:string;values:string[]}|{outcome:"skipped"}) => Promise<void>;
   getLessonProgress: (courseId:string,lessonId:string)=>Promise<{visitedScreenIds:string[];resolvedScreenIds:string[];skippedScreenIds:string[];lastScreenId:string|null;completedAt:string|null}>;
   completeLesson: (courseId: string, lessonId: string) => Promise<void>;
+  resetLesson: (courseId: string, lessonId: string) => Promise<void>;
   resetCourse: (courseId: string) => Promise<void>;
   updatePreference: <K extends keyof LearnerPreferences>(key: K, value: LearnerPreferences[K]) => Promise<void>;
   joinChallenge: (challengeId: string) => Promise<void>;
@@ -146,10 +148,25 @@ export function LearnerProvider({ children }: { children: React.ReactNode }) {
     return { ...current, activityDates: markToday(current), courses: { ...current.courses, [courseId]: { completedLessonIds: existing.includes(lessonId) ? existing : [...existing, lessonId], lastLessonId: lessonId, lastScreenId: null, updatedAt: new Date().toISOString() } } };
     }, { syncCertificates: true,persistRemote:false });
   }, [commit, markToday, postLearning]);
+  const resetLesson = useCallback(async (courseId: string, lessonId: string) => {
+    if (auth.user && !auth.user.demo) {
+      const token=await auth.getToken();if(!token)throw new Error("Sign in again to reset this lesson.");
+      const response=await fetch(`/api/learning/progress?courseId=${encodeURIComponent(courseId)}&lessonId=${encodeURIComponent(lessonId)}`,{method:"DELETE",headers:{Authorization:`Bearer ${token}`}});const data=await response.json();if(!response.ok)throw new Error(data.error??"Unable to reset this lesson");
+    }
+    localStorage.removeItem(`coursiv.resolved.v3:${courseId}:${lessonId}`);
+    localStorage.removeItem(`coursiv.skipped.v3:${courseId}:${lessonId}`);
+    localStorage.removeItem(lessonStartedStorageKey(courseId,lessonId));
+    if(courseId==="chatgpt"&&lessonId===LESSON_ID){localStorage.removeItem(LESSON_STORAGE_KEY);if(auth.user)localStorage.removeItem(lessonStorageKey(auth.user.id));}
+    commit((current)=>resetLessonProgress(current,courseId,lessonId),{persistRemote:auth.user?.demo!==false});
+  },[auth,commit]);
   const resetCourse = useCallback(async (courseId: string) => {
     if (auth.user && !auth.user.demo) {
       const token=await auth.getToken();if(!token)throw new Error("Sign in again to reset this course.");
       const response=await fetch(`/api/learning/progress?courseId=${encodeURIComponent(courseId)}`,{method:"DELETE",headers:{Authorization:`Bearer ${token}`}});const data=await response.json();if(!response.ok)throw new Error(data.error??"Unable to reset this course");
+    }
+    for (let index = localStorage.length - 1; index >= 0; index -= 1) {
+      const key = localStorage.key(index);
+      if (key && isCourseLessonProgressStorageKey(key, courseId)) localStorage.removeItem(key);
     }
     commit((current) => {
     const courses = { ...current.courses };
@@ -189,8 +206,8 @@ export function LearnerProvider({ children }: { children: React.ReactNode }) {
   const saveConversation = useCallback((conversation: AiConversation) => commit((current) => ({ ...current, conversations: [conversation, ...current.conversations.filter((item) => item.id !== conversation.id)].slice(0, 30) })), [commit]);
   const clearConversations = useCallback(() => commit((current) => ({ ...current, conversations: [] })), [commit]);
 
-  const value = useMemo(() => ({ state, ready, saveScreen, getLessonProgress, completeLesson, resetCourse, updatePreference, joinChallenge, completeChallengeDay, completeGame, submitProgramAssessment, saveConversation, clearConversations }), [clearConversations, completeChallengeDay, completeGame, completeLesson, getLessonProgress, joinChallenge, ready, resetCourse, saveConversation, saveScreen, state, submitProgramAssessment, updatePreference]);
-  return <LearnerContext.Provider value={value}>{children}</LearnerContext.Provider>;
+  const value = useMemo(() => ({ state, ready, saveScreen, getLessonProgress, completeLesson, resetLesson, resetCourse, updatePreference, joinChallenge, completeChallengeDay, completeGame, submitProgramAssessment, saveConversation, clearConversations }), [clearConversations, completeChallengeDay, completeGame, completeLesson, getLessonProgress, joinChallenge, ready, resetCourse, resetLesson, saveConversation, saveScreen, state, submitProgramAssessment, updatePreference]);
+  return <LearnerContext.Provider value={value}><ButtonLanguageProvider language={state.preferences.language as ButtonLanguage}>{children}</ButtonLanguageProvider></LearnerContext.Provider>;
 }
 
 export function useLearner() {

@@ -79,7 +79,7 @@ const demoCourses = new Map<string, AdminCourseSummary>();
 const demoCourseRevisions = new Map<string, ContentRevision<EditableCourse>[]>();
 
 const preferredCourseOrder = {
-  tool: ["claude","claude-excel","claude-deep","midjourney","lovable","gemini","chatgpt","jasper","chatgpt-deep","stable-diffusion","deepseek","omni","perplexity","kling","canva-ai","communicating-ai","claude-code"],
+  tool: ["claude","claude-excel","claude-deep","midjourney","lovable","gemini","google-sheet-with-ai","google-slide-with-ai","chatgpt","jasper","chatgpt-deep","stable-diffusion","deepseek","omni","perplexity","kling","canva-ai","communicating-ai","claude-code"],
   "use-case": Array.from({ length: 20 }, (_, index) => `use-case-${index + 1}`),
 } satisfies Record<"tool" | "use-case", string[]>;
 

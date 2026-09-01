@@ -80,6 +80,21 @@ export interface IssuedCertificate {
   emailId?: string;
 }
 
+export interface WelcomeEmailDelivery {
+  id: string;
+  userId: string;
+  recipientEmail: string;
+  recipientName: string;
+  templateVersion: 1;
+  status: "queued" | "sent" | "failed";
+  attempts: number;
+  providerMessageId?: string | null;
+  lastErrorCode?: string | null;
+  createdAt: string;
+  updatedAt: string;
+  sentAt?: string | null;
+}
+
 export interface SupportTicket {
   id: string;
   userId: string;

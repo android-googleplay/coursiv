@@ -1,4 +1,4 @@
-import { allCourseLessons, getCourse, getProgramCourses } from "./member-data";
+import { allCourseLessons, getCourse, getProgramCourses, requiredCourseLessons, type CourseDefinition } from "./member-data";
 
 export type CourseLearningProgress = {
   completedLessonIds: string[];
@@ -6,6 +6,19 @@ export type CourseLearningProgress = {
   lastScreenId: string | null;
   updatedAt: string | null;
 };
+
+export type LessonLearningProgress = {
+  visitedScreenIds: string[];
+  resolvedScreenIds: string[];
+  skippedScreenIds: string[];
+  lastScreenId: string | null;
+  completedAt: string | null;
+};
+
+export function hasStartedLesson(progress: CourseLearningProgress | null | undefined, lessonId: string, lessonProgress?: LessonLearningProgress | null) {
+  if (progress?.completedLessonIds.includes(lessonId)) return true;
+  return Boolean(lessonProgress?.completedAt);
+}
 
 export type ChallengeLearningProgress = {
   joinedAt: string;
@@ -46,6 +59,34 @@ export const LEARNER_STATE_STORAGE_KEY = "lumora.learner.state.v2";
 
 export function learnerStateStorageKey(userId: string) {
   return `${LEARNER_STATE_STORAGE_KEY}:${userId}`;
+}
+
+export function lessonStartedStorageKey(courseId: string, lessonId: string) {
+  return `coursiv.started.v3:${courseId}:${lessonId}`;
+}
+
+export function isCourseLessonProgressStorageKey(key: string, courseId: string) {
+  return key.startsWith(`coursiv.started.v1:${courseId}:`) || key.startsWith(`coursiv.started.v2:${courseId}:`) || key.startsWith(`coursiv.started.v3:${courseId}:`) || key.startsWith(`coursiv.resolved.v3:${courseId}:`) || key.startsWith(`coursiv.skipped.v3:${courseId}:`);
+}
+
+export function resetLessonProgress(state: LearnerState, courseId: string, lessonId: string, updatedAt = new Date().toISOString()) {
+  const existing = state.courses[courseId];
+  if (!existing) return state;
+  const completedLessonIds = existing.completedLessonIds.filter((id) => id !== lessonId);
+  const resettingCurrentLesson = existing.lastLessonId === lessonId;
+  const courses = { ...state.courses };
+  if (resettingCurrentLesson && completedLessonIds.length === 0) {
+    delete courses[courseId];
+  } else {
+    courses[courseId] = {
+      ...existing,
+      completedLessonIds,
+      lastLessonId: resettingCurrentLesson ? completedLessonIds.at(-1) ?? null : existing.lastLessonId,
+      lastScreenId: resettingCurrentLesson ? null : existing.lastScreenId,
+      updatedAt,
+    };
+  }
+  return { ...state, courses };
 }
 
 export function localDateKey(date = new Date(), timezone = Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC") {
@@ -89,9 +130,14 @@ export function canCompleteChallengeDay(entry: ChallengeLearningProgress | null 
 }
 
 export function coursePercent(state: LearnerState, courseId: string) {
-  const course = getCourse(courseId);
-  const completed = state.courses[courseId]?.completedLessonIds.length ?? 0;
-  return Math.min(100, Math.round((completed / allCourseLessons(course).length) * 100));
+  return courseDefinitionPercent(state, getCourse(courseId));
+}
+
+export function courseDefinitionPercent(state: LearnerState, course: CourseDefinition) {
+  const required = requiredCourseLessons(course);
+  const optionalIds = new Set(allCourseLessons(course).filter((lesson) => lesson.optional).map((lesson) => lesson.id));
+  const completedRequired = (state.courses[course.id]?.completedLessonIds ?? []).filter((lessonId) => !optionalIds.has(lessonId)).length;
+  return required.length ? Math.min(100, Math.round((completedRequired / required.length) * 100)) : 0;
 }
 
 export function programCompletedCourses(state: LearnerState, programId = "ai-mastery") {

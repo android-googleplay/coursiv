@@ -1,0 +1,34 @@
+{
+  "source": "/Users/chibonlaw/Downloads/基本法及國安法測試_OCR.txt",
+  "generatedAt": "2026-08-13T03:45:13.296Z",
+  "internalOnly": true,
+  "summary": {
+    "questions": 310,
+    "basicLawQuestions": 210,
+    "nslQuestions": 100,
+    "verifiedCurrent": 307,
+    "retired": 3
+  },
+  "automaticCorrections": [
+    {
+      "pattern": "answer key 0",
+      "replacement": "D",
+      "reason": "OCR commonly confused the printed letter D with zero."
+    },
+    {
+      "pattern": "option marker joined to previous line",
+      "replacement": "new option line",
+      "reason": "Restored A–D option boundaries."
+    },
+    {
+      "pattern": "missing question numbers",
+      "replacement": "sequence inferred from each 15/10-question exercise",
+      "reason": "Preserved one-to-one exercise order."
+    }
+  ],
+  "retiredQuestionIds": [
+    "bl-02-04",
+    "bl-02-15",
+    "bl-11-07"
+  ]
+}

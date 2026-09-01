@@ -52,3 +52,15 @@ env:
     availability:
       - BUILD
       - RUNTIME
+  - variable: RESEND_API_KEY
+    secret: RESEND_API_KEY
+    availability:
+      - RUNTIME
+  - variable: WELCOME_FROM_EMAIL
+    value: contact@zoomob.com
+    availability:
+      - RUNTIME
+  - variable: WELCOME_REPLY_TO_EMAIL
+    value: contact@zoomob.com
+    availability:
+      - RUNTIME

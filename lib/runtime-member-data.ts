@@ -23,6 +23,7 @@ export function runtimeCourseDefinition(entry: RuntimeCatalogEntry): CourseDefin
     duration: entry.duration,
     color: "#6d63f2",
     image: coursivMediaUrl(entry.image || entry.localImage),
+    sourceUpdatedAt: entry.sourceUpdatedAt,
     sections: entry.sections.map((section) => ({
       title: section.title,
       lessons: section.lessons.map((lesson) => ({
@@ -32,6 +33,7 @@ export function runtimeCourseDefinition(entry: RuntimeCatalogEntry): CourseDefin
         sourceId: lesson.sourceId,
         screenIds: lesson.screenIds,
         hasAudio: lesson.hasAudio,
+        optional: lesson.optional,
       })),
     })),
   };

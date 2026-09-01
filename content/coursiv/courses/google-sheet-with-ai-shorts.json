@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 3,
+  "id": "google-sheet-with-ai-shorts",
+  "sourceId": "coursiv-original-google-sheet-with-ai-shorts",
+  "kind": "tool",
+  "title": "Google Sheet with AI (Shorts)",
+  "duration": "4 shorts",
+  "categories": [
+    "New",
+    "Productivity",
+    "Shorts"
+  ],
+  "units": [
+    {
+      "sourceId": "google-sheet-with-ai-shorts-feed",
+      "title": "Shorts Feed",
+      "order": 1,
+      "lessons": [
+        {
+          "schemaVersion": 3,
+          "sourceId": "google-sheet-shorts-1",
+          "sourceUnitId": "google-sheet-with-ai-shorts-feed",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai-shorts",
+          "slug": "use-gemini-in-google-sheets",
+          "title": "Use Gemini in Google Sheets",
+          "order": 1,
+          "readUrl": "/course/google-sheet-with-ai-shorts/lesson/use-gemini-in-google-sheets",
+          "hasAudio": false,
+          "screens": [
+            {
+              "id": "google-sheet-shorts-1",
+              "sourcePageId": "google-sheet-shorts-1-page",
+              "order": 0,
+              "type": "chunk",
+              "presentation": "media",
+              "interactionPolicy": "read",
+              "blocks": [
+                {
+                  "id": "google-sheet-shorts-1-video",
+                  "type": "video",
+                  "src": "/shorts/google-sheet-with-ai/how-to-use-gemini-in-google-sheets.mp4"
+                },
+                {
+                  "id": "google-sheet-shorts-1-copy-prompt",
+                  "type": "callout",
+                  "title": "Try this prompt",
+                  "text": "Help me use Gemini in Google Sheets for [task]. Explain which cells or range to select, give me the exact prompt to enter, and tell me how to verify the result.",
+                  "tone": "copy-prompt"
+                }
+              ]
+            }
+          ],
+          "blocks": [
+            {
+              "id": "google-sheet-shorts-1-video",
+              "type": "video",
+              "src": "/shorts/google-sheet-with-ai/how-to-use-gemini-in-google-sheets.mp4"
+            },
+            {
+              "id": "google-sheet-shorts-1-copy-prompt",
+              "type": "callout",
+              "title": "Try this prompt",
+              "text": "Help me use Gemini in Google Sheets for [task]. Explain which cells or range to select, give me the exact prompt to enter, and tell me how to verify the result.",
+              "tone": "copy-prompt"
+            }
+          ],
+          "raw": {
+            "sourceFile": "How to use Google Gemini in Google Sheets.mp4"
+          }
+        },
+        {
+          "schemaVersion": 3,
+          "sourceId": "google-sheet-shorts-2",
+          "sourceUnitId": "google-sheet-with-ai-shorts-feed",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai-shorts",
+          "slug": "work-smarter-in-google-sheets",
+          "title": "Work Smarter in Google Sheets",
+          "order": 2,
+          "readUrl": "/course/google-sheet-with-ai-shorts/lesson/work-smarter-in-google-sheets",
+          "hasAudio": false,
+          "screens": [
+            {
+              "id": "google-sheet-shorts-2",
+              "sourcePageId": "google-sheet-shorts-2-page",
+              "order": 0,
+              "type": "chunk",
+              "presentation": "media",
+              "interactionPolicy": "read",
+              "blocks": [
+                {
+                  "id": "google-sheet-shorts-2-video",
+                  "type": "video",
+                  "src": "/shorts/google-sheet-with-ai/work-smarter-in-google-sheets.mp4"
+                },
+                {
+                  "id": "google-sheet-shorts-2-copy-prompt",
+                  "type": "callout",
+                  "title": "Try this prompt",
+                  "text": "Review this Google Sheet workflow for [task]. Identify three repetitive steps I can simplify with formulas, Gemini, or automation, and give me the fastest implementation order.",
+                  "tone": "copy-prompt"
+                }
+              ]
+            }
+          ],
+          "blocks": [
+            {
+              "id": "google-sheet-shorts-2-video",
+              "type": "video",
+              "src": "/shorts/google-sheet-with-ai/work-smarter-in-google-sheets.mp4"
+            },
+            {
+              "id": "google-sheet-shorts-2-copy-prompt",
+              "type": "callout",
+              "title": "Try this prompt",
+              "text": "Review this Google Sheet workflow for [task]. Identify three repetitive steps I can simplify with formulas, Gemini, or automation, and give me the fastest implementation order.",
+              "tone": "copy-prompt"
+            }
+          ],
+          "raw": {
+            "sourceFile": "Work Smarter Not Harder in Google Sheets.mp4"
+          }
+        },
+        {
+          "schemaVersion": 3,
+          "sourceId": "google-sheet-shorts-3",
+          "sourceUnitId": "google-sheet-with-ai-shorts-feed",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai-shorts",
+          "slug": "create-a-table-with-one-prompt",
+          "title": "Create a Table with One Prompt",
+          "order": 3,
+          "readUrl": "/course/google-sheet-with-ai-shorts/lesson/create-a-table-with-one-prompt",
+          "hasAudio": false,
+          "screens": [
+            {
+              "id": "google-sheet-shorts-3",
+              "sourcePageId": "google-sheet-shorts-3-page",
+              "order": 0,
+              "type": "chunk",
+              "presentation": "media",
+              "interactionPolicy": "read",
+              "blocks": [
+                {
+                  "id": "google-sheet-shorts-3-video",
+                  "type": "video",
+                  "src": "/shorts/google-sheet-with-ai/create-a-table-with-one-prompt.mp4"
+                },
+                {
+                  "id": "google-sheet-shorts-3-copy-prompt",
+                  "type": "callout",
+                  "title": "Try this prompt",
+                  "text": "Create a [type] table in Google Sheets with columns for [fields]. Add [number] realistic sample rows, format the headers, and suggest useful dropdowns or data validation.",
+                  "tone": "copy-prompt"
+                }
+              ]
+            }
+          ],
+          "blocks": [
+            {
+              "id": "google-sheet-shorts-3-video",
+              "type": "video",
+              "src": "/shorts/google-sheet-with-ai/create-a-table-with-one-prompt.mp4"
+            },
+            {
+              "id": "google-sheet-shorts-3-copy-prompt",
+              "type": "callout",
+              "title": "Try this prompt",
+              "text": "Create a [type] table in Google Sheets with columns for [fields]. Add [number] realistic sample rows, format the headers, and suggest useful dropdowns or data validation.",
+              "tone": "copy-prompt"
+            }
+          ],
+          "raw": {
+            "sourceFile": "Google Sheets Hack You Must Know  Create a table with Only One Prompt  Gemini AI Tutorial.mp4"
+          }
+        },
+        {
+          "schemaVersion": 3,
+          "sourceId": "google-sheet-shorts-4",
+          "sourceUnitId": "google-sheet-with-ai-shorts-feed",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai-shorts",
+          "slug": "build-a-google-sheets-agent",
+          "title": "Build a Google Sheets Agent with WhatsApp, ChatGPT and n8n",
+          "order": 4,
+          "readUrl": "/course/google-sheet-with-ai-shorts/lesson/build-a-google-sheets-agent",
+          "hasAudio": false,
+          "screens": [
+            {
+              "id": "google-sheet-shorts-4",
+              "sourcePageId": "google-sheet-shorts-4-page",
+              "order": 0,
+              "type": "chunk",
+              "presentation": "media",
+              "interactionPolicy": "read",
+              "blocks": [
+                {
+                  "id": "google-sheet-shorts-4-video",
+                  "type": "video",
+                  "src": "/shorts/google-sheet-with-ai/build-a-google-sheets-agent.mp4"
+                },
+                {
+                  "id": "google-sheet-shorts-4-copy-prompt",
+                  "type": "callout",
+                  "title": "Try this prompt",
+                  "text": "Design a no-code Google Sheets agent that receives WhatsApp messages, sends the request to ChatGPT, and reads or updates Google Sheets through n8n. List the nodes, field mappings, credentials, safety checks, and a test message.",
+                  "tone": "copy-prompt"
+                }
+              ]
+            }
+          ],
+          "blocks": [
+            {
+              "id": "google-sheet-shorts-4-video",
+              "type": "video",
+              "src": "/shorts/google-sheet-with-ai/build-a-google-sheets-agent.mp4"
+            },
+            {
+              "id": "google-sheet-shorts-4-copy-prompt",
+              "type": "callout",
+              "title": "Try this prompt",
+              "text": "Design a no-code Google Sheets agent that receives WhatsApp messages, sends the request to ChatGPT, and reads or updates Google Sheets through n8n. List the nodes, field mappings, credentials, safety checks, and a test message.",
+              "tone": "copy-prompt"
+            }
+          ],
+          "raw": {
+            "sourceFile": "Build your first Google sheets Agent only with WhatsApp and ChatGPT in #n8n #aiautomation (NO CODE).mp4"
+          }
+        }
+      ]
+    }
+  ]
+}

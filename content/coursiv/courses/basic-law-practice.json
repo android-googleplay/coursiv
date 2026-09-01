@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 3,
+  "id": "basic-law-practice",
+  "sourceId": "basic-law-practice-course",
+  "kind": "use-case",
+  "title": "BLNST 310 題 Practice Bank",
+  "image": "/images/courses/basic-law/status-authority-relationship.png",
+  "localImage": "/images/courses/basic-law/status-authority-relationship.png",
+  "duration": "Self-paced",
+  "categories": ["Internal prototype", "Exam prep", "Practice bank"],
+  "sourceUpdatedAt": "2026-08-11",
+  "units": [
+    {
+      "sourceId": "basic-law-practice-unit-1",
+      "title": "題庫操練",
+      "order": 0,
+      "code": "A",
+      "lessons": [
+        {
+          "schemaVersion": 3,
+          "sourceId": "basic-law-practice-bank",
+          "sourceUnitId": "basic-law-practice-unit-1",
+          "sourceGuideId": "basic-law-practice-course",
+          "slug": "practice-bank",
+          "title": "310 題 Practice Bank",
+          "order": 0,
+          "readUrl": "https://www.basiclaw.gov.hk/en/basiclawtext/index.html",
+          "hasAudio": false,
+          "experience": "practice",
+          "screens": [
+            {
+              "id": "basic-law-practice-bank-screen",
+              "sourcePageId": "basic-law-practice-bank",
+              "order": 0,
+              "type": "chunk",
+              "presentation": "content",
+              "interactionPolicy": "read",
+              "blocks": [{"id":"basic-law-practice-bank-heading","type":"heading","level":2,"text":"310 題 Practice Bank"}]
+            }
+          ],
+          "blocks": [{"id":"basic-law-practice-bank-heading","type":"heading","level":2,"text":"310 題 Practice Bank"}],
+          "raw": {"internalOnly":true,"lessonCode":"A1","questionCount":310}
+        }
+      ]
+    }
+  ]
+}

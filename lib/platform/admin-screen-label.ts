@@ -20,6 +20,7 @@ const blockCopy:Record<CoursivContentBlock["type"],BlockCopy>={
   survey:{singular:"Survey",plural:"Surveys"},
   practice:{singular:"Guided practice",plural:"Guided practices"},
   feedback:{singular:"Feedback",plural:"Feedback messages"},
+  "legal-reference":{singular:"Legal reference",plural:"Legal references"},
   unknown:{singular:"Unsupported content",plural:"Unsupported content blocks"},
 };
 
@@ -43,6 +44,7 @@ function candidate(block:CoursivContentBlock){
   if(block.type==="survey")return`Survey: ${clean(block.question)}`;
   if(block.type==="callout")return clean(block.title)||clean(block.text);
   if(block.type==="paragraph"||block.type==="feedback")return clean(block.text);
+  if(block.type==="legal-reference")return clean(block.title);
   if(block.type==="list")return block.items.length?`List: ${clean(block.items[0])}`:"";
   if(block.type==="image")return block.alt?`Image: ${clean(block.alt)}`:"";
   if(block.type==="video")return"Video";

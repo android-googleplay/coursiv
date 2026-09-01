@@ -43,6 +43,7 @@ export async function DELETE(request: Request) {
   const deleted = {
     supportTickets: await deleteTickets(database.collection("supportTickets").where("userId", "==", user.uid)),
     certificates: await deleteQuery(database.collection("certificates").where("userId", "==", user.uid)),
+    emailDeliveries: await deleteQuery(database.collection("emailDeliveries").where("userId", "==", user.uid)),
     events: await deleteQuery(database.collection("events").where("userId", "==", user.uid)),
   };
   await database.recursiveDelete(database.collection("progress").doc(user.uid));

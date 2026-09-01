@@ -1,0 +1,2222 @@
+{
+  "categories": [
+    "New",
+    "Productivity",
+    "Research & Analysis"
+  ],
+  "duration": "1 hour",
+  "id": "google-sheet-with-ai",
+  "kind": "tool",
+  "schemaVersion": 3,
+  "sourceId": "coursiv-original-google-sheet-with-ai",
+  "title": "Google Sheet with AI",
+  "units": [
+    {
+      "lessons": [
+        {
+          "blocks": [
+            {
+              "id": "google-sheets-create-tables-step-1-heading",
+              "level": 2,
+              "text": "Step 1: Open Gemini in Sheets",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-create-tables-step-1-text",
+              "text": "Open a new or existing Google Sheet, then click Ask Gemini to open the Gemini side panel.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Open Gemini in Sheets",
+              "id": "google-sheets-lesson-01-step-01-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-01-step-01.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-01-step-01.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-create-tables-step-2-heading",
+              "level": 2,
+              "text": "Step 2: Prompt Gemini to create a table",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-create-tables-step-2-text",
+              "text": "Describe the tracker or table you need, including the purpose, columns, and any starting data.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Prompt Gemini to create a table",
+              "id": "google-sheets-lesson-01-step-02-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-01-step-02.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-01-step-02.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-create-tables-step-3-heading",
+              "level": 2,
+              "text": "Step 3: Review the created table",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-create-tables-step-3-text",
+              "text": "Check the generated headers, rows, and structure. Adjust column names, statuses, or missing fields before using it.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Review the created table",
+              "id": "google-sheets-lesson-01-step-03-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-01-step-03.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-01-step-03.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-create-tables-takeaway-heading",
+              "level": 2,
+              "text": "Step 4: Takeaway",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-create-tables-takeaway-text",
+              "text": "Copy this prompt and paste it into Ask Gemini.",
+              "type": "paragraph"
+            },
+            {
+              "id": "google-sheets-lesson-01-copy-prompt",
+              "text": "Create a [project/event/team] tracker in Google Sheets with columns for Owner, Task, Priority, Due Date, Status, and Notes. Add 10 realistic starter rows.",
+              "title": "Ready-to-use prompt",
+              "tone": "copy-prompt",
+              "type": "callout"
+            }
+          ],
+          "hasAudio": false,
+          "order": 1,
+          "raw": {},
+          "readUrl": "/course/google-sheet-with-ai/lesson/create-tables",
+          "schemaVersion": 3,
+          "screens": [
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-create-tables-step-1-heading",
+                  "level": 2,
+                  "text": "Step 1: Open Gemini in Sheets",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-create-tables-step-1-text",
+                  "text": "Open a new or existing Google Sheet, then click Ask Gemini to open the Gemini side panel.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Open Gemini in Sheets",
+                  "id": "google-sheets-lesson-01-step-01-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-01-step-01.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-01-step-01.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-create-tables-step-1",
+              "interactionPolicy": "read",
+              "order": 0,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-create-tables-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-create-tables-step-2-heading",
+                  "level": 2,
+                  "text": "Step 2: Prompt Gemini to create a table",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-create-tables-step-2-text",
+                  "text": "Describe the tracker or table you need, including the purpose, columns, and any starting data.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Prompt Gemini to create a table",
+                  "id": "google-sheets-lesson-01-step-02-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-01-step-02.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-01-step-02.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-create-tables-step-2",
+              "interactionPolicy": "read",
+              "order": 1,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-create-tables-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-create-tables-step-3-heading",
+                  "level": 2,
+                  "text": "Step 3: Review the created table",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-create-tables-step-3-text",
+                  "text": "Check the generated headers, rows, and structure. Adjust column names, statuses, or missing fields before using it.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Review the created table",
+                  "id": "google-sheets-lesson-01-step-03-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-01-step-03.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-01-step-03.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-create-tables-step-3",
+              "interactionPolicy": "read",
+              "order": 2,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-create-tables-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-create-tables-takeaway-heading",
+                  "level": 2,
+                  "text": "Step 4: Takeaway",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-create-tables-takeaway-text",
+                  "text": "Copy this prompt and paste it into Ask Gemini.",
+                  "type": "paragraph"
+                },
+                {
+                  "id": "google-sheets-lesson-01-copy-prompt",
+                  "text": "Create a [project/event/team] tracker in Google Sheets with columns for Owner, Task, Priority, Due Date, Status, and Notes. Add 10 realistic starter rows.",
+                  "title": "Ready-to-use prompt",
+                  "tone": "copy-prompt",
+                  "type": "callout"
+                }
+              ],
+              "id": "google-sheets-create-tables-takeaway",
+              "interactionPolicy": "read",
+              "order": 3,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-create-tables-page",
+              "type": "chunk"
+            }
+          ],
+          "slug": "create-tables",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai",
+          "sourceId": "google-sheets-create-tables",
+          "sourceUnitId": "google-sheet-with-ai-essentials",
+          "title": "Create Tables"
+        },
+        {
+          "blocks": [
+            {
+              "id": "google-sheets-auto-populate-step-1-heading",
+              "level": 2,
+              "text": "Step 1: Select the column to complete",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-auto-populate-step-1-text",
+              "text": "Choose the column where Gemini should infer or generate missing values, such as category, description, or status.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Select the column to complete",
+              "id": "google-sheets-lesson-02-step-01-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-02-step-01.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-02-step-01.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-auto-populate-step-2-heading",
+              "level": 2,
+              "text": "Step 2: Fill extra rows",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-auto-populate-step-2-text",
+              "text": "Use Gemini to continue the pattern from existing rows or generate content for blank cells.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Fill extra rows",
+              "id": "google-sheets-lesson-02-step-02-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-02-step-02.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-02-step-02.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-auto-populate-step-3-heading",
+              "level": 2,
+              "text": "Step 3: Run the generative cell action",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-auto-populate-step-3-text",
+              "text": "Apply Gemini's suggestion to the selected range, then scan for consistency and edge cases.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Run the generative cell action",
+              "id": "google-sheets-lesson-02-step-03-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-02-step-03.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-02-step-03.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-auto-populate-takeaway-heading",
+              "level": 2,
+              "text": "Step 4: Takeaway",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-auto-populate-takeaway-text",
+              "text": "Copy this prompt and paste it into Ask Gemini.",
+              "type": "paragraph"
+            },
+            {
+              "id": "google-sheets-lesson-02-copy-prompt",
+              "text": "Fill the blank cells in column [column name] using the pattern from the completed rows. Keep the output concise and consistent with the existing categories.",
+              "title": "Ready-to-use prompt",
+              "tone": "copy-prompt",
+              "type": "callout"
+            }
+          ],
+          "hasAudio": false,
+          "order": 2,
+          "raw": {},
+          "readUrl": "/course/google-sheet-with-ai/lesson/auto-populate",
+          "schemaVersion": 3,
+          "screens": [
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-auto-populate-step-1-heading",
+                  "level": 2,
+                  "text": "Step 1: Select the column to complete",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-auto-populate-step-1-text",
+                  "text": "Choose the column where Gemini should infer or generate missing values, such as category, description, or status.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Select the column to complete",
+                  "id": "google-sheets-lesson-02-step-01-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-02-step-01.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-02-step-01.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-auto-populate-step-1",
+              "interactionPolicy": "read",
+              "order": 0,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-auto-populate-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-auto-populate-step-2-heading",
+                  "level": 2,
+                  "text": "Step 2: Fill extra rows",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-auto-populate-step-2-text",
+                  "text": "Use Gemini to continue the pattern from existing rows or generate content for blank cells.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Fill extra rows",
+                  "id": "google-sheets-lesson-02-step-02-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-02-step-02.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-02-step-02.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-auto-populate-step-2",
+              "interactionPolicy": "read",
+              "order": 1,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-auto-populate-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-auto-populate-step-3-heading",
+                  "level": 2,
+                  "text": "Step 3: Run the generative cell action",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-auto-populate-step-3-text",
+                  "text": "Apply Gemini's suggestion to the selected range, then scan for consistency and edge cases.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Run the generative cell action",
+                  "id": "google-sheets-lesson-02-step-03-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-02-step-03.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-02-step-03.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-auto-populate-step-3",
+              "interactionPolicy": "read",
+              "order": 2,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-auto-populate-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-auto-populate-takeaway-heading",
+                  "level": 2,
+                  "text": "Step 4: Takeaway",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-auto-populate-takeaway-text",
+                  "text": "Copy this prompt and paste it into Ask Gemini.",
+                  "type": "paragraph"
+                },
+                {
+                  "id": "google-sheets-lesson-02-copy-prompt",
+                  "text": "Fill the blank cells in column [column name] using the pattern from the completed rows. Keep the output concise and consistent with the existing categories.",
+                  "title": "Ready-to-use prompt",
+                  "tone": "copy-prompt",
+                  "type": "callout"
+                }
+              ],
+              "id": "google-sheets-auto-populate-takeaway",
+              "interactionPolicy": "read",
+              "order": 3,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-auto-populate-page",
+              "type": "chunk"
+            }
+          ],
+          "slug": "auto-populate",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai",
+          "sourceId": "google-sheets-auto-populate",
+          "sourceUnitId": "google-sheet-with-ai-essentials",
+          "title": "Auto Populate"
+        },
+        {
+          "blocks": [
+            {
+              "id": "google-sheets-generate-formulas-step-1-heading",
+              "level": 2,
+              "text": "Step 1: Ask Gemini for a formula",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-generate-formulas-step-1-text",
+              "text": "Explain the calculation you need in plain English and identify the relevant columns or cells.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Ask Gemini for a formula",
+              "id": "google-sheets-lesson-03-step-01-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-03-step-01.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-03-step-01.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-generate-formulas-step-2-heading",
+              "level": 2,
+              "text": "Step 2: Apply the formula to real data",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-generate-formulas-step-2-text",
+              "text": "Paste or accept the formula, then test it against the row values in your sheet.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Apply the formula to real data",
+              "id": "google-sheets-lesson-03-step-02-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-03-step-02.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-03-step-02.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-generate-formulas-step-3-heading",
+              "level": 2,
+              "text": "Step 3: Ask questions about the result",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-generate-formulas-step-3-text",
+              "text": "Use Gemini to explain the result, spot mistakes, or answer a question from the table.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Ask questions about the result",
+              "id": "google-sheets-lesson-03-step-03-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-03-step-03.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-03-step-03.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-generate-formulas-takeaway-heading",
+              "level": 2,
+              "text": "Step 4: Takeaway",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-generate-formulas-takeaway-text",
+              "text": "Copy this prompt and paste it into Ask Gemini.",
+              "type": "paragraph"
+            },
+            {
+              "id": "google-sheets-lesson-03-copy-prompt",
+              "text": "Write a Google Sheets formula for [business rule]. My data has [column A meaning], [column B meaning], and [column C meaning]. Explain where to paste it and how to fill it down.",
+              "title": "Ready-to-use prompt",
+              "tone": "copy-prompt",
+              "type": "callout"
+            }
+          ],
+          "hasAudio": false,
+          "order": 3,
+          "raw": {},
+          "readUrl": "/course/google-sheet-with-ai/lesson/generate-formulas",
+          "schemaVersion": 3,
+          "screens": [
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-generate-formulas-step-1-heading",
+                  "level": 2,
+                  "text": "Step 1: Ask Gemini for a formula",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-generate-formulas-step-1-text",
+                  "text": "Explain the calculation you need in plain English and identify the relevant columns or cells.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Ask Gemini for a formula",
+                  "id": "google-sheets-lesson-03-step-01-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-03-step-01.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-03-step-01.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-generate-formulas-step-1",
+              "interactionPolicy": "read",
+              "order": 0,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-generate-formulas-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-generate-formulas-step-2-heading",
+                  "level": 2,
+                  "text": "Step 2: Apply the formula to real data",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-generate-formulas-step-2-text",
+                  "text": "Paste or accept the formula, then test it against the row values in your sheet.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Apply the formula to real data",
+                  "id": "google-sheets-lesson-03-step-02-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-03-step-02.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-03-step-02.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-generate-formulas-step-2",
+              "interactionPolicy": "read",
+              "order": 1,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-generate-formulas-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-generate-formulas-step-3-heading",
+                  "level": 2,
+                  "text": "Step 3: Ask questions about the result",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-generate-formulas-step-3-text",
+                  "text": "Use Gemini to explain the result, spot mistakes, or answer a question from the table.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Ask questions about the result",
+                  "id": "google-sheets-lesson-03-step-03-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-03-step-03.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-03-step-03.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-generate-formulas-step-3",
+              "interactionPolicy": "read",
+              "order": 2,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-generate-formulas-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-generate-formulas-takeaway-heading",
+                  "level": 2,
+                  "text": "Step 4: Takeaway",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-generate-formulas-takeaway-text",
+                  "text": "Copy this prompt and paste it into Ask Gemini.",
+                  "type": "paragraph"
+                },
+                {
+                  "id": "google-sheets-lesson-03-copy-prompt",
+                  "text": "Write a Google Sheets formula for [business rule]. My data has [column A meaning], [column B meaning], and [column C meaning]. Explain where to paste it and how to fill it down.",
+                  "title": "Ready-to-use prompt",
+                  "tone": "copy-prompt",
+                  "type": "callout"
+                }
+              ],
+              "id": "google-sheets-generate-formulas-takeaway",
+              "interactionPolicy": "read",
+              "order": 3,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-generate-formulas-page",
+              "type": "chunk"
+            }
+          ],
+          "slug": "generate-formulas",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai",
+          "sourceId": "google-sheets-generate-formulas",
+          "sourceUnitId": "google-sheet-with-ai-essentials",
+          "title": "Generate Formulas"
+        },
+        {
+          "blocks": [
+            {
+              "id": "google-sheets-insights-and-visualizations-step-1-heading",
+              "level": 2,
+              "text": "Step 1: Ask Gemini to analyze your sheet",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-insights-and-visualizations-step-1-text",
+              "text": "Open a dataset and ask Gemini for patterns, anomalies, or summary insights.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Ask Gemini to analyze the sheet",
+              "id": "google-sheets-lesson-04-step-01-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-04-step-01.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-04-step-01.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-insights-and-visualizations-step-2-heading",
+              "level": 2,
+              "text": "Step 2: Create a chart",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-insights-and-visualizations-step-2-text",
+              "text": "Ask Gemini to turn the data into a relevant chart, such as a pie chart, bar chart, or trend chart.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Create a chart",
+              "id": "google-sheets-lesson-04-step-02-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-04-step-02.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-04-step-02.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-insights-and-visualizations-step-3-heading",
+              "level": 2,
+              "text": "Step 3: Use insights in a dashboard",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-insights-and-visualizations-step-3-text",
+              "text": "Review the chart and Gemini's explanation, then decide what action the data supports.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Use insights in a dashboard",
+              "id": "google-sheets-lesson-04-step-03-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-04-step-03.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-04-step-03.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-insights-and-visualizations-takeaway-heading",
+              "level": 2,
+              "text": "Step 4: Takeaway",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-insights-and-visualizations-takeaway-text",
+              "text": "Copy this prompt and paste it into Ask Gemini.",
+              "type": "paragraph"
+            },
+            {
+              "id": "google-sheets-lesson-04-copy-prompt",
+              "text": "Analyze this sheet and tell me the top 3 insights, the biggest risk, and the best chart to show the trend to a manager.",
+              "title": "Ready-to-use prompt",
+              "tone": "copy-prompt",
+              "type": "callout"
+            }
+          ],
+          "hasAudio": false,
+          "order": 4,
+          "raw": {},
+          "readUrl": "/course/google-sheet-with-ai/lesson/insights-and-visualizations",
+          "schemaVersion": 3,
+          "screens": [
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-insights-and-visualizations-step-1-heading",
+                  "level": 2,
+                  "text": "Step 1: Ask Gemini to analyze your sheet",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-insights-and-visualizations-step-1-text",
+                  "text": "Open a dataset and ask Gemini for patterns, anomalies, or summary insights.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Ask Gemini to analyze the sheet",
+                  "id": "google-sheets-lesson-04-step-01-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-04-step-01.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-04-step-01.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-insights-and-visualizations-step-1",
+              "interactionPolicy": "read",
+              "order": 0,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-insights-and-visualizations-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-insights-and-visualizations-step-2-heading",
+                  "level": 2,
+                  "text": "Step 2: Create a chart",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-insights-and-visualizations-step-2-text",
+                  "text": "Ask Gemini to turn the data into a relevant chart, such as a pie chart, bar chart, or trend chart.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Create a chart",
+                  "id": "google-sheets-lesson-04-step-02-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-04-step-02.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-04-step-02.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-insights-and-visualizations-step-2",
+              "interactionPolicy": "read",
+              "order": 1,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-insights-and-visualizations-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-insights-and-visualizations-step-3-heading",
+                  "level": 2,
+                  "text": "Step 3: Use insights in a dashboard",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-insights-and-visualizations-step-3-text",
+                  "text": "Review the chart and Gemini's explanation, then decide what action the data supports.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Use insights in a dashboard",
+                  "id": "google-sheets-lesson-04-step-03-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-04-step-03.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-04-step-03.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-insights-and-visualizations-step-3",
+              "interactionPolicy": "read",
+              "order": 2,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-insights-and-visualizations-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-insights-and-visualizations-takeaway-heading",
+                  "level": 2,
+                  "text": "Step 4: Takeaway",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-insights-and-visualizations-takeaway-text",
+                  "text": "Copy this prompt and paste it into Ask Gemini.",
+                  "type": "paragraph"
+                },
+                {
+                  "id": "google-sheets-lesson-04-copy-prompt",
+                  "text": "Analyze this sheet and tell me the top 3 insights, the biggest risk, and the best chart to show the trend to a manager.",
+                  "title": "Ready-to-use prompt",
+                  "tone": "copy-prompt",
+                  "type": "callout"
+                }
+              ],
+              "id": "google-sheets-insights-and-visualizations-takeaway",
+              "interactionPolicy": "read",
+              "order": 3,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-insights-and-visualizations-page",
+              "type": "chunk"
+            }
+          ],
+          "slug": "insights-and-visualizations",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai",
+          "sourceId": "google-sheets-insights-and-visualizations",
+          "sourceUnitId": "google-sheet-with-ai-essentials",
+          "title": "Insights and Visualizations"
+        },
+        {
+          "blocks": [
+            {
+              "id": "google-sheets-no-code-sheets-scripts-step-1-heading",
+              "level": 2,
+              "text": "Step 1: Open Gemini for a Sheets task",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-no-code-sheets-scripts-step-1-text",
+              "text": "Start with a specific Sheets problem you want solved without manually writing code.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Open Gemini for a Sheets task",
+              "id": "google-sheets-lesson-05-step-01-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-05-step-01.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-05-step-01.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-no-code-sheets-scripts-step-2-heading",
+              "level": 2,
+              "text": "Step 2: Ask for data insights or automation help",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-no-code-sheets-scripts-step-2-text",
+              "text": "Describe the exact output you want, such as a summary, script, calculation, or workflow.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Ask for data insights or automation help",
+              "id": "google-sheets-lesson-05-step-02-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-05-step-02.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-05-step-02.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-no-code-sheets-scripts-step-3-heading",
+              "level": 2,
+              "text": "Step 3: Use the answer without code expertise",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-no-code-sheets-scripts-step-3-text",
+              "text": "Review Gemini's response and apply it inside Sheets or Apps Script depending on the task.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Use the answer without code expertise",
+              "id": "google-sheets-lesson-05-step-03-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-05-step-03.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-05-step-03.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-no-code-sheets-scripts-takeaway-heading",
+              "level": 2,
+              "text": "Step 4: Takeaway",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-no-code-sheets-scripts-takeaway-text",
+              "text": "Copy this prompt and paste it into Ask Gemini.",
+              "type": "paragraph"
+            },
+            {
+              "id": "google-sheets-lesson-05-copy-prompt",
+              "text": "Create a Google Apps Script for Sheets that [task]. Include where I should paste it, how to run it, and how to test that it worked.",
+              "title": "Ready-to-use prompt",
+              "tone": "copy-prompt",
+              "type": "callout"
+            }
+          ],
+          "hasAudio": false,
+          "order": 5,
+          "raw": {},
+          "readUrl": "/course/google-sheet-with-ai/lesson/no-code-sheets-and-scripts",
+          "schemaVersion": 3,
+          "screens": [
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-no-code-sheets-scripts-step-1-heading",
+                  "level": 2,
+                  "text": "Step 1: Open Gemini for a Sheets task",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-no-code-sheets-scripts-step-1-text",
+                  "text": "Start with a specific Sheets problem you want solved without manually writing code.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Open Gemini for a Sheets task",
+                  "id": "google-sheets-lesson-05-step-01-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-05-step-01.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-05-step-01.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-no-code-sheets-scripts-step-1",
+              "interactionPolicy": "read",
+              "order": 0,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-no-code-sheets-scripts-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-no-code-sheets-scripts-step-2-heading",
+                  "level": 2,
+                  "text": "Step 2: Ask for data insights or automation help",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-no-code-sheets-scripts-step-2-text",
+                  "text": "Describe the exact output you want, such as a summary, script, calculation, or workflow.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Ask for data insights or automation help",
+                  "id": "google-sheets-lesson-05-step-02-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-05-step-02.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-05-step-02.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-no-code-sheets-scripts-step-2",
+              "interactionPolicy": "read",
+              "order": 1,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-no-code-sheets-scripts-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-no-code-sheets-scripts-step-3-heading",
+                  "level": 2,
+                  "text": "Step 3: Use the answer without code expertise",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-no-code-sheets-scripts-step-3-text",
+                  "text": "Review Gemini's response and apply it inside Sheets or Apps Script depending on the task.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Use the answer without code expertise",
+                  "id": "google-sheets-lesson-05-step-03-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-05-step-03.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-05-step-03.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-no-code-sheets-scripts-step-3",
+              "interactionPolicy": "read",
+              "order": 2,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-no-code-sheets-scripts-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-no-code-sheets-scripts-takeaway-heading",
+                  "level": 2,
+                  "text": "Step 4: Takeaway",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-no-code-sheets-scripts-takeaway-text",
+                  "text": "Copy this prompt and paste it into Ask Gemini.",
+                  "type": "paragraph"
+                },
+                {
+                  "id": "google-sheets-lesson-05-copy-prompt",
+                  "text": "Create a Google Apps Script for Sheets that [task]. Include where I should paste it, how to run it, and how to test that it worked.",
+                  "title": "Ready-to-use prompt",
+                  "tone": "copy-prompt",
+                  "type": "callout"
+                }
+              ],
+              "id": "google-sheets-no-code-sheets-scripts-takeaway",
+              "interactionPolicy": "read",
+              "order": 3,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-no-code-sheets-scripts-page",
+              "type": "chunk"
+            }
+          ],
+          "slug": "no-code-sheets-and-scripts",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai",
+          "sourceId": "google-sheets-no-code-sheets-scripts",
+          "sourceUnitId": "google-sheet-with-ai-essentials",
+          "title": "No-Code Sheets & Scripts"
+        },
+        {
+          "blocks": [
+            {
+              "id": "google-sheets-image-to-sheets-hack-step-1-heading",
+              "level": 2,
+              "text": "Step 1: Start from source data",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-image-to-sheets-hack-step-1-text",
+              "text": "Take a screenshot or photo of a table, receipt, chart, or structured list.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Start from source data",
+              "id": "google-sheets-lesson-06-step-01-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-06-step-01.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-06-step-01.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-image-to-sheets-hack-step-2-heading",
+              "level": 2,
+              "text": "Step 2: Prompt Gemini to structure it",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-image-to-sheets-hack-step-2-text",
+              "text": "Ask Gemini to read the image and convert the visible information into a clean table.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Prompt Gemini to structure data",
+              "id": "google-sheets-lesson-06-step-02-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-06-step-02.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-06-step-02.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-image-to-sheets-hack-step-3-heading",
+              "level": 2,
+              "text": "Step 3: Review the structured sheet",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-image-to-sheets-hack-step-3-text",
+              "text": "Check headings, row count, dates, numbers, and any ambiguous text before using the output.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Review the structured sheet",
+              "id": "google-sheets-lesson-06-step-03-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-06-step-03.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-06-step-03.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-image-to-sheets-hack-takeaway-heading",
+              "level": 2,
+              "text": "Step 4: Takeaway",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-image-to-sheets-hack-takeaway-text",
+              "text": "Copy this prompt and paste it into Ask Gemini.",
+              "type": "paragraph"
+            },
+            {
+              "id": "google-sheets-lesson-06-copy-prompt",
+              "text": "Turn the data in this image into a spreadsheet table. Preserve the original columns, normalize dates and numbers, and mark anything uncertain as \"Needs review\".",
+              "title": "Ready-to-use prompt",
+              "tone": "copy-prompt",
+              "type": "callout"
+            }
+          ],
+          "hasAudio": false,
+          "order": 6,
+          "raw": {},
+          "readUrl": "/course/google-sheet-with-ai/lesson/gemini-image-to-sheets-hack",
+          "schemaVersion": 3,
+          "screens": [
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-image-to-sheets-hack-step-1-heading",
+                  "level": 2,
+                  "text": "Step 1: Start from source data",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-image-to-sheets-hack-step-1-text",
+                  "text": "Take a screenshot or photo of a table, receipt, chart, or structured list.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Start from source data",
+                  "id": "google-sheets-lesson-06-step-01-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-06-step-01.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-06-step-01.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-image-to-sheets-hack-step-1",
+              "interactionPolicy": "read",
+              "order": 0,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-image-to-sheets-hack-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-image-to-sheets-hack-step-2-heading",
+                  "level": 2,
+                  "text": "Step 2: Prompt Gemini to structure it",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-image-to-sheets-hack-step-2-text",
+                  "text": "Ask Gemini to read the image and convert the visible information into a clean table.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Prompt Gemini to structure data",
+                  "id": "google-sheets-lesson-06-step-02-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-06-step-02.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-06-step-02.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-image-to-sheets-hack-step-2",
+              "interactionPolicy": "read",
+              "order": 1,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-image-to-sheets-hack-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-image-to-sheets-hack-step-3-heading",
+                  "level": 2,
+                  "text": "Step 3: Review the structured sheet",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-image-to-sheets-hack-step-3-text",
+                  "text": "Check headings, row count, dates, numbers, and any ambiguous text before using the output.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Review the structured sheet",
+                  "id": "google-sheets-lesson-06-step-03-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-06-step-03.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-06-step-03.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-image-to-sheets-hack-step-3",
+              "interactionPolicy": "read",
+              "order": 2,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-image-to-sheets-hack-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-image-to-sheets-hack-takeaway-heading",
+                  "level": 2,
+                  "text": "Step 4: Takeaway",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-image-to-sheets-hack-takeaway-text",
+                  "text": "Copy this prompt and paste it into Ask Gemini.",
+                  "type": "paragraph"
+                },
+                {
+                  "id": "google-sheets-lesson-06-copy-prompt",
+                  "text": "Turn the data in this image into a spreadsheet table. Preserve the original columns, normalize dates and numbers, and mark anything uncertain as \"Needs review\".",
+                  "title": "Ready-to-use prompt",
+                  "tone": "copy-prompt",
+                  "type": "callout"
+                }
+              ],
+              "id": "google-sheets-image-to-sheets-hack-takeaway",
+              "interactionPolicy": "read",
+              "order": 3,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-image-to-sheets-hack-page",
+              "type": "chunk"
+            }
+          ],
+          "slug": "gemini-image-to-sheets-hack",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai",
+          "sourceId": "google-sheets-image-to-sheets-hack",
+          "sourceUnitId": "google-sheet-with-ai-essentials",
+          "title": "Gemini Image-to-Sheets Hack"
+        },
+        {
+          "blocks": [
+            {
+              "id": "google-sheets-apps-script-automation-step-1-heading",
+              "level": 2,
+              "text": "Step 1: Open the Apps Script platform",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-apps-script-automation-step-1-text",
+              "text": "Open a Sheet, then go to Extensions > Apps Script to prepare the automation workspace.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Open the Apps Script platform",
+              "id": "google-sheets-lesson-07-step-01-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-07-step-01.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-07-step-01.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-apps-script-automation-step-2-heading",
+              "level": 2,
+              "text": "Step 2: Select the Sheets add-on or script target",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-apps-script-automation-step-2-text",
+              "text": "Confirm the automation is connected to the correct Google Sheet and workflow.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Select the Sheets add-on or script target",
+              "id": "google-sheets-lesson-07-step-02-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-07-step-02.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-07-step-02.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-apps-script-automation-step-3-heading",
+              "level": 2,
+              "text": "Step 3: Edit the code block",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-apps-script-automation-step-3-text",
+              "text": "Paste Gemini's Apps Script, save the project, refresh the Sheet, and run the menu or function.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Edit the code block for automation",
+              "id": "google-sheets-lesson-07-step-03-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-07-step-03.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-07-step-03.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-apps-script-automation-takeaway-heading",
+              "level": 2,
+              "text": "Step 4: Takeaway",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-apps-script-automation-takeaway-text",
+              "text": "Copy this prompt and paste it into Ask Gemini.",
+              "type": "paragraph"
+            },
+            {
+              "id": "google-sheets-lesson-07-copy-prompt",
+              "text": "Create a Google Apps Script for my Sheet that adds a custom menu called \"AI Boost Action\" and, when clicked, shows a success alert. Include the full code and setup steps.",
+              "title": "Ready-to-use prompt",
+              "tone": "copy-prompt",
+              "type": "callout"
+            }
+          ],
+          "hasAudio": false,
+          "order": 7,
+          "raw": {},
+          "readUrl": "/course/google-sheet-with-ai/lesson/automate-tasks-with-gemini-and-apps-script",
+          "schemaVersion": 3,
+          "screens": [
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-apps-script-automation-step-1-heading",
+                  "level": 2,
+                  "text": "Step 1: Open the Apps Script platform",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-apps-script-automation-step-1-text",
+                  "text": "Open a Sheet, then go to Extensions > Apps Script to prepare the automation workspace.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Open the Apps Script platform",
+                  "id": "google-sheets-lesson-07-step-01-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-07-step-01.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-07-step-01.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-apps-script-automation-step-1",
+              "interactionPolicy": "read",
+              "order": 0,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-apps-script-automation-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-apps-script-automation-step-2-heading",
+                  "level": 2,
+                  "text": "Step 2: Select the Sheets add-on or script target",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-apps-script-automation-step-2-text",
+                  "text": "Confirm the automation is connected to the correct Google Sheet and workflow.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Select the Sheets add-on or script target",
+                  "id": "google-sheets-lesson-07-step-02-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-07-step-02.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-07-step-02.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-apps-script-automation-step-2",
+              "interactionPolicy": "read",
+              "order": 1,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-apps-script-automation-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-apps-script-automation-step-3-heading",
+                  "level": 2,
+                  "text": "Step 3: Edit the code block",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-apps-script-automation-step-3-text",
+                  "text": "Paste Gemini's Apps Script, save the project, refresh the Sheet, and run the menu or function.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Edit the code block for automation",
+                  "id": "google-sheets-lesson-07-step-03-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-07-step-03.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-07-step-03.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-apps-script-automation-step-3",
+              "interactionPolicy": "read",
+              "order": 2,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-apps-script-automation-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-apps-script-automation-takeaway-heading",
+                  "level": 2,
+                  "text": "Step 4: Takeaway",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-apps-script-automation-takeaway-text",
+                  "text": "Copy this prompt and paste it into Ask Gemini.",
+                  "type": "paragraph"
+                },
+                {
+                  "id": "google-sheets-lesson-07-copy-prompt",
+                  "text": "Create a Google Apps Script for my Sheet that adds a custom menu called \"AI Boost Action\" and, when clicked, shows a success alert. Include the full code and setup steps.",
+                  "title": "Ready-to-use prompt",
+                  "tone": "copy-prompt",
+                  "type": "callout"
+                }
+              ],
+              "id": "google-sheets-apps-script-automation-takeaway",
+              "interactionPolicy": "read",
+              "order": 3,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-apps-script-automation-page",
+              "type": "chunk"
+            }
+          ],
+          "slug": "automate-tasks-with-gemini-and-apps-script",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai",
+          "sourceId": "google-sheets-apps-script-automation",
+          "sourceUnitId": "google-sheet-with-ai-essentials",
+          "title": "Automate Tasks with Gemini and Apps Script"
+        },
+        {
+          "blocks": [
+            {
+              "id": "google-sheets-advanced-analysis-step-1-heading",
+              "level": 2,
+              "text": "Step 1: Ask Gemini to analyze data",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-advanced-analysis-step-1-text",
+              "text": "Open a dataset and ask Gemini a clear analysis question about spending, performance, or trends.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Ask Gemini to analyze data",
+              "id": "google-sheets-lesson-08-step-01-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-08-step-01.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-08-step-01.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-advanced-analysis-step-2-heading",
+              "level": 2,
+              "text": "Step 2: Create a visualization",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-advanced-analysis-step-2-text",
+              "text": "Ask Gemini to create the best chart for the question, then insert it into the sheet.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Create a visualization",
+              "id": "google-sheets-lesson-08-step-02-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-08-step-02.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-08-step-02.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-advanced-analysis-step-3-heading",
+              "level": 2,
+              "text": "Step 3: Review strategic insights",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-advanced-analysis-step-3-text",
+              "text": "Use Gemini's explanation to identify what action to take next.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Review strategic insights",
+              "id": "google-sheets-lesson-08-step-03-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-08-step-03.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-08-step-03.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-advanced-analysis-takeaway-heading",
+              "level": 2,
+              "text": "Step 4: Takeaway",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-advanced-analysis-takeaway-text",
+              "text": "Copy this prompt and paste it into Ask Gemini.",
+              "type": "paragraph"
+            },
+            {
+              "id": "google-sheets-lesson-08-copy-prompt",
+              "text": "Create a chart that shows [metric] by [category], then explain the biggest insight, the likely cause, and one action I should take next.",
+              "title": "Ready-to-use prompt",
+              "tone": "copy-prompt",
+              "type": "callout"
+            }
+          ],
+          "hasAudio": false,
+          "order": 8,
+          "raw": {},
+          "readUrl": "/course/google-sheet-with-ai/lesson/advanced-analysis-in-sheets",
+          "schemaVersion": 3,
+          "screens": [
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-advanced-analysis-step-1-heading",
+                  "level": 2,
+                  "text": "Step 1: Ask Gemini to analyze data",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-advanced-analysis-step-1-text",
+                  "text": "Open a dataset and ask Gemini a clear analysis question about spending, performance, or trends.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Ask Gemini to analyze data",
+                  "id": "google-sheets-lesson-08-step-01-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-08-step-01.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-08-step-01.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-advanced-analysis-step-1",
+              "interactionPolicy": "read",
+              "order": 0,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-advanced-analysis-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-advanced-analysis-step-2-heading",
+                  "level": 2,
+                  "text": "Step 2: Create a visualization",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-advanced-analysis-step-2-text",
+                  "text": "Ask Gemini to create the best chart for the question, then insert it into the sheet.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Create a visualization",
+                  "id": "google-sheets-lesson-08-step-02-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-08-step-02.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-08-step-02.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-advanced-analysis-step-2",
+              "interactionPolicy": "read",
+              "order": 1,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-advanced-analysis-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-advanced-analysis-step-3-heading",
+                  "level": 2,
+                  "text": "Step 3: Review strategic insights",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-advanced-analysis-step-3-text",
+                  "text": "Use Gemini's explanation to identify what action to take next.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Review strategic insights",
+                  "id": "google-sheets-lesson-08-step-03-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-08-step-03.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-08-step-03.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-advanced-analysis-step-3",
+              "interactionPolicy": "read",
+              "order": 2,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-advanced-analysis-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-advanced-analysis-takeaway-heading",
+                  "level": 2,
+                  "text": "Step 4: Takeaway",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-advanced-analysis-takeaway-text",
+                  "text": "Copy this prompt and paste it into Ask Gemini.",
+                  "type": "paragraph"
+                },
+                {
+                  "id": "google-sheets-lesson-08-copy-prompt",
+                  "text": "Create a chart that shows [metric] by [category], then explain the biggest insight, the likely cause, and one action I should take next.",
+                  "title": "Ready-to-use prompt",
+                  "tone": "copy-prompt",
+                  "type": "callout"
+                }
+              ],
+              "id": "google-sheets-advanced-analysis-takeaway",
+              "interactionPolicy": "read",
+              "order": 3,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-advanced-analysis-page",
+              "type": "chunk"
+            }
+          ],
+          "slug": "advanced-analysis-in-sheets",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai",
+          "sourceId": "google-sheets-advanced-analysis",
+          "sourceUnitId": "google-sheet-with-ai-essentials",
+          "title": "Advanced Analysis in Sheets"
+        },
+        {
+          "blocks": [
+            {
+              "id": "google-sheets-talk-to-your-data-step-1-heading",
+              "level": 2,
+              "text": "Step 1: Prepare sortable data",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-talk-to-your-data-step-1-text",
+              "text": "Use a sheet with category, date, and numeric columns so Gemini has enough structure to work with.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Prepare sortable data",
+              "id": "google-sheets-lesson-09-step-01-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-09-step-01.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-09-step-01.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-talk-to-your-data-step-2-heading",
+              "level": 2,
+              "text": "Step 2: Ask a natural language question",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-talk-to-your-data-step-2-text",
+              "text": "Use plain English to ask Gemini to sort, filter, format, or explain the data.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Ask a natural language question",
+              "id": "google-sheets-lesson-09-step-02-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-09-step-02.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-09-step-02.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-talk-to-your-data-step-3-heading",
+              "level": 2,
+              "text": "Step 3: Filter, sort, or visualize",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-talk-to-your-data-step-3-text",
+              "text": "Apply Gemini's action and confirm the output matches your intended view.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Filter, sort, or visualize",
+              "id": "google-sheets-lesson-09-step-03-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-09-step-03.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-09-step-03.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-talk-to-your-data-takeaway-heading",
+              "level": 2,
+              "text": "Step 4: Takeaway",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-talk-to-your-data-takeaway-text",
+              "text": "Copy this prompt and paste it into Ask Gemini.",
+              "type": "paragraph"
+            },
+            {
+              "id": "google-sheets-lesson-09-copy-prompt",
+              "text": "Sort this sheet by [number column] from highest to lowest, highlight values over [threshold] in green, and filter to only show [category].",
+              "title": "Ready-to-use prompt",
+              "tone": "copy-prompt",
+              "type": "callout"
+            }
+          ],
+          "hasAudio": false,
+          "order": 9,
+          "raw": {},
+          "readUrl": "/course/google-sheet-with-ai/lesson/talk-to-your-data-in-sheets",
+          "schemaVersion": 3,
+          "screens": [
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-talk-to-your-data-step-1-heading",
+                  "level": 2,
+                  "text": "Step 1: Prepare sortable data",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-talk-to-your-data-step-1-text",
+                  "text": "Use a sheet with category, date, and numeric columns so Gemini has enough structure to work with.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Prepare sortable data",
+                  "id": "google-sheets-lesson-09-step-01-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-09-step-01.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-09-step-01.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-talk-to-your-data-step-1",
+              "interactionPolicy": "read",
+              "order": 0,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-talk-to-your-data-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-talk-to-your-data-step-2-heading",
+                  "level": 2,
+                  "text": "Step 2: Ask a natural language question",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-talk-to-your-data-step-2-text",
+                  "text": "Use plain English to ask Gemini to sort, filter, format, or explain the data.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Ask a natural language question",
+                  "id": "google-sheets-lesson-09-step-02-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-09-step-02.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-09-step-02.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-talk-to-your-data-step-2",
+              "interactionPolicy": "read",
+              "order": 1,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-talk-to-your-data-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-talk-to-your-data-step-3-heading",
+                  "level": 2,
+                  "text": "Step 3: Filter, sort, or visualize",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-talk-to-your-data-step-3-text",
+                  "text": "Apply Gemini's action and confirm the output matches your intended view.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Filter, sort, or visualize",
+                  "id": "google-sheets-lesson-09-step-03-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-09-step-03.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-09-step-03.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-talk-to-your-data-step-3",
+              "interactionPolicy": "read",
+              "order": 2,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-talk-to-your-data-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-talk-to-your-data-takeaway-heading",
+                  "level": 2,
+                  "text": "Step 4: Takeaway",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-talk-to-your-data-takeaway-text",
+                  "text": "Copy this prompt and paste it into Ask Gemini.",
+                  "type": "paragraph"
+                },
+                {
+                  "id": "google-sheets-lesson-09-copy-prompt",
+                  "text": "Sort this sheet by [number column] from highest to lowest, highlight values over [threshold] in green, and filter to only show [category].",
+                  "title": "Ready-to-use prompt",
+                  "tone": "copy-prompt",
+                  "type": "callout"
+                }
+              ],
+              "id": "google-sheets-talk-to-your-data-takeaway",
+              "interactionPolicy": "read",
+              "order": 3,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-talk-to-your-data-page",
+              "type": "chunk"
+            }
+          ],
+          "slug": "talk-to-your-data-in-sheets",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai",
+          "sourceId": "google-sheets-talk-to-your-data",
+          "sourceUnitId": "google-sheet-with-ai-essentials",
+          "title": "Talk to Your Data in Sheets"
+        },
+        {
+          "blocks": [
+            {
+              "id": "google-sheets-ai-magic-in-sheets-cell-step-1-heading",
+              "level": 2,
+              "text": "Step 1: Type the AI function",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-ai-magic-in-sheets-cell-step-1-text",
+              "text": "Use =AI() in a cell to generate text from a prompt and another cell's value.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Type the AI function",
+              "id": "google-sheets-lesson-10-step-01-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-10-step-01.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-10-step-01.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-ai-magic-in-sheets-cell-step-2-heading",
+              "level": 2,
+              "text": "Step 2: Generate text at scale",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-ai-magic-in-sheets-cell-step-2-text",
+              "text": "Fill the formula down so Sheets generates copy, summaries, or labels across many rows.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Generate text at scale",
+              "id": "google-sheets-lesson-10-step-02-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-10-step-02.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-10-step-02.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-ai-magic-in-sheets-cell-step-3-heading",
+              "level": 2,
+              "text": "Step 3: Summarize or categorize data",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-ai-magic-in-sheets-cell-step-3-text",
+              "text": "Use =AI() to summarize long text, classify sentiment, assign categories, or standardize messy entries.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Summarize or categorize data",
+              "id": "google-sheets-lesson-10-step-03-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-10-step-03.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-10-step-03.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-ai-magic-in-sheets-cell-takeaway-heading",
+              "level": 2,
+              "text": "Step 4: Takeaway",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-ai-magic-in-sheets-cell-takeaway-text",
+              "text": "Copy this formula and adapt it to your sheet.",
+              "type": "paragraph"
+            },
+            {
+              "id": "google-sheets-lesson-10-copy-prompt",
+              "text": "=AI(\"Summarize this customer feedback in 10 words or less and classify sentiment as Positive, Negative, or Mixed.\", A2)",
+              "title": "Formula idea",
+              "tone": "copy-prompt",
+              "type": "callout"
+            }
+          ],
+          "hasAudio": false,
+          "order": 10,
+          "raw": {},
+          "readUrl": "/course/google-sheet-with-ai/lesson/ai-magic-in-a-sheets-cell",
+          "schemaVersion": 3,
+          "screens": [
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-ai-magic-in-sheets-cell-step-1-heading",
+                  "level": 2,
+                  "text": "Step 1: Type the AI function",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-ai-magic-in-sheets-cell-step-1-text",
+                  "text": "Use =AI() in a cell to generate text from a prompt and another cell's value.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Type the AI function",
+                  "id": "google-sheets-lesson-10-step-01-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-10-step-01.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-10-step-01.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-ai-magic-in-sheets-cell-step-1",
+              "interactionPolicy": "read",
+              "order": 0,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-ai-magic-in-sheets-cell-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-ai-magic-in-sheets-cell-step-2-heading",
+                  "level": 2,
+                  "text": "Step 2: Generate text at scale",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-ai-magic-in-sheets-cell-step-2-text",
+                  "text": "Fill the formula down so Sheets generates copy, summaries, or labels across many rows.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Generate text at scale",
+                  "id": "google-sheets-lesson-10-step-02-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-10-step-02.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-10-step-02.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-ai-magic-in-sheets-cell-step-2",
+              "interactionPolicy": "read",
+              "order": 1,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-ai-magic-in-sheets-cell-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-ai-magic-in-sheets-cell-step-3-heading",
+                  "level": 2,
+                  "text": "Step 3: Summarize or categorize data",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-ai-magic-in-sheets-cell-step-3-text",
+                  "text": "Use =AI() to summarize long text, classify sentiment, assign categories, or standardize messy entries.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Summarize or categorize data",
+                  "id": "google-sheets-lesson-10-step-03-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-10-step-03.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-10-step-03.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-ai-magic-in-sheets-cell-step-3",
+              "interactionPolicy": "read",
+              "order": 2,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-ai-magic-in-sheets-cell-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-ai-magic-in-sheets-cell-takeaway-heading",
+                  "level": 2,
+                  "text": "Step 4: Takeaway",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-ai-magic-in-sheets-cell-takeaway-text",
+                  "text": "Copy this formula and adapt it to your sheet.",
+                  "type": "paragraph"
+                },
+                {
+                  "id": "google-sheets-lesson-10-copy-prompt",
+                  "text": "=AI(\"Summarize this customer feedback in 10 words or less and classify sentiment as Positive, Negative, or Mixed.\", A2)",
+                  "title": "Formula idea",
+                  "tone": "copy-prompt",
+                  "type": "callout"
+                }
+              ],
+              "id": "google-sheets-ai-magic-in-sheets-cell-takeaway",
+              "interactionPolicy": "read",
+              "order": 3,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-ai-magic-in-sheets-cell-page",
+              "type": "chunk"
+            }
+          ],
+          "slug": "ai-magic-in-a-sheets-cell",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai",
+          "sourceId": "google-sheets-ai-magic-in-sheets-cell",
+          "sourceUnitId": "google-sheet-with-ai-essentials",
+          "title": "AI Magic in a Sheets Cell"
+        },
+        {
+          "blocks": [
+            {
+              "id": "google-sheets-notes-to-sheets-step-1-heading",
+              "level": 2,
+              "text": "Step 1: Reference source notes",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-notes-to-sheets-step-1-text",
+              "text": "Choose a Google Drive file with meeting notes, project details, tasks, or budget information.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Reference source notes",
+              "id": "google-sheets-lesson-11-step-01-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-11-step-01.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-11-step-01.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-notes-to-sheets-step-2-heading",
+              "level": 2,
+              "text": "Step 2: Prompt for an organized tracker",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-notes-to-sheets-step-2-text",
+              "text": "In Gemini, reference the source file with @ and ask it to create a tracker or table.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Prompt for an organized tracker",
+              "id": "google-sheets-lesson-11-step-02-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-11-step-02.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-11-step-02.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-notes-to-sheets-step-3-heading",
+              "level": 2,
+              "text": "Step 3: Review the generated tracker",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-notes-to-sheets-step-3-text",
+              "text": "Check the generated columns, colors, categories, and action items before using the tracker.",
+              "type": "paragraph"
+            },
+            {
+              "alt": "Review the generated tracker",
+              "id": "google-sheets-lesson-11-step-03-image",
+              "localSrc": "/images/courses/google-sheet-with-ai/lesson-11-step-03.avif",
+              "src": "/images/courses/google-sheet-with-ai/lesson-11-step-03.avif",
+              "type": "image"
+            },
+            {
+              "id": "google-sheets-notes-to-sheets-takeaway-heading",
+              "level": 2,
+              "text": "Step 4: Takeaway",
+              "type": "heading"
+            },
+            {
+              "id": "google-sheets-notes-to-sheets-takeaway-text",
+              "text": "Copy this prompt and paste it into Ask Gemini.",
+              "type": "paragraph"
+            },
+            {
+              "id": "google-sheets-lesson-11-copy-prompt",
+              "text": "Create a project tracker using the tasks in @ [file name]. Include Owner, Task, Priority, Due Date, Status, Budget Impact, and Next Step.",
+              "title": "Ready-to-use prompt",
+              "tone": "copy-prompt",
+              "type": "callout"
+            }
+          ],
+          "hasAudio": false,
+          "order": 11,
+          "raw": {},
+          "readUrl": "/course/google-sheet-with-ai/lesson/notes-to-sheets-with-gemini",
+          "schemaVersion": 3,
+          "screens": [
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-notes-to-sheets-step-1-heading",
+                  "level": 2,
+                  "text": "Step 1: Reference source notes",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-notes-to-sheets-step-1-text",
+                  "text": "Choose a Google Drive file with meeting notes, project details, tasks, or budget information.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Reference source notes",
+                  "id": "google-sheets-lesson-11-step-01-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-11-step-01.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-11-step-01.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-notes-to-sheets-step-1",
+              "interactionPolicy": "read",
+              "order": 0,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-notes-to-sheets-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-notes-to-sheets-step-2-heading",
+                  "level": 2,
+                  "text": "Step 2: Prompt for an organized tracker",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-notes-to-sheets-step-2-text",
+                  "text": "In Gemini, reference the source file with @ and ask it to create a tracker or table.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Prompt for an organized tracker",
+                  "id": "google-sheets-lesson-11-step-02-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-11-step-02.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-11-step-02.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-notes-to-sheets-step-2",
+              "interactionPolicy": "read",
+              "order": 1,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-notes-to-sheets-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-notes-to-sheets-step-3-heading",
+                  "level": 2,
+                  "text": "Step 3: Review the generated tracker",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-notes-to-sheets-step-3-text",
+                  "text": "Check the generated columns, colors, categories, and action items before using the tracker.",
+                  "type": "paragraph"
+                },
+                {
+                  "alt": "Review the generated tracker",
+                  "id": "google-sheets-lesson-11-step-03-image",
+                  "localSrc": "/images/courses/google-sheet-with-ai/lesson-11-step-03.avif",
+                  "src": "/images/courses/google-sheet-with-ai/lesson-11-step-03.avif",
+                  "type": "image"
+                }
+              ],
+              "id": "google-sheets-notes-to-sheets-step-3",
+              "interactionPolicy": "read",
+              "order": 2,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-notes-to-sheets-page",
+              "type": "chunk"
+            },
+            {
+              "blocks": [
+                {
+                  "id": "google-sheets-notes-to-sheets-takeaway-heading",
+                  "level": 2,
+                  "text": "Step 4: Takeaway",
+                  "type": "heading"
+                },
+                {
+                  "id": "google-sheets-notes-to-sheets-takeaway-text",
+                  "text": "Copy this prompt and paste it into Ask Gemini.",
+                  "type": "paragraph"
+                },
+                {
+                  "id": "google-sheets-lesson-11-copy-prompt",
+                  "text": "Create a project tracker using the tasks in @ [file name]. Include Owner, Task, Priority, Due Date, Status, Budget Impact, and Next Step.",
+                  "title": "Ready-to-use prompt",
+                  "tone": "copy-prompt",
+                  "type": "callout"
+                }
+              ],
+              "id": "google-sheets-notes-to-sheets-takeaway",
+              "interactionPolicy": "read",
+              "order": 3,
+              "presentation": "content",
+              "sourcePageId": "google-sheets-notes-to-sheets-page",
+              "type": "chunk"
+            }
+          ],
+          "slug": "notes-to-sheets-with-gemini",
+          "sourceGuideId": "coursiv-original-google-sheet-with-ai",
+          "sourceId": "google-sheets-notes-to-sheets",
+          "sourceUnitId": "google-sheet-with-ai-essentials",
+          "title": "Notes to Sheets with Gemini"
+        }
+      ],
+      "order": 1,
+      "sourceId": "google-sheet-with-ai-essentials",
+      "title": "Google Sheets Essentials"
+    }
+  ]
+}

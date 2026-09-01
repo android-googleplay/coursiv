@@ -27,6 +27,7 @@ export type CoursivContentBlock =
   | { id: string; type: "survey"; question: string; options: { id: string; label: string }[] }
   | { id: string; type: "practice"; title: string; prompt?: string; practiceId?: string; practiceType?: string; rawContent?: unknown }
   | { id: string; type: "feedback"; title?: string; text: string; correct?: boolean }
+  | { id: string; type: "legal-reference"; title: string; items: { citationZh: string; citationEn: string; textZh: string; textEn: string; sourceUrl: string; verifiedAt: string }[] }
   | { id: string; type: "unknown"; sourceType: string; text?: string; raw: unknown };
 
 export type CoursivLessonScreen = {
@@ -52,6 +53,8 @@ export type CoursivLesson = {
   order: number;
   readUrl: string;
   hasAudio: boolean;
+  experience?: "lesson" | "practice" | "mock";
+  optional?: boolean;
   audioSource?: string;
   screens: CoursivLessonScreen[];
   /** Schema v1 compatibility. New code must use screens. */
@@ -82,7 +85,8 @@ export type CoursivCatalogEntry = {
   image?: string;
   duration: string;
   categories: string[];
-  sections: { title?: string; sourceId: string; lessons: { id: string; sourceId: string; title: string; screenIds: string[]; hasAudio: boolean }[] }[];
+  sourceUpdatedAt?: string;
+  sections: { title?: string; sourceId: string; lessons: { id: string; sourceId: string; title: string; screenIds: string[]; hasAudio: boolean; optional?: boolean }[] }[];
 };
 
 type JsonRecord = Record<string, unknown>;

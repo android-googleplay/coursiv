@@ -1,0 +1,3117 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-08-11",
+  "sourcePolicy": "Current official law prevails over OCR and printed answer keys.",
+  "questions": {
+    "bl-01-01": {
+      "explanationZh": "答案係 D。《基本法》第 7 條訂明，土地同自然資源所得收入全歸香港特區政府支配，即係唔需要上繳中央。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-7"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-02": {
+      "explanationZh": "答案係 B。《基本法》第 10 條訂明，香港特區區旗係「五星花蕊的紫荊花紅旗」；花種同顏色都要同條文完全一致。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-10"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-03": {
+      "explanationZh": "答案係 B。《全國人民代表大會議事規則》唔喺《基本法》附件三嘅全國性法律名單內；A、C、D 都屬名單內法律，所以 B 先係題目問嘅「並不是」嗰項。",
+      "trapZh": "題目問排除項；要揀出唔屬於附件三現行全國性法律名單嘅「《全國人民代表大會議事規則》」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-annex-3"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/national-laws.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-04": {
+      "explanationZh": "答案係 C。依據《基本法》第 23 條，「危及國家安全」唔屬於條文列明嘅犯罪或禁止行為；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅犯罪或禁止行為嘅「危及國家安全」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-23"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-05": {
+      "explanationZh": "答案係 C。依據《基本法》第 35 條，「選擇律師及時保護自己的違法行為」唔屬於條文保障嘅權利或自由；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文保障嘅權利或自由嘅「選擇律師及時保護自己的違法行為」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-35"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-06": {
+      "explanationZh": "答案係 D。《基本法》第 40 條明確訂明：「“新界”原居民的合法傳統權益受香港特別行政區的保護」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-40"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-07": {
+      "explanationZh": "答案係 B。《基本法》第 45 條明確訂明：「香港特別行政區行政長官在當地通過選舉或協商產生，由中央人民政府任命」。",
+      "trapZh": "唔好交換權力主體；條文指定嘅係「中央人民政府」。",
+      "trapType": "authority",
+      "referenceIds": [
+        "basic-law-article-45"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-08": {
+      "explanationZh": "答案係 D。依據《基本法》第 48 條，「委任三分之一的立法會議員」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「委任三分之一的立法會議員」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-48"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-09": {
+      "explanationZh": "答案係 B。《基本法》第 49 條明確訂明：「香港特別行政區行政長官如認為立法會通過的法案不符合香港特別行政區的整體利益，可在三個月內將法案發回立法會重議，立法會如以不少於全體議員三分之二多數再次通過原案，行政長官必須在一個月內簽署公布或按本法第五十條的規定處理」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-49"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-10": {
+      "explanationZh": "答案係 C。《基本法》第 63 條明確訂明：「香港特別行政區律政司主管刑事檢察工作，不受任何干涉」。",
+      "trapZh": "唔好交換權力主體；條文指定嘅係「律政司」。",
+      "trapType": "authority",
+      "referenceIds": [
+        "basic-law-article-63"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-11": {
+      "explanationZh": "答案係 C。《基本法》第 75 條明確訂明：「香港特別行政區立法會舉行會議的法定人數為不少於全體議員的二分之一」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-75"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-12": {
+      "explanationZh": "答案係 D。依據《基本法》第 101 條，「申訴專員」唔屬於必須符合有關國籍及居留資格限制嘅職位；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於必須符合有關國籍及居留資格限制嘅職位嘅「申訴專員」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-101"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-13": {
+      "explanationZh": "答案係 D。《基本法》第 125 條明確訂明：「香港特別行政區經中央人民政府授權繼續進行船舶登記，並根據香港特別行政區的法律以\" 中國香港\" 的名義頒發有關證件」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-125"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-14": {
+      "explanationZh": "答案係 D。依據《基本法》第 151 條，「環保」唔屬於題目所問嘅法定範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於題目所問嘅法定範圍嘅「環保」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-151"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-01-15": {
+      "explanationZh": "答案係 B。《基本法》第 153 條明確訂明：「中華人民共和國締結的國際協議，中央人民政府可根據香港特別行政區的情況和需要，在徵詢香港特別行政區政府的意見後，決定是否適用於香港特別行政區」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-153"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-01": {
+      "explanationZh": "答案係 C。《基本法》第 7 條明確訂明：「香港特別行政區境內的土地和自然資源屬於國家所有，由香港特別行政區政府負責管理、使用、開發、出租或批給個人、法人或團體使用或開發，其收入全歸香港特別行政區政府支配」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-7"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-02": {
+      "explanationZh": "答案係 A。《基本法》第 8 條明確訂明：「香港原有法律，即普通法、衡平法、條例、附屬立法和習慣法，除同本法相抵觸或經香港特別行政區的立法機關作出修改者外，予以保留」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-8"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-03": {
+      "explanationZh": "答案係 B。《基本法》第 148 條明確訂明：「香港特別行政區的教育、科學、技術、文化、藝術、體育、專業、醫療衞生、勞工、社會福利、社會工作等方面的民間團體和宗教組織同內地相應的團體和組織的關係，應以互不隸屬、互不干涉和互相尊重的原則為基礎」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-148"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter7.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-04": {
+      "explanationZh": "此題停用。《基本法》第 14 條訂明駐軍人員須同時遵守全國性法律同香港特區法律，但 C、D 只係調轉次序，法律意思相同，無法構成唯一答案。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-14"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "retired"
+    },
+    "bl-02-05": {
+      "explanationZh": "答案係 D。《基本法》第 22 條明確訂明：「中央各部門、各省、自治區、直轄市如需在香港特別行政區設立機構，須徵得香港特別行政區政府同意並經中央人民政府批准」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-22"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-06": {
+      "explanationZh": "答案係 B。《基本法》第 26 條明確訂明：「香港特別行政區永久性居民依法享有選舉權和被選舉權」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-26"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-07": {
+      "explanationZh": "答案係 C。《基本法》第 41 條明確訂明：「在香港特別行政區境內的香港居民以外的其他人，依法享有本章規定的香港居民的權利和自由」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-41"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-08": {
+      "explanationZh": "答案係 A。《基本法》第 43 條訂明，行政長官係香港特區嘅首長，亦代表香港特區；兩個空格都係「香港特別行政區」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-43"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-09": {
+      "explanationZh": "答案係 B。《基本法》第 103 條明確訂明：「公務人員應根據其本人的資格、經驗和才能予以任用和提升，香港原有關於公務人員的招聘、僱用、考核、紀律、培訓和管理的制度，包括負責公務人員的任用、薪金、服務條件的專門機構，除有關給予外籍人員特權待遇的規定外，予以保留」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-103"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-10": {
+      "explanationZh": "答案係 B。《基本法》第 105 條明確訂明：「香港特別行政區依法保護私人和法人財產的取得、使用、處置和繼承的權利，以及依法徵用私人和法人財產時被徵用財產的所有人得到補償的權利」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-105"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-11": {
+      "explanationZh": "答案係 C。《基本法》第 134 條明確訂明：「對在香港特別行政區註冊並以香港為主要營業地的航空公司簽發執照」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-134"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-12": {
+      "explanationZh": "答案係 C。《基本法》第 137 條明確訂明：「各類院校均可保留其自主性並享有學術自由，可繼續從香港特別行政區以外招聘教職員和選用教材」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-137"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter7.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-13": {
+      "explanationZh": "答案係 B。《基本法》第 13 條明確訂明：「中華人民共和國外交部在香港設立機構處理外交事務」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-13"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-14": {
+      "explanationZh": "答案係 B。《基本法》第 157 條明確訂明：「外國在香港特別行政區設立領事機構或其他官方、半官方機構，須經中央人民政府批准」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-157"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-02-15": {
+      "explanationZh": "呢題已停用。題目採用已被修改的舊版《基本法》附件二分組點票安排，唔適合作為現行法例題目。為免學生背咗過時或含糊答案，課堂、題庫同模擬試都唔會再抽取呢題。",
+      "trapZh": null,
+      "trapType": "numbers",
+      "referenceIds": [
+        "basic-law-annex-2"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/annex2.html",
+      "verificationStatus": "retired"
+    },
+    "bl-03-01": {
+      "explanationZh": "答案係 D。《基本法》第 5 條明確訂明：「香港特別行政區不實行社會主義制度和政策，保持原有的資本主義制度和生活方式，五十年不變」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-5"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-02": {
+      "explanationZh": "答案係 C。《基本法》第 85 條明確訂明：「香港特別行政區法院獨立進行審判，不受任何干涉，司法人員履行審判職責的行為不受法律追究」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-85"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-03": {
+      "explanationZh": "答案係 B。《基本法》第 87 條明確訂明：「香港特別行政區的刑事訴訟和民事訴訟中保留原在香港適用的原則和當事人享有的權利」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-87"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-04": {
+      "explanationZh": "答案係 A。《基本法》第 118 條明確訂明：「香港特別行政區政府提供經濟和法律環境，鼓勵各項投資、技術進步並開發新興產業」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-118"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-05": {
+      "explanationZh": "答案係 D。《基本法》第 120 條明確訂明：「香港特別行政區成立以前已批出、決定、或續期的超越一九九七年六月三十日年期的所有土地契約和與土地契約有關的一切權利，均按香港特別行政區的法律繼續予以承認和保護」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-120"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-06": {
+      "explanationZh": "答案係 C。《基本法》第 134 條明確訂明：「對外國航空公司除往返、經停中國內地的航班以外的其他航班簽發許可證」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-134"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-07": {
+      "explanationZh": "答案係 B。《基本法》第 8 條明確訂明：「香港原有法律，即普通法、衡平法、條例、附屬立法和習慣法，除同本法相抵觸或經香港特別行政區的立法機關作出修改者外，予以保留」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-8"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-08": {
+      "article": 15,
+      "explanationZh": "答案係 D。《基本法》第 15 條明確訂明：「中央人民政府依照本法第四章的規定任命香港特別行政區行政長官和行政機關的主要官員」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-15"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-09": {
+      "explanationZh": "答案係 C。《基本法》第 20 條明確訂明：「香港特別行政區可享有全國人民代表大會和全國人民代表大會常務委員會及中央人民政府授予的其他權力」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-20"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-10": {
+      "explanationZh": "答案係 B。《基本法》第 26 條明確訂明：「香港特別行政區永久性居民依法享有選舉權和被選舉權」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-26"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-11": {
+      "explanationZh": "答案係 B。《基本法》第 44 條要求行政長官年滿四十周歲，並喺香港通常居住連續滿二十年；兩個數字分別係四十同二十。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-44"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-12": {
+      "explanationZh": "答案係 D。《基本法》第 76 條明確訂明：「香港特別行政區立法會通過的法案，須經行政長官簽署、公布，方能生效」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-76"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-13": {
+      "explanationZh": "答案係 A。《基本法》第 79 條明確訂明：「香港特別行政區立法會議員如有下列情況之一，由立法會主席宣告其喪失立法會議員的資格： • 因嚴重疾病或其他情況無力履行職務」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-79"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-14": {
+      "explanationZh": "答案係 B。《基本法》第 153 條明確訂明：「中華人民共和國締結的國際協議，中央人民政府可根據香港特別行政區的情況和需要，在徵詢香港特別行政區政府的意見後，決定是否適用於香港特別行政區」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-153"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-03-15": {
+      "explanationZh": "答案係 A。《基本法》第 158 條明確訂明：「但在此以前作出的判決不受影響」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-158"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter9.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-01": {
+      "explanationZh": "答案係 B。《基本法》第 8 條明確訂明：「香港原有法律，即普通法、衡平法、條例、附屬立法和習慣法，除同本法相抵觸或經香港特別行政區的立法機關作出修改者外，予以保留」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-8"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-02": {
+      "explanationZh": "答案係 C。《基本法》第 10 條訂明，區徽中央係五星花蕊嘅紫荊花，外圍寫有「中華人民共和國香港特別行政區」同英文「香港」；只有 C 完整保留呢個式樣。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-10"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-03": {
+      "explanationZh": "答案係 B。《基本法》第 17 條明確訂明：「全國人民代表大會常務委員會在徵詢其所屬的香港特別行政區基本法委員會後，如認為香港特別行政區立法機關制定的任何法律不符合本法關於中央管理的事務及中央和香港特別行政區的關係的條款，可將有關法律發回，但不作修改」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-17"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-04": {
+      "explanationZh": "答案係 C。《基本法》第 19 條明確訂明：「香港特別行政區法院在審理案件中遇有涉及國防、外交等國家行為的事實問題，應取得行政長官就該等問題發出的證明文件，上述文件對法院有約束力」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-19"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-05": {
+      "explanationZh": "答案係 D。《基本法》第 24 條明確訂明：「香港特別行政區非永久性居民為：有資格依照香港特別行政區法律取得香港居民身份證，但沒有居留權的人」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-24"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-06": {
+      "explanationZh": "答案係 C。《基本法》第 26 條明確訂明：「香港特別行政區永久性居民依法享有選舉權和被選舉權」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-26"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-07": {
+      "explanationZh": "答案係 A。依據《基本法》第 48 條，「聘任主要官員」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「聘任主要官員」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-48"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-08": {
+      "explanationZh": "答案係 B。《基本法》第 49 條明確訂明：「香港特別行政區行政長官如認為立法會通過的法案不符合香港特別行政區的整體利益，可在三個月內將法案發回立法會重議，立法會如以不少於全體議員三分之二多數再次通過原案，行政長官必須在一個月內簽署公布或按本法第五十條的規定處理」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-49"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-09": {
+      "article": 60,
+      "explanationZh": "答案係 D。依據《基本法》第 60 條，「布政司」唔屬於條文指定嘅職位或資格範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文指定嘅職位或資格範圍嘅「布政司」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-60"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-10": {
+      "explanationZh": "答案係 C。依據《基本法》第 72 條，「審核財政預算」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「審核財政預算」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-72"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-11": {
+      "explanationZh": "答案係 A。《基本法》第 89 條明確訂明：「香港特別行政區法院的法官只有在無力履行職責或行為不檢的情況下，行政長官才可根據終審法院首席法官任命的不少於三名當地法官組成的審議庭的建議，予以免職」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-89"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-12": {
+      "explanationZh": "答案係 C。《基本法》第 113 條明確訂明：「香港特別行政區的外匯基金，由香港特別行政區政府管理和支配，主要用於調節港元匯價」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-113"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-13": {
+      "explanationZh": "答案係 D。《基本法》第 116 條明確訂明：「香港特別行政區可以 \"中國香港\" 的名義參加《關稅和貿易總協定》、關於國際紡織品貿易安排等有關國際組織和國際貿易協定，包括優惠貿易安排」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-116"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-14": {
+      "explanationZh": "答案係 B。《基本法》第 150 條明確訂明：「香港特別行政區政府的代表，可作為中華人民共和國政府代表團的成員，參加由中央人民政府進行的同香港特別行政區直接有關的外交談判」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-150"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-04-15": {
+      "explanationZh": "答案係 C。《基本法》第 159 條明確訂明：「本法的任何修改，均不得同中華人民共和國對香港既定的基本方針政策相抵觸」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-159"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter9.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-01": {
+      "explanationZh": "答案係 B。《基本法》序言明確訂明：「根據中華人民共和國憲法，全國人民代表大會特制定中華人民共和國香港特別行政區基本法，規定香港特別行政區實行的制度，以保障國家對香港的基本方針政策的實施」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-preamble"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/preamble.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-02": {
+      "explanationZh": "答案係 D。《基本法》第 14 條明確訂明：「香港特別行政區政府在必要時，可向中央人民政府請求駐軍協助維持社會治安和救助災害」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-14"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-03": {
+      "explanationZh": "答案係 D。《基本法》第 22 條明確訂明：「中國其他地區的人進入香港特別行政區須辦理批准手續，其中進入香港特別行政區定居的人數由中央人民政府主管部門徵求香港特別行政區政府的意見後確定」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-22"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-04": {
+      "explanationZh": "答案係 C。《基本法》第 23 條明確訂明：「香港特別行政區應自行立法禁止任何叛國、分裂國家、煽動叛亂、顛覆中央人民政府及竊取國家機密的行為，禁止外國的政治性組織或團體在香港特別行政區進行政治活動，禁止香港特別行政區的政治性組織或團體與外國的政治性組織或團體建立聯繫」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-23"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-05": {
+      "explanationZh": "答案係 B。《基本法》第 35 條明確訂明：「香港居民有權得到秘密法律諮詢、向法院提起訴訟、選擇律師及時保護自己的合法權益或在法庭上為其代理和獲得司法補救」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-35"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-06": {
+      "explanationZh": "答案係 C。《基本法》第 37 條明確訂明：「香港居民的婚姻自由和自願生育的權利受法律保護」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-37"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-07": {
+      "explanationZh": "答案係 C。《基本法》第 44 條明確訂明：「香港特別行政區行政長官由年滿四十周歲，在香港通常居住連續滿二十年並在外國無居留權的香港特別行政區永久性居民中的中國公民擔任」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-44"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-08": {
+      "explanationZh": "答案係 B。依據《基本法》第 48 條，「處理請願、申訴事項」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「處理請願、申訴事項」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-48"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-09": {
+      "article": 53,
+      "correctOptionId": "C",
+      "questionZh": "根據《基本法》第五十三條，行政長官缺位時，應在幾多個月內依照第四十五條產生新任行政長官？",
+      "questionEn": "Under Basic Law Article 53, within how many months must a new Chief Executive be selected in accordance with Article 45 when the office becomes vacant?",
+      "explanationZh": "答案係 C。《基本法》第 53 條訂明，行政長官缺位時要喺六個月內依照第 45 條產生新任行政長官。原答案「七個月」同現行條文不符，所以改正為 C。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-53"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-10": {
+      "explanationZh": "答案係 D。依據《基本法》第 73 條，「向行政長官建議免除終審法院法官和高等法院首席法官的任免」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「向行政長官建議免除終審法院法官和高等法院首席法官的任免」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-73"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-11": {
+      "explanationZh": "答案係 C。《基本法》第 86 條明確訂明：「原在香港實行的陪審制度的原則予以保留」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-86"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-12": {
+      "explanationZh": "答案係 D。《基本法》第 105 條明確訂明：「徵用財產的補償應相當於該財產當時的實際價值，可自由兌換，不得無故遲延支付」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-105"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-13": {
+      "explanationZh": "答案係 A。《基本法》第 119 條明確訂明：「香港特別行政區政府制定適當政策，促進和協調製造業、商業、旅遊業、房地產業、運輸業、公用事業、服務性行業、漁農業等各行業的發展，並注意環境保護」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-119"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-14": {
+      "explanationZh": "答案係 D。依據《基本法》第 157 條，「尚未為中華人民共和國承認的國家，只能在香港特別行政區設立民間組織或團體」唔屬於符合條文原意嘅陳述；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於符合條文原意嘅陳述嘅「尚未為中華人民共和國承認的國家，只能在香港特別行政區設立民間組織或團體」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-157"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-05-15": {
+      "explanationZh": "答案係 A。《基本法》第 158 條明確訂明：「但在此以前作出的判決不受影響」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-158"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter9.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-01": {
+      "explanationZh": "答案係 C。《基本法》第 41 條保障身處香港境內、但並非香港居民嘅其他人，依法享有本章所列嘅權利同自由。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-41"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-02": {
+      "explanationZh": "答案係 C。《基本法》第 17 條明確訂明：「全國人民代表大會常務委員會在徵詢其所屬的香港特別行政區基本法委員會後，如認為香港特別行政區立法機關制定的任何法律不符合本法關於中央管理的事務及中央和香港特別行政區的關係的條款，可將有關法律發回，但不作修改」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-17"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-03": {
+      "explanationZh": "答案係 B。《基本法》第 18 條明確訂明：「全國人民代表大會常務委員會決定宣布戰爭狀態或因香港特別行政區內發生香港特別行政區政府不能控制的危及國家統一或安全的動亂而決定香港特別行政區進入緊急狀態，中央人民政府可發布命令將有關全國性法律在香港特別行政區實施」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-18"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-04": {
+      "explanationZh": "答案係 B。《基本法》第 23 條明確訂明：「香港特別行政區應自行立法禁止任何叛國、分裂國家、煽動叛亂、顛覆中央人民政府及竊取國家機密的行為，禁止外國的政治性組織或團體在香港特別行政區進行政治活動，禁止香港特別行政區的政治性組織或團體與外國的政治性組織或團體建立聯繫」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-23"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-05": {
+      "explanationZh": "答案係 C。《基本法》第 24 條明確訂明：「香港特別行政區居民，簡稱香港居民，包括永久性居民和非永久性居民」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-24"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-06": {
+      "explanationZh": "答案係 A。依據《基本法》第 30 條，「退休保障計劃」唔屬於條文保障嘅權利或自由；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文保障嘅權利或自由嘅「退休保障計劃」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-30"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-07": {
+      "explanationZh": "答案係 C。《基本法》第 45 條明確訂明：「行政長官的產生辦法根據香港特別行政區的實際情況和循序漸進的原則而規定，最終達至由一個有廣泛代表性的提名委員會按民主程序提名後普選產生的目標」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-45"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-08": {
+      "explanationZh": "答案係 D。《基本法》第 56 條明確訂明：「行政長官在作出重要決策、向立法會提交法案、制定附屬法規和解散立法會前，須徵詢行政會議的意見，但人事任免、紀律制裁和緊急情況下採取的措施除外」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-56"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-09": {
+      "correctOptionId": "C",
+      "explanationZh": "答案係 C。《基本法》第 89 條只容許喺終審法院首席法官無力履行職責或行為不檢時啟動免職程序。行政長官唔可以單靠一般行政程序將首席法官免職。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-89"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-10": {
+      "explanationZh": "答案係 D。依據《基本法》第 97 條，「勞工運輸」唔屬於題目所問嘅法定範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於題目所問嘅法定範圍嘅「勞工運輸」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-97"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-11": {
+      "explanationZh": "答案係 D。《基本法》第 113 條明確訂明：「香港特別行政區的外匯基金，由香港特別行政區政府管理和支配，主要用於調節港元匯價」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-113"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-12": {
+      "explanationZh": "答案係 D。《基本法》第 126 條明確訂明：「除外國軍用船隻進入香港特別行政區須經中央人民政府特別許可外，其他船舶可根據香港特別行政區法律進出其港口」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-126"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-13": {
+      "explanationZh": "答案係 D。《基本法》第 158 條明確寫明，全國人大常委會授權香港法院喺審理案件時自行解釋自治範圍內嘅條款；權力來源係全國人大常委會嘅授權。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-158"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter9.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-14": {
+      "explanationZh": "答案係 C。《基本法》第 157 條明確訂明：「外國在香港特別行政區設立領事機構或其他官方、半官方機構，須經中央人民政府批准」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-157"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-06-15": {
+      "explanationZh": "答案係 C。依據《基本法》第 149 條，「環保項目」唔屬於題目所問嘅法定範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於題目所問嘅法定範圍嘅「環保項目」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-149"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter7.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-01": {
+      "explanationZh": "答案係 C。《基本法》序言明確訂明：「根據中華人民共和國憲法，全國人民代表大會特制定中華人民共和國香港特別行政區基本法，規定香港特別行政區實行的制度，以保障國家對香港的基本方針政策的實施」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-preamble"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/preamble.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-02": {
+      "explanationZh": "答案係 C。《基本法》第 3 條明確訂明：「香港特別行政區的行政機關和立法機關由香港永久性居民依照本法有關規定組成」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-3"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-03": {
+      "explanationZh": "答案係 D。《基本法》附件三喺呢個位置採用嘅內容係「香港特別行政區基本法委員會和香港特別行政區政府的意見」；放返入題幹後，法律關係先完整同準確。其他選項會改變指定嘅權力主體。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-annex-3"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/national-laws.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-04": {
+      "explanationZh": "答案係 C。《基本法》第 24 條明確訂明：「香港特別行政區居民，簡稱香港居民，包括永久性居民和非永久性居民」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-24"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-05": {
+      "explanationZh": "答案係 D。依據《基本法》第 31 條，「離開香港特別行政區，需要獲得批准」唔屬於條文保障嘅權利或自由；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文保障嘅權利或自由嘅「離開香港特別行政區，需要獲得批准」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-31"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-06": {
+      "explanationZh": "答案係 D。依據《基本法》第 48 條，「處理防務及外交事務」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「處理防務及外交事務」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-48"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-07": {
+      "explanationZh": "答案係 D。依據《基本法》第 64 條，「徵税和公共開支須無需經立法會批准 8.1」唔屬於題目所問嘅法定範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於題目所問嘅法定範圍嘅「徵税和公共開支須無需經立法會批准 8.1」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-64"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-08": {
+      "explanationZh": "答案係 B。《基本法》第 67 條明確訂明：「但非中國籍的香港特別行政區永久性居民和在外國有居留權的香港特別行政區永久性居民也可以當選為香港特別行政區立法會議員，其所佔比例不得超過立法會全體議員的百分之二十」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-67"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-09": {
+      "explanationZh": "答案係 D。依據《基本法》第 72 條，「制定政府政策及發出行政命令」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「制定政府政策及發出行政命令」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-72"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-10": {
+      "explanationZh": "答案係 C。《基本法》第 89 條明確訂明：「香港特別行政區法院的法官只有在無力履行職責或行為不檢的情況下，行政長官才可根據終審法院首席法官任命的不少於三名當地法官組成的審議庭的建議，予以免職」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-89"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-11": {
+      "explanationZh": "答案係 B。《基本法》第 105 條訂明，徵用財產嘅補償要按實際價值計算、可以自由兌換，而且不得無故遲延支付；B 直接符合最後一項保障。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-105"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-12": {
+      "explanationZh": "答案係 C。依據《基本法》第 151 條，「民生」唔屬於題目所問嘅法定範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於題目所問嘅法定範圍嘅「民生」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-151"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-13": {
+      "explanationZh": "答案係 B。《基本法》第 153 條明確訂明：「中華人民共和國締結的國際協議，中央人民政府可根據香港特別行政區的情況和需要，在徵詢香港特別行政區政府的意見後，決定是否適用於香港特別行政區」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-153"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-14": {
+      "explanationZh": "答案係 A。《基本法》第 158 條明確訂明：「但在此以前作出的判決不受影響」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-158"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter9.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-07-15": {
+      "explanationZh": "答案係 D。《基本法》附件一明確訂明：「第五界別是香港特別行政區全國人大代表、香港特別行政區全國政協委員和有關全國性團體香港成員的代表界」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-annex-1"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/annex1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-01": {
+      "explanationZh": "答案係 D。《基本法》第 7 條訂明，土地同自然資源所得收入全歸香港特區政府支配，並冇售地收益要上繳中央嘅例外。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-7"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-02": {
+      "explanationZh": "答案係 A。《基本法》第 10 條明確訂明：「香港特別行政區的區旗是五星花蕊的紫荊花紅旗」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-10"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-03": {
+      "explanationZh": "答案係 B。依據《基本法》附件三，「《中華人民共和國國家憲法》」唔屬於附件三現行全國性法律名單；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於附件三現行全國性法律名單嘅「《中華人民共和國國家憲法》」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-annex-3"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/national-laws.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-04": {
+      "explanationZh": "答案係 C。依據《基本法》第 23 條，「危及國家安全」唔屬於題目所問嘅法定範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於題目所問嘅法定範圍嘅「危及國家安全」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-23"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-05": {
+      "explanationZh": "答案係 C。依據《基本法》第 35 條，「選擇律師保護自己的違法行為」唔屬於條文保障嘅權利或自由；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文保障嘅權利或自由嘅「選擇律師保護自己的違法行為」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-35"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-06": {
+      "explanationZh": "答案係 D。《基本法》第 40 條保障嘅係新界原居民嘅「合法傳統權益」；題目並唔係問由邊一條其他法例提供保障。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-40"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-07": {
+      "explanationZh": "答案係 B。《基本法》第 45 條明確訂明：「香港特別行政區行政長官在當地通過選舉或協商產生，由中央人民政府任命」。",
+      "trapZh": "唔好交換權力主體；條文指定嘅係「中央人民政府」。",
+      "trapType": "authority",
+      "referenceIds": [
+        "basic-law-article-45"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-08": {
+      "explanationZh": "答案係 D。依據《基本法》第 48 條，「聘請主要官員」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「聘請主要官員」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-48"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-09": {
+      "explanationZh": "答案係 C。《基本法》第 49 條明確訂明：「香港特別行政區行政長官如認為立法會通過的法案不符合香港特別行政區的整體利益，可在三個月內將法案發回立法會重議，立法會如以不少於全體議員三分之二多數再次通過原案，行政長官必須在一個月內簽署公布或按本法第五十條的規定處理」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-49"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-10": {
+      "explanationZh": "答案係 D。依據《基本法》第 101 條，「申訴專員」唔屬於必須符合有關國籍及居留資格限制嘅職位；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於必須符合有關國籍及居留資格限制嘅職位嘅「申訴專員」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-101"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-11": {
+      "explanationZh": "答案係 A。《基本法》第 63 條明確訂明：「香港特別行政區律政司主管刑事檢察工作，不受任何干涉」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-63"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-12": {
+      "explanationZh": "答案係 D。《基本法》第 75 條明確訂明：「香港特別行政區立法會舉行會議的法定人數為不少於全體議員的二分之一」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-75"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-13": {
+      "explanationZh": "答案係 D。《基本法》第 125 條明確訂明：「香港特別行政區經中央人民政府授權繼續進行船舶登記，並根據香港特別行政區的法律以\" 中國香港\" 的名義頒發有關證件」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-125"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-14": {
+      "explanationZh": "答案係 D。依據《基本法》第 151 條，「環保」唔屬於題目所問嘅法定範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於題目所問嘅法定範圍嘅「環保」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-151"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-08-15": {
+      "explanationZh": "答案係 B。題目列出嘅四項——領海聲明、外交特權與豁免條例、領事特權與豁免條例同國徽法——都載於《基本法》附件三嘅全國性法律名單；其他組合混入名單以外法律。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-annex-3"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/national-laws.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-01": {
+      "explanationZh": "答案係 A。《基本法》第 10 條明確訂明：「香港特別行政區的區徽，中間是五星花蕊的紫荊花，周圍寫有“中華人民共和國香港特別行政區”和英文“香港”」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-10"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-02": {
+      "explanationZh": "答案係 D。依據《基本法》第 8 條，「英國國會法」唔屬於題目所問嘅法定範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於題目所問嘅法定範圍嘅「英國國會法」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-8"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-03": {
+      "explanationZh": "答案係 B。《基本法》第 17 條明確訂明：「全國人民代表大會常務委員會在徵詢其所屬的香港特別行政區基本法委員會後，如認為香港特別行政區立法機關制定的任何法律不符合本法關於中央管理的事務及中央和香港特別行政區的關係的條款，可將有關法律發回，但不作修改」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-17"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-04": {
+      "explanationZh": "答案係 B。依據《基本法》第 19 條，「國防、外交等國家行為」唔屬於香港法院依法享有管轄權嘅案件範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於香港法院依法享有管轄權嘅案件範圍嘅「國防、外交等國家行為」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-19"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-05": {
+      "explanationZh": "答案係 B。《基本法》第 26 條明確訂明：「香港特別行政區永久性居民依法享有選舉權和被選舉權」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-26"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-06": {
+      "explanationZh": "答案係 D。《基本法》第 28 條明確訂明：「禁止對居民施行酷刑、任意或非法剝奪居民的生命」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-28"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-07": {
+      "explanationZh": "答案係 B。依據《基本法》第 48 條，「聘任主要官員」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「聘任主要官員」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-48"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-08": {
+      "explanationZh": "答案係 D。依據《基本法》第 60 條，「民政司」唔屬於題目所問嘅法定範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於題目所問嘅法定範圍嘅「民政司」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-60"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-09": {
+      "explanationZh": "答案係 B。依據《基本法》第 72 條，「決定立法會議的薪酬及福利」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「決定立法會議的薪酬及福利」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-72"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-10": {
+      "explanationZh": "答案係 D。《基本法》第 89 條明確訂明：「香港特別行政區法院的法官只有在無力履行職責或行為不檢的情況下，行政長官才可根據終審法院首席法官任命的不少於三名當地法官組成的審議庭的建議，予以免職」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-89"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-11": {
+      "explanationZh": "答案係 D。《基本法》第 104 條明確訂明：「#香港特別行政區行政長官、主要官員、行政會議成員、立法會議員、各級法院法官和其他司法人員在就職時必須依法宣誓擁護中華人民共和國香港特別行政區基本法，效忠中華人民共和國香港特別行政區」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-104"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-12": {
+      "explanationZh": "答案係 D。《基本法》第 113 條明確訂明：「香港特別行政區的外匯基金，由香港特別行政區政府管理和支配，主要用於調節港元匯價」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-113"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-13": {
+      "explanationZh": "答案係 D。《基本法》第 116 條明確訂明：「香港特別行政區可以 \"中國香港\" 的名義參加《關稅和貿易總協定》、關於國際紡織品貿易安排等有關國際組織和國際貿易協定，包括優惠貿易安排」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-116"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-14": {
+      "explanationZh": "答案係 B。《基本法》第 150 條明確訂明：「香港特別行政區政府的代表，可作為中華人民共和國政府代表團的成員，參加由中央人民政府進行的同香港特別行政區直接有關的外交談判」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-150"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-09-15": {
+      "explanationZh": "答案係 D。《基本法》附件三明確訂明：「在香港特別行政區實施的全國性法律包括：《關於中華人民共和國國都、紀年、國歌、國旗的決議》、《關於中華人民共和國國慶日的決議》、《中華…」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-annex-3"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/national-laws.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-01": {
+      "explanationZh": "答案係 C。《基本法》第 4 條明確訂明：「香港特別行政區依法保障香港特別行政區居民和其他人的權利和自由」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-4"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-02": {
+      "explanationZh": "答案係 B。《基本法》第 17 條明確訂明：「全國人民代表大會常務委員會在徵詢其所屬的香港特別行政區基本法委員會後，如認為香港特別行政區立法機關制定的任何法律不符合本法關於中央管理的事務及中央和香港特別行政區的關係的條款，可將有關法律發回，但不作修改」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-17"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-03": {
+      "explanationZh": "答案係 B。《基本法》第 18 條明確訂明：「全國人民代表大會常務委員會決定宣布戰爭狀態或因香港特別行政區內發生香港特別行政區政府不能控制的危及國家統一或安全的動亂而決定香港特別行政區進入緊急狀態，中央人民政府可發布命令將有關全國性法律在香港特別行政區實施」。",
+      "trapZh": "唔好交換權力主體；條文指定嘅係「中央人民政府」。",
+      "trapType": "authority",
+      "referenceIds": [
+        "basic-law-article-18"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-04": {
+      "explanationZh": "答案係 C。《基本法》第 23 條明確訂明：「香港特別行政區應自行立法禁止任何叛國、分裂國家、煽動叛亂、顛覆中央人民政府及竊取國家機密的行為，禁止外國的政治性組織或團體在香港特別行政區進行政治活動，禁止香港特別行政區的政治性組織或團體與外國的政治性組織或團體建立聯繫」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-23"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-05": {
+      "explanationZh": "答案係 C。《基本法》第 24 條明確訂明：「香港特別行政區居民，簡稱香港居民，包括永久性居民和非永久性居民」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-24"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-06": {
+      "explanationZh": "答案係 B。《基本法》第 30 條明確訂明：「除因公共安全和追查刑事犯罪的需要，由有關機關依照法律程序對通訊進行檢查外，任何部門或個人不得以任何理由侵犯居民的通訊自由和通訊秘密」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-30"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-07": {
+      "explanationZh": "答案係 C。《基本法》第 45 條明確訂明：「行政長官的產生辦法根據香港特別行政區的實際情況和循序漸進的原則而規定，最終達至由一個有廣泛代表性的提名委員會按民主程序提名後普選產生的目標」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-45"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-08": {
+      "explanationZh": "答案係 D。《基本法》第 56 條明確訂明：「行政長官在作出重要決策、向立法會提交法案、制定附屬法規和解散立法會前，須徵詢行政會議的意見，但人事任免、紀律制裁和緊急情況下採取的措施除外」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-56"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-09": {
+      "explanationZh": "答案係 C。《基本法》第 97 條明確訂明：「香港特別行政區可設立非政權性的區域組織，接受香港特別行政區政府就有關地區管理和其他事務的諮詢，或負責提供文化、康樂、環境衞生等服務」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-97"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-10": {
+      "explanationZh": "答案係 D。依據《基本法》第 101 條，「申訴專員」唔屬於必須符合有關國籍及居留資格限制嘅職位；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於必須符合有關國籍及居留資格限制嘅職位嘅「申訴專員」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-101"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-11": {
+      "explanationZh": "答案係 D。《基本法》第 113 條明確訂明：「香港特別行政區的外匯基金，由香港特別行政區政府管理和支配，主要用於調節港元匯價」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-113"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-12": {
+      "explanationZh": "答案係 D。《基本法》第 126 條明確訂明：「除外國軍用船隻進入香港特別行政區須經中央人民政府特別許可外，其他船舶可根據香港特別行政區法律進出其港口」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-126"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-13": {
+      "explanationZh": "答案係 D。《基本法》第 145 條訂明，香港特區政府根據經濟條件同社會需要，自行制定社會福利制度嘅發展及改進政策；D 係四個選項中唯一符合呢兩項條件。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-145"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter7.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-14": {
+      "explanationZh": "答案係 D。《基本法》第 158 條明確寫明，全國人大常委會授權香港法院喺審理案件時自行解釋自治範圍內嘅條款；權力來源係全國人大常委會嘅授權。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-158"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter9.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-10-15": {
+      "explanationZh": "答案係 B。《基本法》附件一明確訂明：「選舉委員會根據提名名單，經一人一票無記名投票選出行政長官候任人」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-annex-1"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/annex1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-01": {
+      "explanationZh": "答案係 B。《基本法》序言明確訂明：「香港自古以來就是中國的領土，一九八四年十二月十九日，中英兩國政府簽署了關於香港問題的聯合聲明」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-preamble"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/preamble.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-02": {
+      "explanationZh": "答案係 C。《基本法》第 3 條明確訂明：「香港特別行政區的行政機關和立法機關由香港永久性居民依照本法有關規定組成」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-3"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-03": {
+      "explanationZh": "答案係 D。《基本法》第 17 條明確訂明：「該法律的失效，除香港特別行政區的法律另有規定外，無溯及力」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-17"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-04": {
+      "explanationZh": "答案係 C。《基本法》第 18 條將附件三法律限於國防、外交，同其他按《基本法》規定不屬香港特區自治範圍嘅法律；C 完整保留三個範圍。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-18",
+        "basic-law-annex-3"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-05": {
+      "explanationZh": "答案係 D。依據《基本法》第 31 條，「離開香港特別行政區，須獲得簽證」唔屬於條文保障嘅權利或自由；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文保障嘅權利或自由嘅「離開香港特別行政區，須獲得簽證」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-31"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-06": {
+      "explanationZh": "答案係 D。依據《基本法》第 48 條，「聘任主要官員」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「聘任主要官員」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-48"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-07": {
+      "explanationZh": "呢題已停用。題目將立法會的同意權寫成任免權，並有多於一個選項唔屬立法會職權，冇唯一正確答案。為免學生背咗過時或含糊答案，課堂、題庫同模擬試都唔會再抽取呢題。",
+      "trapZh": null,
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-73"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "retired"
+    },
+    "bl-11-08": {
+      "explanationZh": "答案係 B。《基本法》第 67 條明確訂明：「但非中國籍的香港特別行政區永久性居民和在外國有居留權的香港特別行政區永久性居民也可以當選為香港特別行政區立法會議員，其所佔比例不得超過立法會全體議員的百分之二十」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-67"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-09": {
+      "explanationZh": "答案係 D。依據《基本法》第 72 條，「修改及廢除<議事規則>的內容及指引」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「修改及廢除<議事規則>的內容及指引」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-72"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-10": {
+      "explanationZh": "答案係 D。《基本法》第 89 條明確訂明：「香港特別行政區法院的法官只有在無力履行職責或行為不檢的情況下，行政長官才可根據終審法院首席法官任命的不少於三名當地法官組成的審議庭的建議，予以免職」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-89"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-11": {
+      "explanationZh": "答案係 B。《基本法》第 103 條明確訂明：「公務人員應根據其本人的資格、經驗和才能予以任用和提升，香港原有關於公務人員的招聘、僱用、考核、紀律、培訓和管理的制度，包括負責公務人員的任用、薪金、服務條件的專門機構，除有關給予外籍人員特權待遇的規定外，予以保留」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-103"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-12": {
+      "explanationZh": "答案係 A。《基本法》第 105 條明確訂明：「徵用財產的補償應相當於該財產當時的實際價值，可自由兌換，不得無故遲延支付」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-105"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-13": {
+      "explanationZh": "答案係 A。《基本法》第 158 條明確訂明：「但在此以前作出的判決不受影響」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-158"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter9.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-14": {
+      "explanationZh": "答案係 C。《基本法》第 85 條明確訂明：「香港特別行政區法院獨立進行審判，不受任何干涉，司法人員履行審判職責的行為不受法律追究」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-85"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-11-15": {
+      "explanationZh": "答案係 C。依據《基本法》第 101 條，「消防處處長」唔屬於必須符合有關國籍及居留資格限制嘅職位；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於必須符合有關國籍及居留資格限制嘅職位嘅「消防處處長」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-101"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-01": {
+      "explanationZh": "答案係 B。依據《基本法》第 8 條，「英國國會法」唔屬於題目所問嘅法定範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於題目所問嘅法定範圍嘅「英國國會法」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-8"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-02": {
+      "explanationZh": "答案係 A。《基本法》第 10 條訂明，香港特區區旗係「五星花蕊的紫荊花紅旗」；三個特徵分別係五星花蕊、紫荊花同紅色旗。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-10"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-03": {
+      "explanationZh": "答案係 D。《基本法》第 13 條明確訂明：「中華人民共和國外交部在香港設立機構處理外交事務」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-13"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-04": {
+      "explanationZh": "答案係 C。《基本法》第 17 條明確訂明：「全國人民代表大會常務委員會在徵詢其所屬的香港特別行政區基本法委員會後，如認為香港特別行政區立法機關制定的任何法律不符合本法關於中央管理的事務及中央和香港特別行政區的關係的條款，可將有關法律發回，但不作修改」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-17"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-05": {
+      "explanationZh": "答案係 A。《基本法》第 26 條明確訂明：「香港特別行政區永久性居民依法享有選舉權和被選舉權」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-26"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-06": {
+      "explanationZh": "答案係 C。依據《基本法》第 48 條，「委任三分之一的立法會議員」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「委任三分之一的立法會議員」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-48"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-07": {
+      "explanationZh": "答案係 D。依據《基本法》第 60 條，「民政司」唔屬於題目所問嘅法定範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於題目所問嘅法定範圍嘅「民政司」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-60"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-08": {
+      "explanationZh": "答案係 C。依據《基本法》第 72 條，「決定政府的管治方法」唔屬於條文列明嘅職權；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職權嘅「決定政府的管治方法」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-72"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-09": {
+      "explanationZh": "答案係 D。《基本法》第 89 條明確訂明：「香港特別行政區法院的法官只有在無力履行職責或行為不檢的情況下，行政長官才可根據終審法院首席法官任命的不少於三名當地法官組成的審議庭的建議，予以免職」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-89"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-10": {
+      "explanationZh": "答案係 D。《基本法》第 104 條明確訂明：「#香港特別行政區行政長官、主要官員、行政會議成員、立法會議員、各級法院法官和其他司法人員在就職時必須依法宣誓擁護中華人民共和國香港特別行政區基本法，效忠中華人民共和國香港特別行政區」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-104"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-11": {
+      "explanationZh": "答案係 A。《基本法》第 113 條明確訂明：「香港特別行政區的外匯基金，由香港特別行政區政府管理和支配，主要用於調節港元匯價」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-113"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-12": {
+      "explanationZh": "答案係 B。《基本法》第 116 條明確訂明：「香港特別行政區可以 \"中國香港\" 的名義參加《關稅和貿易總協定》、關於國際紡織品貿易安排等有關國際組織和國際貿易協定，包括優惠貿易安排」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-116"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-13": {
+      "explanationZh": "答案係 D。《基本法》第 150 條明確訂明：「香港特別行政區政府的代表，可作為中華人民共和國政府代表團的成員，參加由中央人民政府進行的同香港特別行政區直接有關的外交談判」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-150"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-14": {
+      "explanationZh": "答案係 A。依據《基本法》第 151 條，「環保」唔屬於題目所問嘅法定範圍；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於題目所問嘅法定範圍嘅「環保」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-151"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-12-15": {
+      "explanationZh": "答案係 C。依據《基本法》附件三，「《中華人民共和國國家憲法》」唔屬於附件三現行全國性法律名單；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於附件三現行全國性法律名單嘅「《中華人民共和國國家憲法》」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-annex-3"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/national-laws.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-01": {
+      "explanationZh": "答案係 D。《基本法》第 13 條明確訂明：「中華人民共和國外交部在香港設立機構處理外交事務」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-13"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-02": {
+      "explanationZh": "答案係 C。《基本法》第 7 條訂明，土地同自然資源所得收入全歸香港特區政府支配，即係唔需要上繳中央。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-7"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-03": {
+      "explanationZh": "答案係 D。《基本法》第 22 條明確訂明：「中國其他地區的人進入香港特別行政區須辦理批准手續，其中進入香港特別行政區定居的人數由中央人民政府主管部門徵求香港特別行政區政府的意見後確定」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-22"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-04": {
+      "explanationZh": "答案係 D。《基本法》第 41 條明確訂明：「在香港特別行政區境內的香港居民以外的其他人，依法享有本章規定的香港居民的權利和自由」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-41"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-05": {
+      "explanationZh": "答案係 B。《基本法》第 24 條明確訂明：「香港特別行政區居民，簡稱香港居民，包括永久性居民和非永久性居民」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-24"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-06": {
+      "explanationZh": "答案係 D。《基本法》第 26 條明確訂明：「香港特別行政區永久性居民依法享有選舉權和被選舉權」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-26"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-07": {
+      "explanationZh": "答案係 B。《基本法》第 43 條訂明，行政長官係香港特區嘅首長，亦代表香港特區；兩個空格都係「香港特別行政區」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-43"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-08": {
+      "explanationZh": "答案係 C。《基本法》第 103 條明確訂明：「公務人員應根據其本人的資格、經驗和才能予以任用和提升，香港原有關於公務人員的招聘、僱用、考核、紀律、培訓和管理的制度，包括負責公務人員的任用、薪金、服務條件的專門機構，除有關給予外籍人員特權待遇的規定外，予以保留」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-103"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-09": {
+      "explanationZh": "答案係 C。《基本法》第 105 條明確訂明：「香港特別行政區依法保護私人和法人財產的取得、使用、處置和繼承的權利，以及依法徵用私人和法人財產時被徵用財產的所有人得到補償的權利」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-105"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-10": {
+      "explanationZh": "答案係 B。《基本法》第 137 條明確訂明：「各類院校均可保留其自主性並享有學術自由，可繼續從香港特別行政區以外招聘教職員和選用教材」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-137"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter7.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-11": {
+      "explanationZh": "答案係 B。《基本法》第 10 條訂明，香港特區區旗係「五星花蕊的紫荊花紅旗」；B 所列花種同顏色完全符合條文。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-10"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-12": {
+      "explanationZh": "答案係 A。《基本法》第 134 條明確訂明：「對外國航空公司除往返、經停中國內地的航班以外的其他航班簽發許可證」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-134"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-13": {
+      "explanationZh": "答案係 D。《基本法》第 148 條明確訂明：「香港特別行政區的教育、科學、技術、文化、藝術、體育、專業、醫療衞生、勞工、社會福利、社會工作等方面的民間團體和宗教組織同內地相應的團體和組織的關係，應以互不隸屬、互不干涉和互相尊重的原則為基礎」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-148"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter7.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-14": {
+      "explanationZh": "答案係 C。依據《基本法》第 157 條，「尚未為中華人民共和國承認的國家，將會逐步在香港特別行政區設立民間機構」唔屬於符合條文原意嘅陳述；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於符合條文原意嘅陳述嘅「尚未為中華人民共和國承認的國家，將會逐步在香港特別行政區設立民間機構」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-157"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter8.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-13-15": {
+      "explanationZh": "答案係 D。《基本法》第 113 條明確訂明：「香港特別行政區的外匯基金，由香港特別行政區政府管理和支配，主要用於調節港元匯價」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-113"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-01": {
+      "explanationZh": "答案係 B。《基本法》第 67 條明確訂明：「但非中國籍的香港特別行政區永久性居民和在外國有居留權的香港特別行政區永久性居民也可以當選為香港特別行政區立法會議員，其所佔比例不得超過立法會全體議員的百分之二十」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-67"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-02": {
+      "explanationZh": "答案係 C。《基本法》第 7 條明確訂明：「香港特別行政區境內的土地和自然資源屬於國家所有，由香港特別行政區政府負責管理、使用、開發、出租或批給個人、法人或團體使用或開發，其收入全歸香港特別行政區政府支配」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-7"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter1.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-03": {
+      "explanationZh": "答案係 D。《基本法》第 22 條明確訂明：「中國其他地區的人進入香港特別行政區須辦理批准手續，其中進入香港特別行政區定居的人數由中央人民政府主管部門徵求香港特別行政區政府的意見後確定」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-22"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-04": {
+      "explanationZh": "答案係 A。依據《基本法》第 35 條，「選擇律師及時保護自己干犯的違法行為」唔屬於條文保障嘅權利或自由；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文保障嘅權利或自由嘅「選擇律師及時保護自己干犯的違法行為」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-35"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-05": {
+      "explanationZh": "答案係 D。《基本法》第 45 條明確訂明：「行政長官的產生辦法根據香港特別行政區的實際情況和循序漸進的原則而規定，最終達至由一個有廣泛代表性的提名委員會按民主程序提名後普選產生的目標」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-45"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-06": {
+      "explanationZh": "答案係 B。《基本法》第 56 條明確訂明：「行政長官在作出重要決策、向立法會提交法案、制定附屬法規和解散立法會前，須徵詢行政會議的意見，但人事任免、紀律制裁和緊急情況下採取的措施除外」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-56"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-07": {
+      "explanationZh": "答案係 B。依據《基本法》第 101 條，「申訴專員」唔屬於必須符合有關國籍及居留資格限制嘅職位；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於必須符合有關國籍及居留資格限制嘅職位嘅「申訴專員」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "basic-law-article-101"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-08": {
+      "explanationZh": "答案係 B。《基本法》第 103 條明確訂明：「公務人員應根據其本人的資格、經驗和才能予以任用和提升，香港原有關於公務人員的招聘、僱用、考核、紀律、培訓和管理的制度，包括負責公務人員的任用、薪金、服務條件的專門機構，除有關給予外籍人員特權待遇的規定外，予以保留」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-103"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-09": {
+      "explanationZh": "答案係 B。《基本法》第 120 條明確訂明：「香港特別行政區成立以前已批出、決定、或續期的超越一九九七年六月三十日年期的所有土地契約和與土地契約有關的一切權利，均按香港特別行政區的法律繼續予以承認和保護」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-120"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter6.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-10": {
+      "explanationZh": "答案係 D。《基本法》第 137 條明確訂明：「各類院校均可保留其自主性並享有學術自由，可繼續從香港特別行政區以外招聘教職員和選用教材」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-137"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter7.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-11": {
+      "explanationZh": "答案係 C。《基本法》第 41 條明確訂明：「在香港特別行政區境內的香港居民以外的其他人，依法享有本章規定的香港居民的權利和自由」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-41"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter4.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-12": {
+      "explanationZh": "答案係 C。《基本法》第 49 條明確訂明：「香港特別行政區行政長官如認為立法會通過的法案不符合香港特別行政區的整體利益，可在三個月內將法案發回立法會重議，立法會如以不少於全體議員三分之二多數再次通過原案，行政長官必須在一個月內簽署公布或按本法第五十條的規定處理」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-49"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-13": {
+      "explanationZh": "答案係 D。《基本法》第 45 條明確訂明：「香港特別行政區行政長官在當地通過選舉或協商產生，由中央人民政府任命」。",
+      "trapZh": "唔好交換權力主體；條文指定嘅係「中央人民政府」。",
+      "trapType": "authority",
+      "referenceIds": [
+        "basic-law-article-45"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter5.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-14": {
+      "explanationZh": "答案係 A。《基本法》第 23 條明確訂明：「香港特別行政區應自行立法禁止任何叛國、分裂國家、煽動叛亂、顛覆中央人民政府及竊取國家機密的行為，禁止外國的政治性組織或團體在香港特別行政區進行政治活動，禁止香港特別行政區的政治性組織或團體與外國的政治性組織或團體建立聯繫」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-article-23"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/chapter3.html",
+      "verificationStatus": "verified-current"
+    },
+    "bl-14-15": {
+      "explanationZh": "答案係 C。題目列出嘅四項——國徽法、領海聲明、外交特權與豁免條例同領事特權與豁免條例——都載於《基本法》附件三嘅全國性法律名單；其他組合混入名單以外法律。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "basic-law-annex-3"
+      ],
+      "officialSource": "https://www.basiclaw.gov.hk/tc/basiclaw/national-laws.html",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-01-01": {
+      "explanationZh": "答案係 B。《香港國安法》第 3 條明確訂明：「香港特別行政區負有維護國家安全的憲制責任，應當履行維護國家安全的職責」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-3"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-01-02": {
+      "explanationZh": "答案係 A。《香港國安法》第 4 條明確訂明：「香港特別行政區維護國家安全應當尊重和保障人權，依法保護香港特別行政區居民根據香港特別行政區基本法和《公民權利和政治權利國際公約》、《經濟、社會與…」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-4"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-01-03": {
+      "explanationZh": "答案係 B。《香港國安法》第 5 條明確訂明：「防範，制止和懲治危害國家安全犯罪，應當堅持法治原則」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-5"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-01-04": {
+      "explanationZh": "答案係 C。《香港國安法》第 8 條明確訂明：「香港特別行政區執法、司法機關應當切實執行本法和香港特別行政區現行法律有關防範、制止和懲治危害國家安全行為和活動的規定，有效維護國家安全」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-8"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-01-05": {
+      "explanationZh": "答案係 A。《香港國安法》第 9 條明確訂明：「對學校、社會團體、媒體、網絡等涉及國家安全的事宜，香港特別行政區政府應當採取必要措施，加強宣傳、指導、監督和管理」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-9"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-01-06": {
+      "explanationZh": "答案係 A。《香港國安法》第 29 條明確訂明：「為外國或者境外機構、組織、人員竊取、刺探、收買、非法提供涉及國家安全的國家秘密或者情報的」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-29"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-01-07": {
+      "explanationZh": "答案係 D。《香港國安法》第 31 條明確訂明：「公司、團體等法人或者非法人組織因犯本法規定的罪行受到刑事處罰的，應責令其暫停運作或者吊銷其執照或者營業許可證」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-31"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-01-08": {
+      "explanationZh": "答案係 A。《香港國安法》第 41 條明確訂明：「香港特別行政區管轄危害國家安全犯罪案件的立案偵查、檢控、審判和刑罰的執行等訴訟程序事宜，適用本法和香港特別行政區本地法律」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-41"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-01-09": {
+      "explanationZh": "答案係 B。《香港國安法》第 60 條明確訂明：「持有駐香港特別行政區維護國家安全公署制發的證件或者證明文件的人員和車輛等在執行職務時不受香港特別行政區執法人員檢查、搜查和扣押」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-60"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-01-10": {
+      "explanationZh": "答案係 B。《香港國安法》第 44 條明確訂明：「在裁判法院、區域法院、高等法院和終審法院就危害國家安全犯罪案件提起的刑事檢控程序應當分別由各該法院的指定法官處理」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-44"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-02-01": {
+      "explanationZh": "答案係 B。《香港國安法》第 46 條明確訂明：「凡律政司長發出上述證書，高等法院原訟法庭應當在沒有陪審團的情況下進行審理，並由三名法官組成審判庭」。",
+      "trapZh": "呢題考法定數字：準確答案係「三名」。",
+      "trapType": "numbers",
+      "referenceIds": [
+        "nsl-article-46"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-02-02": {
+      "explanationZh": "答案係 C。依據《香港國安法》第 49 條，「打擊危害國家安全犯罪分子清洗黑錢及資金籌集」唔屬於條文列明嘅職責；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職責嘅「打擊危害國家安全犯罪分子清洗黑錢及資金籌集」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "nsl-article-49"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-02-03": {
+      "explanationZh": "答案係 D。《香港國安法》第 51 條明確訂明：「駐香港特別行政區維護國家安全公署的經費由中央財政保障」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-51"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-02-04": {
+      "explanationZh": "答案係 D。《香港國安法》第 60 條明確訂明：「駐香港特別行政區維護國家安全公署及其人員依據本法執行職務的行為，不受香港特別行政區管轄」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-60"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-02-05": {
+      "explanationZh": "答案係 D。《香港國安法》第 65 條明確訂明：「本法的解釋權屬於全國人民代表大會常務委員會」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-65"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-02-06": {
+      "explanationZh": "答案係 D。《香港國安法》公布安排明確訂明：「《香港國安法》由全國人大常委會通過並列入《基本法》附件三，在香港特別行政區公布實施」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-promulgation-2020"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-02-07": {
+      "explanationZh": "答案係 D。依據《香港國安法》第 1 條，「串謀煽動他人破壞國家罪」唔屬於條文列明嘅犯罪或禁止行為；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅犯罪或禁止行為嘅「串謀煽動他人破壞國家罪」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "nsl-article-1"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-02-08": {
+      "explanationZh": "答案係 D。《香港國安法》第 3 條列出嘅對象或情況包括題目 A、B、C 三項，所以「以上皆是」先完整涵蓋條文要求。只揀其中一項會漏咗其餘同樣受規管嘅內容。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-3"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-02-09": {
+      "explanationZh": "答案係 C。《香港國安法》第 13 條明確訂明：「秘書長由行政長官提名，報中央人民政府任命」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-13"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-02-10": {
+      "explanationZh": "答案係 B。《香港國安法》第 5 條明確訂明：「任何人未經司法機關判罪之前均假定無罪」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-5"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-03-01": {
+      "explanationZh": "答案係 B。《香港國安法》第 6 條明確訂明：「維護國家主權、統一和領土完整是包括香港同胞在內的全中國人民的共同義務」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-6"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-03-02": {
+      "explanationZh": "答案係 C。《香港國安法》第 9 條明確訂明：「香港特別行政區應當加強維護國家安全和防範恐怖活動的工作」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-9"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-03-03": {
+      "explanationZh": "答案係 B。《香港國安法》第 10 條明確訂明：「香港特別行政區應當通過學校、社會團體、媒體、 網絡等開展國家安全教育，提高香港特別行政區居民的國家安全意識和守法意識」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-10"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-03-04": {
+      "explanationZh": "答案係 A。《香港國安法》第 11 條明確訂明：「如中央人民政府提出要求，行政長官應當就維護國家安全特定事項及時提交報告」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-11"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-03-05": {
+      "explanationZh": "答案係 B。《香港國安法》第 12 條明確訂明：「香港特別行政區設立維護國家安全委員會，負責香港特別行政區維護國家安全事務，承擔維護國家安全的主要責任，並接受中央人民政府的監督和問責」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-12"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-03-06": {
+      "explanationZh": "答案係 D。依據《香港國安法》第 13 條，「立法會主席」唔屬於條文列明嘅成員名單；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅成員名單嘅「立法會主席」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "nsl-article-13"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-03-07": {
+      "explanationZh": "答案係 A。《香港國安法》第 14 條明確訂明：「香港特別行政區維護國家安全委員會作出的決定不受司法覆核」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-14"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-03-08": {
+      "explanationZh": "答案係 B。《香港國安法》第 15 條明確訂明：「香港特別行政區維護國家安全委員會設立國家安全事務顧問，由中央人民政府指派，就香港特別行政區維護國家安全委員會履行職責相關事務提供意見」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-15"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-03-09": {
+      "explanationZh": "答案係 B。《香港國安法》第 16 條要求行政長官任命警務處國安部門負責人前，書面徵求第 48 條所指機構嘅意見；第 48 條所指係中央人民政府駐香港特區維護國家安全公署。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-16",
+        "nsl-article-48"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-03-10": {
+      "explanationZh": "答案係 B。《香港國安法》第 19 條明確訂明：「財政司長須每年就該款項的控制和管理向立法會提交報告」。",
+      "trapZh": "呢題考法定數字：準確答案係「每年」。",
+      "trapType": "numbers",
+      "referenceIds": [
+        "nsl-article-19"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-04-01": {
+      "explanationZh": "答案係 B。《香港國安法》第 20 條明確訂明：「犯前款罪，對首要分子或者罪行重大的，處無期徒刑或者十年以上有期徒刑：對積極參加的，處三年以上十年以下有期徒刑」。",
+      "trapZh": "呢題考法定數字：準確答案係「無期徒刑或者十年以上」。",
+      "trapType": "numbers",
+      "referenceIds": [
+        "nsl-article-20"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-04-02": {
+      "explanationZh": "答案係 D。《香港國安法》第 1 條列出嘅對象或情況包括題目 A、B、C 三項，所以「以上皆是」先完整涵蓋條文要求。只揀其中一項會漏咗其餘同樣受規管嘅內容。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-1"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-04-03": {
+      "explanationZh": "答案係 D。《香港國安法》第 6 條明確訂明：「香港特別行政區居民在參選或者就任公職時應當依法簽署文件確認或者宣誓擁護中華人民共和國香港特別行政區基本法，效忠中華人民共和國香港特別行政區」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-6"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-04-04": {
+      "explanationZh": "答案係 C。《香港國安法》第 36 條明確將喺香港註冊船舶或航空器內實施嘅本法罪行納入適用範圍；條文用字係「航空器」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-36"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-04-05": {
+      "explanationZh": "答案係 A。《香港國安法》第 41 條明確訂明：「未經律政司長書面同意，任何人不得就危害國家安全犯罪案件提出檢控」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-41"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-04-06": {
+      "explanationZh": "答案係 A。《香港國安法》第 41 條明確訂明：「因為涉及國家秘密、公共秩序等情形不宜公開審理的，禁止新聞界和公眾旁聽全部或者一部分審理程序，但判決結果應當一律公開宣佈」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-41"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-04-07": {
+      "explanationZh": "答案係 A。《香港國安法》第 42 條明確訂明：「香港特別行政區執法、司法機關在適用香港特別行政區現行法律有關羈押、審理期限等方面的規定時，應當確保危害國家安全犯罪案件公正、及時辦理，有效防範、制止和懲治危害國家安全犯罪」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-42"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-04-08": {
+      "explanationZh": "答案係 A。《香港國安法》第 43 條明確訂明：「對有合理理由懷疑擁有與偵查有關的資料或者管有有關物料的人員，要求其回答問題和提交資料或者物料」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-43"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-04-09": {
+      "explanationZh": "答案係 A。《香港國安法》第 44 條明確訂明：「在獲任指定法官期間，如有危害國家安全言行的，終止其指定法官資格」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-44"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-04-10": {
+      "explanationZh": "答案係 B。《香港國安法》第 48 條明確訂明：「中央人民政府駐香港特別行政區維護國家安全公署依法履行維護國家安全職責，行使相關權力」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-48"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-05-01": {
+      "explanationZh": "答案係 B。《香港國安法》第 50 條明確訂明：「駐香港特別行政區維護國家安全公署人員除須遵守全國性法」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-50"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-05-02": {
+      "explanationZh": "答案係 D。《香港國安法》第 56 條明確訂明：「根據本法第五十五條規定管轄有關危害國家安全犯罪案件時，由駐香港特別行政區維護國家安全公署負責立案偵查，最高人民檢察院指定有關檢察機關行使檢察權，最高人民法院指定有關法院行使審判權」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-56"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-05-03": {
+      "explanationZh": "答案係 C。《香港國安法》第 57 條明確訂明：「根據本法第五十五條規定管轄案件的立案偵查、審查起訴、審判和刑罰的執行等訴訟程序事宜，適用《中華人民共和國刑事訴訟法》等相關法律的規定」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-57"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-05-04": {
+      "explanationZh": "答案係 D。《香港國安法》第 58 條明確訂明：「犯罪嫌疑人、被告人被合法拘捕後，享有儘早接受司法機關公正審判的權利」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-58"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-05-05": {
+      "explanationZh": "答案係 D。《香港國安法》第 60 條明確訂明：「駐香港特別行政區維護國家安全公署及其人員依據本法執行職務的行為，不受香港特別行政區管轄」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-60"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-05-06": {
+      "explanationZh": "答案係 A。《香港國安法》第 62 條明確訂明：「香港特別行政區本地法律規定與本法不一致的，適用本法規定」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-62"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-05-07": {
+      "explanationZh": "答案係 D。《香港國安法》第 2 條訂明，任何機構、組織同個人行使權利自由時，都不得違背《基本法》第 1 條同第 12 條；D 所述香港係中國不可分離部分正正係第 1 條規定。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-2"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-05-08": {
+      "explanationZh": "答案係 D。《香港國安法》第 6 條列出嘅對象或情況包括題目 A、B、C 三項，所以「以上皆是」先完整涵蓋條文要求。只揀其中一項會漏咗其餘同樣受規管嘅內容。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-6"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-05-09": {
+      "explanationZh": "答案係 B。《香港國安法》第 15 條明確訂明：「國家安全事務顧問列席香港特別行政區維護國家安全委員會會議」。",
+      "trapZh": "唔好交換權力主體；條文指定嘅係「國家安全事務顧問」。",
+      "trapType": "authority",
+      "referenceIds": [
+        "nsl-article-15"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-05-10": {
+      "explanationZh": "答案係 B。依據《香港國安法》第 43 條，「羈押該人一段合理期間，在該期間內由該警務人員查究該人是否涉嫌在任何時候犯了任何危害國家安全罪行」唔屬於條文列明嘅犯罪或禁止行為；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅犯罪或禁止行為嘅「羈押該人一段合理期間，在該期間內由該警務人員查究該人是否涉嫌在任何時候犯了任何危害國家安全罪行」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "nsl-article-43"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-06-01": {
+      "explanationZh": "答案係 A。依據《香港國安法》第 1 條，「間諜罪」唔屬於條文列明嘅犯罪或禁止行為；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅犯罪或禁止行為嘅「間諜罪」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "nsl-article-1"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-06-02": {
+      "explanationZh": "答案係 D。《香港國安法》第 8 條明確訂明：「香港特別行政區執法、司法機關應當切實執行本法和香港特別行政區現行法律有關防範、制止和懲治危害國家安全行為和活動的規定，有效維護國家安全」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-8"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-06-03": {
+      "explanationZh": "答案係 B。《香港國安法》第 9 條明確訂明：「香港特別行政區應當加強維護國家安全和防範恐怖活動的工作」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-9"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-06-04": {
+      "explanationZh": "答案係 D。《香港國安法》第 11 條明確訂明：「香港特別行政區行政長官應當就香港特別行政區維護國家安全事務向中央人民政府負責，並就香港特別行政區履行維護國家安全職責的情況提交年度報告」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-11"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-06-05": {
+      "explanationZh": "答案係 A。《香港國安法》第 21 條明確訂明：「任何人煽動、協助、教唆、以金錢或者其他財物資助他人實施本法第二十條規定的犯罪的，即屬犯罪」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-21"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-06-06": {
+      "explanationZh": "答案係 D。《香港國安法》第 22 條明確訂明：「任何人組織、策劃、實施或者參與實施以下以武力、威脅使用武力或者其他非法手段旨在顛覆國家政權行為之一的，即屬犯罪： （一）推翻、破壞中華人民共和國憲法所確立的中華人民共和國根本制度」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-22"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-06-07": {
+      "explanationZh": "答案係 A。依據《香港國安法》第 24 條，「煽惑他人意圖造成身體嚴重傷害」唔屬於條文列明嘅犯罪或禁止行為；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅犯罪或禁止行為嘅「煽惑他人意圖造成身體嚴重傷害」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "nsl-article-24"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-06-08": {
+      "explanationZh": "答案係 D。《香港國安法》第 41 條明確訂明：「但該規定不影響就有關犯罪依法逮捕犯罪嫌疑人並將其羈押，也不影響該等犯罪嫌疑人申請保釋」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-41"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-06-09": {
+      "explanationZh": "答案係 D。依據《香港國安法》第 43 條，「經行政長官批准，在任何情況下批予進行截取通訊和秘密監察期間，時限則不受此限制。」唔屬於條文列明嘅犯罪或禁止行為；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅犯罪或禁止行為嘅「經行政長官批准，在任何情況下批予進行截取通訊和秘密監察期間，時限則不受此限制。」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "nsl-article-43"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-06-10": {
+      "explanationZh": "答案係 C。《香港國安法》第 44 條訂明，行政長官指定處理國安案件嘅法官前，可以徵詢香港國安委同終審法院首席法官嘅意見；題目所欠嘅職位係終審法院首席法官。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-44"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-07-01": {
+      "explanationZh": "答案係 D。《香港國安法》第 5 條明確訂明：「保障犯罪嫌疑人，被告人和其他訴訟參與人依法享有的辯護權和其他訴訟權利」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-5"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-07-02": {
+      "explanationZh": "答案係 B。《香港國安法》第 6 條明確訂明：「香港特別行政區居民在參選或者就任公職時應當依法簽署文件確認或者宣誓擁護中華人民共和國香港特別行政區基本法，效忠中華人民共和國香港特別行政區」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-6"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-07-03": {
+      "explanationZh": "答案係 A。《香港國安法》第 9 條明確訂明：「對學校、社會團體、媒體、網絡等涉及國家安全的事宜，香港特別行政區政府應當採取必要措施，加強宣傳、指導、監督和管理」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-9"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-07-04": {
+      "explanationZh": "答案係 A。《香港國安法》第 13 條明確訂明：「香港特別行政區維護國家安全委員會由行政長官擔任主席，成員包括政務司長、財政司長、律政司長、保安局局長，警務處處長、本法第十六條規定的警務處維護國家安全部門的負責人、入境事務處處長，海關關長和行政長官辦公室主任」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-13"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-07-05": {
+      "explanationZh": "答案係 D。《香港國安法》第 14 條明確訂明：「香港特別行政區維護國家安全委員會的工作不受香港特別行政區任何其他機構、組織和個人的干涉，工作信息不予公開」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-14"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-07-06": {
+      "explanationZh": "答案係 C。《香港國安法》第 16 條明確訂明：「香港特別行政區政府警務處設立維護國家安全的部門，配備執法力量」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-16"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-07-07": {
+      "explanationZh": "答案係 C。《香港國安法》第 16 條明確訂明：「警務處維護國家安全部門負責人在就職時應當宣誓擁護中華人民共和國香港特別行政區基本法，效忠中華人民共和國香港特別行政區，遵守法律，保守秘密」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-16"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-07-08": {
+      "explanationZh": "答案係 C。依據《香港國安法》第 17 條，「進行反間諜調查和逮捕破壞國家安全分子」唔屬於條文列明嘅職責；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職責嘅「進行反間諜調查和逮捕破壞國家安全分子」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "nsl-article-17"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-07-09": {
+      "explanationZh": "答案係 C。《香港國安法》第 19 條明確訂明：「經行政長官批准，香港特別行政區政府財政司長應當從政府一般收入中撥出專門款項支付關於維護國家安全的開支並核准所涉及的人員編制，不受香港特別行政區現行有關法律規定的限制」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-19"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-07-10": {
+      "explanationZh": "答案係 A。《香港國安法》第 20 條明確訂明：「任何人組織、策劃、實施或者參與實施以下旨在分裂國家、破壞國家統一行為之一的，不論是否使用武力或者以武力相威脅，即屬犯罪： （一）將香港特別行政區或者中華人民共和國其他任何部分從中華人民共和國分離出去」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-20"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-08-01": {
+      "explanationZh": "答案係 B。《香港國安法》第 6 條明確訂明：「在香港特別行政區的任何機構、組織和個人都應當遵守本法和香港特別行政區有關維護國家安全的其他法律，不得從事危害國家安全的行為和活動」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-6"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-08-02": {
+      "explanationZh": "答案係 A。《香港國安法》第 11 條明確訂明：「香港特別行政區行政長官應當就香港特別行政區維護國家安全事務向中央人民政府負責，並就香港特別行政區履行維護國家安全職責的情況提交年度報告」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-11"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-08-03": {
+      "explanationZh": "答案係 D。《香港國安法》第 12 條明確訂明：「香港特別行政區設立維護國家安全委員會，負責香港特別行政區維護國家安全事務，承擔維護國家安全的主要責任，並接受中央人民政府的監督和問責」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-12"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-08-04": {
+      "explanationZh": "答案係 A。依據《香港國安法》第 14 條，「就危害國家安全案件提出檢控」唔屬於條文列明嘅職責；其餘選項先係條文涵蓋嘅內容。",
+      "trapZh": "題目問排除項；要揀出唔屬於條文列明嘅職責嘅「就危害國家安全案件提出檢控」。",
+      "trapType": "negative-wording",
+      "referenceIds": [
+        "nsl-article-14"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-08-05": {
+      "explanationZh": "答案係 D。《香港國安法》第 18 條明確訂明：「香港特別行政區律政司設立專門的國家安全犯罪案件檢控部門，負責危害國家安全犯罪案件的檢控工作和其他相關法律事務」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-18"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-08-06": {
+      "explanationZh": "答案係 C。《香港國安法》第 20 條明確訂明：「非法改變香港特別行政區或者中華人民共和國其他任何部分的法律地位」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-20"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-08-07": {
+      "explanationZh": "答案係 B。《香港國安法》第 20 條明確訂明：「犯前款罪，對首要分子或者罪行重大的，處無期徒刑或者十年以上有期徒刑：對積極參加的，處三年以上十年以下有期徒刑」。",
+      "trapZh": "呢題考法定數字：準確答案係「三年以上十年以下」。",
+      "trapType": "numbers",
+      "referenceIds": [
+        "nsl-article-20"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-08-08": {
+      "explanationZh": "答案係 D。《香港國安法》第 22 條明確訂明：「推翻中華人民共和國中央政權機關或者香港特別行政區政權機關： （三）嚴重干擾、阻撓、破壞中華人民共和國中央政權機關或者香港特別行政區政權機關依法履行職能」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-22"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-08-09": {
+      "explanationZh": "答案係 A。《香港國安法》第 29 條明確訂明：「…： （二）對香港特別行政區政府或者中央人民政府制定和執行法律、政策進行嚴重阻撓並可能造成嚴重後果」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-29"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-08-10": {
+      "correctOptionId": "D",
+      "explanationZh": "答案係 D。《香港國安法》第 29 條採用嘅原文係「憎恨」，並要求有關非法方式可能造成嚴重後果。原答案「仇恨」唔係條文用字，所以改正為 D。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-29"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-09-01": {
+      "explanationZh": "答案係 C。《香港國安法》第 16 條明確訂明：「警務處維護國家安全部門可以從香港特別行政區以外聘請合格的專門人員和技術人員，協助執行維護國家安全相關任務」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-16"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-09-02": {
+      "explanationZh": "答案係 B。《香港國安法》第 19 條明確訂明：「經行政長官批准，香港特別行政區政府財政司長應當從政府一般收入中撥出專門款項支付關於維護國家安全的開支並核准所涉及的人員編制，不受香港特別行政區現行有關法律規定的限制」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-19"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-09-03": {
+      "explanationZh": "答案係 C。《香港國安法》第 20 條明確訂明：「對其他參加的，處三年以下有期徒刑、拘役或者管制」。",
+      "trapZh": "呢題考法定數字：準確答案係「三年以下」。",
+      "trapType": "numbers",
+      "referenceIds": [
+        "nsl-article-20"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-09-04": {
+      "explanationZh": "答案係 D。《香港國安法》第 22 條明確訂明：「推翻中華人民共和國中央政權機關或者香港特別行政區政權機關： （三）嚴重干擾、阻撓、破壞中華人民共和國中央政權機關或者香港特別行政區政權機關依法履行職能」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-22"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-09-05": {
+      "explanationZh": "答案係 D。《香港國安法》第 26 條明確訂明：「為恐怖活動組織、恐怖活動人員、恐怖活動實施提供培訓、武器、信息、資金、物資、勞務、運輸、技術或者場所等支持、協助、便利，或者製造、非法管有爆炸性、毒害性、放射性、傳染病病原體等物質以及以其他形式準備實施恐怖活動的，即屬犯罪」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-26"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-09-06": {
+      "explanationZh": "答案係 C。《香港國安法》第 29 條明確訂明：「…）對中華人民共和國發動戰爭，或者以武力或者武力相威脅，對中華人民共和國主權、統一和領土完整造成嚴重危害： （二）對香港特別行政區政府或者中央人民政府制定和執行法律、政策進行嚴重阻撓並可能造成…」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-29"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-09-07": {
+      "explanationZh": "答案係 D。《香港國安法》第 31 條明確訂明：「公司、團體等法人或者非法人組織因犯本法規定的罪行受到刑事處罰的，應責令其暫停運作或者吊銷其執照或者營業許可證」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-31"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-09-08": {
+      "explanationZh": "答案係 D。《香港國安法》第 33 條明確訂明：「犯罪較輕的，可以免除處罰： （一）在犯罪過程中，自動放棄犯罪或者自動有效地防止犯罪結果發生的」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-33"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-09-09": {
+      "explanationZh": "答案係 C。《香港國安法》第 35 條明確訂明：「曾經宣誓或者聲明擁護中華人民共和國香港特別行政區基本法，效忠中華人民共和國香港特別行政區的立法會議員、政府官員及公務人員、行政會議成員，法官及其他司法人員、區議員，即時喪失該等職務，並喪失參選或者出任上述職務的資格」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-35"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-09-10": {
+      "explanationZh": "答案係 C。《香港國安法》第 41 條明確訂明：「未經律政司長書面同意，任何人不得就危害國家安全犯罪案件提出檢控」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-41"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-10-01": {
+      "explanationZh": "答案係 B。《香港國安法》第 13 條明確訂明：「香港特別行政區維護國家安全委員會下設秘書處，由秘書長領導」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-13"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-10-02": {
+      "explanationZh": "答案係 D。《香港國安法》第 18 條明確訂明：「該部門檢控官由律政司長徵得香港特別行政區維護國家安全委員會同意後任命」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-18"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-10-03": {
+      "explanationZh": "答案係 A。《香港國安法》第 20 條明確訂明：「任何人組織、策劃、實施或者參與實施以下旨在分裂國家、破壞國家統一行為之一的，不論是否使用武力或者以武力相威脅，即屬犯罪： （一）將香港特別行政區或者中華人民共和國其他任何部分從中華人民共和國分離出去」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-20"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-10-04": {
+      "explanationZh": "答案係 D。《香港國安法》第 22 條明確訂明：「攻擊、破壞香港特別行政區政權機關履職場所及其設施，致使其無法正常履行職能」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-22"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-10-05": {
+      "explanationZh": "答案係 C。《香港國安法》第 27 條明確訂明：「宣揚恐怖主義、煽動實施恐怖活動的，即屬犯罪」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-27"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-10-06": {
+      "explanationZh": "答案係 B。《香港國安法》第 29 條明確訂明：「對香港特別行政區選舉進行操控、破壞並可能造成嚴重後果： （四）對香港特別行政區或者中華人民共和國進行制裁、封鎖或者採取其他敵對行動」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-29"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-10-07": {
+      "explanationZh": "答案係 B。《香港國安法》第 32 條明確訂明：「因實施本法規定的犯罪而獲得的資助、收益、 報酬等違法所得以及用於或者意圖用於犯罪的資金和工具，應當予以追繳、沒收」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-32"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-10-08": {
+      "explanationZh": "答案係 D。《香港國安法》第 33 條明確訂明：「有以下情形的，對有關犯罪行為人、犯罪嫌疑人、被告人可以從輕、減輕處罰」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-33"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-10-09": {
+      "explanationZh": "答案係 A。《香港國安法》第 41 條明確訂明：「香港特別行政區管轄的危害國家安全犯罪案件的審判循公訴程序進行」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-41"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    },
+    "nsl-10-10": {
+      "explanationZh": "答案係 A。《香港國安法》第 46 條明確訂明：「對高等法院原訟法庭進行的就危害國家安全犯罪案件提起的刑事檢控程序，律政司長可基於保護國家秘密、案件具有涉外因素或者保障陪審員及其家人的人身安全等理由，發出證書指示相關訴訟毋須在有陪審團的情況下進行審理」。",
+      "trapZh": null,
+      "trapType": "wording",
+      "referenceIds": [
+        "nsl-article-46"
+      ],
+      "officialSource": "https://www.elegislation.gov.hk/hk/A302!zh-Hant-HK.assist.pdf",
+      "verificationStatus": "verified-current"
+    }
+  }
+}

@@ -9,9 +9,10 @@ import { coursivCatalog } from "./generated/coursiv-catalog";
 import type { CoursivCatalogEntry, CoursivCourse, CoursivLesson, CoursivUnit } from "./coursiv-content";
 
 const contentRoot = join(process.cwd(), "content", "coursiv", "courses");
+const localInternalCourseIds = ["basic-law", "basic-law-practice", "basic-law-mocks"] as const;
 type ContentSource = "json" | "firestore" | "shadow";
 type UnitSummary = { sourceId: string; title?: string; order: number };
-type LessonSummary = { id: string; slug: string; sourceId: string; sourceUnitId: string; title: string; order: number; screenIds: string[]; hasAudio: boolean; version?: number; status?: "draft" | "published" };
+type LessonSummary = { id: string; slug: string; sourceId: string; sourceUnitId: string; title: string; order: number; screenIds: string[]; hasAudio: boolean; optional?: boolean; version?: number; status?: "draft" | "published" };
 type StoredCourse = Omit<CoursivCourse, "units"> & {
   unitSummaries?: UnitSummary[];
   lessonSummaries?: LessonSummary[];
@@ -90,20 +91,33 @@ function buildCourse(id: string, metadata: StoredCourse, lessons: CoursivLesson[
 
 function catalogEntryFromStored(id:string,metadata:StoredCourse,local:CoursivCourse|null):RuntimeCatalogEntry {
   const units=metadata.unitSummaries?.length?metadata.unitSummaries:local?.units.map((unit)=>({sourceId:unit.sourceId,title:unit.title,order:unit.order}))??[];
-  const summaries:LessonSummary[]=(metadata.lessonSummaries?.length?metadata.lessonSummaries:local?.units.flatMap((unit)=>unit.lessons).map((lesson)=>({id:`${id}__${lesson.slug}`,slug:lesson.slug,sourceId:lesson.sourceId,sourceUnitId:lesson.sourceUnitId,title:lesson.title,order:lesson.order,screenIds:lesson.screens.map((screen)=>screen.id),hasAudio:lesson.hasAudio,status:"published" as const}))??[]).filter((lesson)=>lesson.status!=="draft");
+  const summaries:LessonSummary[]=(metadata.lessonSummaries?.length?metadata.lessonSummaries:local?.units.flatMap((unit)=>unit.lessons).map((lesson)=>({id:`${id}__${lesson.slug}`,slug:lesson.slug,sourceId:lesson.sourceId,sourceUnitId:lesson.sourceUnitId,title:lesson.title,order:lesson.order,screenIds:lesson.screens.map((screen)=>screen.id),hasAudio:lesson.hasAudio,optional:lesson.optional,status:"published" as const}))??[]).filter((lesson)=>lesson.status!=="draft");
   return{
     id,sourceId:metadata.sourceId??local?.sourceId??`cms-${id}`,kind:metadata.kind??local?.kind??"use-case",title:metadata.title??local?.title??id,
     image:metadata.image||metadata.localImage||local?.image||local?.localImage,localImage:metadata.localImage??local?.localImage,imageAlt:metadata.imageAlt||metadata.title||local?.title||id,
-    duration:metadata.duration??local?.duration??"1 hour",categories:metadata.categories??local?.categories??[],displayOrder:metadata.displayOrder??0,status:metadata.status==="archived"?"archived":"published",version:metadata.version??1,
-    sections:units.sort((a,b)=>a.order-b.order).map((unit)=>({title:unit.title,sourceId:unit.sourceId,lessons:summaries.filter((lesson)=>lesson.sourceUnitId===unit.sourceId).sort((a,b)=>a.order-b.order).map((lesson)=>({id:lesson.slug,sourceId:lesson.sourceId,title:lesson.title,screenIds:lesson.screenIds,hasAudio:lesson.hasAudio}))})),
+    duration:metadata.duration??local?.duration??"1 hour",categories:metadata.categories??local?.categories??[],sourceUpdatedAt:metadata.sourceUpdatedAt??local?.sourceUpdatedAt,displayOrder:metadata.displayOrder??0,status:metadata.status==="archived"?"archived":"published",version:metadata.version??1,
+    sections:units.sort((a,b)=>a.order-b.order).map((unit)=>({title:unit.title,sourceId:unit.sourceId,lessons:summaries.filter((lesson)=>lesson.sourceUnitId===unit.sourceId).sort((a,b)=>a.order-b.order).map((lesson)=>({id:lesson.slug,sourceId:lesson.sourceId,title:lesson.title,screenIds:lesson.screenIds,hasAudio:lesson.hasAudio,optional:lesson.optional}))})),
   };
+}
+
+async function appendLocalInternalCourses(entries:RuntimeCatalogEntry[]) {
+  const courses=await Promise.all(localInternalCourseIds.map(async(id)=>({id,course:await readJsonCourse(id)})));
+  for(const {id,course} of courses){
+    if(!course)continue;
+    const localEntry=catalogEntryFromStored(id,course as StoredCourse,course);
+    const existingIndex=entries.findIndex((entry)=>entry.id===id);
+    if(existingIndex>=0)entries[existingIndex]=localEntry;
+    else entries.push(localEntry);
+  }
+  return entries;
 }
 
 async function readCoursivCatalogUncached(options: { includeArchived?: boolean } = {}): Promise<RuntimeCatalogEntry[]> {
   const source = configuredSource();
   if (source === "json" || !isFirebaseAdminConfigured()) {
     if (source === "firestore" && !isFirebaseAdminConfigured()) throw new Error("CONTENT_SOURCE=firestore requires Firebase Admin credentials");
-    return coursivCatalog.map((entry, index) => ({ ...entry, localImage: undefined, imageAlt: entry.title, displayOrder: index, status: "published", version: 1 }));
+    const entries:RuntimeCatalogEntry[]=coursivCatalog.map((entry, index) => ({ ...entry, localImage: undefined, imageAlt: entry.title, displayOrder: index, status: "published" as const, version: 1 }));
+    return appendLocalInternalCourses(entries);
   }
   const database = getAdminDb();
   const courseSnapshot=await database.collection("courses").get();
@@ -114,12 +128,14 @@ async function readCoursivCatalogUncached(options: { includeArchived?: boolean }
     const local = await readJsonCourse(document.id);
     entries.push(catalogEntryFromStored(document.id,metadata,local));
   }
+  await appendLocalInternalCourses(entries);
   entries.sort((a, b) => a.kind.localeCompare(b.kind) || a.displayOrder - b.displayOrder || a.title.localeCompare(b.title));
   if (source === "shadow") {
     const local = coursivCatalog.map((entry) => ({ id: entry.id, title: entry.title, kind: entry.kind, duration: entry.duration, categories: entry.categories, image: entry.image, lessonIds: entry.sections.flatMap((section) => section.lessons.map((lesson) => lesson.id)) }));
     const remote = entries.map((entry) => ({ id: entry.id, title: entry.title, kind: entry.kind, duration: entry.duration, categories: entry.categories, image: entry.image, lessonIds: entry.sections.flatMap((section) => section.lessons.map((lesson) => lesson.id)) }));
     reportShadowDifference("catalog", local, remote);
-    return coursivCatalog.map((entry, index) => ({ ...entry, localImage: undefined, imageAlt: entry.title, displayOrder: index, status: "published", version: 1 }));
+    const shadowEntries:RuntimeCatalogEntry[]=coursivCatalog.map((entry, index) => ({ ...entry, localImage: undefined, imageAlt: entry.title, displayOrder: index, status: "published", version: 1 }));
+    return appendLocalInternalCourses(shadowEntries);
   }
   return entries;
 }
@@ -132,7 +148,8 @@ const readCachedCoursivCatalog=unstable_cache(
 
 export async function readCoursivCatalog(options: { includeArchived?: boolean } = {}) {
   if(configuredSource()!=="firestore")return readCoursivCatalogUncached(options);
-  const entries=await readCachedCoursivCatalog();
+  const entries=[...await readCachedCoursivCatalog()];
+  await appendLocalInternalCourses(entries);
   return options.includeArchived?entries:entries.filter((entry)=>entry.status==="published");
 }
 
@@ -140,6 +157,7 @@ export async function readCoursivCourse(courseId: string): Promise<CoursivCourse
   if (!/^[a-z0-9-]+$/.test(courseId)) return null;
   const local = await readJsonCourse(courseId);
   const source = configuredSource();
+  if(localInternalCourseIds.includes(courseId as typeof localInternalCourseIds[number])&&local)return local;
   if (source === "json") return local;
   if (!isFirebaseAdminConfigured()) {
     if (source === "firestore") throw new Error("CONTENT_SOURCE=firestore requires Firebase Admin credentials");
@@ -167,6 +185,7 @@ export async function readCoursivLesson(courseId: string, lessonId: string): Pro
   const source = configuredSource();
   const localCourse = await readJsonCourse(courseId);
   const localLesson = localCourse?.units.flatMap((unit) => unit.lessons).find((lesson) => lesson.slug === lessonId);
+  if(localInternalCourseIds.includes(courseId as typeof localInternalCourseIds[number])&&localCourse&&localLesson)return{course:localCourse,lesson:localLesson};
   if (source === "json") return localCourse && localLesson ? { course: localCourse, lesson: localLesson } : null;
   if (!isFirebaseAdminConfigured()) {
     if (source === "firestore") throw new Error("CONTENT_SOURCE=firestore requires Firebase Admin credentials");

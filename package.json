@@ -26,6 +26,7 @@
     "cms:verify-firestore": "node --env-file=.env.local scripts/verify-firestore-content.mjs",
     "cms:launch-ai-workday": "node --env-file=.env.local scripts/launch-ai-workday.mjs",
     "cms:launch-ai-workday:apply": "node --env-file=.env.local scripts/launch-ai-workday.mjs --apply",
+    "content:basic-law:build": "node scripts/build-basic-law-course.mjs",
     "content:sync-ai-workday-local": "node scripts/sync-ai-workday-local.mjs",
     "time-machine": "node --env-file=.env.local scripts/time-machine.mjs",
     "test:admin:live": "node --env-file=.env.local scripts/qa-admin-rbac-live.mjs",

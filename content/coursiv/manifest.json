@@ -1,6 +1,33 @@
 {
   "courses": [
     {
+      "duration": "3.5 hours",
+      "file": "courses/basic-law.json",
+      "id": "basic-law",
+      "kind": "use-case",
+      "lessonCount": 28,
+      "sourceId": "basic-law-internal-prototype",
+      "title": "BLNST Basic Law Exam Prep"
+    },
+    {
+      "duration": "2 hours",
+      "file": "courses/basic-law-mocks.json",
+      "id": "basic-law-mocks",
+      "kind": "use-case",
+      "lessonCount": 4,
+      "sourceId": "basic-law-mocks-course",
+      "title": "BLNST 30 分鐘模擬試"
+    },
+    {
+      "duration": "Self-paced",
+      "file": "courses/basic-law-practice.json",
+      "id": "basic-law-practice",
+      "kind": "use-case",
+      "lessonCount": 1,
+      "sourceId": "basic-law-practice-course",
+      "title": "BLNST 310 題 Practice Bank"
+    },
+    {
       "duration": "3 hours",
       "file": "courses/canva-ai.json",
       "id": "canva-ai",
@@ -91,6 +118,24 @@
       "title": "Gemini"
     },
     {
+      "duration": "1 hour",
+      "file": "courses/google-sheet-with-ai.json",
+      "id": "google-sheet-with-ai",
+      "kind": "tool",
+      "lessonCount": 11,
+      "sourceId": "coursiv-original-google-sheet-with-ai",
+      "title": "Google Sheet with AI"
+    },
+    {
+      "duration": "1 hour",
+      "file": "courses/google-slide-with-ai.json",
+      "id": "google-slide-with-ai",
+      "kind": "tool",
+      "lessonCount": 11,
+      "sourceId": "coursiv-original-google-slide-with-ai",
+      "title": "Google Slide with AI"
+    },
+    {
       "duration": "5 hours",
       "file": "courses/jasper.json",
       "id": "jasper",
@@ -125,6 +170,15 @@
       "lessonCount": 13,
       "sourceId": "38f6efef-4575-80dd-9e3f-dc7f184ce1c0",
       "title": "Midjourney"
+    },
+    {
+      "duration": "3 hours",
+      "file": "courses/notion.json",
+      "id": "notion",
+      "kind": "tool",
+      "lessonCount": 9,
+      "sourceId": "coursiv-original-notion-life-hub",
+      "title": "Notion: Build Your Life Hub"
     },
     {
       "duration": "4 hours",
@@ -332,6 +386,24 @@
       "lessonCount": 7,
       "sourceId": "32c6efef-4575-80f2-a889-f522333d9774",
       "title": "Land Jobs With AI"
+    },
+    {
+      "duration": "4 shorts",
+      "file": "courses/google-sheet-with-ai-shorts.json",
+      "id": "google-sheet-with-ai-shorts",
+      "kind": "tool",
+      "lessonCount": 4,
+      "sourceId": "coursiv-original-google-sheet-with-ai-shorts",
+      "title": "Google Sheet with AI (Shorts)"
+    },
+    {
+      "duration": "3 shorts",
+      "file": "courses/google-slide-with-ai-short.json",
+      "id": "google-slide-with-ai-short",
+      "kind": "tool",
+      "lessonCount": 3,
+      "sourceId": "coursiv-original-google-slide-with-ai-short",
+      "title": "Google Slide with AI (Short)"
     }
   ],
   "expectedBaseline": {
@@ -339,12 +411,12 @@
     "lessons": 343
   },
   "schemaVersion": 3,
-  "scrapedAt": "2026-07-22T08:32:51.868Z",
+  "scrapedAt": "2026-08-04T10:09:38.579Z",
   "totals": {
-    "courses": 37,
+    "courses": 43,
     "failedLessons": 0,
-    "lessons": 343,
-    "screens": 8925,
+    "lessons": 412,
+    "screens": 9885,
     "unknownBlocks": 0
   }
 }

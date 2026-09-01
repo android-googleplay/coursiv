@@ -3583,6 +3583,311 @@ export const coursivCatalog: CoursivCatalogEntry[] = [
     ]
   },
   {
+    "id": "google-sheet-with-ai",
+    "sourceId": "coursiv-original-google-sheet-with-ai",
+    "kind": "tool",
+    "title": "Google Sheet with AI",
+    "duration": "1 hour",
+    "categories": [
+      "New",
+      "Productivity",
+      "Research & Analysis"
+    ],
+    "sections": [
+      {
+        "title": "Google Sheets Essentials",
+        "sourceId": "google-sheet-with-ai-essentials",
+        "lessons": [
+          {
+            "id": "create-tables",
+            "sourceId": "google-sheets-create-tables",
+            "title": "Create Tables",
+            "screenIds": [
+              "google-sheets-create-tables-step-1",
+              "google-sheets-create-tables-step-2",
+              "google-sheets-create-tables-step-3",
+              "google-sheets-create-tables-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "auto-populate",
+            "sourceId": "google-sheets-auto-populate",
+            "title": "Auto Populate",
+            "screenIds": [
+              "google-sheets-auto-populate-step-1",
+              "google-sheets-auto-populate-step-2",
+              "google-sheets-auto-populate-step-3",
+              "google-sheets-auto-populate-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "generate-formulas",
+            "sourceId": "google-sheets-generate-formulas",
+            "title": "Generate Formulas",
+            "screenIds": [
+              "google-sheets-generate-formulas-step-1",
+              "google-sheets-generate-formulas-step-2",
+              "google-sheets-generate-formulas-step-3",
+              "google-sheets-generate-formulas-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "insights-and-visualizations",
+            "sourceId": "google-sheets-insights-and-visualizations",
+            "title": "Insights and Visualizations",
+            "screenIds": [
+              "google-sheets-insights-and-visualizations-step-1",
+              "google-sheets-insights-and-visualizations-step-2",
+              "google-sheets-insights-and-visualizations-step-3",
+              "google-sheets-insights-and-visualizations-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "no-code-sheets-and-scripts",
+            "sourceId": "google-sheets-no-code-sheets-scripts",
+            "title": "No-Code Sheets & Scripts",
+            "screenIds": [
+              "google-sheets-no-code-sheets-scripts-step-1",
+              "google-sheets-no-code-sheets-scripts-step-2",
+              "google-sheets-no-code-sheets-scripts-step-3",
+              "google-sheets-no-code-sheets-scripts-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "gemini-image-to-sheets-hack",
+            "sourceId": "google-sheets-image-to-sheets-hack",
+            "title": "Gemini Image-to-Sheets Hack",
+            "screenIds": [
+              "google-sheets-image-to-sheets-hack-step-1",
+              "google-sheets-image-to-sheets-hack-step-2",
+              "google-sheets-image-to-sheets-hack-step-3",
+              "google-sheets-image-to-sheets-hack-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "automate-tasks-with-gemini-and-apps-script",
+            "sourceId": "google-sheets-apps-script-automation",
+            "title": "Automate Tasks with Gemini and Apps Script",
+            "screenIds": [
+              "google-sheets-apps-script-automation-step-1",
+              "google-sheets-apps-script-automation-step-2",
+              "google-sheets-apps-script-automation-step-3",
+              "google-sheets-apps-script-automation-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "advanced-analysis-in-sheets",
+            "sourceId": "google-sheets-advanced-analysis",
+            "title": "Advanced Analysis in Sheets",
+            "screenIds": [
+              "google-sheets-advanced-analysis-step-1",
+              "google-sheets-advanced-analysis-step-2",
+              "google-sheets-advanced-analysis-step-3",
+              "google-sheets-advanced-analysis-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "talk-to-your-data-in-sheets",
+            "sourceId": "google-sheets-talk-to-your-data",
+            "title": "Talk to Your Data in Sheets",
+            "screenIds": [
+              "google-sheets-talk-to-your-data-step-1",
+              "google-sheets-talk-to-your-data-step-2",
+              "google-sheets-talk-to-your-data-step-3",
+              "google-sheets-talk-to-your-data-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "ai-magic-in-a-sheets-cell",
+            "sourceId": "google-sheets-ai-magic-in-sheets-cell",
+            "title": "AI Magic in a Sheets Cell",
+            "screenIds": [
+              "google-sheets-ai-magic-in-sheets-cell-step-1",
+              "google-sheets-ai-magic-in-sheets-cell-step-2",
+              "google-sheets-ai-magic-in-sheets-cell-step-3",
+              "google-sheets-ai-magic-in-sheets-cell-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "notes-to-sheets-with-gemini",
+            "sourceId": "google-sheets-notes-to-sheets",
+            "title": "Notes to Sheets with Gemini",
+            "screenIds": [
+              "google-sheets-notes-to-sheets-step-1",
+              "google-sheets-notes-to-sheets-step-2",
+              "google-sheets-notes-to-sheets-step-3",
+              "google-sheets-notes-to-sheets-takeaway"
+            ],
+            "hasAudio": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "google-slide-with-ai",
+    "sourceId": "coursiv-original-google-slide-with-ai",
+    "kind": "tool",
+    "title": "Google Slide with AI",
+    "duration": "1 hour",
+    "categories": [
+      "New",
+      "Productivity",
+      "Writing"
+    ],
+    "sourceUpdatedAt": "2026-08-04T00:00:00.000Z",
+    "sections": [
+      {
+        "title": "Google Slides Essentials",
+        "sourceId": "google-slide-with-ai-essentials",
+        "lessons": [
+          {
+            "id": "why-slide-presentations-need-ai",
+            "sourceId": "google-slides-why-ai",
+            "title": "Why Do Slide Presentations Need AI?",
+            "screenIds": [
+              "google-slides-why-ai-step-1",
+              "google-slides-why-ai-step-2",
+              "google-slides-why-ai-step-3",
+              "google-slides-why-ai-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "introduction-to-gemini-in-google-slides",
+            "sourceId": "google-slides-introduction",
+            "title": "Introduction to Gemini in Google Slides",
+            "screenIds": [
+              "google-slides-introduction-step-1",
+              "google-slides-introduction-step-2",
+              "google-slides-introduction-step-3",
+              "google-slides-introduction-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "how-to-navigate-this-course",
+            "sourceId": "google-slides-course-navigation",
+            "title": "How to Navigate the Rest of This Course",
+            "screenIds": [
+              "google-slides-course-navigation-step-1",
+              "google-slides-course-navigation-step-2",
+              "google-slides-course-navigation-step-3",
+              "google-slides-course-navigation-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "creating-presentations-and-slides",
+            "sourceId": "google-slides-creating",
+            "title": "Creating: Generating Presentations and Slides",
+            "screenIds": [
+              "google-slides-creating-step-1",
+              "google-slides-creating-step-2",
+              "google-slides-creating-step-3",
+              "google-slides-creating-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "enhancing-text-and-visuals",
+            "sourceId": "google-slides-enhancing",
+            "title": "Enhancing: Refining Text and Visuals in Your Slides",
+            "screenIds": [
+              "google-slides-enhancing-step-1",
+              "google-slides-enhancing-step-2",
+              "google-slides-enhancing-step-3",
+              "google-slides-enhancing-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "summarizing-and-taking-action",
+            "sourceId": "google-slides-consuming",
+            "title": "Consuming: Summarizing and Taking Action",
+            "screenIds": [
+              "google-slides-consuming-step-1",
+              "google-slides-consuming-step-2",
+              "google-slides-consuming-step-3",
+              "google-slides-consuming-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "conclusion",
+            "sourceId": "google-slides-conclusion",
+            "title": "Conclusion",
+            "screenIds": [
+              "google-slides-conclusion-step-1",
+              "google-slides-conclusion-step-2",
+              "google-slides-conclusion-step-3",
+              "google-slides-conclusion-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "build-slides-fast-with-gemini",
+            "sourceId": "google-slides-build-slides-fast",
+            "title": "Build Slides Fast with Gemini",
+            "screenIds": [
+              "google-slides-build-slides-fast-step-1",
+              "google-slides-build-slides-fast-step-2",
+              "google-slides-build-slides-fast-step-3",
+              "google-slides-build-slides-fast-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "gemini-slide-summaries",
+            "sourceId": "google-slides-slide-summaries",
+            "title": "Gemini Slide Summaries",
+            "screenIds": [
+              "google-slides-slide-summaries-step-1",
+              "google-slides-slide-summaries-step-2",
+              "google-slides-slide-summaries-step-3",
+              "google-slides-slide-summaries-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "presentation-scripts-with-gemini",
+            "sourceId": "google-slides-presentation-scripts",
+            "title": "Presentation Scripts with Gemini",
+            "screenIds": [
+              "google-slides-presentation-scripts-step-1",
+              "google-slides-presentation-scripts-step-2",
+              "google-slides-presentation-scripts-step-3",
+              "google-slides-presentation-scripts-takeaway"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "presentations-in-seconds-with-nano-banana-pro",
+            "sourceId": "google-slides-nano-banana-presentations",
+            "title": "Presentations in Seconds with Nano Banana Pro",
+            "screenIds": [
+              "google-slides-nano-banana-presentations-step-1",
+              "google-slides-nano-banana-presentations-step-2",
+              "google-slides-nano-banana-presentations-step-3",
+              "google-slides-nano-banana-presentations-takeaway"
+            ],
+            "hasAudio": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "jasper",
     "sourceId": "2e86efef-4575-8054-ae4a-e2d79ca50a36",
     "kind": "tool",
@@ -5005,6 +5310,276 @@ export const coursivCatalog: CoursivCatalogEntry[] = [
               "dc563460-af39-527a-af99-81960dfb37c5"
             ],
             "hasAudio": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "notion",
+    "sourceId": "coursiv-original-notion-life-hub",
+    "kind": "tool",
+    "title": "Notion: Build Your Life Hub",
+    "image": "/images/courses/notion-life-hub.svg",
+    "duration": "3 hours",
+    "categories": [
+      "New",
+      "Productivity",
+      "Career",
+      "Pathway"
+    ],
+    "sourceUpdatedAt": "2026-08-04T00:00:00.000Z",
+    "sections": [
+      {
+        "title": "Notion Without the Overwhelm",
+        "sourceId": "notion-unit-foundations",
+        "lessons": [
+          {
+            "id": "your-first-page-in-10-minutes",
+            "sourceId": "notion-lesson-1-your-first-page-in-10-minutes",
+            "title": "Your First Page in 10 Minutes",
+            "screenIds": [
+              "your-first-page-in-10-minutes-s01",
+              "your-first-page-in-10-minutes-s02",
+              "your-first-page-in-10-minutes-s03",
+              "your-first-page-in-10-minutes-s04",
+              "your-first-page-in-10-minutes-s05",
+              "your-first-page-in-10-minutes-s06",
+              "your-first-page-in-10-minutes-s07",
+              "your-first-page-in-10-minutes-s08",
+              "your-first-page-in-10-minutes-s09",
+              "your-first-page-in-10-minutes-s10",
+              "your-first-page-in-10-minutes-s11",
+              "your-first-page-in-10-minutes-s12",
+              "your-first-page-in-10-minutes-s13",
+              "your-first-page-in-10-minutes-s14",
+              "your-first-page-in-10-minutes-s15",
+              "your-first-page-in-10-minutes-s16",
+              "your-first-page-in-10-minutes-s17",
+              "your-first-page-in-10-minutes-s18"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "turn-chaos-into-a-simple-home",
+            "sourceId": "notion-lesson-2-turn-chaos-into-a-simple-home",
+            "title": "Turn Chaos Into a Simple Home",
+            "screenIds": [
+              "turn-chaos-into-a-simple-home-s01",
+              "turn-chaos-into-a-simple-home-s02",
+              "turn-chaos-into-a-simple-home-s03",
+              "turn-chaos-into-a-simple-home-s04",
+              "turn-chaos-into-a-simple-home-s05",
+              "turn-chaos-into-a-simple-home-s06",
+              "turn-chaos-into-a-simple-home-s07",
+              "turn-chaos-into-a-simple-home-s08",
+              "turn-chaos-into-a-simple-home-s09",
+              "turn-chaos-into-a-simple-home-s10",
+              "turn-chaos-into-a-simple-home-s11",
+              "turn-chaos-into-a-simple-home-s12",
+              "turn-chaos-into-a-simple-home-s13",
+              "turn-chaos-into-a-simple-home-s14",
+              "turn-chaos-into-a-simple-home-s15",
+              "turn-chaos-into-a-simple-home-s16",
+              "turn-chaos-into-a-simple-home-s17",
+              "turn-chaos-into-a-simple-home-s18"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "build-one-task-database",
+            "sourceId": "notion-lesson-3-build-one-task-database",
+            "title": "Build One Task Database",
+            "screenIds": [
+              "build-one-task-database-s01",
+              "build-one-task-database-s02",
+              "build-one-task-database-s03",
+              "build-one-task-database-s04",
+              "build-one-task-database-s05",
+              "build-one-task-database-s06",
+              "build-one-task-database-s07",
+              "build-one-task-database-s08",
+              "build-one-task-database-s09",
+              "build-one-task-database-s10",
+              "build-one-task-database-s11",
+              "build-one-task-database-s12",
+              "build-one-task-database-s13",
+              "build-one-task-database-s14",
+              "build-one-task-database-s15",
+              "build-one-task-database-s16",
+              "build-one-task-database-s17",
+              "build-one-task-database-s18"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "see-your-work-your-way",
+            "sourceId": "notion-lesson-4-see-your-work-your-way",
+            "title": "See Your Work Your Way",
+            "screenIds": [
+              "see-your-work-your-way-s01",
+              "see-your-work-your-way-s02",
+              "see-your-work-your-way-s03",
+              "see-your-work-your-way-s04",
+              "see-your-work-your-way-s05",
+              "see-your-work-your-way-s06",
+              "see-your-work-your-way-s07",
+              "see-your-work-your-way-s08",
+              "see-your-work-your-way-s09",
+              "see-your-work-your-way-s10",
+              "see-your-work-your-way-s11",
+              "see-your-work-your-way-s12",
+              "see-your-work-your-way-s13",
+              "see-your-work-your-way-s14",
+              "see-your-work-your-way-s15",
+              "see-your-work-your-way-s16",
+              "see-your-work-your-way-s17",
+              "see-your-work-your-way-s18"
+            ],
+            "hasAudio": false
+          }
+        ]
+      },
+      {
+        "title": "Make Notion Work for Your Life",
+        "sourceId": "notion-unit-life-hub",
+        "lessons": [
+          {
+            "id": "notes-you-will-actually-reuse",
+            "sourceId": "notion-lesson-5-notes-you-will-actually-reuse",
+            "title": "Notes You’ll Actually Reuse",
+            "screenIds": [
+              "notes-you-will-actually-reuse-s01",
+              "notes-you-will-actually-reuse-s02",
+              "notes-you-will-actually-reuse-s03",
+              "notes-you-will-actually-reuse-s04",
+              "notes-you-will-actually-reuse-s05",
+              "notes-you-will-actually-reuse-s06",
+              "notes-you-will-actually-reuse-s07",
+              "notes-you-will-actually-reuse-s08",
+              "notes-you-will-actually-reuse-s09",
+              "notes-you-will-actually-reuse-s10",
+              "notes-you-will-actually-reuse-s11",
+              "notes-you-will-actually-reuse-s12",
+              "notes-you-will-actually-reuse-s13",
+              "notes-you-will-actually-reuse-s14",
+              "notes-you-will-actually-reuse-s15",
+              "notes-you-will-actually-reuse-s16",
+              "notes-you-will-actually-reuse-s17",
+              "notes-you-will-actually-reuse-s18"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "plan-your-week-in-5-minutes",
+            "sourceId": "notion-lesson-6-plan-your-week-in-5-minutes",
+            "title": "Plan Your Week in 5 Minutes",
+            "screenIds": [
+              "plan-your-week-in-5-minutes-s01",
+              "plan-your-week-in-5-minutes-s02",
+              "plan-your-week-in-5-minutes-s03",
+              "plan-your-week-in-5-minutes-s04",
+              "plan-your-week-in-5-minutes-s05",
+              "plan-your-week-in-5-minutes-s06",
+              "plan-your-week-in-5-minutes-s07",
+              "plan-your-week-in-5-minutes-s08",
+              "plan-your-week-in-5-minutes-s09",
+              "plan-your-week-in-5-minutes-s10",
+              "plan-your-week-in-5-minutes-s11",
+              "plan-your-week-in-5-minutes-s12",
+              "plan-your-week-in-5-minutes-s13",
+              "plan-your-week-in-5-minutes-s14",
+              "plan-your-week-in-5-minutes-s15",
+              "plan-your-week-in-5-minutes-s16",
+              "plan-your-week-in-5-minutes-s17",
+              "plan-your-week-in-5-minutes-s18"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "share-without-oversharing",
+            "sourceId": "notion-lesson-7-share-without-oversharing",
+            "title": "Share Without Oversharing",
+            "screenIds": [
+              "share-without-oversharing-s01",
+              "share-without-oversharing-s02",
+              "share-without-oversharing-s03",
+              "share-without-oversharing-s04",
+              "share-without-oversharing-s05",
+              "share-without-oversharing-s06",
+              "share-without-oversharing-s07",
+              "share-without-oversharing-s08",
+              "share-without-oversharing-s09",
+              "share-without-oversharing-s10",
+              "share-without-oversharing-s11",
+              "share-without-oversharing-s12",
+              "share-without-oversharing-s13",
+              "share-without-oversharing-s14",
+              "share-without-oversharing-s15",
+              "share-without-oversharing-s16",
+              "share-without-oversharing-s17",
+              "share-without-oversharing-s18"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "finish-your-my-life-hub",
+            "sourceId": "notion-lesson-8-finish-your-my-life-hub",
+            "title": "Finish Your My Life Hub",
+            "screenIds": [
+              "finish-your-my-life-hub-s01",
+              "finish-your-my-life-hub-s02",
+              "finish-your-my-life-hub-s03",
+              "finish-your-my-life-hub-s04",
+              "finish-your-my-life-hub-s05",
+              "finish-your-my-life-hub-s06",
+              "finish-your-my-life-hub-s07",
+              "finish-your-my-life-hub-s08",
+              "finish-your-my-life-hub-s09",
+              "finish-your-my-life-hub-s10",
+              "finish-your-my-life-hub-s11",
+              "finish-your-my-life-hub-s12",
+              "finish-your-my-life-hub-s13",
+              "finish-your-my-life-hub-s14",
+              "finish-your-my-life-hub-s15",
+              "finish-your-my-life-hub-s16",
+              "finish-your-my-life-hub-s17",
+              "finish-your-my-life-hub-s18"
+            ],
+            "hasAudio": false
+          }
+        ]
+      },
+      {
+        "title": "Optional Bonus",
+        "sourceId": "notion-unit-ai-bonus",
+        "lessons": [
+          {
+            "id": "let-notion-ai-help-not-take-over",
+            "sourceId": "notion-lesson-9-let-notion-ai-help-not-take-over",
+            "title": "Let Notion AI Help, Not Take Over",
+            "screenIds": [
+              "let-notion-ai-help-not-take-over-s01",
+              "let-notion-ai-help-not-take-over-s02",
+              "let-notion-ai-help-not-take-over-s03",
+              "let-notion-ai-help-not-take-over-s04",
+              "let-notion-ai-help-not-take-over-s05",
+              "let-notion-ai-help-not-take-over-s06",
+              "let-notion-ai-help-not-take-over-s07",
+              "let-notion-ai-help-not-take-over-s08",
+              "let-notion-ai-help-not-take-over-s09",
+              "let-notion-ai-help-not-take-over-s10",
+              "let-notion-ai-help-not-take-over-s11",
+              "let-notion-ai-help-not-take-over-s12",
+              "let-notion-ai-help-not-take-over-s13",
+              "let-notion-ai-help-not-take-over-s14",
+              "let-notion-ai-help-not-take-over-s15",
+              "let-notion-ai-help-not-take-over-s16",
+              "let-notion-ai-help-not-take-over-s17",
+              "let-notion-ai-help-not-take-over-s18"
+            ],
+            "hasAudio": false,
+            "optional": true
           }
         ]
       }
@@ -12624,6 +13199,109 @@ export const coursivCatalog: CoursivCatalogEntry[] = [
               "b5c5b7c7-3f0b-58fd-a98a-8342c0f31845"
             ],
             "hasAudio": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "google-sheet-with-ai-shorts",
+    "sourceId": "coursiv-original-google-sheet-with-ai-shorts",
+    "kind": "tool",
+    "title": "Google Sheet with AI (Shorts)",
+    "duration": "4 shorts",
+    "categories": [
+      "New",
+      "Productivity",
+      "Shorts"
+    ],
+    "sections": [
+      {
+        "title": "Shorts Feed",
+        "sourceId": "google-sheet-with-ai-shorts-feed",
+        "lessons": [
+          {
+            "id": "use-gemini-in-google-sheets",
+            "sourceId": "google-sheet-shorts-1",
+            "title": "Use Gemini in Google Sheets",
+            "screenIds": [
+              "google-sheet-shorts-1"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "work-smarter-in-google-sheets",
+            "sourceId": "google-sheet-shorts-2",
+            "title": "Work Smarter in Google Sheets",
+            "screenIds": [
+              "google-sheet-shorts-2"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "create-a-table-with-one-prompt",
+            "sourceId": "google-sheet-shorts-3",
+            "title": "Create a Table with One Prompt",
+            "screenIds": [
+              "google-sheet-shorts-3"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "build-a-google-sheets-agent",
+            "sourceId": "google-sheet-shorts-4",
+            "title": "Build a Google Sheets Agent with WhatsApp, ChatGPT and n8n",
+            "screenIds": [
+              "google-sheet-shorts-4"
+            ],
+            "hasAudio": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "google-slide-with-ai-short",
+    "sourceId": "coursiv-original-google-slide-with-ai-short",
+    "kind": "tool",
+    "title": "Google Slide with AI (Short)",
+    "duration": "3 shorts",
+    "categories": [
+      "New",
+      "Productivity",
+      "Shorts"
+    ],
+    "sections": [
+      {
+        "title": "Shorts Feed",
+        "sourceId": "google-slide-with-ai-short-feed",
+        "lessons": [
+          {
+            "id": "how-to-use-gemini-in-google-slides",
+            "sourceId": "google-slide-short-1",
+            "title": "How to Use Gemini in Google Slides",
+            "screenIds": [
+              "google-slide-short-1"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "create-stunning-presentations-in-minutes",
+            "sourceId": "google-slide-short-2",
+            "title": "Create Stunning Presentations in Minutes",
+            "screenIds": [
+              "google-slide-short-2"
+            ],
+            "hasAudio": false
+          },
+          {
+            "id": "create-faster-work-smarter-visualize-everything",
+            "sourceId": "google-slide-short-3",
+            "title": "Create Faster, Work Smarter, Visualize Everything",
+            "screenIds": [
+              "google-slide-short-3"
+            ],
+            "hasAudio": false
           }
         ]
       }

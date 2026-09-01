@@ -1,4 +1,4 @@
-import { allCourseLessons, certificatePrograms, getCourse, getProgramCourses, toolCourses } from "./member-data";
+import { certificatePrograms, getCourse, getProgramCourses, requiredCourseLessons, toolCourses } from "./member-data";
 import { mergeLearnerState, type LearnerState } from "./learner-state";
 
 export type CertificateDefinition = {
@@ -12,7 +12,7 @@ function durationHours(duration: string) {
 }
 
 export function isCourseComplete(state: LearnerState, courseId: string) {
-  const required = allCourseLessons(getCourse(courseId)).map((lesson) => lesson.id);
+  const required = requiredCourseLessons(getCourse(courseId)).map((lesson) => lesson.id);
   const completed = new Set(state.courses[courseId]?.completedLessonIds ?? []);
   return required.length > 0 && required.every((lessonId) => completed.has(lessonId));
 }

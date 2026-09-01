@@ -1,37 +1,44 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-25T00:28:03.445Z",
+  "generatedAt": "2026-08-12T07:32:51.222Z",
   "expected": {
-    "courses": 37,
-    "lessons": 343,
-    "screens": 8925,
-    "images": 2549,
-    "videos": 77
+    "courses": 43,
+    "lessons": 412,
+    "screens": 9885,
+    "images": 2615,
+    "videos": 84
   },
   "counts": {
-    "courses": 37,
-    "lessons": 343,
-    "screens": 8925,
-    "images": 2549,
-    "videos": 77,
-    "requiredInteractions": 869,
-    "optionalPractices": 1497,
+    "courses": 43,
+    "lessons": 412,
+    "screens": 9529,
+    "images": 2615,
+    "videos": 84,
+    "requiredInteractions": 1137,
+    "optionalPractices": 1506,
     "unknown": 0
   },
   "blockTypes": {
-    "callout": 584,
+    "callout": 631,
     "fill-in-blank": 1050,
-    "heading": 3419,
-    "image": 2549,
-    "matching-pairs": 54,
+    "heading": 3721,
+    "image": 2615,
+    "legal-reference": 28,
+    "list": 56,
+    "matching-pairs": 62,
     "multi-choice": 232,
-    "ordering-task": 110,
-    "paragraph": 7992,
+    "ordering-task": 116,
+    "paragraph": 8291,
+    "practice": 9,
     "prompt-fixer": 9,
-    "single-choice": 637,
-    "true-false": 274,
-    "video": 77
+    "single-choice": 884,
+    "true-false": 281,
+    "video": 84
   },
-  "errors": [],
-  "passed": true
+  "errors": [
+    {
+      "message": "screens drift: expected 9885, received 9529"
+    }
+  ],
+  "passed": false
 }

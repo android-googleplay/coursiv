@@ -8,7 +8,7 @@ const root=process.cwd();
 const files=(await readdir(join(root,"content/coursiv/courses"))).filter((file)=>file.endsWith(".json")).sort();
 const canonical=await Promise.all(files.map(async(file)=>JSON.parse(await readFile(join(root,"content/coursiv/courses",file),"utf8"))));
 const preferredCourseOrder={
-  tool:["claude","claude-excel","claude-deep","midjourney","lovable","gemini","chatgpt","jasper","chatgpt-deep","stable-diffusion","deepseek","omni","perplexity","kling","canva-ai","communicating-ai","claude-code"],
+  tool:["claude","claude-excel","claude-deep","midjourney","lovable","gemini","google-sheet-with-ai","google-sheet-with-ai-shorts","google-slide-with-ai","google-slide-with-ai-short","chatgpt","jasper","chatgpt-deep","stable-diffusion","deepseek","omni","perplexity","kling","canva-ai","communicating-ai","claude-code"],
   "use-case":Array.from({length:20},(_,index)=>`use-case-${index+1}`),
 };
 const updates=canonical.map((course)=>{

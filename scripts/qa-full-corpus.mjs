@@ -50,13 +50,18 @@ for(const file of files){
 }
 
 function validateMedia(block,screen,mediaByLocal){
+  const localSrc=block.localSrc;
+  if(localSrc?.startsWith("/images/courses/")){
+    const path=join(root,"public",localSrc);if(!existsSync(path))errors.push({screen,message:`Image file is missing: ${localSrc}`});
+    return;
+  }
   if(!block.src?.startsWith("http"))errors.push({screen,message:"Original image URL is missing"});
-  const localSrc=block.localSrc;if(!localSrc?.startsWith("/coursiv-media/")){errors.push({screen,message:`Image is not localized: ${block.src??"missing"}`});return}
+  if(!localSrc?.startsWith("/coursiv-media/")){errors.push({screen,message:`Image is not localized: ${block.src??"missing"}`});return}
   const path=join(root,"public",localSrc);if(!existsSync(path)){errors.push({screen,message:`Image file is missing: ${localSrc}`});return}
   const asset=mediaByLocal.get(localSrc);if(!asset)errors.push({screen,message:`Image is absent from course media index: ${localSrc}`});
 }
 
-const expected={courses:37,lessons:343,screens:8925,images:2549,videos:77};
+const expected={courses:43,lessons:412,screens:9885,images:2615,videos:84};
 for(const [key,value] of Object.entries(expected))if(counts[key]!==value)errors.push({message:`${key} drift: expected ${value}, received ${counts[key]}`});
 const report={schemaVersion:1,generatedAt:new Date().toISOString(),expected,counts,blockTypes:Object.fromEntries(Object.entries(blockTypes).sort()),errors,passed:errors.length===0};
 await mkdir(join(root,"content/coursiv/reports"),{recursive:true});await writeFile(reportFile,`${JSON.stringify(report,null,2)}\n`);

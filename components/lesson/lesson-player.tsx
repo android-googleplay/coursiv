@@ -3,10 +3,10 @@
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
-  ArrowLeft,
   Check,
   CirclePlay,
   Flag,
+  Home,
   Pause,
   RotateCcw,
   SkipBack,
@@ -30,6 +30,7 @@ import {
 import { ChatInterfaceMock, ChatWorkMock, LumoraCharacterArt } from "./lesson-artwork";
 import { useLearner } from "@/components/member/learner-context";
 import { useAuth } from "@/components/auth/auth-context";
+import { useRetryToQuestion, useScrollToResult } from "@/components/shared/use-scroll-to-result";
 
 function readLessonSession(userId:string,remoteScreenId:string|null|undefined): LessonSession {
   if (typeof window === "undefined") return defaultLessonSession;
@@ -54,7 +55,7 @@ function readLessonSession(userId:string,remoteScreenId:string|null|undefined): 
 function LessonHeader({ progress, mode, onBack, onModeChange }: { progress: number; mode: LessonMode; onBack: () => void; onModeChange: () => void }) {
   return (
     <header className="lesson-header">
-      <button type="button" onClick={onBack} aria-label="Back to course"><ArrowLeft size={24} /></button>
+      <button type="button" onClick={onBack} aria-label="Back to course"><Home size={24} /></button>
       <div className="lesson-progress" aria-label={`${progress}% complete`}><span style={{ width: `${progress}%` }} /></div>
       <button type="button" className="lesson-mode-toggle" onClick={onModeChange} aria-label={mode === "listen" ? "Switch to read mode" : "Switch to listen mode"}>
         {mode === "listen" ? <X size={22} /> : <Volume2 size={22} fill="currentColor" />}
@@ -64,8 +65,9 @@ function LessonHeader({ progress, mode, onBack, onModeChange }: { progress: numb
 }
 
 function StandardFeedback({ correct, title, children }: { correct: boolean; title: string; children: React.ReactNode }) {
+  const feedbackRef=useScrollToResult<HTMLDivElement>(true);
   return (
-    <div className={`lesson-feedback ${correct ? "feedback-correct" : "feedback-incorrect"}`} role="status">
+    <div ref={feedbackRef} className={`lesson-feedback ${correct ? "feedback-correct" : "feedback-incorrect"}`} role="status">
       <h2><span>{correct ? <Check size={19} strokeWidth={4} /> : <X size={20} strokeWidth={4} />}</span>{title}</h2>
       <p>{children}</p>
     </div>
@@ -73,6 +75,8 @@ function StandardFeedback({ correct, title, children }: { correct: boolean; titl
 }
 
 function SlideContent({ screenId, session, setSession }: { screenId: LessonSession["screenId"]; session: LessonSession; setSession: React.Dispatch<React.SetStateAction<LessonSession>> }) {
+  const {questionRef,retryToQuestion}=useRetryToQuestion<HTMLDivElement>();
+  const taskResultRef=useScrollToResult<HTMLDivElement>(session.answers.taskResult!==null);
 
   if (screenId === "possibilities") {
     return (
@@ -167,9 +171,9 @@ function SlideContent({ screenId, session, setSession }: { screenId: LessonSessi
       answers: { ...current.answers, taskChoice, taskResult: taskChoice === "complex" ? "correct" : "incorrect" },
       attempts: current.attempts + 1,
     }));
-    const retry = () => setSession((current) => ({ ...current, answers: { ...current.answers, taskChoice: null, taskResult: null } }));
+    const retry = () => retryToQuestion(() => setSession((current) => ({ ...current, answers: { ...current.answers, taskChoice: null, taskResult: null } })));
     return (
-      <div className="task-challenge-slide">
+      <div ref={questionRef} className="task-challenge-slide">
         <div className="task-heading"><h1>Task Challenge</h1><p>Now, evaluate this task and decide if it&apos;s simple or complex.</p></div>
         <div className="task-body">
           <blockquote>&quot;Research the company, analyze the role, create interview answers, and give me practice questions&quot;</blockquote>
@@ -178,8 +182,8 @@ function SlideContent({ screenId, session, setSession }: { screenId: LessonSessi
             <button type="button" className={session.answers.taskChoice === "simple" ? "incorrect" : ""} onClick={() => chooseTask("simple")}>Simple</button>
           </div>
         </div>
-        {session.answers.taskResult === "incorrect" && <div className="task-result incorrect"><h2><X size={20} strokeWidth={4} />Incorrect</h2><p>This involves multiple steps and research — that&apos;s complex.</p><button type="button" onClick={retry}><RotateCcw size={18} />Try again</button></div>}
-        {session.answers.taskResult === "correct" && <div className="task-result correct"><h2><Check size={20} strokeWidth={4} />Amazing!</h2><p>Multiple steps and deep analysis = complex task.</p></div>}
+        {session.answers.taskResult === "incorrect" && <div ref={taskResultRef} className="task-result incorrect"><h2><X size={20} strokeWidth={4} />Incorrect</h2><p>This involves multiple steps and research — that&apos;s complex.</p><button type="button" onClick={retry}><RotateCcw size={18} />Try again</button></div>}
+        {session.answers.taskResult === "correct" && <div ref={taskResultRef} className="task-result correct"><h2><Check size={20} strokeWidth={4} />Amazing!</h2><p>Multiple steps and deep analysis = complex task.</p></div>}
       </div>
     );
   }
@@ -220,8 +224,9 @@ export function LessonPlayer() {
   const { state:learnerState,saveScreen, completeLesson: recordCompleteLesson } = useLearner();
   const searchParams = useSearchParams();
   const requestedMode: LessonMode = searchParams.get("mode") === "listen" ? "listen" : "read";
+  const restartRequested = searchParams.get("restart") === "1";
   const userId=auth.user?.id??"anonymous";const remoteProgress=learnerState.courses.chatgpt;const remoteScreenId=remoteProgress?.lastLessonId===LESSON_ID?remoteProgress.lastScreenId:null;
-  const [session, setSession] = useState<LessonSession>(()=>readLessonSession(userId,remoteScreenId));
+  const [session, setSession] = useState<LessonSession>(()=>restartRequested?defaultLessonSession:readLessonSession(userId,remoteScreenId));
   const [reported, setReported] = useState(false);
   const [reporting, setReporting] = useState(false);
   const [syncError, setSyncError] = useState("");

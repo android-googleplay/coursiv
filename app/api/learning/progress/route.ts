@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { learningLessonDocumentId } from "@/lib/learning-requirements";
-import { localDateKey, mergeLearnerState, type LearnerState } from "@/lib/learner-state";
+import { localDateKey, mergeLearnerState, resetLessonProgress, type LearnerState } from "@/lib/learner-state";
 import { getAdminDb, isFirebaseAdminConfigured, verifyBearerToken } from "@/lib/platform/firebase-admin";
 import { readCoursivCourse, readCoursivLesson } from "@/lib/coursiv-content.server";
 import { gradeCoursivScreenResponse, requiredInteractionBlockIds, screenAllowsSkip, screenRequiresResolution, type CoursivLessonScreen } from "@/lib/coursiv-content";
@@ -136,12 +136,19 @@ export async function GET(request:Request){
 export async function DELETE(request: Request) {
   if (!isFirebaseAdminConfigured()) return NextResponse.json({ error:"Learning sync is not configured" }, { status:503 });
   const user=await verifyBearerToken(request);if(!user)return NextResponse.json({ error:"Authentication required" }, { status:401 });
-  const courseId=new URL(request.url).searchParams.get("courseId");
+  const url=new URL(request.url);const courseId=url.searchParams.get("courseId");const lessonId=url.searchParams.get("lessonId");
   if(!courseId||!(await readCoursivCourse(courseId)))return NextResponse.json({ error:"Unknown course" }, { status:404 });
   const database=getAdminDb();
+  const learnerReference=database.collection("progress").doc(user.uid).collection("state").doc("learner");
+  if(lessonId){
+    if(!(await readCoursivLesson(courseId,runtimeLessonId(courseId,lessonId))))return NextResponse.json({error:"Unknown lesson"},{status:404});
+    const lessonReference=database.collection("learningProgress").doc(user.uid).collection("lessons").doc(learningLessonDocumentId(courseId,lessonId));
+    const deleted=await database.runTransaction(async(transaction)=>{const [lesson,current]=await Promise.all([transaction.get(lessonReference),transaction.get(learnerReference)]);transaction.delete(lessonReference);if(current.exists)transaction.set(learnerReference,resetLessonProgress(mergeLearnerState(current.data() as Partial<LearnerState>),courseId,lessonId));return lesson.exists;});
+    await refreshAdminUserSummary(user.uid);
+    return NextResponse.json({reset:true,lessonId,deletedLessons:deleted?1:0});
+  }
   const snapshot=await database.collection("learningProgress").doc(user.uid).collection("lessons").where("courseId","==",courseId).limit(500).get();
   const batch=database.batch();for(const document of snapshot.docs)batch.delete(document.ref);if(!snapshot.empty)await batch.commit();
-  const learnerReference=database.collection("progress").doc(user.uid).collection("state").doc("learner");
   await database.runTransaction(async(transaction)=>{const current=await transaction.get(learnerReference);if(!current.exists)return;const state=mergeLearnerState(current.data() as Partial<LearnerState>);delete state.courses[courseId];transaction.set(learnerReference,state);});
   return NextResponse.json({ reset:true,deletedLessons:snapshot.size });
 }

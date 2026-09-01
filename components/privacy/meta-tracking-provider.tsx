@@ -2,6 +2,7 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
+import { browserUuid } from "@/lib/platform/browser-uuid";
 import { sanitizeMetaAttribution, sha256Hex, type MetaAttribution, type MetaEventName } from "@/lib/platform/meta-contract";
 
 type ConsentState = {
@@ -48,7 +49,7 @@ function captureAttribution(): MetaAttribution {
   const fbclid = currentUrl.searchParams.get("fbclid") ?? existing.fbclid;
   const fbc = cookieValue("_fbc") ?? existing.fbc ?? (fbclid ? `fb.1.${Date.now()}.${fbclid}` : undefined);
   const next = sanitizeMetaAttribution({
-    anonymousId: existing.anonymousId || crypto.randomUUID(),
+    anonymousId: existing.anonymousId || browserUuid(),
     fbclid,
     fbc,
     fbp: cookieValue("_fbp") ?? existing.fbp,
@@ -126,7 +127,7 @@ export function MetaTrackingProvider({ children }: { children: React.ReactNode }
     const key = `${pathname}?${searchParams.toString()}`;
     if (lastPageView.current === key) return;
     lastPageView.current = key;
-    window.fbq("track", "PageView", {}, { eventID: crypto.randomUUID() });
+    window.fbq("track", "PageView", {}, { eventID: browserUuid() });
   }, [consent?.marketingAllowed, disabled, pathname, searchParams]);
 
   const updateConsent = useCallback(async (value: "granted" | "denied") => {
@@ -145,7 +146,7 @@ export function MetaTrackingProvider({ children }: { children: React.ReactNode }
     parameters: Record<string, string | number> = {},
     options: TrackOptions = {},
   ) => {
-    const eventId = options.eventId ?? crypto.randomUUID();
+    const eventId = options.eventId ?? browserUuid();
     if (!consent?.marketingAllowed || disabled) return eventId;
     window.fbq?.("track", eventName, parameters, { eventID: eventId });
     if (options.server) {

@@ -4,7 +4,7 @@ export type MemberTab = "courses" | "games" | "profile";
 export type CatalogKind = "tool" | "use-case" | "program" | "challenge";
 export type CourseStatus = "locked" | "available" | "in-progress" | "completed";
 
-export type LessonDefinition = { id: string; title: string; implemented: boolean; sourceId?: string; screenIds?: string[]; hasAudio?: boolean };
+export type LessonDefinition = { id: string; title: string; implemented: boolean; sourceId?: string; screenIds?: string[]; hasAudio?: boolean; optional?: boolean };
 export type CourseSection = { title?: string; lessons: LessonDefinition[] };
 export type CourseDefinition = {
   id: string;
@@ -13,6 +13,7 @@ export type CourseDefinition = {
   duration: string;
   color: string;
   image?: string;
+  sourceUpdatedAt?: string;
   sections: CourseSection[];
 };
 export type CatalogItem = {
@@ -113,11 +114,12 @@ export const certificatePrograms: ProgramDefinition[] = [
 
 const baseToolCourses: CatalogItem[] = [
   ["claude", "Claude", 10, "5h"], ["claude-excel", "Claude for Excel", 8, "3h"], ["claude-deep", "Claude: Deep Dive", 13, "5h"],
-  ["midjourney", "Midjourney", 13, "6h"], ["lovable", "Lovable", 8, "4h"], ["gemini", "Gemini", 10, "4h"],
+  ["midjourney", "Midjourney", 13, "6h"], ["lovable", "Lovable", 8, "4h"], ["gemini", "Gemini", 10, "4h"], ["google-sheet-with-ai", "Google Sheet with AI", 11, "1h"], ["google-sheet-with-ai-shorts", "Google Sheet with AI (Shorts)", 4, "4 shorts"], ["google-slide-with-ai", "Google Slide with AI", 11, "1h"], ["google-slide-with-ai-short", "Google Slide with AI (Short)", 3, "3 shorts"],
   ["chatgpt", "ChatGPT", 13, "6h"], ["jasper", "Jasper AI", 10, "5h"], ["chatgpt-deep", "ChatGPT: Deep Dive", 12, "4h"],
   ["stable-diffusion", "Stable Diffusion", 10, "4h"], ["deepseek", "DeepSeek", 10, "5h"], ["omni", "Omni", 10, "4h"],
   ["perplexity", "Perplexity", 11, "5h"], ["kling", "Kling", 11, "3h"], ["canva-ai", "Canva AI", 8, "3h"],
   ["communicating-ai", "Communicating With AI", 5, "2h"], ["claude-code", "Claude Code", 7, "2h"],
+  ["notion", "Notion: Build Your Life Hub", 9, "3h"],
 ].map(([id, title, lessonCount, duration]) => ({ id: String(id), kind: "tool" as const, title: String(title), categories: ["New"], lessonCount: Number(lessonCount), duration: String(duration), status: id === "chatgpt" ? "in-progress" as const : "available" as const }));
 
 export const toolCourses: CatalogItem[] = baseToolCourses.map((item) => {
@@ -213,8 +215,8 @@ export function getProgramCourses(programId: string) {
 export function getCourse(courseId: string) {
   const scraped = coursivCatalog.find((course) => course.id === courseId);
   if (scraped) return {
-    id:scraped.id,programId:scraped.kind==="tool"?"tool-library":"use-case-library",title:scraped.title,image:scraped.image,duration:scraped.duration||"1h",color:"#6d63f2",
-    sections:scraped.sections.map((section)=>({title:section.title,lessons:section.lessons.map((lesson)=>({id:lesson.id,title:lesson.title,implemented:true,sourceId:lesson.sourceId,screenIds:lesson.screenIds,hasAudio:lesson.hasAudio}))})),
+    id:scraped.id,programId:scraped.kind==="tool"?"tool-library":"use-case-library",title:scraped.title,image:scraped.image,duration:scraped.duration||"1h",color:"#6d63f2",sourceUpdatedAt:scraped.sourceUpdatedAt,
+    sections:scraped.sections.map((section)=>({title:section.title,lessons:section.lessons.map((lesson)=>({id:lesson.id,title:lesson.title,implemented:true,sourceId:lesson.sourceId,screenIds:lesson.screenIds,hasAudio:lesson.hasAudio,optional:lesson.optional}))})),
   } satisfies CourseDefinition;
   const defined = aiMasteryCourses.find((course) => course.id === courseId);
   if (defined) return defined;
@@ -245,4 +247,8 @@ export function getCourse(courseId: string) {
 
 export function allCourseLessons(course: CourseDefinition) {
   return course.sections.flatMap((section) => section.lessons);
+}
+
+export function requiredCourseLessons(course: CourseDefinition) {
+  return allCourseLessons(course).filter((lesson) => !lesson.optional);
 }

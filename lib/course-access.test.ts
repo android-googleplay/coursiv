@@ -1,7 +1,14 @@
 import { describe, expect, it } from "vitest";
-import { lessonNodeState } from "./course-access";
+import { courseUnlocksAllLessons, lessonNodeState } from "./course-access";
 
 describe("course lesson access", () => {
+  it("unlocks every course in debug mode without changing normal access", () => {
+    expect(courseUnlocksAllLessons({demoUser:false,shortsCourse:false,debugMode:true})).toBe(true);
+    expect(courseUnlocksAllLessons({demoUser:false,shortsCourse:false,debugMode:false})).toBe(false);
+    expect(courseUnlocksAllLessons({demoUser:true,shortsCourse:false,debugMode:false})).toBe(true);
+    expect(courseUnlocksAllLessons({demoUser:false,shortsCourse:true,debugMode:false})).toBe(true);
+  });
+
   it("unlocks every unfinished lesson for a guest", () => {
     expect(lessonNodeState({ lessonId:"lesson-8",lessonIndex:7,completedLessonIds:[],allLessonsUnlocked:true })).toBe("available");
   });

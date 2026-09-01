@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 3,
+  "id": "google-slide-with-ai-short",
+  "sourceId": "coursiv-original-google-slide-with-ai-short",
+  "kind": "tool",
+  "title": "Google Slide with AI (Short)",
+  "duration": "3 shorts",
+  "categories": [
+    "New",
+    "Productivity",
+    "Shorts"
+  ],
+  "units": [
+    {
+      "sourceId": "google-slide-with-ai-short-feed",
+      "title": "Shorts Feed",
+      "order": 1,
+      "lessons": [
+        {
+          "schemaVersion": 3,
+          "sourceId": "google-slide-short-1",
+          "sourceUnitId": "google-slide-with-ai-short-feed",
+          "sourceGuideId": "coursiv-original-google-slide-with-ai-short",
+          "slug": "how-to-use-gemini-in-google-slides",
+          "title": "How to Use Gemini in Google Slides",
+          "order": 1,
+          "readUrl": "/course/google-slide-with-ai-short/lesson/how-to-use-gemini-in-google-slides",
+          "hasAudio": false,
+          "screens": [
+            {
+              "id": "google-slide-short-1",
+              "sourcePageId": "google-slide-short-1-page",
+              "order": 0,
+              "type": "chunk",
+              "presentation": "media",
+              "interactionPolicy": "read",
+              "blocks": [
+                {
+                  "id": "google-slide-short-1-video",
+                  "type": "video",
+                  "src": "/shorts/google-slide-with-ai/how-to-use-gemini-in-google-slides.mp4"
+                },
+                {
+                  "id": "google-slide-short-1-copy-prompt",
+                  "type": "callout",
+                  "title": "Try this prompt",
+                  "text": "Help me use Gemini in Google Slides for [presentation task]. Give me the exact prompt to enter, tell me which slide or source file to select, and explain how to verify the result before presenting.",
+                  "tone": "copy-prompt"
+                }
+              ]
+            }
+          ],
+          "blocks": [
+            {
+              "id": "google-slide-short-1-video",
+              "type": "video",
+              "src": "/shorts/google-slide-with-ai/how-to-use-gemini-in-google-slides.mp4"
+            },
+            {
+              "id": "google-slide-short-1-copy-prompt",
+              "type": "callout",
+              "title": "Try this prompt",
+              "text": "Help me use Gemini in Google Slides for [presentation task]. Give me the exact prompt to enter, tell me which slide or source file to select, and explain how to verify the result before presenting.",
+              "tone": "copy-prompt"
+            }
+          ],
+          "raw": {
+            "sourceFile": "How to use Google Gemini in Google Slides.mp4"
+          }
+        },
+        {
+          "schemaVersion": 3,
+          "sourceId": "google-slide-short-2",
+          "sourceUnitId": "google-slide-with-ai-short-feed",
+          "sourceGuideId": "coursiv-original-google-slide-with-ai-short",
+          "slug": "create-stunning-presentations-in-minutes",
+          "title": "Create Stunning Presentations in Minutes",
+          "order": 2,
+          "readUrl": "/course/google-slide-with-ai-short/lesson/create-stunning-presentations-in-minutes",
+          "hasAudio": false,
+          "screens": [
+            {
+              "id": "google-slide-short-2",
+              "sourcePageId": "google-slide-short-2-page",
+              "order": 0,
+              "type": "chunk",
+              "presentation": "media",
+              "interactionPolicy": "read",
+              "blocks": [
+                {
+                  "id": "google-slide-short-2-video",
+                  "type": "video",
+                  "src": "/shorts/google-slide-with-ai/create-stunning-presentations-in-minutes.mp4"
+                },
+                {
+                  "id": "google-slide-short-2-copy-prompt",
+                  "type": "callout",
+                  "title": "Try this prompt",
+                  "text": "Create a [number]-slide presentation for [audience] about [topic]. Use a clear story from problem to evidence to recommendation, keep each slide concise, and suggest one useful visual for every slide.",
+                  "tone": "copy-prompt"
+                }
+              ]
+            }
+          ],
+          "blocks": [
+            {
+              "id": "google-slide-short-2-video",
+              "type": "video",
+              "src": "/shorts/google-slide-with-ai/create-stunning-presentations-in-minutes.mp4"
+            },
+            {
+              "id": "google-slide-short-2-copy-prompt",
+              "type": "callout",
+              "title": "Try this prompt",
+              "text": "Create a [number]-slide presentation for [audience] about [topic]. Use a clear story from problem to evidence to recommendation, keep each slide concise, and suggest one useful visual for every slide.",
+              "tone": "copy-prompt"
+            }
+          ],
+          "raw": {
+            "sourceFile": "Create stunning presentations in minutes with Gemini in Google Slides!.mp4"
+          }
+        },
+        {
+          "schemaVersion": 3,
+          "sourceId": "google-slide-short-3",
+          "sourceUnitId": "google-slide-with-ai-short-feed",
+          "sourceGuideId": "coursiv-original-google-slide-with-ai-short",
+          "slug": "create-faster-work-smarter-visualize-everything",
+          "title": "Create Faster, Work Smarter, Visualize Everything",
+          "order": 3,
+          "readUrl": "/course/google-slide-with-ai-short/lesson/create-faster-work-smarter-visualize-everything",
+          "hasAudio": false,
+          "screens": [
+            {
+              "id": "google-slide-short-3",
+              "sourcePageId": "google-slide-short-3-page",
+              "order": 0,
+              "type": "chunk",
+              "presentation": "media",
+              "interactionPolicy": "read",
+              "blocks": [
+                {
+                  "id": "google-slide-short-3-video",
+                  "type": "video",
+                  "src": "/shorts/google-slide-with-ai/create-faster-work-smarter-visualize-everything.mp4"
+                },
+                {
+                  "id": "google-slide-short-3-copy-prompt",
+                  "type": "callout",
+                  "title": "Try this prompt",
+                  "text": "Review this Google Slides deck for [audience]. Improve the structure, shorten crowded text, recommend stronger layouts and visuals, and list the three changes that will create the biggest improvement fastest.",
+                  "tone": "copy-prompt"
+                }
+              ]
+            }
+          ],
+          "blocks": [
+            {
+              "id": "google-slide-short-3-video",
+              "type": "video",
+              "src": "/shorts/google-slide-with-ai/create-faster-work-smarter-visualize-everything.mp4"
+            },
+            {
+              "id": "google-slide-short-3-copy-prompt",
+              "type": "callout",
+              "title": "Try this prompt",
+              "text": "Review this Google Slides deck for [audience]. Improve the structure, shorten crowded text, recommend stronger layouts and visuals, and list the three changes that will create the biggest improvement fastest.",
+              "tone": "copy-prompt"
+            }
+          ],
+          "raw": {
+            "sourceFile": "Create faster. Work smarter. Visualize everything with Gemini in Google Slides.mp4"
+          }
+        }
+      ]
+    }
+  ]
+}

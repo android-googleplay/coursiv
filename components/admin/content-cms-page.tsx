@@ -20,7 +20,7 @@ import { addCourseCategory, buildCourseCategoryOptions, categoryKey, closestCour
 
 type EditableBlockType = Exclude<CoursivContentBlock["type"], "unknown">;
 const blockGroups: { label: string; types: EditableBlockType[] }[] = [
-  { label: "Text and layout", types: ["heading","paragraph","list","callout"] },
+  { label: "Text and layout", types: ["heading","paragraph","list","callout","legal-reference"] },
   { label: "Media", types: ["image","video"] },
   { label: "Questions", types: ["single-choice","multi-choice","true-false","fill-in-blank","ordering-task","matching-pairs","prompt-fixer","survey"] },
   { label: "Practice and feedback", types: ["practice","feedback"] },
@@ -42,6 +42,7 @@ const blockMeta: Record<EditableBlockType, { label: string; description: string 
   survey: { label: "Survey", description: "Collect a preference without grading" },
   practice: { label: "Guided practice", description: "A practical task learners may complete" },
   feedback: { label: "Feedback message", description: "Show a success or guidance message" },
+  "legal-reference": { label: "Legal reference", description: "Expandable bilingual provision with an official source" },
 };
 const policies: CoursivInteractionPolicy[] = ["read","required-interaction","optional-practice"];
 const policyLabels: Record<CoursivInteractionPolicy, string> = {
@@ -126,6 +127,7 @@ function freshBlock(type: CoursivContentBlock["type"]): CoursivContentBlock {
   if (type === "survey") return { id, type, question: "Choose one", options: [{ id: `${id}-a`, label: "First option" }, { id: `${id}-b`, label: "Second option" }] };
   if (type === "practice") return { id, type, title: "Practice", prompt: "Try this task" };
   if (type === "feedback") return { id, type, title: "Feedback", text: "Well done." };
+  if (type === "legal-reference") return { id, type, title: "Official provision", items: [{ citationZh: "條文", citationEn: "Provision", textZh: "中文條文", textEn: "English provision", sourceUrl: "https://www.basiclaw.gov.hk/", verifiedAt: new Date().toISOString().slice(0,10) }] };
   return { id, type: "paragraph", text: "" };
 }
 
@@ -246,6 +248,7 @@ function BlockEditor({
     {block.type === "survey" && <><RichTextEditor label="Survey question" value={block.question} onChange={(value)=>set({question:value})} placeholder="Write the survey question…"/><div className="cms-option-list">{block.options.map((option,index)=><div className="cms-survey-option-card" key={option.id}><label>Option {index+1}<input value={option.label} onChange={(event)=>set({options:block.options.map((item,itemIndex)=>itemIndex===index?{...item,label:event.target.value}:item)})}/></label><button type="button" disabled={block.options.length<=2} onClick={()=>set({options:block.options.filter((_,itemIndex)=>itemIndex!==index)})} aria-label={`Delete survey option ${index+1}`}><Trash2/></button></div>)}</div><button type="button" className="cms-inline-add" onClick={()=>set({options:[...block.options,{id:`${block.id}-${crypto.randomUUID()}`,label:"New option"}]})}><Plus/>Add survey option</button></>}
     {block.type === "practice" && <>{textArea("Practice title",block.title,"title")}{textArea("Task instruction",block.prompt??"","prompt")}<label>Internal practice key <small>advanced</small><input value={block.practiceType??""} onChange={(event)=>set({practiceType:event.target.value})}/><small>Keep the existing value unless a developer asks you to change it.</small></label></>}
     {block.type === "feedback" && <>{textArea("Optional title",block.title??"","title")}{richText("Feedback content",block.text,"text")}</>}
+    {block.type === "legal-reference" && <><label>Reference title<input value={block.title} onChange={(event)=>set({title:event.target.value})}/></label><p className="cms-block-note">This generated block contains {block.items.length} bilingual legal reference{block.items.length===1?"":"s"}. Edit the source JSON to change article text or provenance.</p></>}
     {block.type === "unknown" && <p className="cms-inline-error">This source block is not supported yet. Its raw data is preserved, but the lesson cannot be published until it is resolved.</p>}
   </article>;
 }
@@ -277,6 +280,7 @@ function PreviewBlock({ block, showAnswers }: { block: CoursivContentBlock; show
   if (block.type === "survey") return <div className="cms-preview-question"><SafeRichText value={block.question} as="strong"/>{block.options.map((option)=><span key={option.id}><i/>{option.label}</span>)}</div>;
   if (block.type === "practice") return <div className="cms-preview-practice"><small>PRACTICE</small><strong>{block.title}</strong>{block.prompt&&<p>{block.prompt}</p>}</div>;
   if (block.type === "feedback") return <div className="cms-preview-callout"><strong>{block.title??"Feedback"}</strong><SafeRichText value={block.text} className="cms-preview-rich-text"/></div>;
+  if (block.type === "legal-reference") return <details className="cms-preview-callout"><summary>{block.title}</summary><p>{block.items.length} bilingual legal reference{block.items.length===1?"":"s"}</p></details>;
   return <div className="cms-preview-unknown">Unsupported source block: {"sourceType" in block ? block.sourceType : block.type}</div>;
 }
 
